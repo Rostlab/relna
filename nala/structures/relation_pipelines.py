@@ -16,11 +16,21 @@ class RelationExtractionPipeline:
     Prepares an instance of a dataset by executing modules in fixed order.
         * Finally executes each feature generator in the order they were provided
 
-    :type feature_generators: collections.Iterable[FeatureGenerator]
+    :param class1: the class of entity1
+    :type class1: str
+    :param class1: the class of entity2
+    :type class1: str
+    :param rel_type: the relation type between the two entities
+    :type rel_type: str
+    :param train: if the mode is training or testing
+    :type train: bool
+    :param feature_set: the feature_set of the original training data
+    :type feature_set: str
     :param feature_generators: one or more modules responsible for generating features
+    :type feature_generators: collections.Iterable[FeatureGenerator]
     """
 
-    def __init__(self, class1, class2, rel_type, train=True, feature_set=None,
+    def __init__(self, class1, class2, rel_type, train=False, feature_set=None,
             splitter=None, tokenizer=None, parser=None, feature_generators=None):
         self.class1 = class1
         self.class2 = class2
