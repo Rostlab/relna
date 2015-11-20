@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Corpus</title>
+<link rel="stylesheet" href="https://stackedit.io/res-min/themes/base.css" />
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body><div class="container"><h1 id="corpus">Corpus</h1>
+
+
+
+<h2 id="relna">Relna</h2>
+
+<p>Relna is a corpus of interactions between transcription factors and gene or gene products (GGP). Transcriptional regulation is one of the fundamental ways in which gene regulation occurs across several organisms. <strong>Relna</strong> seeks to annotate functional relationships between </p>
+
+<ul>
+<li>transcription factors and the genes they transcribe (transcription factor <em>transcribes</em> gene)</li>
+<li>transcription factors and proteins that modify the behavior of these <br>
+transcription factors (protein <em>modifies</em> transcription factor)</li>
+</ul>
+
+<p>to make identification of such interactions possible from natural text.</p>
+
+<p>A growing amount of research attributes dysfunctional transcription factors to several genetic irregularities and diseases (several oncogenes are transcription factors<a href="#fn:cancertherapy" id="fnref:cancertherapy" title="See footnote" class="footnote">1</a>). Additionally, several tumor suppressor genes are also transcription factors. Understanding their interactions with different genes and proteins could help design better cures.</p>
+
+
+
+<h2 id="corpus-details">Corpus Details</h2>
+
+<p><strong>Relna</strong> consists of 140 abstracts semi-automatically annotated for transcription factors (TF) and gene or gene products (GGP). Both the TF and GGPs are normalized to both their <strong>Entrez Gene ID</strong> and <strong>UniProt ID</strong>. The relations between TFs and GGPs were manually annotated using TagTog<a href="#fn:tagtog" id="fnref:tagtog" title="See footnote" class="footnote">2</a>.</p>
+
+
+
+<h2 id="document-selection">Document Selection</h2>
+
+<ol>
+<li><strong>SwissProt</strong> was filtered for proteins from <em>Homo sapiens</em> and having the Gene Ontology Term <a href="http://amigo.geneontology.org/amigo/term/GO:0003700"><code>GO:0003700</code></a> - (<em>transcription factor activity, sequence-specific DNA binding</em>). This gives a list of over 1100 proteins. </li>
+<li>For each of these proteins, we obtain a list of publications that have cited this specific protein. </li>
+<li>From among the list publications, we further filter those papers that have been cited for <strong>“INTERACTION WITH”</strong>.</li>
+<li>This forms the <em>base corpus</em> of 1461 abstracts, with no entity mentions or relations.</li>
+</ol>
+
+
+
+<h2 id="named-entity-recognition">Named Entity Recognition</h2>
+
+<p>A random sample of 140 abstracts is picked from the <em>base corpus</em> for named entity recognition. We use state of the art GNormPlus<a href="#fn:gnormplus" id="fnref:gnormplus" title="See footnote" class="footnote">3</a> for tagging our abstracts with gene or gene product names. GNormPlus currently annotates genes, gene families, species and domain-motifs. GNormPlus was accessed through its API<a href="#fn:gnormplusapi" id="fnref:gnormplusapi" title="See footnote" class="footnote">4</a> and returns all results in the PubTator<a href="#fn:pubtator" id="fnref:pubtator" title="See footnote" class="footnote">5</a> format. GNormPlus also performs gene normalization against the Entrez Gene Database<a href="#fn:entrez" id="fnref:entrez" title="See footnote" class="footnote">6</a>. The information of gene families, species and domain-motifs is ignored and <strong>relna</strong> focuses solely on genes (or gene products).</p>
+
+<p>Each gene or gene product annotated by GNormPlus is cross-referenced with SwissProt using the Entrez Gene ID. It is important to note here that this process can be slightly error prone for two reasons:</p>
+
+<ol>
+<li>Firstly, gene normalization is not entirely accurate - for instance, normalization sometimes loses information about species and we have realized that some Gene IDs are from <em>Mus musculus</em>. In a very small number of cases, the normalized protein may not match the original.</li>
+<li>Secondly, there is no one-to-one mapping between Entrez Gene IDs and UniProt IDs, indeed it is actually a one-to-many mapping. While this problem is alleviated slightly by limiting our database to SwissProt, there are still a few cases where one-to-many mappings exist. In these cases, we naively select the first result from UniProt.</li>
+</ol>
+
+<p>After obtaining the UniProt IDs, we check each protein for the presence of the GO Term <em>GO:0003700</em><a href="#fn:goterm" id="fnref:goterm" title="See footnote" class="footnote">7</a>, which indicates transcription factor activity. All gene or gene products having this term are labeled transcription factors, and those that do not are left as GGPs.</p>
+
+<p>In the final step, PubTator files are converted to the TagTog<a href="#fn:tagtogweb" id="fnref:tagtogweb" title="See footnote" class="footnote">8</a> format (<em>.html and .ann.json</em>) using a Python library PubTator2Anndoc<a href="#fn:converter" id="fnref:converter" title="See footnote" class="footnote">9</a>. The TagTog format can be accessed here<a href="#fn:tagtogwiki" id="fnref:tagtogwiki" title="See footnote" class="footnote">10</a>.</p>
+
+
+
+<h2 id="annotation-guidelines">Annotation Guidelines</h2>
+
+
+
+<h3 id="entities">Entities</h3>
+
+<ul>
+<li><p><strong>Entity Types</strong>: We annotate entities of the type Transcription Factor and Transcription Factor-binding.</p></li>
+<li><p><strong>Normalization</strong>: An entity is normalizable if it can be looked up in a standard database.</p>
+
+<ul><li>Entities must be searchable in NCBI Gene DB and must have a single unique Gene ID or equivalently, a unique Swissprot ID (UniProt contains un-reviewed proteins, that makes it difficult to normalize).</li></ul></li>
+<li><p><strong>Entity Boundaries</strong>: Often GNormPlus misrepresents boundaries. For example, an entity may be incorrectly tagged as <code>Estrogen receptor (ER</code>. This is corrected to <code>Estrogen receptor</code> and <code>ER</code> while reviewed tags.</p></li>
+<li><p><strong>Rule of acronyms</strong>: Wherever the full name is annotated, also annotate the abbreviation / acronym. For instance, In <code>Androgen receptor (AR)</code>, <code>Androgen receptor</code> and <code>AR</code> are both annotated.</p></li>
+<li><p><strong>Unidentified Entities</strong>: If an entity is recognized at one place, and not at the other, annotate all mentions of the entity.</p></li>
+</ul>
+
+
+
+<h3 id="relations">Relations</h3>
+
+<ul>
+<li>We are looking for physical interactions between TF GGPs and TF-binding GGPs. This gives us two broad categories of relationships. <br>
+<ul><li>TF-binding proteins that regulate / modify / co-activate other transcription factors.</li>
+<li>Genes that are transcribed by the transcription factor.</li></ul></li>
+<li>Do <strong>NOT</strong> annotate relations that do not imply physical binding or interaction.  </li>
+</ul>
+
+
+
+<h4 id="meaningful-relation-definition"><em>Meaningful Relation</em> (definition)</h4>
+
+<ul>
+<li>A relation is meaningful if either of following two conditions is true: <br>
+<ol><li>We can find the written <em>words</em> used by the author that implies that there can be a relation (in this case, the relation is not inferred): <br>
+<ul><li>Example: In this work, we investigate the phosphorylation of the N-terminal heterodimerization (PAS) domain of <strong>HIF-1alpha</strong> and identify Ser247 as a major site of in vitro modification by <strong>casein kinase 1delta</strong> (<strong>CK1delta</strong>). Annotate the relation between HIF-1alpha and casein kinase 1delta as the word <em>modify</em> clearly indicates a physical relation.</li></ul></li>
+<li>We can <strong>infer</strong> the relation from the context and it can be verified from UniProt: <br>
+<ul><li>Example: We further showed that <strong>CCAR1</strong> is required for recruitment of <strong>AR</strong>. While the relation isn’t explicit, the sentence indicates that CCAR1 <em>possibly</em> interacts with AR. In these situations, the UniProt entry for AR (Androgen Receptor) was checked to verify the relation between the two entities. Only then was the relation annotated.</li></ul></li></ol></li>
+</ul>
+
+
+
+<h4 id="general-rules-for-relations">General rules for relations:</h4>
+
+<ul>
+<li>Always if you relate the long name (or abbreviation) , do relate the abbreviation (or, respectively, long name) as well .</li>
+<li>Names almost equal but still spelt slightly differently should be considered as “different entities” for annotation purposes. That is, when considering relations, you should relate both entities to whatever is needed.</li>
+</ul>
+
+
+
+<h2 id="relna-corpus-statistics">Relna Corpus Statistics</h2>
+
+<p><img src="https://plot.ly/~ashish.baghudana/15.png" alt="Relna Corpus Statistics" title=""></p>
+
+<p><img src="https://plot.ly/~ashish.baghudana/18.png" alt="Relna Corpus Statistics" title=""></p>
+
+<p><img src="https://plot.ly/~ashish.baghudana/20.png" alt="Relna Corpus Statistics" title=""></p>
+
+<div class="footnotes"><hr><ol><li id="fn:cancertherapy">Libermann TA, Zerbini LF. <a href="http://www.ncbi.nlm.nih.gov/pubmed/16475943">Targeting transcription factors for cancer gene therapy.</a> Curr Gene Ther. 2006;6(1):17-33. <a href="#fnref:cancertherapy" title="Return to article" class="reversefootnote">↩</a></li><li id="fn:tagtog">Cejuela JM, Mcquilton P, Ponting L, et al. <a href="http://www.ncbi.nlm.nih.gov/pubmed/24715220">tagtog: interactive and text-mining-assisted annotation of gene mentions in PLOS full-text articles.</a> Database (Oxford). 2014;2014:bau033. <a href="#fnref:tagtog" title="Return to article" class="reversefootnote">↩</a></li><li id="fn:gnormplus">Wei CH, Kao HY, Lu Z. <a href="http://www.hindawi.com/journals/bmri/2015/918710/">GNormPlus: An Integrative Approach for Tagging Genes, Gene Families, and Protein Domains.</a> Biomed Res Int. 2015;2015:918710. <a href="#fnref:gnormplus" title="Return to article" class="reversefootnote">↩</a></li><li id="fn:gnormplusapi">Available at: <a href="http://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/tmTools/">http://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/tmTools/</a>. Accessed November 19, 2015. <a href="#fnref:gnormplusapi" title="Return to article" class="reversefootnote">↩</a></li><li id="fn:pubtator">Available at: <a href="http://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/tmTools/Format.html">http://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/tmTools/Format.html</a>. Accessed November 19, 2015. <a href="#fnref:pubtator" title="Return to article" class="reversefootnote">↩</a></li><li id="fn:entrez">Available at: <a href="http://www.ncbi.nlm.nih.gov/gene">http://www.ncbi.nlm.nih.gov/gene</a>. Accessed November 19, 2015. <a href="#fnref:entrez" title="Return to article" class="reversefootnote">↩</a></li><li id="fn:goterm"><a href="http://amigo.geneontology.org/amigo/term/GO:0003700">Gene Ontology 0003700 - transcription factor activity, sequence-specific DNA binding</a> <a href="#fnref:goterm" title="Return to article" class="reversefootnote">↩</a></li><li id="fn:tagtogweb">Available at: <a href="http://tagtog.net">http://tagtog.net</a>. Accessed November 19, 2015. <a href="#fnref:tagtogweb" title="Return to article" class="reversefootnote">↩</a></li><li id="fn:converter">Available at: <a href="https://github.com/ashishbaghudana/PubTator2Anndoc">https://github.com/ashishbaghudana/PubTator2Anndoc</a>. Accessed November 19, 2015. <a href="#fnref:converter" title="Return to article" class="reversefootnote">↩</a></li><li id="fn:tagtogwiki">Available at: <a href="https://github.com/tagtog/tagtog-doc/wiki/tagtog-document-formats">https://github.com/tagtog/tagtog-doc/wiki/tagtog-document-formats</a>. Accessed November 19, 2015. <a href="#fnref:tagtogwiki" title="Return to article" class="reversefootnote">↩</a></li></ol></div></div></body>
+</html>
