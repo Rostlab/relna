@@ -568,7 +568,7 @@ class Document:
 
         return set(mentions)
 
-    def get_unique_relations(self):
+    def get_unique_relations(self, rel_type):
         """:return: set of all relations (ignoring the text offset and
         considering only the relation text)"""
         relations = []
@@ -579,11 +579,11 @@ class Document:
                     relation_string = entity1+' '+relation_type+' '+entity2
                 else:
                     relation_string = entity2+' '+relation_type+' '+entity1
-                if relation_string not in relations:
+                if relation_string not in relations and relation_type == rel_type:
                     relations.append(relation_string)
         return set(relations)
 
-    def get_unique_predicted_relations(self):
+    def get_unique_predicted_relations(self, rel_type):
         """:return: set of all predicted relations (ignoring the text offset
         and considering only the relation text)"""
         relations = []
@@ -594,7 +594,7 @@ class Document:
                     relation_string = entity1+' '+relation_type+' '+entity2
                 else:
                     relation_string = entity2+' '+relation_type+' '+entity1
-                if relation_string not in relations:
+                if relation_string not in relations and relation_type == rel_type:
                     relations.append(relation_string)
         return set(relations)
 
