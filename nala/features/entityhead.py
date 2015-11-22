@@ -250,7 +250,7 @@ class EntityHeadTokenChainFeatureGenerator(EdgeFeatureGenerator):
 
     def linear_order_features(self, prefix, token, edge, sentence):
         feature_name_1 = '23_' + prefix + 'txt_' + token.word + '_[0]'
-        feature_name_2 = '24' + prefix + 'pos_' + token.features['pos'] + '_[0]'
+        feature_name_2 = '24_' + prefix + 'pos_' + token.features['pos'] + '_[0]'
         feature_name_3 = '25_' + prefix + 'given_[0]'
         feature_name_4 = '26_' + prefix + 'txt_' + token.masked_text(edge.part) + '_[0]'
         feature_name_5 = '27_' + prefix + 'ann_type_entity_[0]'
