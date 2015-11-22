@@ -184,15 +184,18 @@ class StubSameSentenceRelationExtractor(RelationExtractor):
     def tag(self, dataset):
         from itertools import product
         for part in dataset.parts():
+            part.predicted_relations = []
             for ann_1, ann_2 in product(
-                    (ann for ann in part.predicted_annotations if ann.class_id == self.entity1_class),
-                    (ann for ann in part.predicted_annotations if ann.class_id == self.entity2_class)):
-                if part.get_sentence_index_for_annotation(ann_1) == part.get_sentence_index_for_annotation(ann_2):
+                    (ann for ann in part.annotations if ann.class_id == self.entity1_class),
+                    (ann for ann in part.annotations if ann.class_id == self.entity2_class)):
+                index_1 = part.get_sentence_index_for_annotation(ann_1)
+                index_2 = part.get_sentence_index_for_annotation(ann_2)
+                if index_1 == index_2 and index_1 != None:
                     part.predicted_relations.append(
-                        Relation(ann_1.offset, ann_2.offset, ann_1.text, ann_2.text, PRO_REL_MUT_CLASS_ID))
+                        Relation(ann_1.offset, ann_2.offset, ann_1.text, ann_2.text, 'r_4'))
 
 
-class LocTextRelationExtractor(RelationExtractor):
+class RelnaRelationExtractor(RelationExtractor):
     def __init__(self, entity1_class, entity2_class, rel_type, svmlight):
         super().__init__(entity1_class, entity2_class, rel_type)
         self.svmlight = svmlight
