@@ -1,11 +1,6 @@
 from nala.features import FeatureGenerator
 from nltk.stem import PorterStemmer
-from math import log2
-from operator import itemgetter
-from nala.utils.graph import *
-import re
 import abc
-
 
 class EdgeFeatureGenerator(FeatureGenerator):
     """
@@ -180,11 +175,5 @@ def calculateInformationGain(feature_set, dataset, output_file):
         feature_list.append([key, value, entropy])
 
     feature_list = sorted(feature_list, key=itemgetter(2), reverse=True)
-
-    # with open(output_file, 'w') as f:
-    #     for array in feature_list:
-    #         key, value, entropy = array[0], array[1], array[2]
-    #         f.write(str(key)+':'+str(value)+':'+str(entropy)+'\n')
-    # f.close()
 
     return feature_list
