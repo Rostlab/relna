@@ -40,6 +40,7 @@ class SimpleEdgeGenerator(EdgeGenerator):
     def generate(self, dataset):
         from itertools import product
         for part in dataset.parts():
+            part.edges = []
             for ann_1, ann_2 in product(
                     (ann for ann in part.annotations if ann.class_id == self.entity1_class),
                     (ann for ann in part.annotations if ann.class_id == self.entity2_class)):
