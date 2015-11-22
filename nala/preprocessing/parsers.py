@@ -57,7 +57,9 @@ class BllipParser(Parser):
     def parse(self, dataset):
         outer_bar = Bar('Processing [Bllip]', max=len(list(dataset.parts())))
         for part in dataset.parts():
-            part.sentence_parse_trees = []
+            outer_bar.next()
+            if len(part.sentence_parse_trees)>0:
+                continue
             for index, sentence in enumerate(part.sentences):
                 sentence = [ token.word for token in part.sentences[index] ]
                 parse = self.parser.parse(sentence)
@@ -71,7 +73,7 @@ class BllipParser(Parser):
                         if tok.word.lower() in self.stop_words:
                             is_stop = True
                         tok.features = {
-                                        'id': token.index,
+                                        'id': token.index-1,
                                         'pos': token.pos,
                                         'lemma': self.stemmer.stem(tok.word),
                                         'is_punct': self._is_punct(tok.word),
@@ -88,28 +90,21 @@ class BllipParser(Parser):
             part.percolate_tokens_to_entities()
             part.calculate_token_scores()
             part.set_head_tokens()
-            outer_bar.next()
         outer_bar.finish()
 
     def _dependency_path(self, bllip_token, token, part, index):
-        token.features['dependency_from'] = (part.sentences[index][bllip_token.head-1], bllip_token.deprel)
+        if bllip_token.head-1>=0:
+            token.features['dependency_from'] = (part.sentences[index][bllip_token.head-1], bllip_token.deprel)
+        else:
+            token.features['dependency_from'] = (part.sentences[index][token.features['id']], bllip_token.deprel)
         token_from = part.sentences[index][bllip_token.head-1]
         if (bllip_token.index != bllip_token.head):
             token_from.features['dependency_to'].append((token, bllip_token.deprel))
         else:
             token.features['is_root'] = True
 
-    def _dependency_path(self, tok, index, part):
-        token = part.sentences[index][tok.i]
-        token.features['dependency_from'] = (part.sentences[index][tok.head.i], tok.dep_)
-        token_from = part.sentences[index][tok.head.i]
-        if (tok.i != tok.head.i):
-            token_from.features['dependency_to'].append((token, tok.dep_))
-        else:
-            token.features['is_root'] = True
-
     def _is_punct(self, text):
-        if text in ['.', ',', '-', '(', ')']:
+        if text in ['.', ',', '-']:
             return True
         return False
 
@@ -126,7 +121,7 @@ class SpacyParser(Parser):
         syntactic (constituency) parse trees. Currently, supports only 'bllip'.
     :type constituency_parser: str
     """
-    def __init__(self, nlp, constituency_parser='bllip'):
+    def __init__(self, nlp, constituency_parser=True):
         self.nlp = nlp
         """an instance of spacy.en.English"""
         self.constituency_parser = constituency_parser
@@ -139,7 +134,7 @@ class SpacyParser(Parser):
         # nala.preprocessing.Tokenizer before.
         old_tokenizer = self.nlp.tokenizer
         self.nlp.tokenizer = lambda string: old_tokenizer.tokens_from_list(self._tokenize(string))
-        if self.constituency_parser == 'bllip':
+        if self.constituency_parser == True:
             self.parser = BllipParser(only_parse=True)
 
     def parse(self, dataset):
@@ -174,7 +169,8 @@ class SpacyParser(Parser):
             part.set_head_tokens()
             outer_bar.next()
         outer_bar.finish()
-        self.parser.parse(dataset)
+        if self.constituency_parser == True:
+            self.parser.parse(dataset)
 
     def _tokenize(self, text):
         return text.split(' ')
