@@ -4,14 +4,15 @@ from nala.structures.data import Label
 from nala.utils import MUT_CLASS_ID
 import svmlight
 import subprocess
-
+from random import random, seed
+import time
 
 class SVMLightTreeKernels:
     """
     Base class for interaction with Alessandro Moschitti's Tree Kernels in
     SVM Light
     """
-    def __init__(self, directory, model='default_model', use_tree_kernel=True):
+    def __init__(self, directory='resources/svmlight/', model='default_model', use_tree_kernel=True):
         self.directory = directory
         """the directory where the executables svm_classify and svm_learn are
         located"""
@@ -26,21 +27,38 @@ class SVMLightTreeKernels:
             self.svm_learn_call = os.path.join(self.directory, 'svm_learn.exe')
             self.svm_classify_call = os.path.join(self.directory, 'svm_classify.exe')
 
-    def create_input_file(self, dataset, mode, features, file=None):
+    def create_input_file(self, dataset, mode, features, undersampling=0.4, minority_class=-1, file=None):
         string = ''
-        if mode=='train' or mode=='test':
+        if mode=='train':
+            for edge in dataset.edges():
+                if edge.target==minority_class:
+                    prob = random()
+                    if prob<undersampling:
+                        string += str(edge.target)
+                        if self.use_tree_kernel:
+                            string += ' |BT| '
+                            string += edge.part.sentence_parse_trees[edge.sentence_id]
+                            string += ' |ET|'
+                        values = set(features.values())
+                        for key in sorted(edge.features.keys()):
+                            if key in values:
+                                value = edge.features[key]
+                                string += ' '+str(key)+':'+str(value)
+                        string += '\n'
+        elif mode=='test':
             for edge in dataset.edges():
                 string += str(edge.target)
                 if self.use_tree_kernel:
                     string += ' |BT| '
                     string += edge.part.sentence_parse_trees[edge.sentence_id]
                     string += ' |ET|'
+                values = set(features.values())
                 for key in sorted(edge.features.keys()):
-                    if key in features.values():
+                    if key in values:
                         value = edge.features[key]
                         string += ' '+str(key)+':'+str(value)
                 string += '\n'
-        if mode=='predict':
+        elif mode=='predict':
             for edge in dataset.edges():
                 string += '?'
                 if self.use_tree_kernel:
@@ -57,7 +75,7 @@ class SVMLightTreeKernels:
         with open(file, 'w', encoding='utf-8') as f:
             f.write(string)
 
-    def learn(self, file=None, c=0.005):
+    def learn(self, file=None, c=0.5):
         if file is None:
             file = os.path.join(self.directory, 'train')
         if self.use_tree_kernel:
@@ -76,7 +94,7 @@ class SVMLightTreeKernels:
         else:
             subprocess.call([
                         self.svm_learn_call,
-                        '-c', '0.5',
+                        '-c', str(c),
                         '-v', '0',
                         file,
                         os.path.join(self.directory, self.model),
