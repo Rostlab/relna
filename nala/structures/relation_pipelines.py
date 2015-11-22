@@ -3,6 +3,7 @@ from nala.features.entityhead import *
 from nala.features.loctext import *
 from nala.features.path import *
 from nala.features.sentence import *
+from nala.features.ngrams import *
 from nala.features import FeatureGenerator
 from nala.structures.data import FeatureDictionary
 from nala.preprocessing.spliters import Splitter, NLTKSplitter
@@ -30,20 +31,10 @@ class RelationExtractionPipeline:
     :type feature_generators: collections.Iterable[FeatureGenerator]
     """
 
-    def __init__(self, class1, class2, rel_type, train=False, feature_set=None,
-            splitter=None, tokenizer=None, parser=None, feature_generators=None):
+    def __init__(self, class1, class2, rel_type, splitter=None, tokenizer=None,
+            parser=None):
         self.class1 = class1
         self.class2 = class2
-        self.feature_set = feature_set
-        self.train = train
-
-        if self.train:
-            self.feature_set = FeatureDictionary()
-        else:
-            if not feature_set or not isinstance(feature_set, FeatureDictionary):
-                raise ValueError("Feature Set is None or not of type FeatureDictionary.")
-            else:
-                self.feature_set = feature_set
 
         if not splitter:
             splitter = NLTKSplitter()
@@ -63,39 +54,6 @@ class RelationExtractionPipeline:
 
         self.graphs = {}
 
-        if feature_generators is None:
-            # use default feature generators
-            feature_generators = [NamedEntityCountFeatureGenerator(class1, self.feature_set, training_mode=self.train),
-                                  NamedEntityCountFeatureGenerator(class2, self.feature_set, training_mode=self.train),
-                                  BagOfWordsFeatureGenerator(self.feature_set, training_mode=self.train),
-                                  StemmedBagOfWordsFeatureGenerator(self.feature_set, training_mode=self.train),
-                                  SentenceFeatureGenerator(self.feature_set, training_mode=self.train),
-                                  WordFilterFeatureGenerator(self.feature_set, ['interact', 'bind', 'colocalize'], training_mode=self.train),
-                                  EntityHeadTokenFeatureGenerator(self.feature_set, training_mode=self.train),
-                                  EntityHeadTokenUpperCaseFeatureGenerator(self.feature_set, training_mode=self.train),
-                                  EntityHeadTokenDigitsFeatureGenerator(self.feature_set, training_mode=self.train),
-                                  EntityHeadTokenLetterPrefixesFeatureGenerator(self.feature_set, training_mode=self.train),
-                                  EntityHeadTokenPunctuationFeatureGenerator(self.feature_set, training_mode=self.train),
-                                  EntityHeadTokenChainFeatureGenerator(self.feature_set, training_mode=self.train),
-                                  LinearContextFeatureGenerator(self.feature_set, training_mode=self.train),
-                                  EntityOrderFeatureGenerator(self.feature_set, training_mode=self.train),
-                                  LinearDistanceFeatureGenerator(self.feature_set, training_mode=self.train),
-                                  IntermediateTokensFeatureGenerator(self.feature_set, training_mode=self.train),
-                                  PathFeatureGenerator(self.feature_set, self.graphs, training_mode=self.train),
-                                  ProteinWordFeatureGenerator(self.feature_set, self.graphs, training_mode=self.train),
-                                  LocationWordFeatureGenerator(self.feature_set, training_mode=self.train),
-                                  FoundInFeatureGenerator(self.feature_set, training_mode=self.train)
-                                 ]
-        if hasattr(feature_generators, '__iter__'):
-            for index, feature_generator in enumerate(feature_generators):
-                if not isinstance(feature_generator, FeatureGenerator):
-                    raise TypeError('not an instance that implements FeatureGenerator at index {}'.format(index))
-            self.feature_generators = feature_generators
-        elif isinstance(feature_generators, FeatureGenerator):
-            self.feature_generators = [feature_generators]
-        else:
-            raise TypeError('not an instance or iterable of instances that implements FeatureGenerator')
-
         if not parser:
             parser = BllipParser()
         if isinstance(parser, Parser):
@@ -105,48 +63,58 @@ class RelationExtractionPipeline:
 
         self.edge_generator = SimpleEdgeGenerator(class1, class2, rel_type)
 
-    def set_mode(self, mode=False, feature_generators=None):
-        self.train = mode
+    def set_mode(self, train, feature_set, feature_generators=None):
         if feature_generators is None:
-            feature_generators = [NamedEntityCountFeatureGenerator(self.class1, self.feature_set, training_mode=self.train),
-                                  NamedEntityCountFeatureGenerator(self.class2, self.feature_set, training_mode=self.train),
-                                  BagOfWordsFeatureGenerator(self.feature_set, training_mode=self.train),
-                                  StemmedBagOfWordsFeatureGenerator(self.feature_set, training_mode=self.train),
-                                  SentenceFeatureGenerator(self.feature_set, training_mode=self.train),
-                                  WordFilterFeatureGenerator(self.feature_set, ['interact', 'bind', 'colocalize'], training_mode=self.train),
-                                  EntityHeadTokenFeatureGenerator(self.feature_set, training_mode=self.train),
-                                  EntityHeadTokenUpperCaseFeatureGenerator(self.feature_set, training_mode=self.train),
-                                  EntityHeadTokenDigitsFeatureGenerator(self.feature_set, training_mode=self.train),
-                                  EntityHeadTokenLetterPrefixesFeatureGenerator(self.feature_set, training_mode=self.train),
-                                  EntityHeadTokenPunctuationFeatureGenerator(self.feature_set, training_mode=self.train),
-                                  EntityHeadTokenChainFeatureGenerator(self.feature_set, training_mode=self.train),
-                                  LinearContextFeatureGenerator(self.feature_set, training_mode=self.train),
-                                  EntityOrderFeatureGenerator(self.feature_set, training_mode=self.train),
-                                  LinearDistanceFeatureGenerator(self.feature_set, training_mode=self.train),
-                                  IntermediateTokensFeatureGenerator(self.feature_set, training_mode=self.train),
-                                  PathFeatureGenerator(self.feature_set, self.graphs, training_mode=self.train),
-                                  ProteinWordFeatureGenerator(self.feature_set, self.graphs, training_mode=self.train),
-                                  LocationWordFeatureGenerator(self.feature_set, training_mode=self.train),
-                                  FoundInFeatureGenerator(self.feature_set, training_mode=self.train)
+            feature_generators = [NamedEntityCountFeatureGenerator(self.class1, feature_set, training_mode=train),
+                                  NamedEntityCountFeatureGenerator(self.class2, feature_set, training_mode=train),
+                                  BagOfWordsFeatureGenerator(feature_set, training_mode=train),
+                                  StemmedBagOfWordsFeatureGenerator(feature_set, training_mode=train),
+                                  SentenceFeatureGenerator(feature_set, training_mode=train),
+                                  WordFilterFeatureGenerator(feature_set, ['interact', 'bind', 'colocalize'], training_mode=train),
+                                  EntityHeadTokenFeatureGenerator(feature_set, training_mode=train),
+                                  EntityHeadTokenUpperCaseFeatureGenerator(feature_set, training_mode=train),
+                                  EntityHeadTokenDigitsFeatureGenerator(feature_set, training_mode=train),
+                                  EntityHeadTokenLetterPrefixesFeatureGenerator(feature_set, training_mode=train),
+                                  EntityHeadTokenPunctuationFeatureGenerator(feature_set, training_mode=train),
+                                  EntityHeadTokenChainFeatureGenerator(feature_set, training_mode=train),
+                                  LinearContextFeatureGenerator(feature_set, training_mode=train),
+                                  EntityOrderFeatureGenerator(feature_set, training_mode=train),
+                                  LinearDistanceFeatureGenerator(feature_set, training_mode=train),
+                                  IntermediateTokensFeatureGenerator(feature_set, training_mode=train),
+                                  PathFeatureGenerator(feature_set, self.graphs, training_mode=train),
+                                  ProteinWordFeatureGenerator(feature_set, self.graphs, training_mode=train),
+                                  LocationWordFeatureGenerator(feature_set, training_mode=train),
+                                  FoundInFeatureGenerator(feature_set, training_mode=train),
+                                  BiGramFeatureGenerator(feature_set, training_mode=train),
+                                  TriGramFeatureGenerator(feature_set, training_mode=train),
                                  ]
         if hasattr(feature_generators, '__iter__'):
             for index, feature_generator in enumerate(feature_generators):
                 if not isinstance(feature_generator, FeatureGenerator):
                     raise TypeError('not an instance that implements FeatureGenerator at index {}'.format(index))
-                if not feature_generator.training_mode==mode:
+                if not feature_generator.training_mode==train:
                     raise ValueError('FeatureGenerator at index {} not set in the correct mode'.format(index))
             self.feature_generators = feature_generators
         elif isinstance(feature_generators, FeatureGenerator):
-            if not feature_genenrators.training_mode==mode:
+            if not feature_genenrators.training_mode==train:
                 raise ValueError('FeatureGenerator at index not set in the correct mode.')
             else:
                 self.feature_generators = [feature_generators]
         else:
             raise TypeError('not an instance or iterable of instances that implements FeatureGenerator')
 
-    def execute(self, dataset):
-        self.splitter.split(dataset)
-        self.tokenizer.tokenize(dataset)
+    def execute(self, dataset, train=False, feature_set=None, feature_generators=None):
+        if feature_set is None:
+            self.feature_set = FeatureDictionary()
+        else:
+            self.feature_set = feature_set
+        self.set_mode(train, feature_set=self.feature_set, feature_generators=feature_generators)
+        try:
+            gen = dataset.tokens()
+            next(gen)
+        except StopIteration:
+            self.splitter.split(dataset)
+            self.tokenizer.tokenize(dataset)
         self.edge_generator.generate(dataset)
         self.parser.parse(dataset)
         dataset.label_edges()
