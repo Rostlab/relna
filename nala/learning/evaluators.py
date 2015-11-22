@@ -2,7 +2,6 @@ import abc
 from nala.structures.data import Entity
 from nala import print_verbose, print_debug
 
-
 class Evaluator:
     """
     Calculates precision, recall and subsequently F1 measure based on the original and the predicted mention
@@ -206,7 +205,7 @@ class DocumentLevelRelationEvaluator(Evaluator):
         In general, (entityA, entityB) is also the same as (entityB, entityA)
         """
 
-    def evaluate(self, dataset):
+    def evaluate(self, dataset, relation):
         """
         :type dataset: nala.structures.data.Dataset
         :returns (tp, fp, fn, precision, recall, f_measure): (int, int, int, float, float, float)
@@ -231,12 +230,12 @@ class DocumentLevelRelationEvaluator(Evaluator):
 
         true_relations = {}
         for index, document in enumerate(dataset):
-            relations = list(document.get_unique_relations())
+            relations = list(document.get_unique_relations(relation))
             true_relations[index] = relations
 
         predicted_relations = {}
         for index, document in enumerate(dataset):
-            relations = list(document.get_unique_predicted_relations())
+            relations = list(document.get_unique_predicted_relations(relation))
             predicted_relations[index] = relations
 
         for key in true_relations.keys():
