@@ -1,0 +1,759 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Txlng",
+          "source": {
+            "id": "353170",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/353170"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Gamma-taxilin",
+          "source": {
+            "id": "Q8BHN1",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q8BHN1"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 0,
+          "text": "FIAT"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Atf4",
+          "source": {
+            "id": "11911",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/11911"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cyclic AMP-dependent transcription factor ATF-4",
+          "source": {
+            "id": "Q06507",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q06507"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 15,
+          "text": "ATF4"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Atf4",
+          "source": {
+            "id": "11911",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/11911"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cyclic AMP-dependent transcription factor ATF-4",
+          "source": {
+            "id": "Q06507",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q06507"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 52,
+          "text": "activating transcription factor 4"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Atf4",
+          "source": {
+            "id": "11911",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/11911"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cyclic AMP-dependent transcription factor ATF-4",
+          "source": {
+            "id": "Q06507",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q06507"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 87,
+          "text": "ATF4"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Txlng",
+          "source": {
+            "id": "353170",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/353170"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Gamma-taxilin",
+          "source": {
+            "id": "Q06507",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q06507"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 117,
+          "text": "FIAT"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Txlng",
+          "source": {
+            "id": "353170",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/353170"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Gamma-taxilin",
+          "source": {
+            "id": "Q06507",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q06507"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 158,
+          "text": "FIAT"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Atf4",
+          "source": {
+            "id": "11911",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/11911"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cyclic AMP-dependent transcription factor ATF-4",
+          "source": {
+            "id": "Q06507",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q06507"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 179,
+          "text": "ATF4"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Atf4",
+          "source": {
+            "id": "11911",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/11911"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cyclic AMP-dependent transcription factor ATF-4",
+          "source": {
+            "id": "Q06507",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q06507"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 206,
+          "text": "ATF4"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Atf4",
+          "source": {
+            "id": "11911",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/11911"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cyclic AMP-dependent transcription factor ATF-4",
+          "source": {
+            "id": "Q06507",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q06507"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 228,
+          "text": "ATF4"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Bglap",
+          "source": {
+            "id": "12096",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/12096"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Osteocalcin",
+          "source": {
+            "id": "P86546",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P86546"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 263,
+          "text": "osteocalcin"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Txlng",
+          "source": {
+            "id": "353170",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/353170"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Gamma-taxilin",
+          "source": {
+            "id": "P86546",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P86546"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 321,
+          "text": "FIAT"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Bglap",
+          "source": {
+            "id": "12096",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/12096"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Osteocalcin",
+          "source": {
+            "id": "P86546",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P86546"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 358,
+          "text": "osteocalcin"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Txlng",
+          "source": {
+            "id": "353170",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/353170"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Gamma-taxilin",
+          "source": {
+            "id": "P86546",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P86546"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1112,
+          "text": "FIAT"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Txlng",
+          "source": {
+            "id": "353170",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/353170"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Gamma-taxilin",
+          "source": {
+            "id": "P86546",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P86546"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1159,
+          "text": "FIAT"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|158,162",
+        "s2p1|179,183"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|228,232",
+        "s2p1|263,274"
+      ],
+      "type": "linked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "15911876",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/15911876"
+    },
+    {
+      "id": "15911876",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/15911876"
+    }
+  ]
+}

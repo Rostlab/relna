@@ -1,0 +1,850 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESR1",
+          "source": {
+            "id": "2099",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2099"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 16,
+          "text": "estrogen receptor alpha"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PSMD4",
+          "source": {
+            "id": "5710",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5710"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "26S proteasome non-ATPase regulatory subunit 4",
+          "source": {
+            "id": "P55036",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P55036"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 61,
+          "text": "AF1"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NCOA2",
+          "source": {
+            "id": "10499",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10499"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Nuclear receptor coactivator 2",
+          "source": {
+            "id": "Q15596",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q15596"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 119,
+          "text": "TIF2"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 79,
+          "text": "ER alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESR2",
+          "source": {
+            "id": "2100",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2100"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Estrogen receptor beta",
+          "source": {
+            "id": "Q92731",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92731"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 92,
+          "text": "ER beta"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NCOA2",
+          "source": {
+            "id": "10499",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10499"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Nuclear receptor coactivator 2",
+          "source": {
+            "id": "Q92731",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92731"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 257,
+          "text": "TIF2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PSMD4",
+          "source": {
+            "id": "5710",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5710"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "26S proteasome non-ATPase regulatory subunit 4",
+          "source": {
+            "id": "Q92731",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92731"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 309,
+          "text": "AF1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NCOA2",
+          "source": {
+            "id": "10499",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10499"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Nuclear receptor coactivator 2",
+          "source": {
+            "id": "Q92731",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92731"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 356,
+          "text": "TIF2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PSMD4",
+          "source": {
+            "id": "5710",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5710"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "26S proteasome non-ATPase regulatory subunit 4",
+          "source": {
+            "id": "Q92731",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92731"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 406,
+          "text": "AF1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NCOA2",
+          "source": {
+            "id": "10499",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10499"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Nuclear receptor coactivator 2",
+          "source": {
+            "id": "Q92731",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92731"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 507,
+          "text": "TIF2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NCOA2",
+          "source": {
+            "id": "10499",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10499"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Nuclear receptor coactivator 2",
+          "source": {
+            "id": "Q92731",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92731"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 561,
+          "text": "TIF2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "pre-added",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 651,
+          "text": "ER alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NCOA2",
+          "source": {
+            "id": "10499",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10499"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Nuclear receptor coactivator 2",
+          "source": {
+            "id": "Q92731",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92731"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 721,
+          "text": "TIF2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NCOA2",
+          "source": {
+            "id": "10499",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10499"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Nuclear receptor coactivator 2",
+          "source": {
+            "id": "Q92731",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92731"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 791,
+          "text": "TIF2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 884,
+          "text": "ER alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PSMD4",
+          "source": {
+            "id": "5710",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5710"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "26S proteasome non-ATPase regulatory subunit 4",
+          "source": {
+            "id": "Q92731",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92731"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 893,
+          "text": "AF1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NCOA2",
+          "source": {
+            "id": "10499",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10499"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Nuclear receptor coactivator 2",
+          "source": {
+            "id": "Q92731",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92731"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 951,
+          "text": "TIF2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MSH6",
+          "source": {
+            "id": "2956",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2956"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "DNA mismatch repair protein Msh6",
+          "source": {
+            "id": "P52701",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P52701"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 984,
+          "text": "p160"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|561,565",
+        "s2p1|651,659"
+      ],
+      "type": "linked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "11265755",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/11265755"
+    },
+    {
+      "id": "11265755",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/11265755"
+    }
+  ]
+}

@@ -1,0 +1,1001 @@
+{
+  "anncomplete": false,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CITED1",
+          "source": {
+            "id": "4435",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4435"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Cbp/p300-interacting transactivator 1",
+          "source": {
+            "id": "Q99966",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q99966"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 0,
+          "text": "CITED1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "EP300",
+          "source": {
+            "id": "2033",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2033"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Histone acetyltransferase p300",
+          "source": {
+            "id": "Q09472",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q09472"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 14,
+          "text": "p300"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CITED1",
+          "source": {
+            "id": "4435",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4435"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Cbp/p300-interacting transactivator 1",
+          "source": {
+            "id": "Q09472",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q09472"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 141,
+          "text": "CITED1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CITED1",
+          "source": {
+            "id": "4435",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4435"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Cbp/p300-interacting transactivator 1",
+          "source": {
+            "id": "Q09472",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q09472"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 241,
+          "text": "CITED1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESR1",
+          "source": {
+            "id": "2099",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2099"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 325,
+          "text": "estrogen receptor-alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESR1",
+          "source": {
+            "id": "2099",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2099"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 350,
+          "text": "ERalpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESR2",
+          "source": {
+            "id": "2100",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2100"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Estrogen receptor beta",
+          "source": {
+            "id": "Q92731",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92731"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 363,
+          "text": "ERbeta"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CITED1",
+          "source": {
+            "id": "4435",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4435"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Cbp/p300-interacting transactivator 1",
+          "source": {
+            "id": "Q92731",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92731"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 490,
+          "text": "CITED1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESR1",
+          "source": {
+            "id": "2099",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2099"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "Q92731",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92731"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 515,
+          "text": "ERalpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "EP300",
+          "source": {
+            "id": "2033",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2033"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Histone acetyltransferase p300",
+          "source": {
+            "id": "Q92731",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92731"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 640,
+          "text": "p300"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Cited1",
+          "source": {
+            "id": "12705",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/12705"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Cbp/p300-interacting transactivator 1",
+          "source": {
+            "id": "P97769",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P97769"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 663,
+          "text": "CITED1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CITED1",
+          "source": {
+            "id": "4435",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4435"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Cbp/p300-interacting transactivator 1",
+          "source": {
+            "id": "P97769",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P97769"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 827,
+          "text": "CITED1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "EP300",
+          "source": {
+            "id": "2033",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2033"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Histone acetyltransferase p300",
+          "source": {
+            "id": "P97769",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P97769"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 938,
+          "text": "p300"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESR1",
+          "source": {
+            "id": "2099",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2099"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "P97769",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P97769"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 947,
+          "text": "ERalpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CITED1",
+          "source": {
+            "id": "4435",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4435"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Cbp/p300-interacting transactivator 1",
+          "source": {
+            "id": "P97769",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P97769"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1076,
+          "text": "CITED1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PGR",
+          "source": {
+            "id": "5241",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5241"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Progesterone receptor",
+          "source": {
+            "id": "P06401",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P06401"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1171,
+          "text": "progesterone receptor"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TFF1",
+          "source": {
+            "id": "7031",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7031"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Trefoil factor 1",
+          "source": {
+            "id": "P04155",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04155"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1196,
+          "text": "pS2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CITED1",
+          "source": {
+            "id": "4435",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4435"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Cbp/p300-interacting transactivator 1",
+          "source": {
+            "id": "P04155",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04155"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1279,
+          "text": "CITED1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TFF1",
+          "source": {
+            "id": "7031",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7031"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Trefoil factor 1",
+          "source": {
+            "id": "P04155",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04155"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1399,
+          "text": "pS2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CITED1",
+          "source": {
+            "id": "4435",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4435"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Cbp/p300-interacting transactivator 1",
+          "source": {
+            "id": "P04155",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04155"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1440,
+          "text": "CITED1"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [],
+  "sources": [
+    {
+      "id": "11581164",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/11581164"
+    }
+  ]
+}

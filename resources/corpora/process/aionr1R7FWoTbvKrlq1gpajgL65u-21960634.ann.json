@@ -1,0 +1,493 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CLOCK",
+          "source": {
+            "id": "9575",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9575"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Circadian locomoter output cycles protein kaput",
+          "source": {
+            "id": "O00327",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O00327"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 45,
+          "text": "CLOCK-BMAL1"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CLOCK",
+          "source": {
+            "id": "9575",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9575"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Circadian locomoter output cycles protein kaput",
+          "source": {
+            "id": "O00327",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O00327"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 86,
+          "text": "clock"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CLOCK",
+          "source": {
+            "id": "9575",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9575"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Circadian locomoter output cycles protein kaput",
+          "source": {
+            "id": "O00327",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O00327"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 130,
+          "text": "CLOCK"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ARNTL",
+          "source": {
+            "id": "406",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/406"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Aryl hydrocarbon receptor nuclear translocator-like protein 1",
+          "source": {
+            "id": "O00327",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O00327"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 140,
+          "text": "BMAL1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CLOCK",
+          "source": {
+            "id": "9575",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9575"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Circadian locomoter output cycles protein kaput",
+          "source": {
+            "id": "O00327",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O00327"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 270,
+          "text": "CLOCK-BMAL1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PER2",
+          "source": {
+            "id": "8864",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8864"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Period circadian protein homolog 2",
+          "source": {
+            "id": "O15055",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O15055"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 310,
+          "text": "Per2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "HDAC1",
+          "source": {
+            "id": "3065",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3065"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone deacetylase 1",
+          "source": {
+            "id": "Q13547",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13547"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 377,
+          "text": "histone deacetylase 1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CLOCK",
+          "source": {
+            "id": "9575",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9575"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Circadian locomoter output cycles protein kaput",
+          "source": {
+            "id": "Q13547",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13547"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 438,
+          "text": "CLOCK-BMAL1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "lid",
+          "source": {
+            "id": "33837",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/33837"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Lysine-specific demethylase lid",
+          "source": {
+            "id": "Q9VMJ7",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9VMJ7"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 731,
+          "text": "lid"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|270,281",
+        "s2p1|310,314"
+      ],
+      "type": "linked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "21960634",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/21960634"
+    },
+    {
+      "id": "21960634",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/21960634"
+    }
+  ]
+}

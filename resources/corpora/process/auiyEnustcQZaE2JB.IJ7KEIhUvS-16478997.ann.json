@@ -1,0 +1,921 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 0,
+          "text": "Sp1"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "EP300",
+          "source": {
+            "id": "2033",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2033"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone acetyltransferase p300",
+          "source": {
+            "id": "Q09472",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q09472"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 52,
+          "text": "p300"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ALOX12",
+          "source": {
+            "id": "239",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/239"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Arachidonate 12-lipoxygenase, 12S-type",
+          "source": {
+            "id": "P18054",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P18054"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 69,
+          "text": "12(S)-lipoxygenase"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 26,
+          "text": "Sp1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 39,
+          "text": "c-Jun"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ALOX12",
+          "source": {
+            "id": "239",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/239"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Arachidonate 12-lipoxygenase, 12S-type",
+          "source": {
+            "id": "P18054",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P18054"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 68,
+          "text": "12(S)-lipoxygenase"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 151,
+          "text": "Sp1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "HDAC1",
+          "source": {
+            "id": "3065",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3065"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone deacetylase 1",
+          "source": {
+            "id": "Q13547",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13547"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 170,
+          "text": "HDAC1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 183,
+          "text": "Sp1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 187,
+          "text": "cJun"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "HDAC1",
+          "source": {
+            "id": "3065",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3065"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone deacetylase 1",
+          "source": {
+            "id": "Q13547",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13547"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 389,
+          "text": "histone deacetylase 1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "HDAC1",
+          "source": {
+            "id": "3065",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3065"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone deacetylase 1",
+          "source": {
+            "id": "Q13547",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13547"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 412,
+          "text": "HDAC1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 444,
+          "text": "Sp1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "EP300",
+          "source": {
+            "id": "2033",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2033"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone acetyltransferase p300",
+          "source": {
+            "id": "Q13547",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13547"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 487,
+          "text": "p300"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ALOX12",
+          "source": {
+            "id": "239",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/239"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Arachidonate 12-lipoxygenase, 12S-type",
+          "source": {
+            "id": "Q13547",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13547"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 592,
+          "text": "12(S)-lipoxygenase"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 637,
+          "text": "Sp1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "EP300",
+          "source": {
+            "id": "2033",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2033"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone acetyltransferase p300",
+          "source": {
+            "id": "Q13547",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13547"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 732,
+          "text": "p300"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ALOX12",
+          "source": {
+            "id": "239",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/239"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Arachidonate 12-lipoxygenase, 12S-type",
+          "source": {
+            "id": "Q13547",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13547"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 756,
+          "text": "12(S)-lipoxygenase"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 819,
+          "text": "Sp1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "HDAC1",
+          "source": {
+            "id": "3065",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3065"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone deacetylase 1",
+          "source": {
+            "id": "Q13547",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13547"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 832,
+          "text": "HDAC1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 852,
+          "text": "c-Jun"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 909,
+          "text": "Sp1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "EP300",
+          "source": {
+            "id": "2033",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2033"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone acetyltransferase p300",
+          "source": {
+            "id": "Q13547",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13547"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 933,
+          "text": "p300"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 1019,
+          "text": "Sp1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ALOX12",
+          "source": {
+            "id": "239",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/239"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Arachidonate 12-lipoxygenase, 12S-type",
+          "source": {
+            "id": "Q13547",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13547"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1095,
+          "text": "12(S)-lipoxygenase"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|39,44",
+        "s2p1|68,86"
+      ],
+      "type": "linked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "16478997",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/16478997"
+    },
+    {
+      "id": "16478997",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/16478997"
+    }
+  ]
+}

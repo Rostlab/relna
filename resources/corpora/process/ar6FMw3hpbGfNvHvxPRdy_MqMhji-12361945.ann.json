@@ -1,0 +1,414 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 0,
+          "text": "RanBPM"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 88,
+          "text": "androgen receptor"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 110,
+          "text": "glucocorticoid receptor"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 4,
+          "text": "androgen receptor"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 23,
+          "text": "AR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "pre-added",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 175,
+          "text": "AR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 660,
+          "text": "AR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "pre-added",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 691,
+          "text": "AR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "pre-added",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 736,
+          "text": "AR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 841,
+          "text": "RanBPM"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "pre-added",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 863,
+          "text": "AR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 1052,
+          "text": "RanBPM"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "pre-added",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 1110,
+          "text": "AR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 1153,
+          "text": "Glucocorticoid receptor"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 1209,
+          "text": "RanBPM"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 1243,
+          "text": "estrogen receptor"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 1318,
+          "text": "RanBPM"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s1h1|0,6",
+        "s1h1|88,105"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s1h1|0,6",
+        "s1h1|110,133"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|841,847",
+        "s2p1|863,865"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|1209,1215",
+        "s2p1|1153,1176"
+      ],
+      "type": "linked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "12361945",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/12361945"
+    },
+    {
+      "id": "12361945",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/12361945"
+    }
+  ]
+}

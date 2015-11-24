@@ -1,0 +1,359 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "IFI35",
+          "source": {
+            "id": "3430",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3430"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Interferon-induced 35 kDa protein",
+          "source": {
+            "id": "P80217",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P80217"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 0,
+          "text": "IFP 35"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BATF",
+          "source": {
+            "id": "10538",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10538"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Basic leucine zipper transcriptional factor ATF-like",
+          "source": {
+            "id": "Q16520",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q16520"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 28,
+          "text": "B-ATF"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BATF",
+          "source": {
+            "id": "10538",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10538"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Basic leucine zipper transcriptional factor ATF-like",
+          "source": {
+            "id": "Q16520",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q16520"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 261,
+          "text": "B-ATF"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "IFI35",
+          "source": {
+            "id": "3430",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3430"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Interferon-induced 35 kDa protein",
+          "source": {
+            "id": "Q16520",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q16520"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 347,
+          "text": "IFP 35"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BATF",
+          "source": {
+            "id": "10538",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10538"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Basic leucine zipper transcriptional factor ATF-like",
+          "source": {
+            "id": "Q16520",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q16520"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 571,
+          "text": "B-ATF"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "IFI35",
+          "source": {
+            "id": "3430",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3430"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Interferon-induced 35 kDa protein",
+          "source": {
+            "id": "Q16520",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q16520"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 577,
+          "text": "IFP 35"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s1h1|0,6",
+        "s1h1|28,33"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|261,266",
+        "s2p1|347,353"
+      ],
+      "type": "linked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "8954125",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/8954125"
+    },
+    {
+      "id": "8954125",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/8954125"
+    }
+  ]
+}

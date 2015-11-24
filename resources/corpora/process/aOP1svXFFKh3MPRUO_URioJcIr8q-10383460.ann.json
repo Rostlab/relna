@@ -1,0 +1,1158 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "UBE2I",
+          "source": {
+            "id": "7329",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7329"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "SUMO-conjugating enzyme UBC9",
+          "source": {
+            "id": "P63279",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P63279"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 0,
+          "text": "Ubc9"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AR",
+          "source": {
+            "id": "367",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/367"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Androgen receptor",
+          "source": {
+            "id": "P10275",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P10275"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 24,
+          "text": "androgen receptor"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "UBE2I",
+          "source": {
+            "id": "7329",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7329"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "SUMO-conjugating enzyme UBC9",
+          "source": {
+            "id": "P10275",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P10275"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 0,
+          "text": "Ubc9"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SUMO1",
+          "source": {
+            "id": "7341",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7341"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Small ubiquitin-related modifier 1",
+          "source": {
+            "id": "P63165",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P63165"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 118,
+          "text": "small ubiquitin-like molecule-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SUMO1",
+          "source": {
+            "id": "7341",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7341"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Small ubiquitin-related modifier 1",
+          "source": {
+            "id": "P63165",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P63165"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 151,
+          "text": "SUMO-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SUMO1",
+          "source": {
+            "id": "7341",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7341"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Small ubiquitin-related modifier 1",
+          "source": {
+            "id": "P63165",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P63165"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 192,
+          "text": "SUMO-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "UBE2I",
+          "source": {
+            "id": "7329",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7329"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "SUMO-conjugating enzyme UBC9",
+          "source": {
+            "id": "P63165",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P63165"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 429,
+          "text": "Ubc9"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AR",
+          "source": {
+            "id": "367",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/367"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Androgen receptor",
+          "source": {
+            "id": "P63165",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P63165"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 453,
+          "text": "androgen receptor"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 472,
+          "text": "AR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "pre-added",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 600,
+          "text": "AR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "UBE2I",
+          "source": {
+            "id": "7329",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7329"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "SUMO-conjugating enzyme UBC9",
+          "source": {
+            "id": "P63165",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P63165"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 676,
+          "text": "Ubc9"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "pre-added",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 709,
+          "text": "AR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "UBE2I",
+          "source": {
+            "id": "7329",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7329"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "SUMO-conjugating enzyme UBC9",
+          "source": {
+            "id": "P63165",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P63165"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 839,
+          "text": "Ubc9"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "pre-added",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 953,
+          "text": "AR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 986,
+          "text": "AR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "UBE2I",
+          "source": {
+            "id": "7329",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7329"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "SUMO-conjugating enzyme UBC9",
+          "source": {
+            "id": "P63165",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P63165"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 989,
+          "text": "Ubc9"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "UBE2I",
+          "source": {
+            "id": "7329",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7329"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "SUMO-conjugating enzyme UBC9",
+          "source": {
+            "id": "P63165",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P63165"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1067,
+          "text": "Ubc9"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "UBE2I",
+          "source": {
+            "id": "7329",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7329"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "SUMO-conjugating enzyme UBC9",
+          "source": {
+            "id": "P63165",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P63165"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1098,
+          "text": "Ubc9"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SUMO1",
+          "source": {
+            "id": "7341",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7341"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Small ubiquitin-related modifier 1",
+          "source": {
+            "id": "P63165",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P63165"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1119,
+          "text": "SUMO-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SUMO1",
+          "source": {
+            "id": "7341",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7341"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Small ubiquitin-related modifier 1",
+          "source": {
+            "id": "P63165",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P63165"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1195,
+          "text": "SUMO-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "UBE2I",
+          "source": {
+            "id": "7329",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7329"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "SUMO-conjugating enzyme UBC9",
+          "source": {
+            "id": "P63165",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P63165"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1206,
+          "text": "Ubc9"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "UBE2I",
+          "source": {
+            "id": "7329",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7329"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "SUMO-conjugating enzyme UBC9",
+          "source": {
+            "id": "P63165",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P63165"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1249,
+          "text": "Ubc9"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "pre-added",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 1267,
+          "text": "AR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "UBE2I",
+          "source": {
+            "id": "7329",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7329"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "SUMO-conjugating enzyme UBC9",
+          "source": {
+            "id": "P63165",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P63165"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1311,
+          "text": "Ubc9"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "pre-added",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 1337,
+          "text": "AR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SUMO1",
+          "source": {
+            "id": "7341",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7341"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Small ubiquitin-related modifier 1",
+          "source": {
+            "id": "P63165",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P63165"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1404,
+          "text": "SUMO-1"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s1h1|0,4",
+        "s1h1|24,41"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|429,433",
+        "s2p1|453,470"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|986,988",
+        "s2p1|989,993"
+      ],
+      "type": "linked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "10383460",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/10383460"
+    },
+    {
+      "id": "10383460",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/10383460"
+    }
+  ]
+}

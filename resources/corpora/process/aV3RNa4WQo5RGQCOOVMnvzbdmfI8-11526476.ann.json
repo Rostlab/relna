@@ -1,0 +1,775 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MEN1",
+          "source": {
+            "id": "4221",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4221"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Menin",
+          "source": {
+            "id": "O00255",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O00255"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 29,
+          "text": "menin"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MEN1",
+          "source": {
+            "id": "4221",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4221"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Menin",
+          "source": {
+            "id": "O00255",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O00255"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 249,
+          "text": "menin"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MEN1",
+          "source": {
+            "id": "4221",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4221"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Menin",
+          "source": {
+            "id": "O00255",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O00255"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 347,
+          "text": "menin"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NFKB1",
+          "source": {
+            "id": "4790",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4790"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Nuclear factor NF-kappa-B p105 subunit",
+          "source": {
+            "id": "P19838",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P19838"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 448,
+          "text": "p50"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NFKB2",
+          "source": {
+            "id": "4791",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4791"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Nuclear factor NF-kappa-B p100 subunit",
+          "source": {
+            "id": "Q00653",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q00653"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 453,
+          "text": "p52"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RELA",
+          "source": {
+            "id": "5970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor p65",
+          "source": {
+            "id": "Q04206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q04206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 461,
+          "text": "p65"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MEN1",
+          "source": {
+            "id": "4221",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4221"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Menin",
+          "source": {
+            "id": "Q04206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q04206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 519,
+          "text": "menin"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MEN1",
+          "source": {
+            "id": "4221",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4221"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Menin",
+          "source": {
+            "id": "Q04206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q04206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 606,
+          "text": "menin"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MEN1",
+          "source": {
+            "id": "4221",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4221"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Menin",
+          "source": {
+            "id": "Q04206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q04206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 667,
+          "text": "menin"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MEN1",
+          "source": {
+            "id": "4221",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4221"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Menin",
+          "source": {
+            "id": "Q04206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q04206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 705,
+          "text": "Menin"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RELA",
+          "source": {
+            "id": "5970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor p65",
+          "source": {
+            "id": "Q04206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q04206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 721,
+          "text": "p65"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MEN1",
+          "source": {
+            "id": "4221",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4221"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Menin",
+          "source": {
+            "id": "Q04206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q04206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 914,
+          "text": "menin"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MEN1",
+          "source": {
+            "id": "4221",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4221"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Menin",
+          "source": {
+            "id": "Q04206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q04206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 953,
+          "text": "menin"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MEN1",
+          "source": {
+            "id": "4221",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4221"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Menin",
+          "source": {
+            "id": "Q04206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q04206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1067,
+          "text": "menin"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|519,524",
+        "s2p1|448,451"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|519,524",
+        "s2p1|453,456"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|519,524",
+        "s2p1|461,464"
+      ],
+      "type": "linked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "11526476",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/11526476"
+    },
+    {
+      "id": "11526476",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/11526476"
+    }
+  ]
+}

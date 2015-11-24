@@ -1,0 +1,929 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "JUN",
+          "source": {
+            "id": "3725",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3725"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor AP-1",
+          "source": {
+            "id": "P05412",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P05412"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 72,
+          "text": "c-Jun"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "JUN",
+          "source": {
+            "id": "3725",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3725"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor AP-1",
+          "source": {
+            "id": "P05412",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P05412"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 30,
+          "text": "c-Jun"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "JUN",
+          "source": {
+            "id": "3725",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3725"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor AP-1",
+          "source": {
+            "id": "P05412",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P05412"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 146,
+          "text": "c-Jun"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RNF187",
+          "source": {
+            "id": "149603",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/149603"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "E3 ubiquitin-protein ligase RNF187",
+          "source": {
+            "id": "Q5TA31",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q5TA31"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 270,
+          "text": "RACO-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RNF187",
+          "source": {
+            "id": "149603",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/149603"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "E3 ubiquitin-protein ligase RNF187",
+          "source": {
+            "id": "Q5TA31",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q5TA31"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 278,
+          "text": "RING domain AP-1 co-activator-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "JUN",
+          "source": {
+            "id": "3725",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3725"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor AP-1",
+          "source": {
+            "id": "Q5TA31",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q5TA31"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 317,
+          "text": "c-Jun"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RNF187",
+          "source": {
+            "id": "149603",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/149603"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "E3 ubiquitin-protein ligase RNF187",
+          "source": {
+            "id": "Q5TA31",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q5TA31"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 383,
+          "text": "RACO-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "JUN",
+          "source": {
+            "id": "3725",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3725"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor AP-1",
+          "source": {
+            "id": "Q5TA31",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q5TA31"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 406,
+          "text": "c-Jun"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "JUN",
+          "source": {
+            "id": "3725",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3725"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor AP-1",
+          "source": {
+            "id": "Q5TA31",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q5TA31"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 503,
+          "text": "c-Jun"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 593,
+          "text": "ERK"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RNF187",
+          "source": {
+            "id": "149603",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/149603"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "E3 ubiquitin-protein ligase RNF187",
+          "source": {
+            "id": "Q5TA31",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q5TA31"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 624,
+          "text": "RACO-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 663,
+          "text": "ERK"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RNF187",
+          "source": {
+            "id": "149603",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/149603"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "E3 ubiquitin-protein ligase RNF187",
+          "source": {
+            "id": "Q5TA31",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q5TA31"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 725,
+          "text": "RACO-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RNF187",
+          "source": {
+            "id": "149603",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/149603"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "E3 ubiquitin-protein ligase RNF187",
+          "source": {
+            "id": "Q5TA31",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q5TA31"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 823,
+          "text": "RACO-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CCND1",
+          "source": {
+            "id": "595",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/595"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "G1/S-specific cyclin-D1",
+          "source": {
+            "id": "P24385",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P24385"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 958,
+          "text": "cyclinD1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RNF187",
+          "source": {
+            "id": "149603",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/149603"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "E3 ubiquitin-protein ligase RNF187",
+          "source": {
+            "id": "P24385",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P24385"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1018,
+          "text": "RACO-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RNF187",
+          "source": {
+            "id": "149603",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/149603"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "E3 ubiquitin-protein ligase RNF187",
+          "source": {
+            "id": "P24385",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P24385"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1170,
+          "text": "RACO-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "JUN",
+          "source": {
+            "id": "3725",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3725"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor AP-1",
+          "source": {
+            "id": "P24385",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P24385"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1206,
+          "text": "c-Jun"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|270,276",
+        "s2p1|317,322"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|278,309",
+        "s2p1|317,322"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|383,389",
+        "s2p1|406,411"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|1170,1176",
+        "s2p1|1206,1211"
+      ],
+      "type": "linked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "20852630",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/20852630"
+    },
+    {
+      "id": "20852630",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/20852630"
+    }
+  ]
+}

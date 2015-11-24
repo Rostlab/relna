@@ -1,0 +1,1099 @@
+{
+  "anncomplete": false,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GPER1",
+          "source": {
+            "id": "2852",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2852"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "G-protein coupled estrogen receptor 1",
+          "source": {
+            "id": "Q99527",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q99527"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 0,
+          "text": "G protein-coupled receptor 30"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TGFA",
+          "source": {
+            "id": "7039",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7039"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Protransforming growth factor alpha",
+          "source": {
+            "id": "P01135",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01135"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 68,
+          "text": "TGF alpha"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GPER1",
+          "source": {
+            "id": "2852",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2852"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "G-protein coupled estrogen receptor 1",
+          "source": {
+            "id": "P01135",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01135"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 81,
+          "text": "GPR)30"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TGFA",
+          "source": {
+            "id": "7039",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7039"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Protransforming growth factor alpha",
+          "source": {
+            "id": "P01135",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01135"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 286,
+          "text": "TGF alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GPER1",
+          "source": {
+            "id": "2852",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2852"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "G-protein coupled estrogen receptor 1",
+          "source": {
+            "id": "P01135",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01135"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 314,
+          "text": "GPR30"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GPER1",
+          "source": {
+            "id": "2852",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2852"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "G-protein coupled estrogen receptor 1",
+          "source": {
+            "id": "P01135",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01135"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 357,
+          "text": "GPR30"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TGFA",
+          "source": {
+            "id": "7039",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7039"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Protransforming growth factor alpha",
+          "source": {
+            "id": "P01135",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01135"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 485,
+          "text": "TGF alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "EGFR",
+          "source": {
+            "id": "1956",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1956"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Epidermal growth factor receptor",
+          "source": {
+            "id": "P00533",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P00533"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 513,
+          "text": "EGF receptor"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "EGFR",
+          "source": {
+            "id": "1956",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1956"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Epidermal growth factor receptor",
+          "source": {
+            "id": "P00533",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P00533"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 527,
+          "text": "EGFR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "EGFR",
+          "source": {
+            "id": "1956",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1956"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Epidermal growth factor receptor",
+          "source": {
+            "id": "P00533",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P00533"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 619,
+          "text": "EGFR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TGFA",
+          "source": {
+            "id": "7039",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7039"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Protransforming growth factor alpha",
+          "source": {
+            "id": "P00533",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P00533"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 738,
+          "text": "TGF alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GPER1",
+          "source": {
+            "id": "2852",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2852"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "G-protein coupled estrogen receptor 1",
+          "source": {
+            "id": "P00533",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P00533"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 755,
+          "text": "GPR30"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "EGFR",
+          "source": {
+            "id": "1956",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1956"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Epidermal growth factor receptor",
+          "source": {
+            "id": "P00533",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P00533"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 784,
+          "text": "EGFR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GPER1",
+          "source": {
+            "id": "2852",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2852"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "G-protein coupled estrogen receptor 1",
+          "source": {
+            "id": "P00533",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P00533"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 891,
+          "text": "GPR30"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GPER1",
+          "source": {
+            "id": "2852",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2852"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "G-protein coupled estrogen receptor 1",
+          "source": {
+            "id": "P00533",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P00533"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 969,
+          "text": "GPR30"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "EGFR",
+          "source": {
+            "id": "1956",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1956"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Epidermal growth factor receptor",
+          "source": {
+            "id": "P00533",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P00533"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 995,
+          "text": "EGFR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "EGFR",
+          "source": {
+            "id": "1956",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1956"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Epidermal growth factor receptor",
+          "source": {
+            "id": "P00533",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P00533"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1204,
+          "text": "EGFR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ERBB2",
+          "source": {
+            "id": "2064",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2064"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Receptor tyrosine-protein kinase erbB-2",
+          "source": {
+            "id": "P04626",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04626"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1209,
+          "text": "HER2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "EGFR",
+          "source": {
+            "id": "1956",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1956"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Epidermal growth factor receptor",
+          "source": {
+            "id": "P04626",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04626"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1313,
+          "text": "EGFR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GPER1",
+          "source": {
+            "id": "2852",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2852"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "G-protein coupled estrogen receptor 1",
+          "source": {
+            "id": "P04626",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04626"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1393,
+          "text": "GPR30"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GPER1",
+          "source": {
+            "id": "2852",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2852"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "G-protein coupled estrogen receptor 1",
+          "source": {
+            "id": "P04626",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04626"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1546,
+          "text": "GPR30"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "EGFR",
+          "source": {
+            "id": "1956",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1956"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Epidermal growth factor receptor",
+          "source": {
+            "id": "P04626",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04626"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1596,
+          "text": "EGFR"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [],
+  "sources": [
+    {
+      "id": "19749156",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/19749156"
+    }
+  ]
+}

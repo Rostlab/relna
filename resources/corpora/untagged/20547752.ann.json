@@ -1,0 +1,1050 @@
+{
+  "anncomplete": false,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GFI1",
+          "source": {
+            "id": "2672",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2672"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Zinc finger protein Gfi-1",
+          "source": {
+            "id": "Q99684",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q99684"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 20,
+          "text": "Gfi1"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RELA",
+          "source": {
+            "id": "5970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor p65",
+          "source": {
+            "id": "Q04206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q04206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 114,
+          "text": "NF-kappaB p65"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TLR4",
+          "source": {
+            "id": "7099",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7099"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Toll-like receptor 4",
+          "source": {
+            "id": "O00206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O00206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 81,
+          "text": "Toll-like receptor 4"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TLR4",
+          "source": {
+            "id": "7099",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7099"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Toll-like receptor 4",
+          "source": {
+            "id": "O00206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O00206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 103,
+          "text": "TLR-4"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NFKB1",
+          "source": {
+            "id": "4790",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4790"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Nuclear factor NF-kappa-B p105 subunit",
+          "source": {
+            "id": "P19838",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P19838"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 177,
+          "text": "nuclear factor kappa B"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TNF",
+          "source": {
+            "id": "7124",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7124"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Tumor necrosis factor",
+          "source": {
+            "id": "P01375",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01375"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 259,
+          "text": "tumor necrosis factor alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TNF",
+          "source": {
+            "id": "7124",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7124"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Tumor necrosis factor",
+          "source": {
+            "id": "P01375",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01375"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 288,
+          "text": "TNF-alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RELA",
+          "source": {
+            "id": "5970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor p65",
+          "source": {
+            "id": "P01375",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01375"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 368,
+          "text": "p65"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GFI1",
+          "source": {
+            "id": "2672",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2672"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Zinc finger protein Gfi-1",
+          "source": {
+            "id": "P01375",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01375"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 533,
+          "text": "Gfi1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GFI1",
+          "source": {
+            "id": "2672",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2672"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Zinc finger protein Gfi-1",
+          "source": {
+            "id": "P01375",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01375"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 654,
+          "text": "Gfi1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RELA",
+          "source": {
+            "id": "5970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor p65",
+          "source": {
+            "id": "P01375",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01375"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 729,
+          "text": "p65"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GFI1",
+          "source": {
+            "id": "2672",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2672"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Zinc finger protein Gfi-1",
+          "source": {
+            "id": "P01375",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01375"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 742,
+          "text": "Gfi1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RELA",
+          "source": {
+            "id": "5970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor p65",
+          "source": {
+            "id": "P01375",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01375"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 762,
+          "text": "p65"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RELA",
+          "source": {
+            "id": "5970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor p65",
+          "source": {
+            "id": "P01375",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01375"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 779,
+          "text": "p65"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RELA",
+          "source": {
+            "id": "5970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor p65",
+          "source": {
+            "id": "P01375",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01375"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 844,
+          "text": "p65"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GFI1",
+          "source": {
+            "id": "2672",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2672"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Zinc finger protein Gfi-1",
+          "source": {
+            "id": "P01375",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01375"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 885,
+          "text": "Gfi1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TNF",
+          "source": {
+            "id": "7124",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7124"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Tumor necrosis factor",
+          "source": {
+            "id": "P01375",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01375"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 952,
+          "text": "TNF-alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RELA",
+          "source": {
+            "id": "5970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor p65",
+          "source": {
+            "id": "P01375",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01375"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 982,
+          "text": "p65"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RELA",
+          "source": {
+            "id": "5970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor p65",
+          "source": {
+            "id": "P01375",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01375"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1046,
+          "text": "p65"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GFI1",
+          "source": {
+            "id": "2672",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2672"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Zinc finger protein Gfi-1",
+          "source": {
+            "id": "P01375",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01375"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1110,
+          "text": "Gfi1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GFI1",
+          "source": {
+            "id": "2672",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2672"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Zinc finger protein Gfi-1",
+          "source": {
+            "id": "P01375",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01375"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1238,
+          "text": "Gfi1"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [],
+  "sources": [
+    {
+      "id": "20547752",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/20547752"
+    }
+  ]
+}

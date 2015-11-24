@@ -1,0 +1,493 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "HIP1",
+          "source": {
+            "id": "3092",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3092"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Huntingtin-interacting protein 1",
+          "source": {
+            "id": "O00291",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O00291"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 0,
+          "text": "Huntingtin interacting protein 1"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "HIP1",
+          "source": {
+            "id": "3092",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3092"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Huntingtin-interacting protein 1",
+          "source": {
+            "id": "O00291",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O00291"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 174,
+          "text": "huntingtin interacting protein 1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "HIP1",
+          "source": {
+            "id": "3092",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3092"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Huntingtin-interacting protein 1",
+          "source": {
+            "id": "O00291",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O00291"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 208,
+          "text": "HIP1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "HIP1",
+          "source": {
+            "id": "3092",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3092"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Huntingtin-interacting protein 1",
+          "source": {
+            "id": "O00291",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O00291"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 318,
+          "text": "HIP1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AR",
+          "source": {
+            "id": "367",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/367"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Androgen receptor",
+          "source": {
+            "id": "P10275",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P10275"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 343,
+          "text": "androgen receptor"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "HIP1",
+          "source": {
+            "id": "3092",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3092"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Huntingtin-interacting protein 1",
+          "source": {
+            "id": "P10275",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P10275"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 467,
+          "text": "HIP1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AR",
+          "source": {
+            "id": "367",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/367"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Androgen receptor",
+          "source": {
+            "id": "P10275",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P10275"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 483,
+          "text": "androgen receptor"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "HIP1",
+          "source": {
+            "id": "3092",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3092"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Huntingtin-interacting protein 1",
+          "source": {
+            "id": "P10275",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P10275"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 738,
+          "text": "HIP1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "HIP1",
+          "source": {
+            "id": "3092",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3092"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Huntingtin-interacting protein 1",
+          "source": {
+            "id": "P10275",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P10275"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 846,
+          "text": "HIP1"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|318,322",
+        "s2p1|343,360"
+      ],
+      "type": "linked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "16027218",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/16027218"
+    },
+    {
+      "id": "16027218",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/16027218"
+    }
+  ]
+}

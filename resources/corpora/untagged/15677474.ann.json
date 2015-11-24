@@ -1,0 +1,1607 @@
+{
+  "anncomplete": false,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SOCS7",
+          "source": {
+            "id": "30837",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/30837"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Suppressor of cytokine signaling 7",
+          "source": {
+            "id": "O14512",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O14512"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 0,
+          "text": "Suppressor of cytokine signaling 7"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PRL",
+          "source": {
+            "id": "5617",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5617"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Prolactin",
+          "source": {
+            "id": "P01236",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01236"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 44,
+          "text": "prolactin"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GH1",
+          "source": {
+            "id": "2688",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2688"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Somatotropin",
+          "source": {
+            "id": "P01241",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01241"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 55,
+          "text": "growth hormone"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "LEP",
+          "source": {
+            "id": "3952",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3952"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Leptin",
+          "source": {
+            "id": "P41159",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P41159"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 75,
+          "text": "leptin"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "STAT5A",
+          "source": {
+            "id": "6776",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6776"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Signal transducer and activator of transcription 5A",
+          "source": {
+            "id": "P42229",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P42229"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 112,
+          "text": "STAT5"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "STAT3",
+          "source": {
+            "id": "6774",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6774"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Signal transducer and activator of transcription 3",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 121,
+          "text": "STAT3"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SOCS7",
+          "source": {
+            "id": "30837",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/30837"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Suppressor of cytokine signaling 7",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 125,
+          "text": "SOCS-7"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SOCS7",
+          "source": {
+            "id": "30837",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/30837"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Suppressor of cytokine signaling 7",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 176,
+          "text": "SOCS-7"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PRL",
+          "source": {
+            "id": "5617",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5617"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Prolactin",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 192,
+          "text": "prolactin"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PRL",
+          "source": {
+            "id": "5617",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5617"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Prolactin",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 203,
+          "text": "PRL"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GH1",
+          "source": {
+            "id": "2688",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2688"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Somatotropin",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 209,
+          "text": "growth hormone"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "LEP",
+          "source": {
+            "id": "3952",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3952"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Leptin",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 233,
+          "text": "leptin"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "LEP",
+          "source": {
+            "id": "3952",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3952"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Leptin",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 241,
+          "text": "LEP"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "STAT3",
+          "source": {
+            "id": "6774",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6774"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Signal transducer and activator of transcription 3",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 273,
+          "text": "STAT3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "STAT5A",
+          "source": {
+            "id": "6776",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6776"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Signal transducer and activator of transcription 5A",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 283,
+          "text": "STAT5"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SOCS7",
+          "source": {
+            "id": "30837",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/30837"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Suppressor of cytokine signaling 7",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 317,
+          "text": "SOCS-7"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "STAT3",
+          "source": {
+            "id": "6774",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6774"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Signal transducer and activator of transcription 3",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 340,
+          "text": "STAT3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "STAT5A",
+          "source": {
+            "id": "6776",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6776"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Signal transducer and activator of transcription 5A",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 350,
+          "text": "STAT5"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 395,
+          "text": "JH1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "JAK2",
+          "source": {
+            "id": "3717",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3717"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Tyrosine-protein kinase JAK2",
+          "source": {
+            "id": "O60674",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O60674"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 427,
+          "text": "JAK2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SOCS7",
+          "source": {
+            "id": "30837",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/30837"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Suppressor of cytokine signaling 7",
+          "source": {
+            "id": "O60674",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O60674"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 439,
+          "text": "SOCS-7"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "STAT3",
+          "source": {
+            "id": "6774",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6774"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Signal transducer and activator of transcription 3",
+          "source": {
+            "id": "O60674",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O60674"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 477,
+          "text": "STAT3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "STAT5A",
+          "source": {
+            "id": "6776",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6776"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Signal transducer and activator of transcription 5A",
+          "source": {
+            "id": "O60674",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O60674"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 486,
+          "text": "STAT5"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SOCS7",
+          "source": {
+            "id": "30837",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/30837"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Suppressor of cytokine signaling 7",
+          "source": {
+            "id": "O60674",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O60674"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 509,
+          "text": "SOCS-7"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SOCS7",
+          "source": {
+            "id": "30837",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/30837"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Suppressor of cytokine signaling 7",
+          "source": {
+            "id": "O60674",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O60674"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 575,
+          "text": "SOCS-7"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PRL",
+          "source": {
+            "id": "5617",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5617"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Prolactin",
+          "source": {
+            "id": "O60674",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O60674"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 591,
+          "text": "PRL"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "LEP",
+          "source": {
+            "id": "3952",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3952"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Leptin",
+          "source": {
+            "id": "O60674",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O60674"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 600,
+          "text": "leptin"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "STAT5A",
+          "source": {
+            "id": "6776",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6776"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Signal transducer and activator of transcription 5A",
+          "source": {
+            "id": "O60674",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O60674"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 615,
+          "text": "STAT5"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "STAT3",
+          "source": {
+            "id": "6774",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6774"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Signal transducer and activator of transcription 3",
+          "source": {
+            "id": "O60674",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O60674"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 625,
+          "text": "STAT3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "STAT3",
+          "source": {
+            "id": "6774",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6774"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Signal transducer and activator of transcription 3",
+          "source": {
+            "id": "O60674",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O60674"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 700,
+          "text": "STAT3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SOCS7",
+          "source": {
+            "id": "30837",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/30837"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Suppressor of cytokine signaling 7",
+          "source": {
+            "id": "O60674",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O60674"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 749,
+          "text": "SOCS-7"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PRL",
+          "source": {
+            "id": "5617",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5617"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Prolactin",
+          "source": {
+            "id": "O60674",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O60674"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 791,
+          "text": "PRL"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "LEP",
+          "source": {
+            "id": "3952",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3952"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Leptin",
+          "source": {
+            "id": "O60674",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O60674"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 796,
+          "text": "leptin"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [],
+  "sources": [
+    {
+      "id": "15677474",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/15677474"
+    }
+  ]
+}

@@ -1,0 +1,511 @@
+{
+  "anncomplete": false,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AIRE",
+          "source": {
+            "id": "326",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/326"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Autoimmune regulator",
+          "source": {
+            "id": "O43918",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O43918"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 4,
+          "text": "autoimmune regulator"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AIRE",
+          "source": {
+            "id": "326",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/326"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Autoimmune regulator",
+          "source": {
+            "id": "O43918",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O43918"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 22,
+          "text": "autoimmune regulator"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AIRE",
+          "source": {
+            "id": "326",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/326"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Autoimmune regulator",
+          "source": {
+            "id": "O43918",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O43918"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 44,
+          "text": "AIRE"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AIRE",
+          "source": {
+            "id": "326",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/326"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Autoimmune regulator",
+          "source": {
+            "id": "O43918",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O43918"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 120,
+          "text": "AIRE"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AIRE",
+          "source": {
+            "id": "326",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/326"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Autoimmune regulator",
+          "source": {
+            "id": "O43918",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O43918"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 313,
+          "text": "AIRE"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AIRE",
+          "source": {
+            "id": "326",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/326"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Autoimmune regulator",
+          "source": {
+            "id": "O43918",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O43918"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 406,
+          "text": "AIRE"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "EGLN2",
+          "source": {
+            "id": "112398",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/112398"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Egl nine homolog 2",
+          "source": {
+            "id": "Q96KS0",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q96KS0"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 411,
+          "text": "PHD1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AIRE",
+          "source": {
+            "id": "326",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/326"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Autoimmune regulator",
+          "source": {
+            "id": "Q96KS0",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q96KS0"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 497,
+          "text": "AIRE"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AIRE",
+          "source": {
+            "id": "326",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/326"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Autoimmune regulator",
+          "source": {
+            "id": "Q96KS0",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q96KS0"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 622,
+          "text": "AIRE"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "EGLN2",
+          "source": {
+            "id": "112398",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/112398"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Egl nine homolog 2",
+          "source": {
+            "id": "Q96KS0",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q96KS0"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 627,
+          "text": "PHD1"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [],
+  "sources": [
+    {
+      "id": "18292755",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/18292755"
+    }
+  ]
+}

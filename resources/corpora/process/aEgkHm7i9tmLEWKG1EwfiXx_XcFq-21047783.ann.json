@@ -1,0 +1,1159 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Asxl1",
+          "source": {
+            "id": "228790",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/228790"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Putative Polycomb group protein ASXL1",
+          "source": {
+            "id": "Q8BZ32",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q8BZ32"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 393,
+          "text": "ASXL1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Asxl2",
+          "source": {
+            "id": "75302",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/75302"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Putative Polycomb group protein ASXL2",
+          "source": {
+            "id": "Q8BZ32",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q8BZ32"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 416,
+          "text": "ASXL2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Ppara",
+          "source": {
+            "id": "19013",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/19013"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Peroxisome proliferator-activated receptor alpha",
+          "source": {
+            "id": "P23204",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P23204"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 439,
+          "text": "PPARa"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Asxl1",
+          "source": {
+            "id": "228790",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/228790"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Putative Polycomb group protein ASXL1",
+          "source": {
+            "id": "P23204",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P23204"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 504,
+          "text": "ASXL1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Asxl2",
+          "source": {
+            "id": "75302",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/75302"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Putative Polycomb group protein ASXL2",
+          "source": {
+            "id": "P23204",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P23204"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 707,
+          "text": "ASXL2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Cbx5",
+          "source": {
+            "id": "12419",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/12419"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Chromobox protein homolog 5",
+          "source": {
+            "id": "Q61686",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q61686"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 810,
+          "text": "heterochromatin protein 1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Asxl1",
+          "source": {
+            "id": "228790",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/228790"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Putative Polycomb group protein ASXL1",
+          "source": {
+            "id": "Q61686",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q61686"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 862,
+          "text": "ASXL1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Asxl2",
+          "source": {
+            "id": "75302",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/75302"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Putative Polycomb group protein ASXL2",
+          "source": {
+            "id": "Q61686",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q61686"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 931,
+          "text": "ASXL2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Cbx5",
+          "source": {
+            "id": "12419",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/12419"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Chromobox protein homolog 5",
+          "source": {
+            "id": "Q61686",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q61686"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 954,
+          "text": "HP1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Asxl1",
+          "source": {
+            "id": "228790",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/228790"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Putative Polycomb group protein ASXL1",
+          "source": {
+            "id": "Q61686",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q61686"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1023,
+          "text": "ASXL1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Asxl1",
+          "source": {
+            "id": "228790",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/228790"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Putative Polycomb group protein ASXL1",
+          "source": {
+            "id": "Q61686",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q61686"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1098,
+          "text": "ASXL1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Asxl2",
+          "source": {
+            "id": "75302",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/75302"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Putative Polycomb group protein ASXL2",
+          "source": {
+            "id": "Q61686",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q61686"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1134,
+          "text": "ASXL2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Asxl1",
+          "source": {
+            "id": "228790",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/228790"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Putative Polycomb group protein ASXL1",
+          "source": {
+            "id": "Q61686",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q61686"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1165,
+          "text": "ASXL1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Asxl2",
+          "source": {
+            "id": "75302",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/75302"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Putative Polycomb group protein ASXL2",
+          "source": {
+            "id": "Q61686",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q61686"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1175,
+          "text": "ASXL2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Asxl1",
+          "source": {
+            "id": "228790",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/228790"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Putative Polycomb group protein ASXL1",
+          "source": {
+            "id": "Q61686",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q61686"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1278,
+          "text": "ASXL1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Fabp4",
+          "source": {
+            "id": "11770",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/11770"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Fatty acid-binding protein, adipocyte",
+          "source": {
+            "id": "P04117",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04117"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1331,
+          "text": "aP2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Cbx5",
+          "source": {
+            "id": "12419",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/12419"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Chromobox protein homolog 5",
+          "source": {
+            "id": "P04117",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04117"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1349,
+          "text": "HP1a"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Asxl2",
+          "source": {
+            "id": "75302",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/75302"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Putative Polycomb group protein ASXL2",
+          "source": {
+            "id": "P04117",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04117"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1395,
+          "text": "ASXL2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Fabp4",
+          "source": {
+            "id": "11770",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/11770"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Fatty acid-binding protein, adipocyte",
+          "source": {
+            "id": "P04117",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04117"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1414,
+          "text": "aP2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Kmt2a",
+          "source": {
+            "id": "214162",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/214162"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone-lysine N-methyltransferase 2A",
+          "source": {
+            "id": "P55200",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P55200"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1476,
+          "text": "MLL1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Asxl1",
+          "source": {
+            "id": "228790",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/228790"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Putative Polycomb group protein ASXL1",
+          "source": {
+            "id": "P55200",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P55200"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1583,
+          "text": "ASXL1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Asxl2",
+          "source": {
+            "id": "75302",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/75302"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Putative Polycomb group protein ASXL2",
+          "source": {
+            "id": "P55200",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P55200"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1608,
+          "text": "ASXL2"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|393,398",
+        "s2p1|439,444"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|416,421",
+        "s2p1|439,444"
+      ],
+      "type": "linked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "21047783",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/21047783"
+    },
+    {
+      "id": "21047783",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/21047783"
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "anncomplete": false,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AR",
+          "source": {
+            "id": "367",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/367"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Androgen receptor",
+          "source": {
+            "id": "P10275",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P10275"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 45,
+          "text": "androgen receptor"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AR",
+          "source": {
+            "id": "367",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/367"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Androgen receptor",
+          "source": {
+            "id": "P10275",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P10275"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 4,
+          "text": "androgen receptor"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PLAG1",
+          "source": {
+            "id": "5324",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5324"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Zinc finger protein PLAG1",
+          "source": {
+            "id": "Q6DJT9",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q6DJT9"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 886,
+          "text": "PSA"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PLAG1",
+          "source": {
+            "id": "5324",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5324"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Zinc finger protein PLAG1",
+          "source": {
+            "id": "Q6DJT9",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q6DJT9"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1018,
+          "text": "PSA"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PLAG1",
+          "source": {
+            "id": "5324",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5324"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Zinc finger protein PLAG1",
+          "source": {
+            "id": "Q6DJT9",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q6DJT9"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1141,
+          "text": "PSA"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [],
+  "sources": [
+    {
+      "id": "12958311",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/12958311"
+    }
+  ]
+}

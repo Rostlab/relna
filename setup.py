@@ -7,9 +7,9 @@ def readme():
         return file.read()
 
 setup(
-    name='nala',
-    version='0.1',
-    description='Pipeline for NER of natural language mutation mentions',
+    name='relna',
+    version='0.1.0',
+    description='Relation Extraction Pipeline for Transcription Factor and Gene or Gene Product relations',
     long_description=readme(),
     classifiers=[
         'Development Status :: 3 - Alpha',
@@ -17,16 +17,20 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Topic :: Text Processing :: Linguistic'
     ],
-    keywords='crf mutation natural language ner',
-    url='https://github.com/carstenuhlig/thesis-alex-carsten',
-    author='Aleksandar Bojchevski, Carsten Uhlig',
-    author_email='email@somedomain.com',
+    keywords='svm relation extraction nlp natural language ner transcription factor gene product',
+    url='https://github.com/ashishbaghudana/relna',
+    author='Ashish Baghudana',
+    author_email='abaghudana@rostlab.org',
     license='MIT',
     packages=find_packages(exclude=['tests']),
     install_requires=[
+        'nala',
         'nltk',
         'beautifulsoup4',
-        'requests'],
+        'requests',
+        'spacy',
+        'progress',
+        'bllipparser'],
     #    'matplotlib' # TODO Figure out if we need this, since we might not want this huge dependency
     #],
     include_package_data=True,

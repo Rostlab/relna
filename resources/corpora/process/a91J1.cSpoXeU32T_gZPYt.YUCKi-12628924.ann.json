@@ -1,0 +1,562 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 34,
+          "text": "NF-kappaB p65 subunit by mitogen- and stress-activated protein kinase-1"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RPS6KA5",
+          "source": {
+            "id": "9252",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9252"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Ribosomal protein S6 kinase alpha-5",
+          "source": {
+            "id": "O75582",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O75582"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 107,
+          "text": "MSK1"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MAPK8",
+          "source": {
+            "id": "5599",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5599"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Mitogen-activated protein kinase 8",
+          "source": {
+            "id": "O75582",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O75582"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 624,
+          "text": "stress- activated protein kinase-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RPS6KA5",
+          "source": {
+            "id": "9252",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9252"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Ribosomal protein S6 kinase alpha-5",
+          "source": {
+            "id": "O75582",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O75582"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 660,
+          "text": "MSK1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RELA",
+          "source": {
+            "id": "5970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor p65",
+          "source": {
+            "id": "O75582",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O75582"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 744,
+          "text": "p65"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RELA",
+          "source": {
+            "id": "5970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor p65",
+          "source": {
+            "id": "O75582",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O75582"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 797,
+          "text": "p65"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RPS6KA5",
+          "source": {
+            "id": "9252",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9252"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Ribosomal protein S6 kinase alpha-5",
+          "source": {
+            "id": "O75582",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O75582"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 913,
+          "text": "MSK1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RELA",
+          "source": {
+            "id": "5970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor p65",
+          "source": {
+            "id": "O75582",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O75582"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 942,
+          "text": "p65"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RPS6KA5",
+          "source": {
+            "id": "9252",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9252"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Ribosomal protein S6 kinase alpha-5",
+          "source": {
+            "id": "O75582",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O75582"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 953,
+          "text": "MSK1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RELA",
+          "source": {
+            "id": "5970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor p65",
+          "source": {
+            "id": "O75582",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O75582"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 974,
+          "text": "p65"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RELA",
+          "source": {
+            "id": "5970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor p65",
+          "source": {
+            "id": "O75582",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O75582"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1025,
+          "text": "p65"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|953,957",
+        "s2p1|974,977"
+      ],
+      "type": "linked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "12628924",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/12628924"
+    },
+    {
+      "id": "12628924",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/12628924"
+    }
+  ]
+}

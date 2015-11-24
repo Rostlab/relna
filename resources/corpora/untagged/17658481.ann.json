@@ -1,0 +1,805 @@
+{
+  "anncomplete": false,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Grin3a",
+          "source": {
+            "id": "191573",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/191573"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Glutamate receptor ionotropic, NMDA 3A",
+          "source": {
+            "id": "Q9R1M7",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9R1M7"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 18,
+          "text": "NR3A"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Map1s",
+          "source": {
+            "id": "290640",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/290640"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Microtubule-associated protein 1S",
+          "source": {
+            "id": "P0C5W1",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P0C5W1"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 38,
+          "text": "microtubule-associated protein 1S"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Grin3a",
+          "source": {
+            "id": "191573",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/191573"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Glutamate receptor ionotropic, NMDA 3A",
+          "source": {
+            "id": "P0C5W1",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P0C5W1"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 93,
+          "text": "NR3A"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Map1s",
+          "source": {
+            "id": "290640",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/290640"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Microtubule-associated protein 1S",
+          "source": {
+            "id": "P0C5W1",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P0C5W1"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 107,
+          "text": "microtubule-associated protein (MAP) 1S/chromosome 19"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Map1s",
+          "source": {
+            "id": "290640",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/290640"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Microtubule-associated protein 1S",
+          "source": {
+            "id": "P0C5W1",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P0C5W1"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 260,
+          "text": "MAP1S"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Grin3a",
+          "source": {
+            "id": "191573",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/191573"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Glutamate receptor ionotropic, NMDA 3A",
+          "source": {
+            "id": "P0C5W1",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P0C5W1"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 317,
+          "text": "NR3A"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Map1s",
+          "source": {
+            "id": "290640",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/290640"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Microtubule-associated protein 1S",
+          "source": {
+            "id": "P0C5W1",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P0C5W1"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 334,
+          "text": "MAP1S"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Map1a",
+          "source": {
+            "id": "25152",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/25152"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Microtubule-associated protein 1A",
+          "source": {
+            "id": "P34926",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P34926"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 370,
+          "text": "MAP1A"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Map1b",
+          "source": {
+            "id": "29456",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/29456"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Microtubule-associated protein 1B",
+          "source": {
+            "id": "P15205",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P15205"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 380,
+          "text": "MAP1B"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Map1s",
+          "source": {
+            "id": "290640",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/290640"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Microtubule-associated protein 1S",
+          "source": {
+            "id": "P15205",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P15205"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 506,
+          "text": "MAP1S"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Dlg4",
+          "source": {
+            "id": "29495",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/29495"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Disks large homolog 4",
+          "source": {
+            "id": "P31016",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P31016"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 625,
+          "text": "postsynaptic density protein 95"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Dlg4",
+          "source": {
+            "id": "29495",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/29495"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Disks large homolog 4",
+          "source": {
+            "id": "P31016",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P31016"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 658,
+          "text": "PSD95"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Map1s",
+          "source": {
+            "id": "290640",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/290640"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Microtubule-associated protein 1S",
+          "source": {
+            "id": "P31016",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P31016"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 753,
+          "text": "MAP1S"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Grin3a",
+          "source": {
+            "id": "191573",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/191573"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Glutamate receptor ionotropic, NMDA 3A",
+          "source": {
+            "id": "P31016",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P31016"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 763,
+          "text": "NR3A"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Map1s",
+          "source": {
+            "id": "290640",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/290640"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Microtubule-associated protein 1S",
+          "source": {
+            "id": "P31016",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P31016"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 849,
+          "text": "MAP1S"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Grin3a",
+          "source": {
+            "id": "191573",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/191573"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Glutamate receptor ionotropic, NMDA 3A",
+          "source": {
+            "id": "P31016",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P31016"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 873,
+          "text": "NR3A"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [],
+  "sources": [
+    {
+      "id": "17658481",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/17658481"
+    }
+  ]
+}

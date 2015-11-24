@@ -1,0 +1,1197 @@
+{
+  "anncomplete": false,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PRKCE",
+          "source": {
+            "id": "5581",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5581"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Protein kinase C epsilon type",
+          "source": {
+            "id": "Q02156",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q02156"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 0,
+          "text": "Protein kinase Cepsilon"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "STAT3",
+          "source": {
+            "id": "6774",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6774"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Signal transducer and activator of transcription 3",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 39,
+          "text": "signal transducers and activators of transcription 3"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "STAT3",
+          "source": {
+            "id": "6774",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6774"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Signal transducer and activator of transcription 3",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 93,
+          "text": "Stat3"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PRKCE",
+          "source": {
+            "id": "5581",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5581"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Protein kinase C epsilon type",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 487,
+          "text": "Protein kinase Cepsilon"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PRKCE",
+          "source": {
+            "id": "5581",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5581"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Protein kinase C epsilon type",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 512,
+          "text": "PKCepsilon"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PRKCE",
+          "source": {
+            "id": "5581",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5581"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Protein kinase C epsilon type",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 632,
+          "text": "PKCepsilon"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PRKCE",
+          "source": {
+            "id": "5581",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5581"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Protein kinase C epsilon type",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 823,
+          "text": "PKCepsilon"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "STAT3",
+          "source": {
+            "id": "6774",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6774"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Signal transducer and activator of transcription 3",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 931,
+          "text": "signal transducers and activators of transcription 3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "STAT3",
+          "source": {
+            "id": "6774",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6774"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Signal transducer and activator of transcription 3",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 985,
+          "text": "Stat3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PRKCE",
+          "source": {
+            "id": "5581",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5581"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Protein kinase C epsilon type",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1105,
+          "text": "PKCepsilon"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PRKCE",
+          "source": {
+            "id": "5581",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5581"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Protein kinase C epsilon type",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1136,
+          "text": "PKCepsilon"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "STAT3",
+          "source": {
+            "id": "6774",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6774"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Signal transducer and activator of transcription 3",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1152,
+          "text": "Stat3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "STAT3",
+          "source": {
+            "id": "6774",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6774"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Signal transducer and activator of transcription 3",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1418,
+          "text": "Stat3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PRKCE",
+          "source": {
+            "id": "5581",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5581"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Protein kinase C epsilon type",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1450,
+          "text": "PKCepsilon"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PRKCE",
+          "source": {
+            "id": "5581",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5581"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Protein kinase C epsilon type",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1478,
+          "text": "PKCepsilon"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "STAT3",
+          "source": {
+            "id": "6774",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6774"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Signal transducer and activator of transcription 3",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1494,
+          "text": "Stat3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PRKCE",
+          "source": {
+            "id": "5581",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5581"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Protein kinase C epsilon type",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1572,
+          "text": "PKCepsilon"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "STAT3",
+          "source": {
+            "id": "6774",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6774"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Signal transducer and activator of transcription 3",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1588,
+          "text": "Stat3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PRKCE",
+          "source": {
+            "id": "5581",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5581"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Protein kinase C epsilon type",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1598,
+          "text": "PKCepsilon"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PRKCE",
+          "source": {
+            "id": "5581",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5581"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Protein kinase C epsilon type",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1641,
+          "text": "PKCepsilon"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PRKCE",
+          "source": {
+            "id": "5581",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5581"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Protein kinase C epsilon type",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1701,
+          "text": "PKCepsilon"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "STAT3",
+          "source": {
+            "id": "6774",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6774"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Signal transducer and activator of transcription 3",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1796,
+          "text": "Stat3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PRKCE",
+          "source": {
+            "id": "5581",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5581"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Protein kinase C epsilon type",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1911,
+          "text": "PKCepsilon"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "STAT3",
+          "source": {
+            "id": "6774",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6774"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Signal transducer and activator of transcription 3",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1977,
+          "text": "Stat3"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [],
+  "sources": [
+    {
+      "id": "17875724",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/17875724"
+    }
+  ]
+}

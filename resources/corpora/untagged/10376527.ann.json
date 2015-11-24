@@ -1,0 +1,560 @@
+{
+  "anncomplete": false,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ATF7",
+          "source": {
+            "id": "11016",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/11016"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Cyclic AMP-dependent transcription factor ATF-7",
+          "source": {
+            "id": "P17544",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P17544"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 12,
+          "text": "ATFa"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MAPK9",
+          "source": {
+            "id": "5601",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5601"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Mitogen-activated protein kinase 9",
+          "source": {
+            "id": "P45984",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P45984"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 17,
+          "text": "JNK2"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ATF7",
+          "source": {
+            "id": "11016",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/11016"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Cyclic AMP-dependent transcription factor ATF-7",
+          "source": {
+            "id": "P45984",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P45984"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 4,
+          "text": "ATFa"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "FOS",
+          "source": {
+            "id": "2353",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2353"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Proto-oncogene c-Fos",
+          "source": {
+            "id": "P01100",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01100"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 283,
+          "text": "Fos"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ATF7",
+          "source": {
+            "id": "11016",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/11016"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Cyclic AMP-dependent transcription factor ATF-7",
+          "source": {
+            "id": "P01100",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01100"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 467,
+          "text": "ATFa"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ATF7",
+          "source": {
+            "id": "11016",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/11016"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Cyclic AMP-dependent transcription factor ATF-7",
+          "source": {
+            "id": "P01100",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01100"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 685,
+          "text": "ATFa"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MAPK9",
+          "source": {
+            "id": "5601",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5601"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Mitogen-activated protein kinase 9",
+          "source": {
+            "id": "P01100",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01100"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 713,
+          "text": "Jun N-terminal kinase-2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MAPK9",
+          "source": {
+            "id": "5601",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5601"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Mitogen-activated protein kinase 9",
+          "source": {
+            "id": "P01100",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01100"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 738,
+          "text": "JNK2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MAPK9",
+          "source": {
+            "id": "5601",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5601"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Mitogen-activated protein kinase 9",
+          "source": {
+            "id": "P01100",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01100"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 835,
+          "text": "JNK2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ATF7",
+          "source": {
+            "id": "11016",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/11016"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Cyclic AMP-dependent transcription factor ATF-7",
+          "source": {
+            "id": "P01100",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01100"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 857,
+          "text": "ATFa"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "JUND",
+          "source": {
+            "id": "3727",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3727"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor jun-D",
+          "source": {
+            "id": "P17535",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P17535"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 887,
+          "text": "JunD"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [],
+  "sources": [
+    {
+      "id": "10376527",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/10376527"
+    }
+  ]
+}

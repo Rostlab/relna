@@ -1,0 +1,1028 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 45,
+          "text": "p21"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BATF3",
+          "source": {
+            "id": "55509",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/55509"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Basic leucine zipper transcriptional factor ATF-like 3",
+          "source": {
+            "id": "Q9NR55",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9NR55"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 49,
+          "text": "SNFT"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 0,
+          "text": "p21"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BATF3",
+          "source": {
+            "id": "55509",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/55509"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Basic leucine zipper transcriptional factor ATF-like 3",
+          "source": {
+            "id": "Q9NR55",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9NR55"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 4,
+          "text": "SNFT"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 145,
+          "text": "p21"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BATF3",
+          "source": {
+            "id": "55509",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/55509"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Basic leucine zipper transcriptional factor ATF-like 3",
+          "source": {
+            "id": "Q9NR55",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9NR55"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 149,
+          "text": "SNFT"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 230,
+          "text": "interleukin-2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "FOS",
+          "source": {
+            "id": "2353",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2353"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Proto-oncogene c-Fos",
+          "source": {
+            "id": "P01100",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01100"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 449,
+          "text": "Fos"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 453,
+          "text": "Jun"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 535,
+          "text": "p21"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BATF3",
+          "source": {
+            "id": "55509",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/55509"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Basic leucine zipper transcriptional factor ATF-like 3",
+          "source": {
+            "id": "P01100",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01100"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 539,
+          "text": "SNFT"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "FOS",
+          "source": {
+            "id": "2353",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2353"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Proto-oncogene c-Fos",
+          "source": {
+            "id": "P01100",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01100"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 571,
+          "text": "Fos"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 596,
+          "text": "Jun"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 716,
+          "text": "Jun"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 852,
+          "text": "p21"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BATF3",
+          "source": {
+            "id": "55509",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/55509"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Basic leucine zipper transcriptional factor ATF-like 3",
+          "source": {
+            "id": "P01100",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01100"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 856,
+          "text": "SNFT"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "FOS",
+          "source": {
+            "id": "2353",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2353"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Proto-oncogene c-Fos",
+          "source": {
+            "id": "P01100",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01100"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 883,
+          "text": "Fos"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 919,
+          "text": "p21"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BATF3",
+          "source": {
+            "id": "55509",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/55509"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Basic leucine zipper transcriptional factor ATF-like 3",
+          "source": {
+            "id": "P01100",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01100"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 923,
+          "text": "SNFT"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 929,
+          "text": "Jun"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "FOS",
+          "source": {
+            "id": "2353",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2353"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Proto-oncogene c-Fos",
+          "source": {
+            "id": "P01100",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01100"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1060,
+          "text": "Fos"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 1110,
+          "text": "p21"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BATF3",
+          "source": {
+            "id": "55509",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/55509"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Basic leucine zipper transcriptional factor ATF-like 3",
+          "source": {
+            "id": "P01100",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01100"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1114,
+          "text": "SNFT"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 1125,
+          "text": "Jun"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "FOS",
+          "source": {
+            "id": "2353",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2353"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Proto-oncogene c-Fos",
+          "source": {
+            "id": "P01100",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01100"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1163,
+          "text": "Fos"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 1170,
+          "text": "p21"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BATF3",
+          "source": {
+            "id": "55509",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/55509"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Basic leucine zipper transcriptional factor ATF-like 3",
+          "source": {
+            "id": "P01100",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01100"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1174,
+          "text": "SNFT"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 1271,
+          "text": "p21"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BATF3",
+          "source": {
+            "id": "55509",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/55509"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Basic leucine zipper transcriptional factor ATF-like 3",
+          "source": {
+            "id": "P01100",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01100"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1275,
+          "text": "SNFT"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|149,153",
+        "s2p1|230,243"
+      ],
+      "type": "linked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "12087103",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/12087103"
+    },
+    {
+      "id": "12087103",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/12087103"
+    }
+  ]
+}

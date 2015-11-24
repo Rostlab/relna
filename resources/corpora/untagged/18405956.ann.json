@@ -1,0 +1,1050 @@
+{
+  "anncomplete": false,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PHF11",
+          "source": {
+            "id": "51131",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/51131"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "PHD finger protein 11",
+          "source": {
+            "id": "Q9UIL8",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9UIL8"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 57,
+          "text": "PHF11"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PHF11",
+          "source": {
+            "id": "51131",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/51131"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "PHD finger protein 11",
+          "source": {
+            "id": "Q9UIL8",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9UIL8"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 33,
+          "text": "plant homeodomain finger protein 11 gene"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PHF11",
+          "source": {
+            "id": "51131",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/51131"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "PHD finger protein 11",
+          "source": {
+            "id": "Q9UIL8",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9UIL8"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 75,
+          "text": "PHF11"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PHF11",
+          "source": {
+            "id": "51131",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/51131"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "PHD finger protein 11",
+          "source": {
+            "id": "Q9UIL8",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9UIL8"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 200,
+          "text": "PHF11"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PHF11",
+          "source": {
+            "id": "51131",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/51131"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "PHD finger protein 11",
+          "source": {
+            "id": "Q9UIL8",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9UIL8"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 303,
+          "text": "PHF11"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PHF11",
+          "source": {
+            "id": "51131",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/51131"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "PHD finger protein 11",
+          "source": {
+            "id": "Q9UIL8",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9UIL8"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 377,
+          "text": "PHF11"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PHF11",
+          "source": {
+            "id": "51131",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/51131"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "PHD finger protein 11",
+          "source": {
+            "id": "Q9UIL8",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9UIL8"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 484,
+          "text": "PHF11"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PHF11",
+          "source": {
+            "id": "51131",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/51131"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "PHD finger protein 11",
+          "source": {
+            "id": "Q9UIL8",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9UIL8"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 617,
+          "text": "PHF11"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PHF11",
+          "source": {
+            "id": "51131",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/51131"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "PHD finger protein 11",
+          "source": {
+            "id": "Q9UIL8",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9UIL8"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 677,
+          "text": "PHF11"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PHF11",
+          "source": {
+            "id": "51131",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/51131"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "PHD finger protein 11",
+          "source": {
+            "id": "Q9UIL8",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9UIL8"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 764,
+          "text": "PHF11"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PHF11",
+          "source": {
+            "id": "51131",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/51131"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "PHD finger protein 11",
+          "source": {
+            "id": "Q9UIL8",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9UIL8"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 843,
+          "text": "PHF11"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PHF11",
+          "source": {
+            "id": "51131",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/51131"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "PHD finger protein 11",
+          "source": {
+            "id": "Q9UIL8",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9UIL8"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 953,
+          "text": "PHF11"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PHF11",
+          "source": {
+            "id": "51131",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/51131"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "PHD finger protein 11",
+          "source": {
+            "id": "Q9UIL8",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9UIL8"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1086,
+          "text": "PHF11"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PHF11",
+          "source": {
+            "id": "51131",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/51131"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "PHD finger protein 11",
+          "source": {
+            "id": "Q9UIL8",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9UIL8"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1179,
+          "text": "PHF11"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "IFNG",
+          "source": {
+            "id": "3458",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3458"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Interferon gamma",
+          "source": {
+            "id": "P01579",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01579"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1243,
+          "text": "IFN-gamma"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PHF11",
+          "source": {
+            "id": "51131",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/51131"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "PHD finger protein 11",
+          "source": {
+            "id": "P01579",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01579"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1377,
+          "text": "PHF11"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PHF11",
+          "source": {
+            "id": "51131",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/51131"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "PHD finger protein 11",
+          "source": {
+            "id": "P01579",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01579"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1431,
+          "text": "PHF11"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PHF11",
+          "source": {
+            "id": "51131",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/51131"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "PHD finger protein 11",
+          "source": {
+            "id": "P01579",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01579"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1536,
+          "text": "PHF11"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RELA",
+          "source": {
+            "id": "5970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor p65",
+          "source": {
+            "id": "Q04206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q04206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1550,
+          "text": "p65"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PHF11",
+          "source": {
+            "id": "51131",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/51131"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "PHD finger protein 11",
+          "source": {
+            "id": "Q04206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q04206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1600,
+          "text": "PHF11"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PHF11",
+          "source": {
+            "id": "51131",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/51131"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "PHD finger protein 11",
+          "source": {
+            "id": "Q04206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q04206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1678,
+          "text": "PHF11"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [],
+  "sources": [
+    {
+      "id": "18405956",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/18405956"
+    }
+  ]
+}

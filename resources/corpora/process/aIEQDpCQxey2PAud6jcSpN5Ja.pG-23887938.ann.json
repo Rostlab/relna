@@ -1,0 +1,1198 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CCAR1",
+          "source": {
+            "id": "55749",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/55749"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cell division cycle and apoptosis regulator protein 1",
+          "source": {
+            "id": "Q8IX12",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q8IX12"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 0,
+          "text": "CCAR1"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 36,
+          "text": "androgen receptor"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "pre-added",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 55,
+          "text": "AR"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "pre-added",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 120,
+          "text": "AR"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GATA2",
+          "source": {
+            "id": "2624",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2624"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Endothelial transcription factor GATA-2",
+          "source": {
+            "id": "P23769",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P23769"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 127,
+          "text": "GATA2"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 0,
+          "text": "Androgen receptor"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 19,
+          "text": "AR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CCAR1",
+          "source": {
+            "id": "55749",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/55749"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cell division cycle and apoptosis regulator protein 1",
+          "source": {
+            "id": "P23769",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P23769"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 245,
+          "text": "cell cycle and apoptosis regulator 1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CCAR1",
+          "source": {
+            "id": "55749",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/55749"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cell division cycle and apoptosis regulator protein 1",
+          "source": {
+            "id": "P23769",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P23769"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 283,
+          "text": "CCAR1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "pre-added",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 306,
+          "text": "AR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CCAR1",
+          "source": {
+            "id": "55749",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/55749"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cell division cycle and apoptosis regulator protein 1",
+          "source": {
+            "id": "P23769",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P23769"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 323,
+          "text": "CCAR1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 390,
+          "text": "AR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CCAR1",
+          "source": {
+            "id": "55749",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/55749"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cell division cycle and apoptosis regulator protein 1",
+          "source": {
+            "id": "P23769",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P23769"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 407,
+          "text": "CCAR1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 478,
+          "text": "AR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CCAR1",
+          "source": {
+            "id": "55749",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/55749"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cell division cycle and apoptosis regulator protein 1",
+          "source": {
+            "id": "P23769",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P23769"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 518,
+          "text": "CCAR1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "pre-added",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 555,
+          "text": "AR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MED1",
+          "source": {
+            "id": "5469",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5469"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Mediator of RNA polymerase II transcription subunit 1",
+          "source": {
+            "id": "Q15648",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q15648"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 559,
+          "text": "MED1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 606,
+          "text": "AR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CCAR1",
+          "source": {
+            "id": "55749",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/55749"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cell division cycle and apoptosis regulator protein 1",
+          "source": {
+            "id": "Q15648",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q15648"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 750,
+          "text": "CCAR1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 768,
+          "text": "AR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CCAR1",
+          "source": {
+            "id": "55749",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/55749"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cell division cycle and apoptosis regulator protein 1",
+          "source": {
+            "id": "Q15648",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q15648"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 803,
+          "text": "CCAR1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GATA2",
+          "source": {
+            "id": "2624",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2624"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Endothelial transcription factor GATA-2",
+          "source": {
+            "id": "Q15648",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q15648"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 842,
+          "text": "GATA2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "pre-added",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 870,
+          "text": "AR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "pre-added",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 877,
+          "text": "AR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CCAR1",
+          "source": {
+            "id": "55749",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/55749"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cell division cycle and apoptosis regulator protein 1",
+          "source": {
+            "id": "Q15648",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q15648"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 895,
+          "text": "CCAR1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 936,
+          "text": "AR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GATA2",
+          "source": {
+            "id": "2624",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2624"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Endothelial transcription factor GATA-2",
+          "source": {
+            "id": "Q15648",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q15648"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 943,
+          "text": "GATA2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "pre-added",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 1014,
+          "text": "AR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GATA2",
+          "source": {
+            "id": "2624",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2624"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Endothelial transcription factor GATA-2",
+          "source": {
+            "id": "Q15648",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q15648"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1021,
+          "text": "GATA2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CCAR1",
+          "source": {
+            "id": "55749",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/55749"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cell division cycle and apoptosis regulator protein 1",
+          "source": {
+            "id": "Q15648",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q15648"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1068,
+          "text": "CCAR1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CCAR1",
+          "source": {
+            "id": "55749",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/55749"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cell division cycle and apoptosis regulator protein 1",
+          "source": {
+            "id": "Q15648",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q15648"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1247,
+          "text": "CCAR1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "pre-added",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 1259,
+          "text": "AR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "pre-added",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 1300,
+          "text": "AR"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s1h1|0,5",
+        "s1h1|36,53"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|323,328",
+        "s2p1|390,392"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|518,523",
+        "s2p1|555,557"
+      ],
+      "type": "linked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "23887938",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/23887938"
+    },
+    {
+      "id": "23887938",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/23887938"
+    }
+  ]
+}

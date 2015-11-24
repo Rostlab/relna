@@ -1,0 +1,983 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "N4bp2 {ECO:0000313|Ensembl:ENSMUSP00000109367",
+          "source": {
+            "id": "333789",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/333789"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 39,
+          "text": "BCL-3-binding protein"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 20,
+          "text": "bcl-3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Bcl3",
+          "source": {
+            "id": "12051",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/12051"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "B-cell lymphoma 3 protein homolog",
+          "source": {
+            "id": "Q9Z2F6",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9Z2F6"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 203,
+          "text": "bcl-3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Bcl3",
+          "source": {
+            "id": "12051",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/12051"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "B-cell lymphoma 3 protein homolog",
+          "source": {
+            "id": "Q9Z2F6",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9Z2F6"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 257,
+          "text": "bcl-3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 540,
+          "text": "BCL-3-binding protein"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 563,
+          "text": "B3BP"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 616,
+          "text": "bcl-3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 636,
+          "text": "BCL-3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "N4bp2 {ECO:0000313|Ensembl:ENSMUSP00000109367",
+          "source": {
+            "id": "333789",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/333789"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 687,
+          "text": "B3BP"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Bcl3",
+          "source": {
+            "id": "12051",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/12051"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "B-cell lymphoma 3 protein homolog",
+          "source": {
+            "id": "Q9Z2F6",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9Z2F6"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 717,
+          "text": "BCL-3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Ep300",
+          "source": {
+            "id": "328572",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/328572"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone acetyltransferase p300",
+          "source": {
+            "id": "B2RWS6",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/B2RWS6"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 732,
+          "text": "p300"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Crebbp {ECO:0000313|Ensembl:ENSMUSP00000023165",
+          "source": {
+            "id": "12914",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/12914"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 737,
+          "text": "CBP"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "N4bp2 {ECO:0000313|Ensembl:ENSMUSP00000109367",
+          "source": {
+            "id": "333789",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/333789"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 794,
+          "text": "B3BP"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Bcl3",
+          "source": {
+            "id": "12051",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/12051"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "B-cell lymphoma 3 protein homolog",
+          "source": {
+            "id": "F8VPR5",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/F8VPR5"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 872,
+          "text": "BCL-3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Ep300",
+          "source": {
+            "id": "328572",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/328572"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone acetyltransferase p300",
+          "source": {
+            "id": "F8VPR5",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/F8VPR5"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 882,
+          "text": "p300"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Crebbp {ECO:0000313|Ensembl:ENSMUSP00000023165",
+          "source": {
+            "id": "12914",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/12914"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 887,
+          "text": "CBP"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "N4BP2",
+          "source": {
+            "id": "55728",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/55728"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "NEDD4-binding protein 2",
+          "source": {
+            "id": "Q86UW6",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q86UW6"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 950,
+          "text": "B3BP"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "N4bp2 {ECO:0000313|Ensembl:ENSMUSP00000109367",
+          "source": {
+            "id": "333789",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/333789"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1147,
+          "text": "B3BP"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "N4bp2 {ECO:0000313|Ensembl:ENSMUSP00000109367",
+          "source": {
+            "id": "333789",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/333789"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1240,
+          "text": "B3BP"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "N4bp2 {ECO:0000313|Ensembl:ENSMUSP00000109367",
+          "source": {
+            "id": "333789",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/333789"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1424,
+          "text": "B3BP"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Bcl3",
+          "source": {
+            "id": "12051",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/12051"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "B-cell lymphoma 3 protein homolog",
+          "source": {
+            "id": "Q86UW6",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q86UW6"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1546,
+          "text": "BCL-3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Ep300",
+          "source": {
+            "id": "328572",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/328572"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone acetyltransferase p300",
+          "source": {
+            "id": "Q86UW6",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q86UW6"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1556,
+          "text": "p300"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Crebbp {ECO:0000313|Ensembl:ENSMUSP00000023165",
+          "source": {
+            "id": "12914",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/12914"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1561,
+          "text": "CBP"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|540,561",
+        "s2p1|616,621"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|540,561",
+        "s2p1|636,641"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|563,567",
+        "s2p1|616,621"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|563,567",
+        "s2p1|636,641"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|687,691",
+        "s2p1|717,722"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|687,691",
+        "s2p1|732,736"
+      ],
+      "type": "linked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "12730195",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/12730195"
+    },
+    {
+      "id": "12730195",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/12730195"
+    }
+  ]
+}

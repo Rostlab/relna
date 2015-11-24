@@ -1,0 +1,1069 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TRIM24",
+          "source": {
+            "id": "8805",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8805"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription intermediary factor 1-alpha",
+          "source": {
+            "id": "O15164",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O15164"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 0,
+          "text": "TRIM24"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AR",
+          "source": {
+            "id": "367",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/367"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Androgen receptor",
+          "source": {
+            "id": "P10275",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P10275"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 47,
+          "text": "androgen receptor"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BRD7",
+          "source": {
+            "id": "29117",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/29117"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Bromodomain-containing protein 7",
+          "source": {
+            "id": "Q9NPI1",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9NPI1"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 119,
+          "text": "BRD7"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AR",
+          "source": {
+            "id": "367",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/367"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Androgen receptor",
+          "source": {
+            "id": "Q9NPI1",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9NPI1"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 4,
+          "text": "androgen receptor"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 23,
+          "text": "AR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "pre-added",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 161,
+          "text": "AR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "pre-added",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 178,
+          "text": "AR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 270,
+          "text": "TRIM24"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 277,
+          "text": "transcriptional intermediary factor 1alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 321,
+          "text": "TIF1alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 416,
+          "text": "AR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "pre-added",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 460,
+          "text": "AR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TRIM24",
+          "source": {
+            "id": "8805",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8805"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription intermediary factor 1-alpha",
+          "source": {
+            "id": "Q9NPI1",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9NPI1"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 527,
+          "text": "TRIM24"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "KAT5",
+          "source": {
+            "id": "10524",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10524"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone acetyltransferase KAT5",
+          "source": {
+            "id": "Q92993",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92993"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 562,
+          "text": "TIP60"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "pre-added",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 600,
+          "text": "AR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "KAT5",
+          "source": {
+            "id": "10524",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10524"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone acetyltransferase KAT5",
+          "source": {
+            "id": "Q92993",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92993"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 623,
+          "text": "TIP60"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "pre-added",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 655,
+          "text": "AR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TRIM24",
+          "source": {
+            "id": "8805",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8805"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription intermediary factor 1-alpha",
+          "source": {
+            "id": "Q92993",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92993"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 679,
+          "text": "TRIM24"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BRD7",
+          "source": {
+            "id": "29117",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/29117"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Bromodomain-containing protein 7",
+          "source": {
+            "id": "Q92993",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92993"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 695,
+          "text": "bromodomain containing 7"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BRD7",
+          "source": {
+            "id": "29117",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/29117"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Bromodomain-containing protein 7",
+          "source": {
+            "id": "Q92993",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92993"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 721,
+          "text": "BRD7"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BRD7",
+          "source": {
+            "id": "29117",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/29117"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Bromodomain-containing protein 7",
+          "source": {
+            "id": "Q92993",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92993"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 823,
+          "text": "BRD7"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 842,
+          "text": "AR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TRIM24",
+          "source": {
+            "id": "8805",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8805"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription intermediary factor 1-alpha",
+          "source": {
+            "id": "Q92993",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92993"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 885,
+          "text": "TRIM24"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TRIM24",
+          "source": {
+            "id": "8805",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8805"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription intermediary factor 1-alpha",
+          "source": {
+            "id": "Q92993",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92993"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 922,
+          "text": "TRIM24"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "pre-added",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 939,
+          "text": "AR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "KAT5",
+          "source": {
+            "id": "10524",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10524"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone acetyltransferase KAT5",
+          "source": {
+            "id": "Q92993",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92993"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 987,
+          "text": "TIP60"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BRD7",
+          "source": {
+            "id": "29117",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/29117"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Bromodomain-containing protein 7",
+          "source": {
+            "id": "Q92993",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92993"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 997,
+          "text": "BRD7"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s1h1|0,6",
+        "s1h1|47,64"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|270,276",
+        "s2p1|416,418"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|277,319",
+        "s2p1|416,418"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|321,330",
+        "s2p1|416,418"
+      ],
+      "type": "linked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "19909775",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/19909775"
+    },
+    {
+      "id": "19909775",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/19909775"
+    }
+  ]
+}

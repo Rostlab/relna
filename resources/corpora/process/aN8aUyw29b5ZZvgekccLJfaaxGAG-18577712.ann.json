@@ -1,0 +1,1543 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MEFV",
+          "source": {
+            "id": "4210",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4210"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Pyrin",
+          "source": {
+            "id": "O15553",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O15553"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 4,
+          "text": "familial Mediterranean fever"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MEFV",
+          "source": {
+            "id": "4210",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4210"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Pyrin",
+          "source": {
+            "id": "O15553",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O15553"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 42,
+          "text": "pyrin"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CASP1",
+          "source": {
+            "id": "834",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/834"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Caspase-1",
+          "source": {
+            "id": "P29466",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P29466"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 63,
+          "text": "caspase-1"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MEFV",
+          "source": {
+            "id": "4210",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4210"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Pyrin",
+          "source": {
+            "id": "P29466",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P29466"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 0,
+          "text": "Familial Mediterranean fever"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MEFV",
+          "source": {
+            "id": "4210",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4210"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Pyrin",
+          "source": {
+            "id": "P29466",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P29466"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 30,
+          "text": "FMF"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MEFV",
+          "source": {
+            "id": "4210",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4210"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Pyrin",
+          "source": {
+            "id": "P29466",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P29466"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 89,
+          "text": "MEFV"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MEFV",
+          "source": {
+            "id": "4210",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4210"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Pyrin",
+          "source": {
+            "id": "P29466",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P29466"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 142,
+          "text": "pyrin"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MEFV",
+          "source": {
+            "id": "4210",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4210"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Pyrin",
+          "source": {
+            "id": "P29466",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P29466"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 179,
+          "text": "pyrin"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CASP1",
+          "source": {
+            "id": "834",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/834"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Caspase-1",
+          "source": {
+            "id": "P29466",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P29466"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 195,
+          "text": "caspase-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "IL1B",
+          "source": {
+            "id": "3553",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3553"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Interleukin-1 beta",
+          "source": {
+            "id": "P01584",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01584"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 220,
+          "text": "IL-1beta"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "IL1B",
+          "source": {
+            "id": "3553",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3553"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Interleukin-1 beta",
+          "source": {
+            "id": "P01584",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01584"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 337,
+          "text": "IL-1beta"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CASP1",
+          "source": {
+            "id": "834",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/834"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Caspase-1",
+          "source": {
+            "id": "P01584",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01584"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 433,
+          "text": "caspase-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MEFV",
+          "source": {
+            "id": "4210",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4210"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Pyrin",
+          "source": {
+            "id": "P01584",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01584"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 465,
+          "text": "pyrin"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CASP1",
+          "source": {
+            "id": "834",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/834"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Caspase-1",
+          "source": {
+            "id": "P01584",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01584"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 489,
+          "text": "caspase-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MEFV",
+          "source": {
+            "id": "4210",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4210"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Pyrin",
+          "source": {
+            "id": "P01584",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01584"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 525,
+          "text": "pyrin"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CASP1",
+          "source": {
+            "id": "834",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/834"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Caspase-1",
+          "source": {
+            "id": "P01584",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01584"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 545,
+          "text": "caspase-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MEFV",
+          "source": {
+            "id": "4210",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4210"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Pyrin",
+          "source": {
+            "id": "P01584",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01584"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 603,
+          "text": "Pyrin"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MEFV",
+          "source": {
+            "id": "4210",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4210"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Pyrin",
+          "source": {
+            "id": "P01584",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01584"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 628,
+          "text": "FMF"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MEFV",
+          "source": {
+            "id": "4210",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4210"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Pyrin",
+          "source": {
+            "id": "P01584",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01584"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 704,
+          "text": "pyrin"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RELA",
+          "source": {
+            "id": "5970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor p65",
+          "source": {
+            "id": "Q04206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q04206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 763,
+          "text": "p65 subunit of NF-kappaB"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NFKBIA",
+          "source": {
+            "id": "4792",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4792"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "NF-kappa-B inhibitor alpha",
+          "source": {
+            "id": "P25963",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P25963"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 797,
+          "text": "IkappaB-alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RELA",
+          "source": {
+            "id": "5970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor p65",
+          "source": {
+            "id": "P25963",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P25963"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 966,
+          "text": "p65"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RELA",
+          "source": {
+            "id": "5970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor p65",
+          "source": {
+            "id": "P25963",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P25963"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 991,
+          "text": "p65"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MEFV",
+          "source": {
+            "id": "4210",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4210"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Pyrin",
+          "source": {
+            "id": "P25963",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P25963"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1043,
+          "text": "pyrin"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NFKBIA",
+          "source": {
+            "id": "4792",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4792"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "NF-kappa-B inhibitor alpha",
+          "source": {
+            "id": "P25963",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P25963"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1054,
+          "text": "IkappaB-alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NFKBIA",
+          "source": {
+            "id": "4792",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4792"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "NF-kappa-B inhibitor alpha",
+          "source": {
+            "id": "P25963",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P25963"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1108,
+          "text": "IkappaB-alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MEFV",
+          "source": {
+            "id": "4210",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4210"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Pyrin",
+          "source": {
+            "id": "P25963",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P25963"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1207,
+          "text": "pyrin"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NFKBIA",
+          "source": {
+            "id": "4792",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4792"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "NF-kappa-B inhibitor alpha",
+          "source": {
+            "id": "P25963",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P25963"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1217,
+          "text": "IkappaB-alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MEFV",
+          "source": {
+            "id": "4210",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4210"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Pyrin",
+          "source": {
+            "id": "P25963",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P25963"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1300,
+          "text": "FMF"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MEFV",
+          "source": {
+            "id": "4210",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4210"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Pyrin",
+          "source": {
+            "id": "P25963",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P25963"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1368,
+          "text": "pyrin/caspase-1"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|603,608",
+        "s2p1|763,787"
+      ],
+      "type": "linked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "18577712",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/18577712"
+    },
+    {
+      "id": "18577712",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/18577712"
+    }
+  ]
+}

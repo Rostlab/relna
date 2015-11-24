@@ -1,0 +1,1188 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CCDC62",
+          "source": {
+            "id": "84660",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/84660"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Coiled-coil domain-containing protein 62",
+          "source": {
+            "id": "Q6P9F0",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q6P9F0"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 0,
+          "text": "ERAP75"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESR1",
+          "source": {
+            "id": "2099",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2099"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 45,
+          "text": "estrogen receptor alpha"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 12,
+          "text": "Estrogen receptor alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 37,
+          "text": "ER alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESR1",
+          "source": {
+            "id": "2099",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2099"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 175,
+          "text": "ER alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESR1",
+          "source": {
+            "id": "2099",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2099"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 256,
+          "text": "ER alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESR1",
+          "source": {
+            "id": "2099",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2099"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 419,
+          "text": "ER alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CCDC62",
+          "source": {
+            "id": "84660",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/84660"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Coiled-coil domain-containing protein 62",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 432,
+          "text": "ERAP75"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "pre-added",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 539,
+          "text": "ER alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESR1",
+          "source": {
+            "id": "2099",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2099"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 594,
+          "text": "ER alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CCDC62",
+          "source": {
+            "id": "84660",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/84660"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Coiled-coil domain-containing protein 62",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 607,
+          "text": "ERAP75"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CCDC62",
+          "source": {
+            "id": "84660",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/84660"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Coiled-coil domain-containing protein 62",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 783,
+          "text": "ERAP75"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESR1",
+          "source": {
+            "id": "2099",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2099"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 793,
+          "text": "ER alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 840,
+          "text": "ER alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESR1",
+          "source": {
+            "id": "2099",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2099"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 939,
+          "text": "ER alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CCDC62",
+          "source": {
+            "id": "84660",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/84660"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Coiled-coil domain-containing protein 62",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 984,
+          "text": "ERAP75"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CCDC62",
+          "source": {
+            "id": "84660",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/84660"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Coiled-coil domain-containing protein 62",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1099,
+          "text": "ERAP75"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESR1",
+          "source": {
+            "id": "2099",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2099"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1146,
+          "text": "ER alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CCDC62",
+          "source": {
+            "id": "84660",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/84660"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Coiled-coil domain-containing protein 62",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1159,
+          "text": "ERAP75"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CCDC62",
+          "source": {
+            "id": "84660",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/84660"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Coiled-coil domain-containing protein 62",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1167,
+          "text": "ERAP75"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESR1",
+          "source": {
+            "id": "2099",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2099"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1186,
+          "text": "ER alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 1287,
+          "text": "ER alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CXCL12",
+          "source": {
+            "id": "6387",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6387"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Stromal cell-derived factor 1",
+          "source": {
+            "id": "P48061",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P48061"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1335,
+          "text": "SDF-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CCDC62",
+          "source": {
+            "id": "84660",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/84660"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Coiled-coil domain-containing protein 62",
+          "source": {
+            "id": "P48061",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P48061"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1386,
+          "text": "ERAP75"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESR1",
+          "source": {
+            "id": "2099",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2099"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "P48061",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P48061"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1444,
+          "text": "ER alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESR1",
+          "source": {
+            "id": "2099",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2099"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "P48061",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P48061"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1531,
+          "text": "ER alpha"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|607,613",
+        "s2p1|594,602"
+      ],
+      "type": "linked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "18563714",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/18563714"
+    },
+    {
+      "id": "18563714",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/18563714"
+    }
+  ]
+}

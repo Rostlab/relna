@@ -1,0 +1,756 @@
+{
+  "anncomplete": false,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ARID3A",
+          "source": {
+            "id": "1820",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1820"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "AT-rich interactive domain-containing protein 3A",
+          "source": {
+            "id": "Q99856",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q99856"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 87,
+          "text": "Bright"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GTF2I",
+          "source": {
+            "id": "2969",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2969"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "General transcription factor II-I",
+          "source": {
+            "id": "P78347",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P78347"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 103,
+          "text": "TFII-I"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ARID3A",
+          "source": {
+            "id": "1820",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1820"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "AT-rich interactive domain-containing protein 3A",
+          "source": {
+            "id": "P78347",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P78347"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 0,
+          "text": "Bright"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ARID3A",
+          "source": {
+            "id": "1820",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1820"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "AT-rich interactive domain-containing protein 3A",
+          "source": {
+            "id": "P78347",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P78347"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 7,
+          "text": "ARID3a"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ARID3A",
+          "source": {
+            "id": "1820",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1820"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "AT-rich interactive domain-containing protein 3A",
+          "source": {
+            "id": "P78347",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P78347"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 14,
+          "text": "Dril1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ARID3A",
+          "source": {
+            "id": "1820",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1820"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "AT-rich interactive domain-containing protein 3A",
+          "source": {
+            "id": "P78347",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P78347"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 334,
+          "text": "Bright"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ARID3A",
+          "source": {
+            "id": "1820",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1820"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "AT-rich interactive domain-containing protein 3A",
+          "source": {
+            "id": "P78347",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P78347"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 383,
+          "text": "Bright"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GTF2I",
+          "source": {
+            "id": "2969",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2969"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "General transcription factor II-I",
+          "source": {
+            "id": "P78347",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P78347"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 616,
+          "text": "TFII-I"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GTF2I",
+          "source": {
+            "id": "2969",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2969"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "General transcription factor II-I",
+          "source": {
+            "id": "P78347",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P78347"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 707,
+          "text": "TFII-I"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ARID3A",
+          "source": {
+            "id": "1820",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1820"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "AT-rich interactive domain-containing protein 3A",
+          "source": {
+            "id": "P78347",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P78347"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 744,
+          "text": "Bright"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GTF2I",
+          "source": {
+            "id": "2969",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2969"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "General transcription factor II-I",
+          "source": {
+            "id": "P78347",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P78347"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 849,
+          "text": "TFII-I"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ARID3A",
+          "source": {
+            "id": "1820",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1820"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "AT-rich interactive domain-containing protein 3A",
+          "source": {
+            "id": "P78347",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P78347"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 874,
+          "text": "Bright"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GTF2I",
+          "source": {
+            "id": "2969",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2969"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "General transcription factor II-I",
+          "source": {
+            "id": "P78347",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P78347"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 958,
+          "text": "TFII-I"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ARID3A",
+          "source": {
+            "id": "1820",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1820"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "AT-rich interactive domain-containing protein 3A",
+          "source": {
+            "id": "P78347",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P78347"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1068,
+          "text": "Bright"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GTF2I",
+          "source": {
+            "id": "2969",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2969"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "General transcription factor II-I",
+          "source": {
+            "id": "P78347",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P78347"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1220,
+          "text": "TFII-I"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [],
+  "sources": [
+    {
+      "id": "16738337",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/16738337"
+    }
+  ]
+}

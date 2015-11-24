@@ -1,0 +1,1443 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BRMS1",
+          "source": {
+            "id": "25855",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/25855"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Breast cancer metastasis-suppressor 1",
+          "source": {
+            "id": "Q9HCU9",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9HCU9"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 0,
+          "text": "Breast cancer metastasis suppressor 1"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "HDAC1",
+          "source": {
+            "id": "3065",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3065"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone deacetylase 1",
+          "source": {
+            "id": "Q13547",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13547"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 78,
+          "text": "histone deacetylase 1"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RELA",
+          "source": {
+            "id": "5970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor p65",
+          "source": {
+            "id": "Q04206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q04206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 126,
+          "text": "RelA"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RELA",
+          "source": {
+            "id": "5970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor p65",
+          "source": {
+            "id": "Q04206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q04206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 131,
+          "text": "p65"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BRMS1",
+          "source": {
+            "id": "25855",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/25855"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Breast cancer metastasis-suppressor 1",
+          "source": {
+            "id": "Q04206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q04206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 179,
+          "text": "Breast cancer metastasis suppressor 1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BRMS1",
+          "source": {
+            "id": "25855",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/25855"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Breast cancer metastasis-suppressor 1",
+          "source": {
+            "id": "Q04206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q04206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 218,
+          "text": "BRMS1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BRMS1",
+          "source": {
+            "id": "25855",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/25855"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Breast cancer metastasis-suppressor 1",
+          "source": {
+            "id": "Q04206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q04206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 343,
+          "text": "BRMS1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RELA",
+          "source": {
+            "id": "5970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor p65",
+          "source": {
+            "id": "Q04206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q04206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 392,
+          "text": "RelA"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RELA",
+          "source": {
+            "id": "5970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor p65",
+          "source": {
+            "id": "Q04206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q04206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 397,
+          "text": "p65"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BRMS1",
+          "source": {
+            "id": "25855",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/25855"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Breast cancer metastasis-suppressor 1",
+          "source": {
+            "id": "Q04206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q04206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 484,
+          "text": "BRMS1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RELA",
+          "source": {
+            "id": "5970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor p65",
+          "source": {
+            "id": "Q04206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q04206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 518,
+          "text": "RelA/p65 subunit of NF-kappaB"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BRMS1",
+          "source": {
+            "id": "25855",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/25855"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Breast cancer metastasis-suppressor 1",
+          "source": {
+            "id": "Q04206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q04206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 700,
+          "text": "BRMS1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "HDAC1",
+          "source": {
+            "id": "3065",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3065"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone deacetylase 1",
+          "source": {
+            "id": "Q04206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q04206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 757,
+          "text": "HDAC1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RELA",
+          "source": {
+            "id": "5970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor p65",
+          "source": {
+            "id": "Q04206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q04206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 766,
+          "text": "RelA"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RELA",
+          "source": {
+            "id": "5970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor p65",
+          "source": {
+            "id": "Q04206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q04206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 771,
+          "text": "p65"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RELA",
+          "source": {
+            "id": "5970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor p65",
+          "source": {
+            "id": "Q04206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q04206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 813,
+          "text": "RelA"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RELA",
+          "source": {
+            "id": "5970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor p65",
+          "source": {
+            "id": "Q04206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q04206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 818,
+          "text": "p65"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RELA",
+          "source": {
+            "id": "5970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor p65",
+          "source": {
+            "id": "Q04206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q04206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 840,
+          "text": "RelA"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RELA",
+          "source": {
+            "id": "5970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor p65",
+          "source": {
+            "id": "Q04206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q04206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 845,
+          "text": "p65"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BRMS1",
+          "source": {
+            "id": "25855",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/25855"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Breast cancer metastasis-suppressor 1",
+          "source": {
+            "id": "Q04206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q04206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 920,
+          "text": "BRMS1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BRMS1",
+          "source": {
+            "id": "25855",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/25855"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Breast cancer metastasis-suppressor 1",
+          "source": {
+            "id": "Q04206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q04206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 956,
+          "text": "BRMS1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RELA",
+          "source": {
+            "id": "5970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor p65",
+          "source": {
+            "id": "Q04206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q04206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 995,
+          "text": "RelA"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RELA",
+          "source": {
+            "id": "5970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor p65",
+          "source": {
+            "id": "Q04206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q04206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1000,
+          "text": "p65"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "HDAC1",
+          "source": {
+            "id": "3065",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3065"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone deacetylase 1",
+          "source": {
+            "id": "Q04206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q04206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1044,
+          "text": "HDAC1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BIRC3",
+          "source": {
+            "id": "330",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/330"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Baculoviral IAP repeat-containing protein 3",
+          "source": {
+            "id": "Q13489",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13489"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1089,
+          "text": "cIAP2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BCL2A1",
+          "source": {
+            "id": "597",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/597"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Bcl-2-related protein A1",
+          "source": {
+            "id": "Q16548",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q16548"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1099,
+          "text": "Bfl-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BRMS1",
+          "source": {
+            "id": "25855",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/25855"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Breast cancer metastasis-suppressor 1",
+          "source": {
+            "id": "Q16548",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q16548"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1138,
+          "text": "BRMS1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BRMS1",
+          "source": {
+            "id": "25855",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/25855"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Breast cancer metastasis-suppressor 1",
+          "source": {
+            "id": "Q16548",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q16548"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1283,
+          "text": "BRMS1"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|518,547",
+        "s2p1|484,489"
+      ],
+      "type": "linked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "17000776",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/17000776"
+    },
+    {
+      "id": "17000776",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/17000776"
+    }
+  ]
+}

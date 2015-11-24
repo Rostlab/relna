@@ -1,0 +1,1162 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PPARGC1B",
+          "source": {
+            "id": "133522",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/133522"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Peroxisome proliferator-activated receptor gamma coactivator 1-beta",
+          "source": {
+            "id": "Q86YN6",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q86YN6"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 32,
+          "text": "PGC-1"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESRRA",
+          "source": {
+            "id": "2101",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2101"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Steroid hormone receptor ERR1",
+          "source": {
+            "id": "P11474",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P11474"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 107,
+          "text": "estrogen-related receptor alpha"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESRRA",
+          "source": {
+            "id": "2101",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2101"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Steroid hormone receptor ERR1",
+          "source": {
+            "id": "P11474",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P11474"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 140,
+          "text": "ERRalpha"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESRRA",
+          "source": {
+            "id": "2101",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2101"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Steroid hormone receptor ERR1",
+          "source": {
+            "id": "P11474",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P11474"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 4,
+          "text": "estrogen-related receptor alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESRRA",
+          "source": {
+            "id": "2101",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2101"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Steroid hormone receptor ERR1",
+          "source": {
+            "id": "P11474",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P11474"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 37,
+          "text": "ERRalpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PPARGC1B",
+          "source": {
+            "id": "133522",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/133522"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Peroxisome proliferator-activated receptor gamma coactivator 1-beta",
+          "source": {
+            "id": "P11474",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P11474"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 254,
+          "text": "PGC-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESRRA",
+          "source": {
+            "id": "2101",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2101"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Steroid hormone receptor ERR1",
+          "source": {
+            "id": "P11474",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P11474"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 328,
+          "text": "ERRalpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PPARGC1B",
+          "source": {
+            "id": "133522",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/133522"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Peroxisome proliferator-activated receptor gamma coactivator 1-beta",
+          "source": {
+            "id": "P11474",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P11474"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 359,
+          "text": "PGC-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESRRA",
+          "source": {
+            "id": "2101",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2101"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Steroid hormone receptor ERR1",
+          "source": {
+            "id": "P11474",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P11474"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 391,
+          "text": "ERRalpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESRRA",
+          "source": {
+            "id": "2101",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2101"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Steroid hormone receptor ERR1",
+          "source": {
+            "id": "P11474",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P11474"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 443,
+          "text": "ERRalpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PPARGC1B",
+          "source": {
+            "id": "133522",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/133522"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Peroxisome proliferator-activated receptor gamma coactivator 1-beta",
+          "source": {
+            "id": "P11474",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P11474"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 480,
+          "text": "PGC-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PPARGC1B",
+          "source": {
+            "id": "133522",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/133522"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Peroxisome proliferator-activated receptor gamma coactivator 1-beta",
+          "source": {
+            "id": "P11474",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P11474"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 593,
+          "text": "PGC-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PPARGC1B",
+          "source": {
+            "id": "133522",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/133522"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Peroxisome proliferator-activated receptor gamma coactivator 1-beta",
+          "source": {
+            "id": "P11474",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P11474"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 634,
+          "text": "PGC-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESRRA",
+          "source": {
+            "id": "2101",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2101"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Steroid hormone receptor ERR1",
+          "source": {
+            "id": "P11474",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P11474"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 666,
+          "text": "ERRalpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PPARGC1B",
+          "source": {
+            "id": "133522",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/133522"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Peroxisome proliferator-activated receptor gamma coactivator 1-beta",
+          "source": {
+            "id": "P11474",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P11474"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 742,
+          "text": "PGC-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESRRA",
+          "source": {
+            "id": "2101",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2101"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Steroid hormone receptor ERR1",
+          "source": {
+            "id": "P11474",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P11474"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 757,
+          "text": "ERRalpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESRRA",
+          "source": {
+            "id": "2101",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2101"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Steroid hormone receptor ERR1",
+          "source": {
+            "id": "P11474",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P11474"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 881,
+          "text": "ERRalpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PPARGC1B",
+          "source": {
+            "id": "133522",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/133522"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Peroxisome proliferator-activated receptor gamma coactivator 1-beta",
+          "source": {
+            "id": "P11474",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P11474"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 999,
+          "text": "PGC-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESRRA",
+          "source": {
+            "id": "2101",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2101"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Steroid hormone receptor ERR1",
+          "source": {
+            "id": "P11474",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P11474"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1215,
+          "text": "ERRalpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PPARGC1B",
+          "source": {
+            "id": "133522",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/133522"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Peroxisome proliferator-activated receptor gamma coactivator 1-beta",
+          "source": {
+            "id": "P11474",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P11474"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1231,
+          "text": "PGC-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PPARGC1B",
+          "source": {
+            "id": "133522",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/133522"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Peroxisome proliferator-activated receptor gamma coactivator 1-beta",
+          "source": {
+            "id": "P11474",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P11474"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1325,
+          "text": "PGC-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 1374,
+          "text": "MCAD (medium-chain acyl-coenzyme A dehydrogenase"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESRRA",
+          "source": {
+            "id": "2101",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2101"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Steroid hormone receptor ERR1",
+          "source": {
+            "id": "P11310",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P11310"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1430,
+          "text": "ERRalpha"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|634,639",
+        "s2p1|666,674"
+      ],
+      "type": "linked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "12522104",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/12522104"
+    },
+    {
+      "id": "12522104",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/12522104"
+    }
+  ]
+}

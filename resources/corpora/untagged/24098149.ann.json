@@ -1,0 +1,805 @@
+{
+  "anncomplete": false,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GDF5",
+          "source": {
+            "id": "8200",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8200"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Growth/differentiation factor 5",
+          "source": {
+            "id": "P43026",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43026"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 2,
+          "text": "GDF5"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GDF5",
+          "source": {
+            "id": "8200",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8200"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Growth/differentiation factor 5",
+          "source": {
+            "id": "P43026",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43026"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 37,
+          "text": "GDF5"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GDF5",
+          "source": {
+            "id": "8200",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8200"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Growth/differentiation factor 5",
+          "source": {
+            "id": "P43026",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43026"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 181,
+          "text": "GDF5"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GDF5",
+          "source": {
+            "id": "8200",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8200"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Growth/differentiation factor 5",
+          "source": {
+            "id": "P43026",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43026"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 252,
+          "text": "GDF5"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GDF5",
+          "source": {
+            "id": "8200",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8200"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Growth/differentiation factor 5",
+          "source": {
+            "id": "P43026",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43026"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 636,
+          "text": "GDF5"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GDF5",
+          "source": {
+            "id": "8200",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8200"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Growth/differentiation factor 5",
+          "source": {
+            "id": "P43026",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43026"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 815,
+          "text": "GDF5"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GDF5",
+          "source": {
+            "id": "8200",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8200"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Growth/differentiation factor 5",
+          "source": {
+            "id": "P43026",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43026"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 858,
+          "text": "GDF5"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GDF5",
+          "source": {
+            "id": "8200",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8200"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Growth/differentiation factor 5",
+          "source": {
+            "id": "P43026",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43026"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1069,
+          "text": "GDF5"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NOG",
+          "source": {
+            "id": "9241",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9241"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Noggin",
+          "source": {
+            "id": "Q13253",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13253"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1085,
+          "text": "NOGGIN"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NOG",
+          "source": {
+            "id": "9241",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9241"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Noggin",
+          "source": {
+            "id": "Q13253",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13253"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1093,
+          "text": "NOG"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GDF5",
+          "source": {
+            "id": "8200",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8200"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Growth/differentiation factor 5",
+          "source": {
+            "id": "Q13253",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13253"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1109,
+          "text": "GDF5"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BMPR1A",
+          "source": {
+            "id": "657",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/657"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Bone morphogenetic protein receptor type-1A",
+          "source": {
+            "id": "P36894",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P36894"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1263,
+          "text": "BMPR1A"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GDF5",
+          "source": {
+            "id": "8200",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8200"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Growth/differentiation factor 5",
+          "source": {
+            "id": "P36894",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P36894"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1434,
+          "text": "GDF5"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GDF5",
+          "source": {
+            "id": "8200",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8200"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Growth/differentiation factor 5",
+          "source": {
+            "id": "P36894",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P36894"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1453,
+          "text": "GDF5"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GDF5",
+          "source": {
+            "id": "8200",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8200"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Growth/differentiation factor 5",
+          "source": {
+            "id": "P36894",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P36894"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1655,
+          "text": "GDF5"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GDF5",
+          "source": {
+            "id": "8200",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8200"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Growth/differentiation factor 5",
+          "source": {
+            "id": "P36894",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P36894"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1799,
+          "text": "GDF5"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [],
+  "sources": [
+    {
+      "id": "24098149",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/24098149"
+    }
+  ]
+}
