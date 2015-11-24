@@ -7,11 +7,12 @@ import pkg_resources
 from nala.utils import PRO_CLASS_ID, MUT_CLASS_ID, PRO_REL_MUT_CLASS_ID
 from nala.utils.readers import TextFilesReader, PMIDReader
 from nala.utils.readers import StringReader
-from nala.utils.writers import RelnaConsoleWriter, TagTogFormat, PubTatorFormat
-from nala.structures.relation_pipelines import RelationExtractionPipeline
-from nala.learning.svmlight import SVMLightTreeKernels
-from nala.learning.taggers import TranscriptionFactorTagger
-from nala.learning.taggers import RelnaRelationExtractor
+from nala.utils.writers import TagTogFormat, PubTatorFormat
+from relna.utils.writers import RelnaConsoleWriter
+from relna.structures.relation_pipelines import RelationExtractionPipeline
+from relna.learning.svmlight import SVMLightTreeKernels
+from relna.learning.taggers import TranscriptionFactorTagger
+from relna.learning.taggers import RelnaRelationExtractor
 from itertools import chain
 
 if __name__ == "__main__":
@@ -52,9 +53,9 @@ if __name__ == "__main__":
     else:
         raise FileNotFoundError('directory or file "{}" does not exist'.format(args.dir_or_file))
 
-    TranscriptionFactorTagger(pkg_resources.resource_filename('nala.data.relna', 'goose')).tag(dataset, uniprot=True)
+    TranscriptionFactorTagger(pkg_resources.resource_filename('relna.data', 'goose')).tag(dataset, uniprot=True)
 
-    with open(pkg_resources.resource_filename('nala.data.relna', 'features.pickle'), 'rb') as fp:
+    with open(pkg_resources.resource_filename('relna.data', 'features.pickle'), 'rb') as fp:
         feature_set = pickle.load(fp)
 
     RelationExtractionPipeline(PRO_CLASS_ID, MUT_CLASS_ID, PRO_REL_MUT_CLASS_ID).execute(dataset, feature_set=feature_set)
