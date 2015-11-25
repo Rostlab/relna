@@ -53,7 +53,7 @@ if __name__ == "__main__":
     else:
         raise FileNotFoundError('directory or file "{}" does not exist'.format(args.dir_or_file))
 
-    TranscriptionFactorTagger(pkg_resources.resource_filename('relna.data', 'goose')).tag(dataset, uniprot=True)
+    TranscriptionFactorTagger(pkg_resources.resource_filename('relna.data', 'goose.dat')).tag(dataset, uniprot=True)
 
     with open(pkg_resources.resource_filename('relna.data', 'features.pickle'), 'rb') as fp:
         feature_set = pickle.load(fp)
