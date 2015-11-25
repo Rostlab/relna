@@ -42,7 +42,7 @@ python3 -m nala.download_corpora
 ```
 git clone https://github.com/ashishbaghudana/relna.git
 cd relna
-python3 setup.py
+python3 setup.py install
 python3 -m relna.download_corpora
 ```
 
@@ -53,6 +53,6 @@ Eventually, when the package is registered on PyPi, you can simply install _reln
 # Examples
 Run:
 * `relna.py` for a simple example how to use _relna_ just for prediction with a pre-trained model
-    * `python3 relna.py -c [PATH SVMLight BIN DIR] -p 10383460`
-    * `python3 relna.py -c [PATH SVMLight BIN DIR] -s "we find that Ubc9 interacts with the androgen receptor (AR), a member of the steroid receptor family of ligand-activated transcription factors. In transiently transfected COS-1 cells, AR-dependent but not basal transcription is enhanced by the coexpression of Ubc9."`
-    * `python3 relna.py -c [PATH SVMLight BIN DIR] -d example.txt`
+    * `python3 predict.py -c [PATH SVMLight BIN DIR] -p 10383460`
+    * `python3 predict.py -c [PATH SVMLight BIN DIR] -s "we find that Ubc9 interacts with the androgen receptor (AR), a member of the steroid receptor family of ligand-activated transcription factors. In transiently transfected COS-1 cells, AR-dependent but not basal transcription is enhanced by the coexpression of Ubc9."`
+    * `python3 predict.py -c [PATH SVMLight BIN DIR] -d example.txt`
