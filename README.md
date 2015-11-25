@@ -31,7 +31,7 @@ Using our method, we achieve an F-measure of 69.3% on the _relna_ corpus. The fu
 * Installation of _nalaf_
 
 ```
-git clone https://github.com/carstenuhlig/thesis-alex-carsten.git
+git clone -b ashish https://github.com/carstenuhlig/thesis-alex-carsten.git
 cd thesis-alex-carsten
 python3 setup.py install
 python3 -m nala.download_corpora
