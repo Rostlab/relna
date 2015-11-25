@@ -29,19 +29,21 @@ Using our method, we achieve an F-measure of 69.3% on the _relna_ corpus. The fu
 ## Install Code
 
 * Installation of _nalaf_
+
 ```
-    git clone https://github.com/carstenuhlig/thesis-alex-carsten.git
-    cd thesis-alex-carsten
-    python3 setup.py install
-    python3 -m nala.download_corpora
+git clone https://github.com/carstenuhlig/thesis-alex-carsten.git
+cd thesis-alex-carsten
+python3 setup.py install
+python3 -m nala.download_corpora
 ```
 
 * Installation of _relna_
+
 ```
-    git clone https://github.com/ashishbaghudana/relna.git
-    cd relna
-    python3 setup.py
-    python3 -m relna.download_corpora
+git clone https://github.com/ashishbaghudana/relna.git
+cd relna
+python3 setup.py
+python3 -m relna.download_corpora
 ```
 
 Eventually, when the package is registered on PyPi, you can simply install _relna_ by:
