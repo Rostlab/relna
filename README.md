@@ -24,7 +24,7 @@ Using our method, we achieve an F-measure of 69.3% on the _relna_ corpus. The fu
         * Windows (64-bit): http://download.joachims.org/svm_light/current/svm_light_windows64.zip
         * Mac OS X (old): http://download.joachims.org/svm_light/current/svm_light_osx.tar.gz
         * Mac OS X (new): http://download.joachims.org/svm_light/current/svm_light_osx.8.4_i7.tar.gz
-      * Place the binaries in `resources/svmlight/`
+      * Place the binaries `svm_classify` and `svm_learn` in `resources/svmlight/`
 
 ## Install Code
 
@@ -54,5 +54,5 @@ Eventually, when the package is registered on PyPi, you can simply install _reln
 Run:
 * `relna.py` for a simple example how to use _relna_ just for prediction with a pre-trained model
     * `python3 relna.py -c [PATH SVMLight BIN DIR] -p 10383460`
-    * `python3 relna.py -c [PATH SVMLight BIN DIR] -s "Ubc9 interacts with androgen receptor (AR)."`
+    * `python3 relna.py -c [PATH SVMLight BIN DIR] -s "we find that Ubc9 interacts with the androgen receptor (AR), a member of the steroid receptor family of ligand-activated transcription factors. In transiently transfected COS-1 cells, AR-dependent but not basal transcription is enhanced by the coexpression of Ubc9."`
     * `python3 relna.py -c [PATH SVMLight BIN DIR] -d example.txt`
