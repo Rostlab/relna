@@ -29,18 +29,20 @@ Using our method, we achieve an F-measure of 69.3% on the _relna_ corpus. The fu
 ## Install Code
 
 * Installation of _nalaf_
-
+```
     git clone https://github.com/carstenuhlig/thesis-alex-carsten.git
     cd thesis-alex-carsten
     python3 setup.py install
     python3 -m nala.download_corpora
+```
 
 * Installation of _relna_
-
+```
     git clone https://github.com/ashishbaghudana/relna.git
     cd relna
     python3 setup.py
     python3 -m relna.download_corpora
+```
 
 Eventually, when the package is registered on PyPi, you can simply install _relna_ by:
 
@@ -49,6 +51,6 @@ Eventually, when the package is registered on PyPi, you can simply install _reln
 # Examples
 Run:
 * `relna.py` for a simple example how to use _relna_ just for prediction with a pre-trained model
-    * `python3 relna.py -c [PATH SVMLight BIN DIR] -p 15878741 12625412`
+    * `python3 relna.py -c [PATH SVMLight BIN DIR] -p 10383460`
     * `python3 relna.py -c [PATH SVMLight BIN DIR] -s "Ubc9 interacts with androgen receptor (AR)."`
     * `python3 relna.py -c [PATH SVMLight BIN DIR] -d example.txt`
