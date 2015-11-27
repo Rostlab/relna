@@ -14,6 +14,7 @@ Using our method, we achieve an F-measure of 69.3% on the _relna_ corpus. The fu
 ##  Requirements
 
 * Requires Python 3
+* Requires [BLLIP Parser](https://github.com/BLLIP/bllip-parser)
 * Requires a working installation of SVMLight
     * The easieast way to install it is to download compiled binaries from the [official website.](http://disi.unitn.it/moschitti/TK1.2-software/download.html)
       * You will have to fill up a form to get this, and make the build using the given Makefile.
@@ -35,6 +36,13 @@ git clone -b ashish https://github.com/carstenuhlig/thesis-alex-carsten.git
 cd thesis-alex-carsten
 python3 setup.py install
 python3 -m nala.download_corpora
+```
+
+* Installation of _BLLIP Parser_
+```
+git clone https://github.com/BLLIP/bllip-parser
+cd bllip-parser
+python3 setup.py install
 ```
 
 * Installation of _relna_
