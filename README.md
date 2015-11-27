@@ -3,7 +3,7 @@ Relna is a Text Mining (TM) tool for relation extraction for transcription facto
 
 _nalaf_ framework is well documented [here](https://github.com/carstenuhlig/thesis-alex-carsten).
 
-As part of the thesis, an associated corpus by the same name (_relna_) was annotated using TagTog. The _relna_ corpus consists of 140 documents that have been semi-automatically annotated using GNormPlus for named entities and manually annotated for relations. The reason for relation extraction for transcription factors and gene / gene products, and corpus statistics is documented [here](https://github.com/ashishbaghudana/relna/wiki/Corpus).
+As part of the thesis, an associated corpus by the same name (_relna_) was annotated using [tagtog](https://www.tagtog.net). The _relna_ corpus consists of 140 documents that have been semi-automatically annotated using GNormPlus for named entities and manually annotated for relations. The reason for relation extraction for transcription factors and gene / gene products, and corpus statistics is documented [here](https://github.com/ashishbaghudana/relna/wiki/Corpus).
 
 Using our method, we achieve an F-measure of 69.3% on the _relna_ corpus. The full results of our experiments are available [here](https://github.com/ashishbaghudana/relna/wiki/Results).
 
