@@ -18,13 +18,7 @@ Using our method, we achieve an F-measure of 69.3% on the _relna_ corpus. The fu
 * Requires a working installation of SVMLight
     * The easieast way to install it is to download compiled binaries from the [official website.](http://disi.unitn.it/moschitti/TK1.2-software/download.html)
       * You will have to fill up a form to get this, and make the build using the given Makefile.
-      * If you are **ABSOLUTELY SURE** that you do not need to use Tree Kernels, you can also get precompiled binaries from the following links
-        * Linux (32-bit): http://download.joachims.org/svm_light/current/svm_light_linux32.tar.gz
-        * Linux (64-bit): http://download.joachims.org/svm_light/current/svm_light_linux64.tar.gz
-        * Windows (32-bit): http://download.joachims.org/svm_light/current/svm_light_windows32.zip
-        * Windows (64-bit): http://download.joachims.org/svm_light/current/svm_light_windows64.zip
-        * Mac OS X (old): http://download.joachims.org/svm_light/current/svm_light_osx.tar.gz
-        * Mac OS X (new): http://download.joachims.org/svm_light/current/svm_light_osx.8.4_i7.tar.gz
+      * If you are **ABSOLUTELY SURE** that you do not need to use Tree Kernels, you can also get precompiled binaries from the following links: [see](http://svmlight.joachims.org)
       * Place the binaries `svm_classify` and `svm_learn` in `resources/svmlight/`
 
 ## Install Code
