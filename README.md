@@ -42,7 +42,7 @@ python3 setup.py install
 * Installation of _relna_
 
 ```
-git clone https://github.com/ashishbaghudana/relna.git
+git clone https://github.com/Rostlab/relna.git
 cd relna
 python3 setup.py install
 python3 -m relna.download_corpora
