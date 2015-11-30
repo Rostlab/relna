@@ -14,6 +14,7 @@ Using our method, we achieve an F-measure of 69.3% on the _relna_ corpus. The fu
 ##  Requirements
 
 * Requires Python 3
+* Requires [BLLIP Parser](https://github.com/BLLIP/bllip-parser)
 * Requires a working installation of SVMLight
     * The easieast way to install it is to download compiled binaries from the [official website.](http://disi.unitn.it/moschitti/TK1.2-software/download.html)
       * You will have to fill up a form to get this, and make the build using the given Makefile.
@@ -31,10 +32,17 @@ python3 setup.py install
 python3 -m nala.download_corpora
 ```
 
+* Installation of _BLLIP Parser_
+```
+git clone https://github.com/BLLIP/bllip-parser
+cd bllip-parser
+python3 setup.py install
+```
+
 * Installation of _relna_
 
 ```
-git clone https://github.com/ashishbaghudana/relna.git
+git clone https://github.com/Rostlab/relna.git
 cd relna
 python3 setup.py install
 python3 -m relna.download_corpora
@@ -46,7 +54,7 @@ Eventually, when the package is registered on PyPi, you can simply install _reln
 
 # Examples
 Run:
-* `relna.py` for a simple example how to use _relna_ just for prediction with a pre-trained model
+* `predict.py` for a simple example how to use _relna_ just for prediction with a pre-trained model
     * `python3 predict.py -c [PATH SVMLight BIN DIR] -p 10383460`
     * `python3 predict.py -c [PATH SVMLight BIN DIR] -s "Conclusion: we find that Ubc9 interacts with the androgen receptor (AR), a member of the steroid receptor family of ligand-activated transcription factors. In transiently transfected COS-1 cells, AR-dependent but not basal transcription is enhanced by the coexpression of Ubc9."`
     * `python3 predict.py -c [PATH SVMLight BIN DIR] -d example.txt`
