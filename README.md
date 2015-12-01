@@ -1,4 +1,5 @@
 # relna - Biomedical Text Mining for Relation Extraction
+
 Relna is a Text Mining (TM) tool for relation extraction for transcription factors and gene / gene products. It is part of a thesis at Technical University, Munich. This tool is built on the _nalaf_ framework, developed as part of two other theses done at Technical University, Munich. The tool is generic enough that it can be extended by people with their own modules, eg. parsers, features, taggers etc. The method uses Support Vector Machines, and allows for the use of Tree Kernels.
 
 _nalaf_ framework is well documented [here](https://github.com/carstenuhlig/thesis-alex-carsten).
@@ -6,6 +7,10 @@ _nalaf_ framework is well documented [here](https://github.com/carstenuhlig/thes
 As part of the thesis, an associated corpus by the same name (_relna_) was annotated using [tagtog](https://www.tagtog.net). The _relna_ corpus consists of 140 documents that have been semi-automatically annotated using GNormPlus for named entities and manually annotated for relations. The reason for relation extraction for transcription factors and gene / gene products, and corpus statistics is documented [here](https://github.com/ashishbaghudana/relna/wiki/Corpus).
 
 Using our method, we achieve an F-measure of 69.3% on the _relna_ corpus. The full results of our experiments are available [here](https://github.com/ashishbaghudana/relna/wiki/Results).
+
+* [relna corpus on tagtog](http://pubannotation.org/projects/relna)
+* [relna corpus on PubAnnotation](http://pubannotation.org/projects/relna)
+* [relna tool on Elixir bio.tools](https://bio.tools/tool/RostLab/relna/0.1.0)
 
 <!-- ![Pipeline diagram](https://www.lucidchart.com/publicSegments/view/558052b8-fcf0-4e3b-a6b4-05990a008f2c/image.png) -->
 
