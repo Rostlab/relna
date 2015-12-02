@@ -64,7 +64,7 @@ python3 setup.py install
 python3 -m nala.download_corpora
 ```
 
-* Installation of _BLLIP Parser_ (needed to be compiled now locally since their PyPi module doesn't run on Python 3)
+* Installation of _BLLIP Parser_ (needed to be compiled now locally since their PyPi module doesn't run on Python 3 - follow issue [here](https://github.com/BLLIP/bllip-parser/issues/45))
 ```
 git clone https://github.com/BLLIP/bllip-parser
 cd bllip-parser
