@@ -1,6 +1,6 @@
 # relna - Biomedical Text Mining for Relation Extraction
 
-Relna is a Text Mining (TM) tool for relation extraction for transcription factors and gene / gene products. It is part of a thesis at Technical University, Munich. This tool is built on the _nalaf_ framework, developed as part of two other theses done at Technical University, Munich. The tool is generic enough that it can be extended by people with their own modules, eg. parsers, features, taggers etc. The method uses Support Vector Machines, and allows for the use of Tree Kernels.
+Relna is a Text Mining (TM) tool for relation extraction for transcription factors and gene / gene products. To the best of our knowledge, it is the first text mining tool for relation extraction of transcriptor factors and associated proteins. It is part of a thesis at Technical University, Munich. This tool is built on the _nalaf_ framework, developed as part of two other theses done at Technical University, Munich. The tool is generic enough that it can be extended by people with their own modules, eg. parsers, features, taggers etc. The method uses Support Vector Machines, and allows for the use of Tree Kernels.
 
 _nalaf_ framework is well documented [here](https://github.com/carstenuhlig/thesis-alex-carsten).
 
