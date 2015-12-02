@@ -8,11 +8,13 @@ As part of the thesis, an associated corpus by the same name (_relna_) was annot
 
 Using our method, we achieve an F-measure of 69.3% on the _relna_ corpus. The full results of our experiments are available [here](https://github.com/ashishbaghudana/relna/wiki/Results).
 
+![Brief Results](https://cloud.githubusercontent.com/assets/3714983/11531733/438b2460-98ff-11e5-8332-e01d575570cc.png)
+
 * [relna corpus on tagtog](http://pubannotation.org/projects/relna)
 * [relna corpus on PubAnnotation](http://pubannotation.org/projects/relna)
 * [relna tool on Elixir bio.tools](https://bio.tools/tool/RostLab/relna/0.1.0)
 
-<!-- ![Pipeline diagram](https://www.lucidchart.com/publicSegments/view/558052b8-fcf0-4e3b-a6b4-05990a008f2c/image.png) -->
+![Pipeline diagram](https://cloud.githubusercontent.com/assets/3714983/11531709/231f59c6-98ff-11e5-8b0e-427cc35c5d80.png)
 
 # Install
 
