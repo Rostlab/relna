@@ -14,6 +14,8 @@ Using our method, we achieve an F-measure of 69.3% on the _relna_ corpus. The fu
 * [relna corpus on PubAnnotation](http://pubannotation.org/projects/relna)
 * [relna tool on Elixir bio.tools](https://bio.tools/tool/RostLab/relna/0.1.0)
 
+The pipeline used by _relna_ is as follows:
+
 ![Pipeline diagram](https://cloud.githubusercontent.com/assets/3714983/11531709/231f59c6-98ff-11e5-8b0e-427cc35c5d80.png)
 
 # Install
