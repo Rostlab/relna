@@ -94,3 +94,16 @@ Run:
     * `python3 predict.py -c [PATH SVMLight BIN DIR] -p 10383460`
     * `python3 predict.py -c [PATH SVMLight BIN DIR] -s "Conclusion: we find that Ubc9 interacts with the androgen receptor (AR), a member of the steroid receptor family of ligand-activated transcription factors. In transiently transfected COS-1 cells, AR-dependent but not basal transcription is enhanced by the coexpression of Ubc9."`
     * `python3 predict.py -c [PATH SVMLight BIN DIR] -d example.txt`
+
+# Future Work
+
+## Important:
+* Implement neural networks (Theano or TensorFlow, when they release for Python 3) for training and classifying data and evaluate performance on that.
+* Implement bootstrapping for relation extraction (similar to nalaf, where it has been done for entities)
+* Implement multiple sentence models, looking at relations at a distance of one sentence and beyond
+
+## Not-So-Important:
+* Implement corereference resolution (might increase performance slightly)
+* Check performance on PUBMED data with Tree Kernels (since the precision is really high, we might potentially come across new relationships, even though the recall is low.)
+* SpaCy plans to implement its own constituent parser, replace BLLIP with SpaCy for speed and efficiency (no linking to external C/C++ libraries)
+    
