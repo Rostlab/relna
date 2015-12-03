@@ -7,7 +7,7 @@ class BiGramFeatureGenerator(EdgeFeatureGenerator):
     representation.
 
     :param feature_set: the feature set for the dataset
-    :type feature_set: nala.structures.data.FeatureDictionary
+    :type feature_set: nalaf.structures.data.FeatureDictionary
     :param training_mode: indicates whether the mode is training or testing
     :type training_mode: bool
     """
@@ -42,7 +42,7 @@ class TriGramFeatureGenerator(EdgeFeatureGenerator):
     representation.
 
     :param feature_set: the feature set for the dataset
-    :type feature_set: nala.structures.data.FeatureDictionary
+    :type feature_set: nalaf.structures.data.FeatureDictionary
     :param training_mode: indicates whether the mode is training or testing
     :type training_mode: bool
     """

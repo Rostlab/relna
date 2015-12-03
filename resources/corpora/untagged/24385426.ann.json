@@ -1,0 +1,1295 @@
+{
+  "anncomplete": false,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Ciart",
+          "source": {
+            "id": "229599",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/229599"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Circadian-associated transcriptional repressor",
+          "source": {
+            "id": "Q3TQ03",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q3TQ03"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 16,
+          "text": "Gm129"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CLOCK",
+          "source": {
+            "id": "9575",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9575"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Circadian locomoter output cycles protein kaput",
+          "source": {
+            "id": "O15516",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O15516"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 24,
+          "text": "clock"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CLOCK",
+          "source": {
+            "id": "9575",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9575"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Circadian locomoter output cycles protein kaput",
+          "source": {
+            "id": "O15516",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O15516"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 125,
+          "text": "CLOCK"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ARNTL",
+          "source": {
+            "id": "406",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/406"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Aryl hydrocarbon receptor nuclear translocator-like protein 1",
+          "source": {
+            "id": "O00327",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O00327"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 135,
+          "text": "BMAL1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PER1",
+          "source": {
+            "id": "5187",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5187"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Period circadian protein homolog 1",
+          "source": {
+            "id": "O15534",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O15534"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 180,
+          "text": "Period"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PER1",
+          "source": {
+            "id": "5187",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5187"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Period circadian protein homolog 1",
+          "source": {
+            "id": "O15534",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O15534"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 188,
+          "text": "PER"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Arntl",
+          "source": {
+            "id": "11865",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/11865"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Aryl hydrocarbon receptor nuclear translocator-like protein 1",
+          "source": {
+            "id": "Q9WTL8",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9WTL8"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 228,
+          "text": "BMAL1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Ciart",
+          "source": {
+            "id": "229599",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/229599"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Circadian-associated transcriptional repressor",
+          "source": {
+            "id": "Q9WTL8",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9WTL8"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 247,
+          "text": "Gm129"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Stub1 {ECO:0000312|MGI:MGI:1891731}",
+          "source": {
+            "id": "56424",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/56424"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "STIP1 homology and U box-containing protein 1 {ECO:0000305}",
+          "source": {
+            "id": "Q9WUD1",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9WUD1"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 297,
+          "text": "ChIP"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Arntl",
+          "source": {
+            "id": "11865",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/11865"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Aryl hydrocarbon receptor nuclear translocator-like protein 1",
+          "source": {
+            "id": "Q9WUD1",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9WUD1"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 336,
+          "text": "BMAL1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Cry1",
+          "source": {
+            "id": "12952",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/12952"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Cryptochrome-1",
+          "source": {
+            "id": "P97784",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P97784"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 343,
+          "text": "CRY1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Ciart",
+          "source": {
+            "id": "229599",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/229599"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Circadian-associated transcriptional repressor",
+          "source": {
+            "id": "P97784",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P97784"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 397,
+          "text": "Gm129"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Ciart",
+          "source": {
+            "id": "229599",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/229599"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Circadian-associated transcriptional repressor",
+          "source": {
+            "id": "P97784",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P97784"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 436,
+          "text": "GM129"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Ciart",
+          "source": {
+            "id": "229599",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/229599"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Circadian-associated transcriptional repressor",
+          "source": {
+            "id": "P97784",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P97784"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 508,
+          "text": "Gm129"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Arntl",
+          "source": {
+            "id": "11865",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/11865"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Aryl hydrocarbon receptor nuclear translocator-like protein 1",
+          "source": {
+            "id": "P97784",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P97784"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 584,
+          "text": "BMAL1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Arntl",
+          "source": {
+            "id": "11865",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/11865"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Aryl hydrocarbon receptor nuclear translocator-like protein 1",
+          "source": {
+            "id": "P97784",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P97784"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 611,
+          "text": "BMAL1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Cry1",
+          "source": {
+            "id": "12952",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/12952"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Cryptochrome-1",
+          "source": {
+            "id": "P97784",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P97784"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 703,
+          "text": "CRY1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Ciart",
+          "source": {
+            "id": "229599",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/229599"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Circadian-associated transcriptional repressor",
+          "source": {
+            "id": "P97784",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P97784"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 709,
+          "text": "GM129"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Arntl",
+          "source": {
+            "id": "11865",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/11865"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Aryl hydrocarbon receptor nuclear translocator-like protein 1",
+          "source": {
+            "id": "P97784",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P97784"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 765,
+          "text": "BMAL1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Ciart",
+          "source": {
+            "id": "229599",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/229599"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Circadian-associated transcriptional repressor",
+          "source": {
+            "id": "P97784",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P97784"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 796,
+          "text": "Gm129"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Cry1",
+          "source": {
+            "id": "12952",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/12952"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Cryptochrome-1",
+          "source": {
+            "id": "P97784",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P97784"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 810,
+          "text": "Cry1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Ciart",
+          "source": {
+            "id": "229599",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/229599"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Circadian-associated transcriptional repressor",
+          "source": {
+            "id": "P97784",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P97784"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 820,
+          "text": "Gm129"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Nr1d1",
+          "source": {
+            "id": "217166",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/217166"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Nuclear receptor subfamily 1 group D member 1",
+          "source": {
+            "id": "Q3UV55",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q3UV55"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 883,
+          "text": "Nr1d1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Dbp",
+          "source": {
+            "id": "13170",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/13170"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "D site-binding protein",
+          "source": {
+            "id": "Q60925",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q60925"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 893,
+          "text": "Dbp"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Ciart",
+          "source": {
+            "id": "229599",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/229599"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Circadian-associated transcriptional repressor",
+          "source": {
+            "id": "Q60925",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q60925"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1029,
+          "text": "GM129"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Arntl",
+          "source": {
+            "id": "11865",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/11865"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Aryl hydrocarbon receptor nuclear translocator-like protein 1",
+          "source": {
+            "id": "Q60925",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q60925"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1113,
+          "text": "BMAL1"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [],
+  "sources": [
+    {
+      "id": "24385426",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/24385426"
+    }
+  ]
+}

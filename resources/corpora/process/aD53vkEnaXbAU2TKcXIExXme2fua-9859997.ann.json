@@ -1,0 +1,1078 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GATA1",
+          "source": {
+            "id": "2623",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2623"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Erythroid transcription factor",
+          "source": {
+            "id": "P15976",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P15976"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 51,
+          "text": "GATA-1"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "KAT2A",
+          "source": {
+            "id": "2648",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2648"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone acetyltransferase KAT2A",
+          "source": {
+            "id": "Q92830",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92830"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 389,
+          "text": "Gcn5p"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "KAT2B",
+          "source": {
+            "id": "8850",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8850"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone acetyltransferase KAT2B",
+          "source": {
+            "id": "Q92831",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92831"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 396,
+          "text": "PCAF"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TAF1",
+          "source": {
+            "id": "6872",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6872"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription initiation factor TFIID subunit 1",
+          "source": {
+            "id": "P21675",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P21675"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 402,
+          "text": "TAF(II)250"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "EP300",
+          "source": {
+            "id": "2033",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2033"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone acetyltransferase p300",
+          "source": {
+            "id": "Q09472",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q09472"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 417,
+          "text": "p300"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CREBBP",
+          "source": {
+            "id": "1387",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1387"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "CREB-binding protein",
+          "source": {
+            "id": "Q92793",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92793"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 422,
+          "text": "CBP"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GTF2E2",
+          "source": {
+            "id": "2961",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2961"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription initiation factor IIE subunit beta",
+          "source": {
+            "id": "P29084",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P29084"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 495,
+          "text": "TFIIEbeta"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GTF2F2P1",
+          "source": {
+            "id": "2664",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2664"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 506,
+          "text": "TFIIF"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "KLF1",
+          "source": {
+            "id": "10661",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10661"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Krueppel-like factor 1",
+          "source": {
+            "id": "Q13351",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13351"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 513,
+          "text": "EKLF"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TP53",
+          "source": {
+            "id": "7157",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7157"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cellular tumor antigen p53",
+          "source": {
+            "id": "P04637",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04637"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 522,
+          "text": "p53"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GATA1",
+          "source": {
+            "id": "2623",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2623"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Erythroid transcription factor",
+          "source": {
+            "id": "P04637",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04637"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 528,
+          "text": "GATA-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "EP300",
+          "source": {
+            "id": "2033",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2033"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone acetyltransferase p300",
+          "source": {
+            "id": "P04637",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04637"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 736,
+          "text": "p300"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CREBBP",
+          "source": {
+            "id": "1387",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1387"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "CREB-binding protein",
+          "source": {
+            "id": "P04637",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04637"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 741,
+          "text": "CBP"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GATA1",
+          "source": {
+            "id": "2623",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2623"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Erythroid transcription factor",
+          "source": {
+            "id": "P04637",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04637"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 766,
+          "text": "GATA-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "EP300",
+          "source": {
+            "id": "2033",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2033"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone acetyltransferase p300",
+          "source": {
+            "id": "P04637",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04637"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 799,
+          "text": "p300"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GATA1",
+          "source": {
+            "id": "2623",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2623"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Erythroid transcription factor",
+          "source": {
+            "id": "P04637",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04637"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 848,
+          "text": "GATA-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GATA1",
+          "source": {
+            "id": "2623",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2623"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Erythroid transcription factor",
+          "source": {
+            "id": "P04637",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04637"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 895,
+          "text": "GATA-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GATA1",
+          "source": {
+            "id": "2623",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2623"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Erythroid transcription factor",
+          "source": {
+            "id": "P04637",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04637"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 958,
+          "text": "GATA-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GATA1",
+          "source": {
+            "id": "2623",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2623"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Erythroid transcription factor",
+          "source": {
+            "id": "P04637",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04637"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 966,
+          "text": "GATA-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GATA1",
+          "source": {
+            "id": "2623",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2623"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Erythroid transcription factor",
+          "source": {
+            "id": "P04637",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04637"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1036,
+          "text": "GATA-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GATA1",
+          "source": {
+            "id": "2623",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2623"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Erythroid transcription factor",
+          "source": {
+            "id": "P04637",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04637"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1196,
+          "text": "GATA-1"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|402,412",
+        "s2p1|513,517"
+      ],
+      "type": "linked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "9859997",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/9859997"
+    },
+    {
+      "id": "9859997",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/9859997"
+    }
+  ]
+}

@@ -1,0 +1,756 @@
+{
+  "anncomplete": false,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RREB1",
+          "source": {
+            "id": "6239",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6239"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Ras-responsive element-binding protein 1",
+          "source": {
+            "id": "Q92766",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92766"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 24,
+          "text": "ras-responsive element binding protein-1"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RREB1",
+          "source": {
+            "id": "6239",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6239"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Ras-responsive element-binding protein 1",
+          "source": {
+            "id": "Q92766",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92766"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 621,
+          "text": "RREB-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RREB1",
+          "source": {
+            "id": "6239",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6239"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Ras-responsive element-binding protein 1",
+          "source": {
+            "id": "Q92766",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92766"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 697,
+          "text": "RREB-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RREB1",
+          "source": {
+            "id": "6239",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6239"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Ras-responsive element-binding protein 1",
+          "source": {
+            "id": "Q92766",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92766"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 870,
+          "text": "RREB-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PLAG1",
+          "source": {
+            "id": "5324",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5324"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Zinc finger protein PLAG1",
+          "source": {
+            "id": "Q6DJT9",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q6DJT9"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 917,
+          "text": "PSA"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RREB1",
+          "source": {
+            "id": "6239",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6239"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Ras-responsive element-binding protein 1",
+          "source": {
+            "id": "Q6DJT9",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q6DJT9"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1001,
+          "text": "RREB-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PLAG1",
+          "source": {
+            "id": "5324",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5324"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Zinc finger protein PLAG1",
+          "source": {
+            "id": "Q6DJT9",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q6DJT9"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1082,
+          "text": "PSA"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RREB1",
+          "source": {
+            "id": "6239",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6239"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Ras-responsive element-binding protein 1",
+          "source": {
+            "id": "Q6DJT9",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q6DJT9"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1121,
+          "text": "RREB-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RREB1",
+          "source": {
+            "id": "6239",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6239"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Ras-responsive element-binding protein 1",
+          "source": {
+            "id": "Q6DJT9",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q6DJT9"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1404,
+          "text": "RREB-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RREB1",
+          "source": {
+            "id": "6239",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6239"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Ras-responsive element-binding protein 1",
+          "source": {
+            "id": "Q6DJT9",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q6DJT9"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1459,
+          "text": "RREB-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PLAG1",
+          "source": {
+            "id": "5324",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5324"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Zinc finger protein PLAG1",
+          "source": {
+            "id": "Q6DJT9",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q6DJT9"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1527,
+          "text": "PSA"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PLAG1",
+          "source": {
+            "id": "5324",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5324"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Zinc finger protein PLAG1",
+          "source": {
+            "id": "Q6DJT9",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q6DJT9"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1553,
+          "text": "PSA"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RREB1",
+          "source": {
+            "id": "6239",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6239"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Ras-responsive element-binding protein 1",
+          "source": {
+            "id": "Q6DJT9",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q6DJT9"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1633,
+          "text": "RREB-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RREB1",
+          "source": {
+            "id": "6239",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6239"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Ras-responsive element-binding protein 1",
+          "source": {
+            "id": "Q6DJT9",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q6DJT9"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1703,
+          "text": "RREB-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RREB1",
+          "source": {
+            "id": "6239",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6239"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Ras-responsive element-binding protein 1",
+          "source": {
+            "id": "Q6DJT9",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q6DJT9"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1833,
+          "text": "RREB-1"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [],
+  "sources": [
+    {
+      "id": "17550981",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/17550981"
+    }
+  ]
+}

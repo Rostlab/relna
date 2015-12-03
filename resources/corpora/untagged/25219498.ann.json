@@ -1,0 +1,1344 @@
+{
+  "anncomplete": false,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TRIP4 {ECO:0000312|EMBL:AAC41738.1, ECO:0000312|HGNC:HGNC:12310}",
+          "source": {
+            "id": "9325",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9325"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Activating signal cointegrator 1 {ECO:0000303|PubMed:10454579}",
+          "source": {
+            "id": "Q15650",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q15650"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 16,
+          "text": "ASC1"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "UFM1",
+          "source": {
+            "id": "51569",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/51569"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Ubiquitin-fold modifier 1",
+          "source": {
+            "id": "P61960",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P61960"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 24,
+          "text": "UFM1"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESR1",
+          "source": {
+            "id": "2099",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2099"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 44,
+          "text": "ERa"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "UFM1",
+          "source": {
+            "id": "51569",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/51569"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Ubiquitin-fold modifier 1",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 21,
+          "text": "UFM1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TRIP4 {ECO:0000312|EMBL:AAC41738.1, ECO:0000312|HGNC:HGNC:12310}",
+          "source": {
+            "id": "9325",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9325"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Activating signal cointegrator 1 {ECO:0000303|PubMed:10454579}",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 193,
+          "text": "ASC1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESR1",
+          "source": {
+            "id": "2099",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2099"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 217,
+          "text": "ERa"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "UFM1",
+          "source": {
+            "id": "51569",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/51569"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Ubiquitin-fold modifier 1",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 298,
+          "text": "UFM1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "UFSP2",
+          "source": {
+            "id": "55325",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/55325"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Ufm1-specific protease 2",
+          "source": {
+            "id": "Q9NUQ7",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9NUQ7"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 321,
+          "text": "UfSP2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TRIP4 {ECO:0000312|EMBL:AAC41738.1, ECO:0000312|HGNC:HGNC:12310}",
+          "source": {
+            "id": "9325",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9325"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Activating signal cointegrator 1 {ECO:0000303|PubMed:10454579}",
+          "source": {
+            "id": "Q9NUQ7",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9NUQ7"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 340,
+          "text": "ASC1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TRIP4 {ECO:0000312|EMBL:AAC41738.1, ECO:0000312|HGNC:HGNC:12310}",
+          "source": {
+            "id": "9325",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9325"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Activating signal cointegrator 1 {ECO:0000303|PubMed:10454579}",
+          "source": {
+            "id": "Q9NUQ7",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9NUQ7"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 362,
+          "text": "ASC1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESR1",
+          "source": {
+            "id": "2099",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2099"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "Q9NUQ7",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9NUQ7"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 415,
+          "text": "ERa"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TRIP4 {ECO:0000312|EMBL:AAC41738.1, ECO:0000312|HGNC:HGNC:12310}",
+          "source": {
+            "id": "9325",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9325"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Activating signal cointegrator 1 {ECO:0000303|PubMed:10454579}",
+          "source": {
+            "id": "Q9NUQ7",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9NUQ7"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 425,
+          "text": "ASC1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "UFSP2",
+          "source": {
+            "id": "55325",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/55325"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Ufm1-specific protease 2",
+          "source": {
+            "id": "Q9NUQ7",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9NUQ7"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 444,
+          "text": "UfSP2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TRIP4 {ECO:0000312|EMBL:AAC41738.1, ECO:0000312|HGNC:HGNC:12310}",
+          "source": {
+            "id": "9325",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9325"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Activating signal cointegrator 1 {ECO:0000303|PubMed:10454579}",
+          "source": {
+            "id": "Q9NUQ7",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9NUQ7"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 463,
+          "text": "ASC1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TRIP4 {ECO:0000312|EMBL:AAC41738.1, ECO:0000312|HGNC:HGNC:12310}",
+          "source": {
+            "id": "9325",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9325"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Activating signal cointegrator 1 {ECO:0000303|PubMed:10454579}",
+          "source": {
+            "id": "Q9NUQ7",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9NUQ7"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 498,
+          "text": "ASC1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "EP300",
+          "source": {
+            "id": "2033",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2033"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Histone acetyltransferase p300",
+          "source": {
+            "id": "Q09472",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q09472"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 527,
+          "text": "p300"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SRC",
+          "source": {
+            "id": "6714",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6714"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Proto-oncogene tyrosine-protein kinase Src",
+          "source": {
+            "id": "P12931",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P12931"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 533,
+          "text": "SRC1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TRIP4 {ECO:0000312|EMBL:AAC41738.1, ECO:0000312|HGNC:HGNC:12310}",
+          "source": {
+            "id": "9325",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9325"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Activating signal cointegrator 1 {ECO:0000303|PubMed:10454579}",
+          "source": {
+            "id": "P12931",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P12931"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 543,
+          "text": "ASC1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESR1",
+          "source": {
+            "id": "2099",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2099"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "P12931",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P12931"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 565,
+          "text": "ERa"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TRIP4 {ECO:0000312|EMBL:AAC41738.1, ECO:0000312|HGNC:HGNC:12310}",
+          "source": {
+            "id": "9325",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9325"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Activating signal cointegrator 1 {ECO:0000303|PubMed:10454579}",
+          "source": {
+            "id": "P12931",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P12931"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 583,
+          "text": "ASC1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "UFSP2",
+          "source": {
+            "id": "55325",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/55325"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Ufm1-specific protease 2",
+          "source": {
+            "id": "P12931",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P12931"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 606,
+          "text": "UfSP2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESR1",
+          "source": {
+            "id": "2099",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2099"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "P12931",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P12931"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 631,
+          "text": "ERa"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TRIP4 {ECO:0000312|EMBL:AAC41738.1, ECO:0000312|HGNC:HGNC:12310}",
+          "source": {
+            "id": "9325",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9325"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Activating signal cointegrator 1 {ECO:0000303|PubMed:10454579}",
+          "source": {
+            "id": "P12931",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P12931"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 800,
+          "text": "ASC1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "UFM1",
+          "source": {
+            "id": "51569",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/51569"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Ubiquitin-fold modifier 1",
+          "source": {
+            "id": "P12931",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P12931"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 832,
+          "text": "UFM1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "UBA5",
+          "source": {
+            "id": "79876",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/79876"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Ubiquitin-like modifier-activating enzyme 5",
+          "source": {
+            "id": "Q9GZZ9",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9GZZ9"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 858,
+          "text": "UBA5"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TRIP4 {ECO:0000312|EMBL:AAC41738.1, ECO:0000312|HGNC:HGNC:12310}",
+          "source": {
+            "id": "9325",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9325"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Activating signal cointegrator 1 {ECO:0000303|PubMed:10454579}",
+          "source": {
+            "id": "Q9GZZ9",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9GZZ9"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 923,
+          "text": "ASC1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESR1",
+          "source": {
+            "id": "2099",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2099"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "Q9GZZ9",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9GZZ9"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 983,
+          "text": "ERa"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [],
+  "sources": [
+    {
+      "id": "25219498",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/25219498"
+    }
+  ]
+}

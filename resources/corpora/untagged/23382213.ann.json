@@ -1,0 +1,560 @@
+{
+  "anncomplete": false,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "KCTD15",
+          "source": {
+            "id": "79047",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/79047"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "BTB/POZ domain-containing protein KCTD15",
+          "source": {
+            "id": "Q96SI1",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q96SI1"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 40,
+          "text": "Kctd15"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "KCTD15",
+          "source": {
+            "id": "79047",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/79047"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "BTB/POZ domain-containing protein KCTD15",
+          "source": {
+            "id": "Q96SI1",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q96SI1"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 366,
+          "text": "Kctd15"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "kctd15",
+          "source": {
+            "id": "445133",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/445133"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "BTB/POZ domain-containing protein kctd15",
+          "source": {
+            "id": "Q6DC02",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q6DC02"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 500,
+          "text": "Kctd15"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "KCTD15",
+          "source": {
+            "id": "79047",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/79047"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "BTB/POZ domain-containing protein KCTD15",
+          "source": {
+            "id": "Q6DC02",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q6DC02"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 725,
+          "text": "Kctd15"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TFAP2A",
+          "source": {
+            "id": "7020",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7020"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor AP-2-alpha",
+          "source": {
+            "id": "P05549",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P05549"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 747,
+          "text": "AP-2a"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "KCTD15",
+          "source": {
+            "id": "79047",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/79047"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "BTB/POZ domain-containing protein KCTD15",
+          "source": {
+            "id": "P05549",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P05549"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 849,
+          "text": "Kctd15"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TFAP2A",
+          "source": {
+            "id": "7020",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7020"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor AP-2-alpha",
+          "source": {
+            "id": "P05549",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P05549"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 903,
+          "text": "AP-2a"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "LGALS4",
+          "source": {
+            "id": "3960",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3960"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Galectin-4",
+          "source": {
+            "id": "P56470",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P56470"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1016,
+          "text": "Gal4"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "KCTD15",
+          "source": {
+            "id": "79047",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/79047"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "BTB/POZ domain-containing protein KCTD15",
+          "source": {
+            "id": "P56470",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P56470"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1207,
+          "text": "Kctd15"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "KCTD15",
+          "source": {
+            "id": "79047",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/79047"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "BTB/POZ domain-containing protein KCTD15",
+          "source": {
+            "id": "P56470",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P56470"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1243,
+          "text": "Kctd15"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TFAP2A",
+          "source": {
+            "id": "7020",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7020"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor AP-2-alpha",
+          "source": {
+            "id": "P56470",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P56470"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1338,
+          "text": "AP-2a"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [],
+  "sources": [
+    {
+      "id": "23382213",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/23382213"
+    }
+  ]
+}

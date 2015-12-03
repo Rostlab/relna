@@ -1,0 +1,1709 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "FGR",
+          "source": {
+            "id": "2268",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2268"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Tyrosine-protein kinase Fgr",
+          "source": {
+            "id": "P09769",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P09769"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 0,
+          "text": "Fgr"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NEUROD1",
+          "source": {
+            "id": "4760",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4760"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Neurogenic differentiation factor 1",
+          "source": {
+            "id": "Q13562",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13562"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 48,
+          "text": "beta 2"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CBL",
+          "source": {
+            "id": "867",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/867"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "E3 ubiquitin-protein ligase CBL",
+          "source": {
+            "id": "P22681",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P22681"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 72,
+          "text": "c-Cbl"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NEUROD1",
+          "source": {
+            "id": "4760",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4760"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Neurogenic differentiation factor 1",
+          "source": {
+            "id": "Q13562",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13562"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 31,
+          "text": "beta(2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SYK",
+          "source": {
+            "id": "6850",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6850"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Tyrosine-protein kinase SYK",
+          "source": {
+            "id": "P43405",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43405"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 128,
+          "text": "Syk"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NEUROD1",
+          "source": {
+            "id": "4760",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4760"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Neurogenic differentiation factor 1",
+          "source": {
+            "id": "Q13562",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13562"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 186,
+          "text": "beta(2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CBL",
+          "source": {
+            "id": "867",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/867"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "E3 ubiquitin-protein ligase CBL",
+          "source": {
+            "id": "P22681",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P22681"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 239,
+          "text": "Cbl"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "FGR",
+          "source": {
+            "id": "2268",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2268"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Tyrosine-protein kinase Fgr",
+          "source": {
+            "id": "P09769",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P09769"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 363,
+          "text": "Fgr"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CBL",
+          "source": {
+            "id": "867",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/867"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "E3 ubiquitin-protein ligase CBL",
+          "source": {
+            "id": "P22681",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P22681"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 442,
+          "text": "Cbl"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PPA1",
+          "source": {
+            "id": "5464",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5464"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Inorganic pyrophosphatase",
+          "source": {
+            "id": "Q15181",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q15181"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 498,
+          "text": "PP1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CBL",
+          "source": {
+            "id": "867",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/867"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "E3 ubiquitin-protein ligase CBL",
+          "source": {
+            "id": "P22681",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P22681"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 682,
+          "text": "Cbl"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SYK",
+          "source": {
+            "id": "6850",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6850"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Tyrosine-protein kinase SYK",
+          "source": {
+            "id": "P43405",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43405"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 725,
+          "text": "Syk"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NEUROD1",
+          "source": {
+            "id": "4760",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4760"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Neurogenic differentiation factor 1",
+          "source": {
+            "id": "Q13562",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13562"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 751,
+          "text": "beta(2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SYK",
+          "source": {
+            "id": "6850",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6850"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Tyrosine-protein kinase SYK",
+          "source": {
+            "id": "P43405",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43405"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 779,
+          "text": "Syk"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SYK",
+          "source": {
+            "id": "6850",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6850"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Tyrosine-protein kinase SYK",
+          "source": {
+            "id": "P43405",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43405"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 815,
+          "text": "Syk"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CBL",
+          "source": {
+            "id": "867",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/867"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "E3 ubiquitin-protein ligase CBL",
+          "source": {
+            "id": "P22681",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P22681"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 839,
+          "text": "Cbl"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "FGR",
+          "source": {
+            "id": "2268",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2268"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Tyrosine-protein kinase Fgr",
+          "source": {
+            "id": "P09769",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P09769"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 860,
+          "text": "Fgr"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SYK",
+          "source": {
+            "id": "6850",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6850"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Tyrosine-protein kinase SYK",
+          "source": {
+            "id": "P43405",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43405"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 883,
+          "text": "Syk"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CBL",
+          "source": {
+            "id": "867",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/867"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "E3 ubiquitin-protein ligase CBL",
+          "source": {
+            "id": "P22681",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P22681"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1086,
+          "text": "Cbl"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CBL",
+          "source": {
+            "id": "867",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/867"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "E3 ubiquitin-protein ligase CBL",
+          "source": {
+            "id": "P22681",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P22681"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1125,
+          "text": "Cbl"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NEUROD1",
+          "source": {
+            "id": "4760",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4760"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Neurogenic differentiation factor 1",
+          "source": {
+            "id": "Q13562",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13562"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1175,
+          "text": "beta(2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "FGR",
+          "source": {
+            "id": "2268",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2268"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Tyrosine-protein kinase Fgr",
+          "source": {
+            "id": "P09769",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P09769"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1218,
+          "text": "Fgr"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CBL",
+          "source": {
+            "id": "867",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/867"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "E3 ubiquitin-protein ligase CBL",
+          "source": {
+            "id": "P22681",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P22681"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1262,
+          "text": "Cbl"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PPA1",
+          "source": {
+            "id": "5464",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5464"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Inorganic pyrophosphatase",
+          "source": {
+            "id": "Q15181",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q15181"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1306,
+          "text": "PP1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "FGR",
+          "source": {
+            "id": "2268",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2268"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Tyrosine-protein kinase Fgr",
+          "source": {
+            "id": "P09769",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P09769"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1342,
+          "text": "Fgr"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "FGR",
+          "source": {
+            "id": "2268",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2268"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Tyrosine-protein kinase Fgr",
+          "source": {
+            "id": "P09769",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P09769"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1418,
+          "text": "Fgr"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SYK",
+          "source": {
+            "id": "6850",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6850"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Tyrosine-protein kinase SYK",
+          "source": {
+            "id": "P43405",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43405"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1423,
+          "text": "Syk"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CBL",
+          "source": {
+            "id": "867",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/867"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "E3 ubiquitin-protein ligase CBL",
+          "source": {
+            "id": "P22681",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P22681"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1467,
+          "text": "Cbl"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NEUROD1",
+          "source": {
+            "id": "4760",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4760"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Neurogenic differentiation factor 1",
+          "source": {
+            "id": "Q13562",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13562"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1498,
+          "text": "beta(2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "FGR",
+          "source": {
+            "id": "2268",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2268"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Tyrosine-protein kinase Fgr",
+          "source": {
+            "id": "P09769",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P09769"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1620,
+          "text": "Fgr"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SYK",
+          "source": {
+            "id": "6850",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6850"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Tyrosine-protein kinase SYK",
+          "source": {
+            "id": "P43405",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43405"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1628,
+          "text": "Syk"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "FGR",
+          "source": {
+            "id": "2268",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2268"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Tyrosine-protein kinase Fgr",
+          "source": {
+            "id": "P09769",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P09769"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1673,
+          "text": "Fgr"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CBL",
+          "source": {
+            "id": "867",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/867"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "E3 ubiquitin-protein ligase CBL",
+          "source": {
+            "id": "P22681",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P22681"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1721,
+          "text": "Cbl"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|815,818",
+        "s2p1|839,842"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|860,863",
+        "s2p1|839,842"
+      ],
+      "type": "linked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "12435267",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/12435267"
+    },
+    {
+      "id": "12435267",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/12435267"
+    }
+  ]
+}

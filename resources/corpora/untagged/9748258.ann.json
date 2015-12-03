@@ -1,0 +1,658 @@
+{
+  "anncomplete": false,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "UTF1 {ECO:0000312|HGNC:HGNC:12634}",
+          "source": {
+            "id": "8433",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8433"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Undifferentiated embryonic cell transcription factor 1",
+          "source": {
+            "id": "Q5T230",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q5T230"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 77,
+          "text": "UTF1"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ATF2",
+          "source": {
+            "id": "1386",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1386"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Cyclic AMP-dependent transcription factor ATF-2",
+          "source": {
+            "id": "P15336",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P15336"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 136,
+          "text": "ATF-2"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "UTF1 {ECO:0000312|HGNC:HGNC:12634}",
+          "source": {
+            "id": "8433",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8433"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Undifferentiated embryonic cell transcription factor 1",
+          "source": {
+            "id": "P15336",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P15336"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 386,
+          "text": "UTF1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CD1B",
+          "source": {
+            "id": "910",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/910"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "T-cell surface glycoprotein CD1b",
+          "source": {
+            "id": "P29016",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P29016"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 460,
+          "text": "CD)1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CD2",
+          "source": {
+            "id": "914",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/914"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "T-cell surface antigen CD2",
+          "source": {
+            "id": "P06729",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P06729"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 469,
+          "text": "CD2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "UTF1 {ECO:0000312|HGNC:HGNC:12634}",
+          "source": {
+            "id": "8433",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8433"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Undifferentiated embryonic cell transcription factor 1",
+          "source": {
+            "id": "P06729",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P06729"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 480,
+          "text": "UTF1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Atf2",
+          "source": {
+            "id": "11909",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/11909"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Cyclic AMP-dependent transcription factor ATF-2",
+          "source": {
+            "id": "P16951",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P16951"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 515,
+          "text": "ATF-2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Cd2",
+          "source": {
+            "id": "12481",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/12481"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "T-cell surface antigen CD2",
+          "source": {
+            "id": "P08920",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P08920"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 598,
+          "text": "CD2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Atf2",
+          "source": {
+            "id": "11909",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/11909"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Cyclic AMP-dependent transcription factor ATF-2",
+          "source": {
+            "id": "P08920",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P08920"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 641,
+          "text": "ATF-2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CD1B",
+          "source": {
+            "id": "910",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/910"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "T-cell surface glycoprotein CD1b",
+          "source": {
+            "id": "P08920",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P08920"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 939,
+          "text": "CD1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CD2",
+          "source": {
+            "id": "914",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/914"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "T-cell surface antigen CD2",
+          "source": {
+            "id": "P08920",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P08920"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 960,
+          "text": "CD2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ATF2",
+          "source": {
+            "id": "1386",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1386"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Cyclic AMP-dependent transcription factor ATF-2",
+          "source": {
+            "id": "P08920",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P08920"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1068,
+          "text": "ATF-2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ATF2",
+          "source": {
+            "id": "1386",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1386"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Cyclic AMP-dependent transcription factor ATF-2",
+          "source": {
+            "id": "P08920",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P08920"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1291,
+          "text": "ATF-2"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [],
+  "sources": [
+    {
+      "id": "9748258",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/9748258"
+    }
+  ]
+}

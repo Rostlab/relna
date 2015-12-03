@@ -1,0 +1,266 @@
+{
+  "anncomplete": false,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Esr1",
+          "source": {
+            "id": "24890",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/24890"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "P06211",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P06211"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 99,
+          "text": "estrogen receptor alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Esr1",
+          "source": {
+            "id": "24890",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/24890"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "P06211",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P06211"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 124,
+          "text": "ERalpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Esr1",
+          "source": {
+            "id": "24890",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/24890"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "P06211",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P06211"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 333,
+          "text": "ERalpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Esr1",
+          "source": {
+            "id": "24890",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/24890"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "P06211",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P06211"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1328,
+          "text": "ERalpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Esr1",
+          "source": {
+            "id": "24890",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/24890"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "P06211",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P06211"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1620,
+          "text": "ERalpha"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [],
+  "sources": [
+    {
+      "id": "19636373",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/19636373"
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "anncomplete": false,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NCOA6",
+          "source": {
+            "id": "23054",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/23054"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Nuclear receptor coactivator 6",
+          "source": {
+            "id": "Q14686",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q14686"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 32,
+          "text": "RAP250"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NCOA6",
+          "source": {
+            "id": "23054",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/23054"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Nuclear receptor coactivator 6",
+          "source": {
+            "id": "Q14686",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q14686"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 214,
+          "text": "RAP250"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NCOA6",
+          "source": {
+            "id": "23054",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/23054"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Nuclear receptor coactivator 6",
+          "source": {
+            "id": "Q14686",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q14686"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 347,
+          "text": "RAP250"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NCOA6",
+          "source": {
+            "id": "23054",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/23054"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Nuclear receptor coactivator 6",
+          "source": {
+            "id": "Q14686",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q14686"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 574,
+          "text": "RAP250"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NCOA6",
+          "source": {
+            "id": "23054",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/23054"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Nuclear receptor coactivator 6",
+          "source": {
+            "id": "Q14686",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q14686"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 826,
+          "text": "RAP250"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NCOA6",
+          "source": {
+            "id": "23054",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/23054"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Nuclear receptor coactivator 6",
+          "source": {
+            "id": "Q14686",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q14686"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 976,
+          "text": "RAP250"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [],
+  "sources": [
+    {
+      "id": "10681503",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/10681503"
+    }
+  ]
+}

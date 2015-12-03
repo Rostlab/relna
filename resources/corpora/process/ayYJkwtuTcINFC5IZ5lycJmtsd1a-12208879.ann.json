@@ -1,0 +1,476 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "STAT3",
+          "source": {
+            "id": "6774",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6774"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Signal transducer and activator of transcription 3",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 14,
+          "text": "STAT3"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "STAT3",
+          "source": {
+            "id": "6774",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6774"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Signal transducer and activator of transcription 3",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 156,
+          "text": "STAT3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "STAT3",
+          "source": {
+            "id": "6774",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6774"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Signal transducer and activator of transcription 3",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 345,
+          "text": "STAT3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "STAT3",
+          "source": {
+            "id": "6774",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6774"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Signal transducer and activator of transcription 3",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 747,
+          "text": "STAT3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "STAT3",
+          "source": {
+            "id": "6774",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6774"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Signal transducer and activator of transcription 3",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 825,
+          "text": "STAT3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Bcl2l1",
+          "source": {
+            "id": "12048",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/12048"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Bcl-2-like protein 1",
+          "source": {
+            "id": "Q64373",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q64373"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 917,
+          "text": "Bcl-XL"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Ccnd1",
+          "source": {
+            "id": "12443",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/12443"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "G1/S-specific cyclin-D1",
+          "source": {
+            "id": "P25322",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P25322"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 928,
+          "text": "cyclin-D1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "pre-added",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "STAT3",
+          "source": {
+            "id": "6774",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6774"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Signal transducer and activator of transcription 3",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 964,
+          "text": "STAT3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "pre-added",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "STAT3",
+          "source": {
+            "id": "6774",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6774"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Signal transducer and activator of transcription 3",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1112,
+          "text": "STAT3"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [],
+  "sources": [
+    {
+      "id": "12208879",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/12208879"
+    },
+    {
+      "id": "12208879",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/12208879"
+    }
+  ]
+}

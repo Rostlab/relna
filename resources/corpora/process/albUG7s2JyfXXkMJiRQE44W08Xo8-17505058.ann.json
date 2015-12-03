@@ -1,0 +1,1307 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BCAS3 {ECO:0000312|HGNC:HGNC:14347, ECO:0000312|MIM:607470}",
+          "source": {
+            "id": "54828",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/54828"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Breast carcinoma-amplified sequence 3 {ECO:0000312|HGNC:HGNC:14347, ECO:0000312|MIM:607470}",
+          "source": {
+            "id": "Q9H6U6",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9H6U6"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 31,
+          "text": "BCAS3"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PELP1",
+          "source": {
+            "id": "27043",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/27043"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Proline-, glutamic acid- and leucine-rich protein 1",
+          "source": {
+            "id": "Q8IZL8",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q8IZL8"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 145,
+          "text": "PELP1"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BCAS3 {ECO:0000312|HGNC:HGNC:14347, ECO:0000312|MIM:607470}",
+          "source": {
+            "id": "54828",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/54828"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Breast carcinoma-amplified sequence 3 {ECO:0000312|HGNC:HGNC:14347, ECO:0000312|MIM:607470}",
+          "source": {
+            "id": "Q8IZL8",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q8IZL8"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 30,
+          "text": "breast carcinoma amplified sequence-3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BCAS3 {ECO:0000312|HGNC:HGNC:14347, ECO:0000312|MIM:607470}",
+          "source": {
+            "id": "54828",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/54828"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Breast carcinoma-amplified sequence 3 {ECO:0000312|HGNC:HGNC:14347, ECO:0000312|MIM:607470}",
+          "source": {
+            "id": "Q8IZL8",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q8IZL8"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 69,
+          "text": "BCAS3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESR1",
+          "source": {
+            "id": "2099",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2099"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 97,
+          "text": "estrogen receptor (ER) alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GPER1",
+          "source": {
+            "id": "2852",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2852"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "G-protein coupled estrogen receptor 1",
+          "source": {
+            "id": "P01135",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01135"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 148,
+          "text": "ERalpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BCAS3 {ECO:0000312|HGNC:HGNC:14347, ECO:0000312|MIM:607470}",
+          "source": {
+            "id": "54828",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/54828"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Breast carcinoma-amplified sequence 3 {ECO:0000312|HGNC:HGNC:14347, ECO:0000312|MIM:607470}",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 190,
+          "text": "BCAS3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BCAS3 {ECO:0000312|HGNC:HGNC:14347, ECO:0000312|MIM:607470}",
+          "source": {
+            "id": "54828",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/54828"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Breast carcinoma-amplified sequence 3 {ECO:0000312|HGNC:HGNC:14347, ECO:0000312|MIM:607470}",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 270,
+          "text": "BCAS3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GPER1",
+          "source": {
+            "id": "2852",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2852"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "G-protein coupled estrogen receptor 1",
+          "source": {
+            "id": "P01135",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01135"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 332,
+          "text": "ERalpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BCAS3 {ECO:0000312|HGNC:HGNC:14347, ECO:0000312|MIM:607470}",
+          "source": {
+            "id": "54828",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/54828"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Breast carcinoma-amplified sequence 3 {ECO:0000312|HGNC:HGNC:14347, ECO:0000312|MIM:607470}",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 356,
+          "text": "BCAS3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BCAS3 {ECO:0000312|HGNC:HGNC:14347, ECO:0000312|MIM:607470}",
+          "source": {
+            "id": "54828",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/54828"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Breast carcinoma-amplified sequence 3 {ECO:0000312|HGNC:HGNC:14347, ECO:0000312|MIM:607470}",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 386,
+          "text": "BCAS3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESR1",
+          "source": {
+            "id": "2099",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2099"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 405,
+          "text": "ERalpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PELP1",
+          "source": {
+            "id": "27043",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/27043"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Proline-, glutamic acid- and leucine-rich protein 1",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 463,
+          "text": "PELP1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GPER1",
+          "source": {
+            "id": "2852",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2852"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "G-protein coupled estrogen receptor 1",
+          "source": {
+            "id": "P01135",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01135"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 543,
+          "text": "ERalpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BCAS3 {ECO:0000312|HGNC:HGNC:14347, ECO:0000312|MIM:607470}",
+          "source": {
+            "id": "54828",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/54828"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Breast carcinoma-amplified sequence 3 {ECO:0000312|HGNC:HGNC:14347, ECO:0000312|MIM:607470}",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 580,
+          "text": "BCAS3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BCAS3 {ECO:0000312|HGNC:HGNC:14347, ECO:0000312|MIM:607470}",
+          "source": {
+            "id": "54828",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/54828"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Breast carcinoma-amplified sequence 3 {ECO:0000312|HGNC:HGNC:14347, ECO:0000312|MIM:607470}",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 642,
+          "text": "BCAS3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BCAS3 {ECO:0000312|HGNC:HGNC:14347, ECO:0000312|MIM:607470}",
+          "source": {
+            "id": "54828",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/54828"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Breast carcinoma-amplified sequence 3 {ECO:0000312|HGNC:HGNC:14347, ECO:0000312|MIM:607470}",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 738,
+          "text": "BCAS3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BCAS3 {ECO:0000312|HGNC:HGNC:14347, ECO:0000312|MIM:607470}",
+          "source": {
+            "id": "54828",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/54828"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Breast carcinoma-amplified sequence 3 {ECO:0000312|HGNC:HGNC:14347, ECO:0000312|MIM:607470}",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 913,
+          "text": "BCAS3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESR1",
+          "source": {
+            "id": "2099",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2099"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 923,
+          "text": "ERalpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BCAS3 {ECO:0000312|HGNC:HGNC:14347, ECO:0000312|MIM:607470}",
+          "source": {
+            "id": "54828",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/54828"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Breast carcinoma-amplified sequence 3 {ECO:0000312|HGNC:HGNC:14347, ECO:0000312|MIM:607470}",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 932,
+          "text": "BCAS3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BCAS3 {ECO:0000312|HGNC:HGNC:14347, ECO:0000312|MIM:607470}",
+          "source": {
+            "id": "54828",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/54828"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Breast carcinoma-amplified sequence 3 {ECO:0000312|HGNC:HGNC:14347, ECO:0000312|MIM:607470}",
+          "source": {
+            "id": "Q92831",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92831"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1121,
+          "text": "BCAS3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PELP1",
+          "source": {
+            "id": "27043",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/27043"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Proline-, glutamic acid- and leucine-rich protein 1",
+          "source": {
+            "id": "Q92831",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92831"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1136,
+          "text": "PELP1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESR1",
+          "source": {
+            "id": "2099",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2099"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "Q92831",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92831"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1174,
+          "text": "ERalpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESR1",
+          "source": {
+            "id": "2099",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2099"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "Q92831",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92831"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1262,
+          "text": "ERalpha"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|97,125",
+        "s2p1|30,67"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|97,125",
+        "s2p1|69,74"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|386,391",
+        "s2p1|405,412"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|470,522",
+        "s2p1|543,550"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|543,550",
+        "s2p1|463,468"
+      ],
+      "type": "linked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "17505058",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/17505058"
+    },
+    {
+      "id": "17505058",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/17505058"
+    }
+  ]
+}

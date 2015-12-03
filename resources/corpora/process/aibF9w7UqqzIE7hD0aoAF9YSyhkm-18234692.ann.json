@@ -1,0 +1,685 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "FRA1E",
+          "source": {
+            "id": "2364",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2364"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 0,
+          "text": "BART"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "STAT3",
+          "source": {
+            "id": "6774",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6774"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Signal transducer and activator of transcription 3",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 43,
+          "text": "STAT3"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "STAT3",
+          "source": {
+            "id": "6774",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6774"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Signal transducer and activator of transcription 3",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 197,
+          "text": "STAT3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "FRA1E",
+          "source": {
+            "id": "2364",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2364"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 573,
+          "text": "binder of ADP-ribosylation factor-like two"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "FRA1E",
+          "source": {
+            "id": "2364",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2364"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 617,
+          "text": "BART"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "FRA1E",
+          "source": {
+            "id": "2364",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2364"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 684,
+          "text": "BART"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "STAT3",
+          "source": {
+            "id": "6774",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6774"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Signal transducer and activator of transcription 3",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 760,
+          "text": "STAT3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "FRA1E",
+          "source": {
+            "id": "2364",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2364"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 795,
+          "text": "BART"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ARL2",
+          "source": {
+            "id": "402",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/402"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "ADP-ribosylation factor-like protein 2",
+          "source": {
+            "id": "P36404",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P36404"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 801,
+          "text": "ADP-ribosylation factor-like 2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ARL2",
+          "source": {
+            "id": "402",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/402"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "ADP-ribosylation factor-like protein 2",
+          "source": {
+            "id": "P36404",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P36404"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 833,
+          "text": "ARL2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "STAT3",
+          "source": {
+            "id": "6774",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6774"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Signal transducer and activator of transcription 3",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 881,
+          "text": "STAT3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "FRA1E",
+          "source": {
+            "id": "2364",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2364"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 916,
+          "text": "BART"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "STAT3",
+          "source": {
+            "id": "6774",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6774"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Signal transducer and activator of transcription 3",
+          "source": {
+            "id": "P40763",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P40763"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 973,
+          "text": "STAT3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ARL2",
+          "source": {
+            "id": "402",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/402"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "ADP-ribosylation factor-like protein 2",
+          "source": {
+            "id": "P36404",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P36404"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1004,
+          "text": "ARL2"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|573,615",
+        "s2p1|760,765"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|617,621",
+        "s2p1|760,765"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|684,688",
+        "s2p1|760,765"
+      ],
+      "type": "linked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "18234692",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/18234692"
+    },
+    {
+      "id": "18234692",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/18234692"
+    }
+  ]
+}

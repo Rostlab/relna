@@ -5,7 +5,7 @@ class DependencyChainFeatureGenerator(EdgeFeatureGenerator):
     Generate the dependency chain for each token in the sentence containing an
     edge
 
-    :type feature_set: nala.structures.data.FeatureDictionary
+    :type feature_set: nalaf.structures.data.FeatureDictionary
     :type nlp: spacy.en.English
     :type training_mode: bool
     """

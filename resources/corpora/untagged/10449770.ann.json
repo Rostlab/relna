@@ -1,0 +1,560 @@
+{
+  "anncomplete": false,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "LCP2",
+          "source": {
+            "id": "3937",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3937"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Lymphocyte cytosolic protein 2",
+          "source": {
+            "id": "Q13094",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13094"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 203,
+          "text": "SLP-76"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "VAV1",
+          "source": {
+            "id": "7409",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7409"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Proto-oncogene vav",
+          "source": {
+            "id": "P15498",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P15498"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 211,
+          "text": "Vav"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "LAT",
+          "source": {
+            "id": "27040",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/27040"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Linker for activation of T-cells family member 1",
+          "source": {
+            "id": "O43561",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O43561"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 220,
+          "text": "LAT"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CBL",
+          "source": {
+            "id": "867",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/867"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "E3 ubiquitin-protein ligase CBL",
+          "source": {
+            "id": "P22681",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P22681"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 303,
+          "text": "Cbl"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CBL",
+          "source": {
+            "id": "867",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/867"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "E3 ubiquitin-protein ligase CBL",
+          "source": {
+            "id": "P22681",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P22681"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 531,
+          "text": "Cbl"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ZAP70",
+          "source": {
+            "id": "7535",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7535"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Tyrosine-protein kinase ZAP-70",
+          "source": {
+            "id": "P43403",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43403"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 718,
+          "text": "ZAP-70"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SYK",
+          "source": {
+            "id": "6850",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6850"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Tyrosine-protein kinase SYK",
+          "source": {
+            "id": "P43405",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43405"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 726,
+          "text": "Syk"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "LAT",
+          "source": {
+            "id": "27040",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/27040"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Linker for activation of T-cells family member 1",
+          "source": {
+            "id": "P43405",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43405"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 731,
+          "text": "LAT"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ZAP70",
+          "source": {
+            "id": "7535",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7535"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Tyrosine-protein kinase ZAP-70",
+          "source": {
+            "id": "P43405",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43405"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 848,
+          "text": "ZAP-70"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SYK",
+          "source": {
+            "id": "6850",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6850"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Tyrosine-protein kinase SYK",
+          "source": {
+            "id": "P43405",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43405"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 856,
+          "text": "Syk"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "LAT",
+          "source": {
+            "id": "27040",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/27040"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Linker for activation of T-cells family member 1",
+          "source": {
+            "id": "P43405",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43405"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 865,
+          "text": "LAT"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [],
+  "sources": [
+    {
+      "id": "10449770",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/10449770"
+    }
+  ]
+}

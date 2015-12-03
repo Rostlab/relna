@@ -13,7 +13,7 @@ class EntityHeadTokenFeatureGenerator(EdgeFeatureGenerator):
     root of the sentence forms the entity head.
 
     :param feature_set: the feature set for the dataset
-    :type feature_set: nala.structures.data.FeatureDictionary
+    :type feature_set: nalaf.structures.data.FeatureDictionary
     :param training_mode: whether the mode is training or testing, default True
     :type training_mode: bool
     """

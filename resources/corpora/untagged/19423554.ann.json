@@ -1,0 +1,937 @@
+{
+  "anncomplete": false,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Dyx1c1",
+          "source": {
+            "id": "363096",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/363096"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Dyslexia susceptibility 1 candidate gene 1 protein homolog",
+          "source": {
+            "id": "Q5VJS5",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q5VJS5"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 26,
+          "text": "DYX1C1"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Dyx1c1",
+          "source": {
+            "id": "363096",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/363096"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Dyslexia susceptibility 1 candidate gene 1 protein homolog",
+          "source": {
+            "id": "Q5VJS5",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q5VJS5"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 172,
+          "text": "DYX1C1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Dyx1c1",
+          "source": {
+            "id": "363096",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/363096"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Dyslexia susceptibility 1 candidate gene 1 protein homolog",
+          "source": {
+            "id": "Q5VJS5",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q5VJS5"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 284,
+          "text": "DYX1C1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Stub1 {ECO:0000313|EMBL:EDM03968.1",
+          "source": {
+            "id": "287155",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/287155"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 340,
+          "text": "CHIP"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "St13",
+          "source": {
+            "id": "81800",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/81800"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Hsc70-interacting protein",
+          "source": {
+            "id": "P50503",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P50503"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 366,
+          "text": "Hsc70-interacting protein)"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Esr1",
+          "source": {
+            "id": "24890",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/24890"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "P06211",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P06211"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 466,
+          "text": "ERalpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Esr2",
+          "source": {
+            "id": "25149",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/25149"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Estrogen receptor beta",
+          "source": {
+            "id": "Q62986",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q62986"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 485,
+          "text": "ERbeta"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Dyx1c1",
+          "source": {
+            "id": "363096",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/363096"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Dyslexia susceptibility 1 candidate gene 1 protein homolog",
+          "source": {
+            "id": "Q62986",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q62986"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 530,
+          "text": "DYX1C1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Dyx1c1",
+          "source": {
+            "id": "363096",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/363096"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Dyslexia susceptibility 1 candidate gene 1 protein homolog",
+          "source": {
+            "id": "Q62986",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q62986"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 701,
+          "text": "DYX1C1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Esr1",
+          "source": {
+            "id": "24890",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/24890"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "Q62986",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q62986"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 886,
+          "text": "ERalpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Esr2",
+          "source": {
+            "id": "25149",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/25149"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Estrogen receptor beta",
+          "source": {
+            "id": "Q62986",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q62986"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 907,
+          "text": "ERbeta"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Dyx1c1",
+          "source": {
+            "id": "363096",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/363096"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Dyslexia susceptibility 1 candidate gene 1 protein homolog",
+          "source": {
+            "id": "Q62986",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q62986"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 951,
+          "text": "DYX1C1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Dyx1c1",
+          "source": {
+            "id": "363096",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/363096"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Dyslexia susceptibility 1 candidate gene 1 protein homolog",
+          "source": {
+            "id": "Q62986",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q62986"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1075,
+          "text": "DYX1C1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Esr1",
+          "source": {
+            "id": "24890",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/24890"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "Q62986",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q62986"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1087,
+          "text": "ERalpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Esr2",
+          "source": {
+            "id": "25149",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/25149"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Estrogen receptor beta",
+          "source": {
+            "id": "Q62986",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q62986"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1098,
+          "text": "ERbeta"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Dyx1c1",
+          "source": {
+            "id": "363096",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/363096"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Dyslexia susceptibility 1 candidate gene 1 protein homolog",
+          "source": {
+            "id": "Q62986",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q62986"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1215,
+          "text": "DYX1C1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Esr1",
+          "source": {
+            "id": "24890",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/24890"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "Q62986",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q62986"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1255,
+          "text": "ERalpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Esr2",
+          "source": {
+            "id": "25149",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/25149"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Estrogen receptor beta",
+          "source": {
+            "id": "Q62986",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q62986"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1267,
+          "text": "ERbeta"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Dyx1c1",
+          "source": {
+            "id": "363096",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/363096"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Dyslexia susceptibility 1 candidate gene 1 protein homolog",
+          "source": {
+            "id": "Q62986",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q62986"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1410,
+          "text": "DYX1C1"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [],
+  "sources": [
+    {
+      "id": "19423554",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/19423554"
+    }
+  ]
+}

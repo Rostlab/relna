@@ -9,7 +9,7 @@ class LinearContextFeatureGenerator(EdgeFeatureGenerator):
     closest to the root of the sentence as the head token.
 
     :param feature_set: the feature set for the dataset
-    :type feature_set: nala.structures.data.FeatureDictionary
+    :type feature_set: nalaf.structures.data.FeatureDictionary
     :param linear_context: the number of words after and before the current
             token to consider for linear context
     :type linear_context: int
@@ -72,7 +72,7 @@ class EntityOrderFeatureGenerator(EdgeFeatureGenerator):
     first or entity2 occurs first.
 
     :param feature_set: the feature set for the dataset
-    :type feature_set: nala.structures.data.FeatureDictionary
+    :type feature_set: nalaf.structures.data.FeatureDictionary
     :param training_mode: indicates whether the mode is training or testing
     :type training_mode: bool
     """
@@ -98,7 +98,7 @@ class LinearDistanceFeatureGenerator(EdgeFeatureGenerator):
     Also add the actual distance between the two entities.
 
     :param feature_set: the feature set for the dataset
-    :type feature_set: nala.structures.data.FeatureDictionary
+    :type feature_set: nalaf.structures.data.FeatureDictionary
     :param distance: the number of tokens between the two entities, default 5
     :type distance: int
     :param training_mode: indicates whether the mode is training or testing
@@ -134,7 +134,7 @@ class IntermediateTokensFeatureGenerator(EdgeFeatureGenerator):
     an edge.
 
     :param feature_set: the feature set for the dataset
-    :type feature_set: nala.structures.data.FeatureDictionary
+    :type feature_set: nalaf.structures.data.FeatureDictionary
     :param training_mode: indicates whether the mode is training or testing
     :type training_mode: bool
     """

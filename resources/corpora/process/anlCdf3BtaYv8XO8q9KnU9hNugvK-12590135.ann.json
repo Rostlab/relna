@@ -1,0 +1,609 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "HDAC9",
+          "source": {
+            "id": "9734",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9734"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone deacetylase 9",
+          "source": {
+            "id": "Q9UKV0",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9UKV0"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 4,
+          "text": "histone deacetylase 9"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "HDAC9",
+          "source": {
+            "id": "9734",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9734"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone deacetylase 9",
+          "source": {
+            "id": "Q9UKV0",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9UKV0"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 213,
+          "text": "HDAC9"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "HDAC9",
+          "source": {
+            "id": "9734",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9734"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone deacetylase 9",
+          "source": {
+            "id": "Q9UKV0",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9UKV0"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 398,
+          "text": "HDAC9"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "HDAC4",
+          "source": {
+            "id": "9759",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9759"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone deacetylase 4",
+          "source": {
+            "id": "P56524",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P56524"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 478,
+          "text": "HDAC4"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "HDAC9",
+          "source": {
+            "id": "9734",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9734"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone deacetylase 9",
+          "source": {
+            "id": "P56524",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P56524"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 538,
+          "text": "HDAC9"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "HDAC9",
+          "source": {
+            "id": "9734",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9734"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone deacetylase 9",
+          "source": {
+            "id": "P56524",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P56524"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 607,
+          "text": "HDAC9"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "HDAC9",
+          "source": {
+            "id": "9734",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9734"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone deacetylase 9",
+          "source": {
+            "id": "P56524",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P56524"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 741,
+          "text": "HDAC9"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "HDAC9",
+          "source": {
+            "id": "9734",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9734"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone deacetylase 9",
+          "source": {
+            "id": "P56524",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P56524"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 850,
+          "text": "HDAC9"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ETV6",
+          "source": {
+            "id": "2120",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2120"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor ETV6",
+          "source": {
+            "id": "P41212",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P41212"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 964,
+          "text": "TEL"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NCOR1",
+          "source": {
+            "id": "9611",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9611"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Nuclear receptor corepressor 1",
+          "source": {
+            "id": "O75376",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O75376"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 972,
+          "text": "N-CoR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "HDAC9",
+          "source": {
+            "id": "9734",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9734"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone deacetylase 9",
+          "source": {
+            "id": "P41212",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P41212"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1094,
+          "text": "HDAC9"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|850,855",
+        "s2p1|964,967"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|850,855",
+        "s2p1|972,977"
+      ],
+      "type": "linked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "12590135",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/12590135"
+    },
+    {
+      "id": "12590135",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/12590135"
+    }
+  ]
+}

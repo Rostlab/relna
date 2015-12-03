@@ -1,0 +1,609 @@
+{
+  "anncomplete": false,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Ctnnb1",
+          "source": {
+            "id": "12387",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/12387"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Catenin beta-1",
+          "source": {
+            "id": "Q02248",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q02248"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 48,
+          "text": "beta-catenin"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Ctnnb1",
+          "source": {
+            "id": "12387",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/12387"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Catenin beta-1",
+          "source": {
+            "id": "Q02248",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q02248"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 40,
+          "text": "beta-catenin"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Tcf3",
+          "source": {
+            "id": "21423",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/21423"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor E2-alpha",
+          "source": {
+            "id": "P15806",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P15806"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 193,
+          "text": "mTcf-3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Tcf4",
+          "source": {
+            "id": "21413",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/21413"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor 4",
+          "source": {
+            "id": "Q924A0",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q924A0"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 204,
+          "text": "mTcf-4"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Tcf3",
+          "source": {
+            "id": "21423",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/21423"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor E2-alpha",
+          "source": {
+            "id": "Q924A0",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q924A0"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 212,
+          "text": "mTcf-3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Tcf4",
+          "source": {
+            "id": "21413",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/21413"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor 4",
+          "source": {
+            "id": "Q924A0",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q924A0"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 342,
+          "text": "mTcf-4"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Tcf3",
+          "source": {
+            "id": "21423",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/21423"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor E2-alpha",
+          "source": {
+            "id": "Q924A0",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q924A0"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 481,
+          "text": "mTcf-3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Tcf4",
+          "source": {
+            "id": "21413",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/21413"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor 4",
+          "source": {
+            "id": "Q924A0",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q924A0"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 492,
+          "text": "mTcf-4"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Ctnnb1",
+          "source": {
+            "id": "12387",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/12387"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Catenin beta-1",
+          "source": {
+            "id": "Q924A0",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q924A0"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 592,
+          "text": "beta-catenin"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Wnt1",
+          "source": {
+            "id": "22408",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/22408"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Proto-oncogene Wnt-1",
+          "source": {
+            "id": "P04426",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04426"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 624,
+          "text": "Wnt-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Ctnnb1",
+          "source": {
+            "id": "12387",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/12387"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Catenin beta-1",
+          "source": {
+            "id": "P04426",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04426"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 716,
+          "text": "beta-catenin"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Ctnnb1",
+          "source": {
+            "id": "12387",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/12387"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Catenin beta-1",
+          "source": {
+            "id": "P04426",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04426"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 851,
+          "text": "beta-catenin"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [],
+  "sources": [
+    {
+      "id": "9488439",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/9488439"
+    }
+  ]
+}

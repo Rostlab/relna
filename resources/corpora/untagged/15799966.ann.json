@@ -1,0 +1,413 @@
+{
+  "anncomplete": false,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "COMMD1",
+          "source": {
+            "id": "150684",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/150684"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "COMM domain-containing protein 1",
+          "source": {
+            "id": "Q8N668",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q8N668"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 72,
+          "text": "MURR1"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "COMMD1",
+          "source": {
+            "id": "150684",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/150684"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "COMM domain-containing protein 1",
+          "source": {
+            "id": "Q8N668",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q8N668"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 0,
+          "text": "MURR1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "COMMD1",
+          "source": {
+            "id": "150684",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/150684"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "COMM domain-containing protein 1",
+          "source": {
+            "id": "Q8N668",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q8N668"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 299,
+          "text": "MURR1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "COMMD1",
+          "source": {
+            "id": "150684",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/150684"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "COMM domain-containing protein 1",
+          "source": {
+            "id": "Q8N668",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q8N668"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 395,
+          "text": "MURR1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "COMMD1",
+          "source": {
+            "id": "150684",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/150684"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "COMM domain-containing protein 1",
+          "source": {
+            "id": "Q8N668",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q8N668"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 617,
+          "text": "MURR1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "COMMD1",
+          "source": {
+            "id": "150684",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/150684"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "COMM domain-containing protein 1",
+          "source": {
+            "id": "Q8N668",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q8N668"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 887,
+          "text": "MURR1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "COMMD1",
+          "source": {
+            "id": "150684",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/150684"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "COMM domain-containing protein 1",
+          "source": {
+            "id": "Q8N668",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q8N668"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 924,
+          "text": "MURR1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "COMMD1",
+          "source": {
+            "id": "150684",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/150684"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "COMM domain-containing protein 1",
+          "source": {
+            "id": "Q8N668",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q8N668"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 930,
+          "text": "COMMD1"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [],
+  "sources": [
+    {
+      "id": "15799966",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/15799966"
+    }
+  ]
+}

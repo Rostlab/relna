@@ -1,5 +1,5 @@
 import abc
-from nala.structures.data import Edge
+from nalaf.structures.data import Edge
 from nltk.stem import PorterStemmer
 
 class EdgeGenerator:
@@ -15,7 +15,7 @@ class EdgeGenerator:
     @abc.abstractmethod
     def generate(self, dataset):
         """
-        :type dataset: nala.structures.data.Dataset
+        :type dataset: nalaf.structures.data.Dataset
         """
         return
 

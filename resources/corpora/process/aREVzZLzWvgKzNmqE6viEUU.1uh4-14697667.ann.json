@@ -1,0 +1,1007 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AATF",
+          "source": {
+            "id": "26574",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/26574"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Protein AATF",
+          "source": {
+            "id": "Q9NY61",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9NY61"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 19,
+          "text": "Che-1"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MAPT",
+          "source": {
+            "id": "4137",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4137"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Microtubule-associated protein tau",
+          "source": {
+            "id": "P10636",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P10636"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 40,
+          "text": "Tau"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AATF",
+          "source": {
+            "id": "26574",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/26574"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Protein AATF",
+          "source": {
+            "id": "P10636",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P10636"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 0,
+          "text": "Che-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AATF",
+          "source": {
+            "id": "26574",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/26574"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Protein AATF",
+          "source": {
+            "id": "P10636",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P10636"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 139,
+          "text": "Che-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "HDAC1",
+          "source": {
+            "id": "3065",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3065"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone deacetylase 1",
+          "source": {
+            "id": "Q13547",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13547"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 179,
+          "text": "HDAC1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "HDAC1",
+          "source": {
+            "id": "3065",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3065"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone deacetylase 1",
+          "source": {
+            "id": "Q13547",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13547"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 215,
+          "text": "HDAC1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AATF",
+          "source": {
+            "id": "26574",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/26574"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Protein AATF",
+          "source": {
+            "id": "Q13547",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13547"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 308,
+          "text": "Che-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AATF",
+          "source": {
+            "id": "26574",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/26574"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Protein AATF",
+          "source": {
+            "id": "Q13547",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13547"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 351,
+          "text": "Che-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MAPT",
+          "source": {
+            "id": "4137",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4137"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Microtubule-associated protein tau",
+          "source": {
+            "id": "Q13547",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13547"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 381,
+          "text": "Tau"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MAPT",
+          "source": {
+            "id": "4137",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4137"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Microtubule-associated protein tau",
+          "source": {
+            "id": "Q13547",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13547"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 386,
+          "text": "Tau"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AATF",
+          "source": {
+            "id": "26574",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/26574"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Protein AATF",
+          "source": {
+            "id": "Q13547",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13547"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 688,
+          "text": "Che-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MAPT",
+          "source": {
+            "id": "4137",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4137"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Microtubule-associated protein tau",
+          "source": {
+            "id": "Q13547",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13547"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 729,
+          "text": "Tau"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MAPT",
+          "source": {
+            "id": "4137",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4137"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Microtubule-associated protein tau",
+          "source": {
+            "id": "Q13547",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13547"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 793,
+          "text": "Tau"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AATF",
+          "source": {
+            "id": "26574",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/26574"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Protein AATF",
+          "source": {
+            "id": "Q13547",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13547"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 801,
+          "text": "Che-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AATF",
+          "source": {
+            "id": "26574",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/26574"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Protein AATF",
+          "source": {
+            "id": "Q13547",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13547"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 888,
+          "text": "Che-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MAPT",
+          "source": {
+            "id": "4137",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4137"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Microtubule-associated protein tau",
+          "source": {
+            "id": "Q13547",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13547"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 894,
+          "text": "Tau"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MAPT",
+          "source": {
+            "id": "4137",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4137"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Microtubule-associated protein tau",
+          "source": {
+            "id": "Q13547",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13547"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1015,
+          "text": "Tau"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AATF",
+          "source": {
+            "id": "26574",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/26574"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Protein AATF",
+          "source": {
+            "id": "Q13547",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13547"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1019,
+          "text": "Che-1"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s1h1|40,43",
+        "s1h1|19,24"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|381,384",
+        "s2p1|351,356"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|729,732",
+        "s2p1|688,693"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|894,897",
+        "s2p1|888,893"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|1015,1018",
+        "s2p1|1019,1024"
+      ],
+      "type": "linked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "14697667",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/14697667"
+    },
+    {
+      "id": "14697667",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/14697667"
+    }
+  ]
+}

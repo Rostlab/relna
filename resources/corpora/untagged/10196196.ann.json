@@ -1,0 +1,1148 @@
+{
+  "anncomplete": false,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Spib",
+          "source": {
+            "id": "272382",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/272382"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor Spi-B",
+          "source": {
+            "id": "O35906",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O35906"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 0,
+          "text": "SPI-B"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Spi1",
+          "source": {
+            "id": "20375",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/20375"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor PU.1",
+          "source": {
+            "id": "P17433",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P17433"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 132,
+          "text": "PU.1"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Spib",
+          "source": {
+            "id": "272382",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/272382"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor Spi-B",
+          "source": {
+            "id": "P17433",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P17433"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 0,
+          "text": "SPI-B"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Spi1",
+          "source": {
+            "id": "20375",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/20375"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor PU.1",
+          "source": {
+            "id": "P17433",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P17433"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 103,
+          "text": "PU.1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Spi1",
+          "source": {
+            "id": "20375",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/20375"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor PU.1",
+          "source": {
+            "id": "P17433",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P17433"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 108,
+          "text": "SPI-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Spi1",
+          "source": {
+            "id": "20375",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/20375"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor PU.1",
+          "source": {
+            "id": "P17433",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P17433"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 137,
+          "text": "PU.1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Spib",
+          "source": {
+            "id": "272382",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/272382"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor Spi-B",
+          "source": {
+            "id": "P17433",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P17433"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 225,
+          "text": "Spi-B"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Spi1",
+          "source": {
+            "id": "20375",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/20375"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor PU.1",
+          "source": {
+            "id": "P17433",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P17433"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 306,
+          "text": "PU.1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Spib",
+          "source": {
+            "id": "272382",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/272382"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor Spi-B",
+          "source": {
+            "id": "P17433",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P17433"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 411,
+          "text": "SPI-B"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Spi1",
+          "source": {
+            "id": "20375",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/20375"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor PU.1",
+          "source": {
+            "id": "P17433",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P17433"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 421,
+          "text": "PU.1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Spib",
+          "source": {
+            "id": "272382",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/272382"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor Spi-B",
+          "source": {
+            "id": "P17433",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P17433"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 581,
+          "text": "SPI-B"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Spi1",
+          "source": {
+            "id": "20375",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/20375"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor PU.1",
+          "source": {
+            "id": "P17433",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P17433"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 614,
+          "text": "PU.1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Spib",
+          "source": {
+            "id": "272382",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/272382"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor Spi-B",
+          "source": {
+            "id": "P17433",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P17433"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 743,
+          "text": "SPI-B"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Spi1",
+          "source": {
+            "id": "20375",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/20375"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor PU.1",
+          "source": {
+            "id": "P17433",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P17433"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1015,
+          "text": "PU.1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Spi1",
+          "source": {
+            "id": "20375",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/20375"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor PU.1",
+          "source": {
+            "id": "P17433",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P17433"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1109,
+          "text": "PU.1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Fes",
+          "source": {
+            "id": "14159",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/14159"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Tyrosine-protein kinase Fes/Fps",
+          "source": {
+            "id": "P16879",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P16879"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1130,
+          "text": "c-FES"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Spib",
+          "source": {
+            "id": "272382",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/272382"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor Spi-B",
+          "source": {
+            "id": "P16879",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P16879"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1151,
+          "text": "SPI-B"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Spib",
+          "source": {
+            "id": "272382",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/272382"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor Spi-B",
+          "source": {
+            "id": "P16879",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P16879"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1224,
+          "text": "SPI-B"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Spi1",
+          "source": {
+            "id": "20375",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/20375"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor PU.1",
+          "source": {
+            "id": "P16879",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P16879"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1249,
+          "text": "PU.1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Tbp",
+          "source": {
+            "id": "21374",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/21374"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "TATA-box-binding protein",
+          "source": {
+            "id": "P29037",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P29037"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1269,
+          "text": "TBP"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Spib",
+          "source": {
+            "id": "272382",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/272382"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor Spi-B",
+          "source": {
+            "id": "P29037",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P29037"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1400,
+          "text": "SPI-B"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Spi1",
+          "source": {
+            "id": "20375",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/20375"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor PU.1",
+          "source": {
+            "id": "P29037",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P29037"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1465,
+          "text": "PU.1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Spib",
+          "source": {
+            "id": "272382",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/272382"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor Spi-B",
+          "source": {
+            "id": "P29037",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P29037"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1534,
+          "text": "SPI-B"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [],
+  "sources": [
+    {
+      "id": "10196196",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/10196196"
+    }
+  ]
+}

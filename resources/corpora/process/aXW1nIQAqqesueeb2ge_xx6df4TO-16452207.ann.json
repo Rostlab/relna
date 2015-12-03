@@ -1,0 +1,1193 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MTDH",
+          "source": {
+            "id": "92140",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/92140"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Protein LYRIC",
+          "source": {
+            "id": "Q86UE4",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q86UE4"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 51,
+          "text": "astrocyte elevated gene-1"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MTDH",
+          "source": {
+            "id": "92140",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/92140"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Protein LYRIC",
+          "source": {
+            "id": "Q86UE4",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q86UE4"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 0,
+          "text": "Astrocyte elevated gene-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MTDH",
+          "source": {
+            "id": "92140",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/92140"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Protein LYRIC",
+          "source": {
+            "id": "Q86UE4",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q86UE4"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 27,
+          "text": "AEG-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MTDH",
+          "source": {
+            "id": "92140",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/92140"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Protein LYRIC",
+          "source": {
+            "id": "P01375",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01375"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 233,
+          "text": "AEG-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MTDH",
+          "source": {
+            "id": "92140",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/92140"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Protein LYRIC",
+          "source": {
+            "id": "P01375",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01375"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 338,
+          "text": "AEG-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TNF",
+          "source": {
+            "id": "7124",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7124"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Tumor necrosis factor",
+          "source": {
+            "id": "P01375",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01375"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 498,
+          "text": "TNF-alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MTDH",
+          "source": {
+            "id": "92140",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/92140"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Protein LYRIC",
+          "source": {
+            "id": "P01375",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01375"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 725,
+          "text": "AEG-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MTDH",
+          "source": {
+            "id": "92140",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/92140"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Protein LYRIC",
+          "source": {
+            "id": "P01375",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01375"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 804,
+          "text": "AEG-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MTDH",
+          "source": {
+            "id": "92140",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/92140"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Protein LYRIC",
+          "source": {
+            "id": "P01375",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01375"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 855,
+          "text": "AEG-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NFKB1",
+          "source": {
+            "id": "4790",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4790"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Nuclear factor NF-kappa-B p105 subunit",
+          "source": {
+            "id": "P19838",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P19838"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 936,
+          "text": "p50"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RELA",
+          "source": {
+            "id": "5970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor p65",
+          "source": {
+            "id": "Q04206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q04206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 940,
+          "text": "p65"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MTDH",
+          "source": {
+            "id": "92140",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/92140"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Protein LYRIC",
+          "source": {
+            "id": "Q04206",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q04206"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1002,
+          "text": "AEG-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NFKBIA",
+          "source": {
+            "id": "4792",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4792"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "NF-kappa-B inhibitor alpha",
+          "source": {
+            "id": "P25963",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P25963"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1041,
+          "text": "IkappaBalpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RELA",
+          "source": {
+            "id": "5970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor p65",
+          "source": {
+            "id": "P25963",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P25963"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1083,
+          "text": "p65"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NFKBIA",
+          "source": {
+            "id": "4792",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4792"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "NF-kappa-B inhibitor alpha",
+          "source": {
+            "id": "P25963",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P25963"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1229,
+          "text": "IkappaBalpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RELA",
+          "source": {
+            "id": "5970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor p65",
+          "source": {
+            "id": "P25963",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P25963"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1264,
+          "text": "p65"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MTDH",
+          "source": {
+            "id": "92140",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/92140"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Protein LYRIC",
+          "source": {
+            "id": "P25963",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P25963"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1301,
+          "text": "AEG-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TNF",
+          "source": {
+            "id": "7124",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7124"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Tumor necrosis factor",
+          "source": {
+            "id": "P25963",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P25963"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1417,
+          "text": "TNF-alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MTDH",
+          "source": {
+            "id": "92140",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/92140"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Protein LYRIC",
+          "source": {
+            "id": "P25963",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P25963"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1479,
+          "text": "AEG-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RELA",
+          "source": {
+            "id": "5970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor p65",
+          "source": {
+            "id": "P25963",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P25963"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1489,
+          "text": "p65"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MTDH",
+          "source": {
+            "id": "92140",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/92140"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Protein LYRIC",
+          "source": {
+            "id": "P25963",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P25963"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1585,
+          "text": "AEG-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MTDH",
+          "source": {
+            "id": "92140",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/92140"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Protein LYRIC",
+          "source": {
+            "id": "P25963",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P25963"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1670,
+          "text": "AEG-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MTDH",
+          "source": {
+            "id": "92140",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/92140"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Protein LYRIC",
+          "source": {
+            "id": "P25963",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P25963"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1727,
+          "text": "AEG-1"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|1479,1484",
+        "s2p1|1489,1492"
+      ],
+      "type": "linked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "16452207",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/16452207"
+    },
+    {
+      "id": "16452207",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/16452207"
+    }
+  ]
+}

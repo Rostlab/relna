@@ -1,0 +1,593 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Pqbp1",
+          "source": {
+            "id": "54633",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/54633"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Polyglutamine-binding protein 1",
+          "source": {
+            "id": "Q91VJ5",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q91VJ5"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 0,
+          "text": "PQBP-1"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Pou3f2",
+          "source": {
+            "id": "18992",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/18992"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "POU domain, class 3, transcription factor 2",
+          "source": {
+            "id": "P31360",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P31360"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 90,
+          "text": "Brn-2"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Pqbp1",
+          "source": {
+            "id": "54633",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/54633"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Polyglutamine-binding protein 1",
+          "source": {
+            "id": "P31360",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P31360"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 25,
+          "text": "PQBP-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Pou3f2",
+          "source": {
+            "id": "18992",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/18992"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "POU domain, class 3, transcription factor 2",
+          "source": {
+            "id": "P31360",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P31360"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 150,
+          "text": "Brn-2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Pqbp1",
+          "source": {
+            "id": "54633",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/54633"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Polyglutamine-binding protein 1",
+          "source": {
+            "id": "P31360",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P31360"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 173,
+          "text": "PQBP-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Pqbp1",
+          "source": {
+            "id": "54633",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/54633"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Polyglutamine-binding protein 1",
+          "source": {
+            "id": "P31360",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P31360"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 337,
+          "text": "PQBP-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Pqbp1",
+          "source": {
+            "id": "54633",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/54633"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Polyglutamine-binding protein 1",
+          "source": {
+            "id": "P31360",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P31360"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 697,
+          "text": "PQBP-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Pou3f2",
+          "source": {
+            "id": "18992",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/18992"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "POU domain, class 3, transcription factor 2",
+          "source": {
+            "id": "P31360",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P31360"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 773,
+          "text": "Brn-2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Pqbp1",
+          "source": {
+            "id": "54633",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/54633"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Polyglutamine-binding protein 1",
+          "source": {
+            "id": "P31360",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P31360"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 798,
+          "text": "PQBP-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Pqbp1",
+          "source": {
+            "id": "54633",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/54633"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Polyglutamine-binding protein 1",
+          "source": {
+            "id": "P31360",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P31360"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1057,
+          "text": "PQBP-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Pqbp1",
+          "source": {
+            "id": "54633",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/54633"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Polyglutamine-binding protein 1",
+          "source": {
+            "id": "P31360",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P31360"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1250,
+          "text": "PQBP-1"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|25,31",
+        "s2p1|150,155"
+      ],
+      "type": "linked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "10332029",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/10332029"
+    },
+    {
+      "id": "10332029",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/10332029"
+    }
+  ]
+}

@@ -37,7 +37,7 @@ class BagOfWordsFeatureGenerator(EdgeFeatureGenerator):
     """
     Generates Bag of Words representation for each sentence that contains an edge
 
-    :type feature_set: nala.structures.data.FeatureDictionary
+    :type feature_set: nalaf.structures.data.FeatureDictionary
     :type stop_words: list[str]
     :type training_mode: bool
     """
@@ -76,7 +76,7 @@ class StemmedBagOfWordsFeatureGenerator(EdgeFeatureGenerator):
 
     By default it uses Porter stemmer
 
-    :type feature_set: nala.structures.data.FeatureDictionary
+    :type feature_set: nalaf.structures.data.FeatureDictionary
     :type stemmer: nltk.stem.PorterStemmer
     :type stop_words: list[str]
     :type training_mode: bool
@@ -137,7 +137,7 @@ class WordFilterFeatureGenerator(EdgeFeatureGenerator):
     Value of 1 means that the sentence contains that word
     Value of 0 means that the sentence does not contain the word
 
-    :type feature_set: nala.structures.data.FeatureDictionary
+    :type feature_set: nalaf.structures.data.FeatureDictionary
     :type words: list[str]
     :type stem: bool
     :type training_mode: bool

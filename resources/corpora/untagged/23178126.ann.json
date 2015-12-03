@@ -1,0 +1,609 @@
+{
+  "anncomplete": false,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "REST",
+          "source": {
+            "id": "5978",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5978"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "RE1-silencing transcription factor",
+          "source": {
+            "id": "Q13127",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13127"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 38,
+          "text": "REST"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "REST",
+          "source": {
+            "id": "5978",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5978"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "RE1-silencing transcription factor",
+          "source": {
+            "id": "Q13127",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13127"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 43,
+          "text": "NRSF"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ZNF335",
+          "source": {
+            "id": "63925",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/63925"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Zinc finger protein 335",
+          "source": {
+            "id": "Q9H4Z2",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9H4Z2"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 267,
+          "text": "ZNF335"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ZNF335",
+          "source": {
+            "id": "63925",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/63925"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Zinc finger protein 335",
+          "source": {
+            "id": "Q9H4Z2",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9H4Z2"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 274,
+          "text": "NIF-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Znf335",
+          "source": {
+            "id": "329559",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/329559"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Zinc finger protein 335",
+          "source": {
+            "id": "A2A5K6",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/A2A5K6"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 366,
+          "text": "Znf335"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ZNF335",
+          "source": {
+            "id": "63925",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/63925"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Zinc finger protein 335",
+          "source": {
+            "id": "A2A5K6",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/A2A5K6"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 531,
+          "text": "ZNF335"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ZNF335",
+          "source": {
+            "id": "63925",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/63925"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Zinc finger protein 335",
+          "source": {
+            "id": "A2A5K6",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/A2A5K6"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 631,
+          "text": "ZNF335"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "REST",
+          "source": {
+            "id": "5978",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5978"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "RE1-silencing transcription factor",
+          "source": {
+            "id": "A2A5K6",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/A2A5K6"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 735,
+          "text": "REST"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "REST",
+          "source": {
+            "id": "5978",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5978"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "RE1-silencing transcription factor",
+          "source": {
+            "id": "A2A5K6",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/A2A5K6"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 740,
+          "text": "NRSF"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ZNF335",
+          "source": {
+            "id": "63925",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/63925"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Zinc finger protein 335",
+          "source": {
+            "id": "A2A5K6",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/A2A5K6"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 875,
+          "text": "ZNF335"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "REST",
+          "source": {
+            "id": "5978",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5978"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "RE1-silencing transcription factor",
+          "source": {
+            "id": "A2A5K6",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/A2A5K6"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 930,
+          "text": "REST"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "REST",
+          "source": {
+            "id": "5978",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5978"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "RE1-silencing transcription factor",
+          "source": {
+            "id": "A2A5K6",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/A2A5K6"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 935,
+          "text": "NRSF"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [],
+  "sources": [
+    {
+      "id": "23178126",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/23178126"
+    }
+  ]
+}

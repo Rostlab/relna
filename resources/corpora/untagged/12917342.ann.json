@@ -1,0 +1,1050 @@
+{
+  "anncomplete": false,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SMARCD1 {ECO:0000312|EMBL:AAD23390.1}",
+          "source": {
+            "id": "6602",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6602"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily D member 1",
+          "source": {
+            "id": "Q96GM5",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q96GM5"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 0,
+          "text": "BAF60a"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SMARCA4",
+          "source": {
+            "id": "6597",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6597"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription activator BRG1",
+          "source": {
+            "id": "P51532",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P51532"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 72,
+          "text": "BRG1"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NR3C1",
+          "source": {
+            "id": "2908",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2908"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Glucocorticoid receptor",
+          "source": {
+            "id": "P04150",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04150"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 296,
+          "text": "glucocorticoid receptor"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SMARCA4",
+          "source": {
+            "id": "6597",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6597"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription activator BRG1",
+          "source": {
+            "id": "P04150",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04150"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 393,
+          "text": "BRG1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SMARCD1 {ECO:0000312|EMBL:AAD23390.1}",
+          "source": {
+            "id": "6602",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6602"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily D member 1",
+          "source": {
+            "id": "P04150",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04150"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 488,
+          "text": "BRG1-associated factor 60a"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SMARCD1 {ECO:0000312|EMBL:AAD23390.1}",
+          "source": {
+            "id": "6602",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6602"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily D member 1",
+          "source": {
+            "id": "P04150",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04150"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 516,
+          "text": "BAF60a"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SMARCE1",
+          "source": {
+            "id": "6605",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6605"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily E member 1",
+          "source": {
+            "id": "Q969G3",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q969G3"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 528,
+          "text": "BAF57"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SMARCA4",
+          "source": {
+            "id": "6597",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6597"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription activator BRG1",
+          "source": {
+            "id": "Q969G3",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q969G3"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 548,
+          "text": "BRG1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SMARCC1",
+          "source": {
+            "id": "6599",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6599"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "SWI/SNF complex subunit SMARCC1",
+          "source": {
+            "id": "Q92922",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92922"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 554,
+          "text": "BAF155"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SMARCC2",
+          "source": {
+            "id": "6601",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6601"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "SWI/SNF complex subunit SMARCC2",
+          "source": {
+            "id": "Q8TAQ2",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q8TAQ2"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 565,
+          "text": "BAF170"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SMARCD1 {ECO:0000312|EMBL:AAD23390.1}",
+          "source": {
+            "id": "6602",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6602"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily D member 1",
+          "source": {
+            "id": "Q8TAQ2",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q8TAQ2"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 582,
+          "text": "BAF60a"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SMARCA4",
+          "source": {
+            "id": "6597",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6597"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription activator BRG1",
+          "source": {
+            "id": "Q8TAQ2",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q8TAQ2"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 649,
+          "text": "BRG1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SMARCC1",
+          "source": {
+            "id": "6599",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6599"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "SWI/SNF complex subunit SMARCC1",
+          "source": {
+            "id": "Q8TAQ2",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q8TAQ2"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 671,
+          "text": "BAF155"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SMARCC2",
+          "source": {
+            "id": "6601",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6601"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "SWI/SNF complex subunit SMARCC2",
+          "source": {
+            "id": "Q8TAQ2",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q8TAQ2"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 682,
+          "text": "BAF170"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SMARCD1 {ECO:0000312|EMBL:AAD23390.1}",
+          "source": {
+            "id": "6602",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6602"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily D member 1",
+          "source": {
+            "id": "Q8TAQ2",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q8TAQ2"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 742,
+          "text": "BAF60a"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SMARCD1 {ECO:0000312|EMBL:AAD23390.1}",
+          "source": {
+            "id": "6602",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6602"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily D member 1",
+          "source": {
+            "id": "Q8TAQ2",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q8TAQ2"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 910,
+          "text": "BAF60a"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SMARCD1 {ECO:0000312|EMBL:AAD23390.1}",
+          "source": {
+            "id": "6602",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6602"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily D member 1",
+          "source": {
+            "id": "Q8TAQ2",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q8TAQ2"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1028,
+          "text": "BAF60a"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SMARCA4",
+          "source": {
+            "id": "6597",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6597"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription activator BRG1",
+          "source": {
+            "id": "Q8TAQ2",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q8TAQ2"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1077,
+          "text": "BRG1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ARID1A",
+          "source": {
+            "id": "8289",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8289"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "AT-rich interactive domain-containing protein 1A",
+          "source": {
+            "id": "O14497",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O14497"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1225,
+          "text": "BAF250"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SMARCD1 {ECO:0000312|EMBL:AAD23390.1}",
+          "source": {
+            "id": "6602",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6602"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily D member 1",
+          "source": {
+            "id": "O14497",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O14497"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1233,
+          "text": "BAF60a"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SMARCA4",
+          "source": {
+            "id": "6597",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6597"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription activator BRG1",
+          "source": {
+            "id": "O14497",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O14497"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1319,
+          "text": "BRG1"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [],
+  "sources": [
+    {
+      "id": "12917342",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/12917342"
+    }
+  ]
+}

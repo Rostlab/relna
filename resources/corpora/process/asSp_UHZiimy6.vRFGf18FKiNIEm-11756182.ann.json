@@ -1,0 +1,1293 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "KMT2A",
+          "source": {
+            "id": "4297",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4297"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone-lysine N-methyltransferase 2A",
+          "source": {
+            "id": "Q03164",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q03164"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 4,
+          "text": "MLL"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MLLT10",
+          "source": {
+            "id": "8028",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8028"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Protein AF-10",
+          "source": {
+            "id": "P55197",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P55197"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 23,
+          "text": "AF10"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "YEATS4",
+          "source": {
+            "id": "8089",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8089"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "YEATS domain-containing protein 4",
+          "source": {
+            "id": "O95619",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O95619"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 34,
+          "text": "GAS41"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SMARCA1",
+          "source": {
+            "id": "6594",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6594"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Probable global transcription activator SNF2L1",
+          "source": {
+            "id": "P28370",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P28370"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 81,
+          "text": "SWI"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MLLT10",
+          "source": {
+            "id": "8028",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8028"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Protein AF-10",
+          "source": {
+            "id": "O95619",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O95619"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 4,
+          "text": "AF10"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MLLT10",
+          "source": {
+            "id": "8028",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8028"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Protein AF-10",
+          "source": {
+            "id": "O95619",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O95619"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 211,
+          "text": "AF10"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "KMT2A",
+          "source": {
+            "id": "4297",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4297"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone-lysine N-methyltransferase 2A",
+          "source": {
+            "id": "O95619",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O95619"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 338,
+          "text": "MLL"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MLLT10",
+          "source": {
+            "id": "8028",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8028"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Protein AF-10",
+          "source": {
+            "id": "O95619",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O95619"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 342,
+          "text": "AF10"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PICALM",
+          "source": {
+            "id": "8301",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8301"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Phosphatidylinositol-binding clathrin assembly protein",
+          "source": {
+            "id": "Q13492",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13492"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 351,
+          "text": "CALM"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MLLT10",
+          "source": {
+            "id": "8028",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8028"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Protein AF-10",
+          "source": {
+            "id": "Q13492",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13492"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 356,
+          "text": "AF10"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MLLT10",
+          "source": {
+            "id": "8028",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8028"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Protein AF-10",
+          "source": {
+            "id": "Q13492",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13492"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 488,
+          "text": "AF10"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "YEATS4",
+          "source": {
+            "id": "8089",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8089"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "YEATS domain-containing protein 4",
+          "source": {
+            "id": "Q13492",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13492"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 650,
+          "text": "GAS41"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TAF14",
+          "source": {
+            "id": "855974",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/855974"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription initiation factor TFIID subunit 14",
+          "source": {
+            "id": "P35189",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P35189"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 817,
+          "text": "ANC1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "KMT2A",
+          "source": {
+            "id": "4297",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4297"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone-lysine N-methyltransferase 2A",
+          "source": {
+            "id": "P35189",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P35189"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 839,
+          "text": "MLL"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MLLT3",
+          "source": {
+            "id": "4300",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4300"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Protein AF-9",
+          "source": {
+            "id": "P42568",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P42568"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 859,
+          "text": "AF9"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MLLT1",
+          "source": {
+            "id": "4298",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4298"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Protein ENL",
+          "source": {
+            "id": "Q03111",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q03111"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 867,
+          "text": "ENL"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "YEATS4",
+          "source": {
+            "id": "8089",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8089"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "YEATS domain-containing protein 4",
+          "source": {
+            "id": "Q03111",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q03111"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 971,
+          "text": "GAS41"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SMARCB1",
+          "source": {
+            "id": "6598",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6598"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily B member 1",
+          "source": {
+            "id": "Q12824",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q12824"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 992,
+          "text": "INI1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SMARCB1",
+          "source": {
+            "id": "6598",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6598"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily B member 1",
+          "source": {
+            "id": "Q12824",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q12824"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 998,
+          "text": "Integrase Interactor 1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SMARCB1",
+          "source": {
+            "id": "6598",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6598"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily B member 1",
+          "source": {
+            "id": "Q12824",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q12824"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1031,
+          "text": "INI1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MLLT10",
+          "source": {
+            "id": "8028",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8028"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Protein AF-10",
+          "source": {
+            "id": "Q12824",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q12824"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1055,
+          "text": "AF10"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SMARCB1",
+          "source": {
+            "id": "6598",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6598"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily B member 1",
+          "source": {
+            "id": "Q12824",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q12824"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1079,
+          "text": "INI1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SNF5",
+          "source": {
+            "id": "852592",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/852592"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "SWI/SNF chromatin-remodeling complex subunit SNF5",
+          "source": {
+            "id": "P18480",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P18480"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1120,
+          "text": "SNF5"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "KMT2A",
+          "source": {
+            "id": "4297",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4297"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Histone-lysine N-methyltransferase 2A",
+          "source": {
+            "id": "P18480",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P18480"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1276,
+          "text": "MLL"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PICALM",
+          "source": {
+            "id": "8301",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8301"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Phosphatidylinositol-binding clathrin assembly protein",
+          "source": {
+            "id": "P18480",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P18480"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1284,
+          "text": "CALM"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s1h1|34,39",
+        "s1h1|81,84"
+      ],
+      "type": "linked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "11756182",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/11756182"
+    },
+    {
+      "id": "11756182",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/11756182"
+    }
+  ]
+}

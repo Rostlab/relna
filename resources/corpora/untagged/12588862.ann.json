@@ -1,0 +1,1231 @@
+{
+  "anncomplete": false,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PRTN3",
+          "source": {
+            "id": "5657",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5657"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Myeloblastin",
+          "source": {
+            "id": "P24158",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P24158"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 14,
+          "text": "MBT"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ETV6",
+          "source": {
+            "id": "2120",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2120"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor ETV6",
+          "source": {
+            "id": "P41212",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P41212"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 119,
+          "text": "TEL"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ETV6",
+          "source": {
+            "id": "2120",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2120"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor ETV6",
+          "source": {
+            "id": "P41212",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P41212"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 124,
+          "text": "ETV6"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "L3MBTL1",
+          "source": {
+            "id": "26013",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/26013"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Lethal(3)malignant brain tumor-like protein 1",
+          "source": {
+            "id": "Q14204",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q14204"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 0,
+          "text": "H-L(3)MBT"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "l(3)mbt {ECO:0000313|EMBL:AAK93077.1",
+          "source": {
+            "id": "43288",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/43288"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 47,
+          "text": "lethal(3)malignant brain tumor"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "mbt {ECO:0000312|EMBL:AAF48629.2}",
+          "source": {
+            "id": "32631",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/32631"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Serine/threonine-protein kinase PAK mbt",
+          "source": {
+            "id": "Q9VXE5",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9VXE5"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 245,
+          "text": "mbt"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "mbt {ECO:0000312|EMBL:AAF48629.2}",
+          "source": {
+            "id": "32631",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/32631"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Serine/threonine-protein kinase PAK mbt",
+          "source": {
+            "id": "Q9VXE5",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9VXE5"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 304,
+          "text": "mbt"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "L3MBTL1",
+          "source": {
+            "id": "26013",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/26013"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Lethal(3)malignant brain tumor-like protein 1",
+          "source": {
+            "id": "Q9VXE5",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9VXE5"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 340,
+          "text": "h-l(3)mbt"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "L3MBTL1",
+          "source": {
+            "id": "26013",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/26013"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Lethal(3)malignant brain tumor-like protein 1",
+          "source": {
+            "id": "Q9VXE5",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9VXE5"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 464,
+          "text": "H-L(3)MBT"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PRTN3",
+          "source": {
+            "id": "5657",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5657"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Myeloblastin",
+          "source": {
+            "id": "Q9VXE5",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9VXE5"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 520,
+          "text": "MBT"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ETV6",
+          "source": {
+            "id": "2120",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2120"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor ETV6",
+          "source": {
+            "id": "Q9VXE5",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9VXE5"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 785,
+          "text": "TEL"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ETV6",
+          "source": {
+            "id": "2120",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2120"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor ETV6",
+          "source": {
+            "id": "Q9VXE5",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9VXE5"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 790,
+          "text": "translocation Ets leukemia"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "L3MBTL1",
+          "source": {
+            "id": "26013",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/26013"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Lethal(3)malignant brain tumor-like protein 1",
+          "source": {
+            "id": "Q9VXE5",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9VXE5"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 834,
+          "text": "H-L(3)MBT"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PRTN3",
+          "source": {
+            "id": "5657",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5657"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Myeloblastin",
+          "source": {
+            "id": "Q9VXE5",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9VXE5"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 967,
+          "text": "MBT"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "L3MBTL1",
+          "source": {
+            "id": "26013",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/26013"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Lethal(3)malignant brain tumor-like protein 1",
+          "source": {
+            "id": "Q9VXE5",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9VXE5"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 980,
+          "text": "H-L(3)MBT"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "L3MBTL1",
+          "source": {
+            "id": "26013",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/26013"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Lethal(3)malignant brain tumor-like protein 1",
+          "source": {
+            "id": "Q9VXE5",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9VXE5"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1125,
+          "text": "H-L(3)MBT"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ETV6",
+          "source": {
+            "id": "2120",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2120"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor ETV6",
+          "source": {
+            "id": "Q9VXE5",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9VXE5"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1152,
+          "text": "TEL"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ETV6",
+          "source": {
+            "id": "2120",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2120"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor ETV6",
+          "source": {
+            "id": "Q9VXE5",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9VXE5"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1267,
+          "text": "TEL"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ETV6",
+          "source": {
+            "id": "2120",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2120"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor ETV6",
+          "source": {
+            "id": "Q9VXE5",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9VXE5"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1282,
+          "text": "TEL"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "L3MBTL1",
+          "source": {
+            "id": "26013",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/26013"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Lethal(3)malignant brain tumor-like protein 1",
+          "source": {
+            "id": "Q9VXE5",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9VXE5"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1338,
+          "text": "H-L(3)MBT"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "L3MBTL1",
+          "source": {
+            "id": "26013",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/26013"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Lethal(3)malignant brain tumor-like protein 1",
+          "source": {
+            "id": "Q9VXE5",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9VXE5"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1376,
+          "text": "H-L(3)MBT"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ETV6",
+          "source": {
+            "id": "2120",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2120"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor ETV6",
+          "source": {
+            "id": "Q9VXE5",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9VXE5"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1512,
+          "text": "TEL"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ETV6",
+          "source": {
+            "id": "2120",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2120"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor ETV6",
+          "source": {
+            "id": "Q9VXE5",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9VXE5"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1597,
+          "text": "TEL"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "L3MBTL1",
+          "source": {
+            "id": "26013",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/26013"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Lethal(3)malignant brain tumor-like protein 1",
+          "source": {
+            "id": "Q9VXE5",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9VXE5"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1606,
+          "text": "H-L(3)MBT"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ETV6",
+          "source": {
+            "id": "2120",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2120"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Transcription factor ETV6",
+          "source": {
+            "id": "Q9VXE5",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9VXE5"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1663,
+          "text": "TEL"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [],
+  "sources": [
+    {
+      "id": "12588862",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/12588862"
+    }
+  ]
+}

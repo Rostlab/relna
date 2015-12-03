@@ -1,0 +1,1099 @@
+{
+  "anncomplete": false,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SH2B2",
+          "source": {
+            "id": "10603",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10603"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "SH2B adapter protein 2",
+          "source": {
+            "id": "O14492",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O14492"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 0,
+          "text": "APS"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CBL",
+          "source": {
+            "id": "867",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/867"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "E3 ubiquitin-protein ligase CBL",
+          "source": {
+            "id": "P22681",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P22681"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 96,
+          "text": "c-Cbl"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SH2B2",
+          "source": {
+            "id": "10603",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10603"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "SH2B adapter protein 2",
+          "source": {
+            "id": "P22681",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P22681"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 46,
+          "text": "APS"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "KIT",
+          "source": {
+            "id": "3815",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3815"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Mast/stem cell growth factor receptor Kit",
+          "source": {
+            "id": "P10721",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P10721"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 149,
+          "text": "c-kit"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SH2B2",
+          "source": {
+            "id": "10603",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10603"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "SH2B adapter protein 2",
+          "source": {
+            "id": "P10721",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P10721"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 207,
+          "text": "APS"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CSF2",
+          "source": {
+            "id": "1437",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1437"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Granulocyte-macrophage colony-stimulating factor",
+          "source": {
+            "id": "P04141",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04141"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 451,
+          "text": "granulocyte-macrophage colony stimulating factor"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CSF2",
+          "source": {
+            "id": "1437",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1437"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Granulocyte-macrophage colony-stimulating factor",
+          "source": {
+            "id": "P04141",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04141"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 501,
+          "text": "GM-CSF"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Sh2b2",
+          "source": {
+            "id": "23921",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/23921"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "SH2B adapter protein 2",
+          "source": {
+            "id": "Q9JID9",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9JID9"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 546,
+          "text": "APS"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Sh2b2",
+          "source": {
+            "id": "23921",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/23921"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "SH2B adapter protein 2",
+          "source": {
+            "id": "Q9JID9",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9JID9"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 580,
+          "text": "APS"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Mapk1",
+          "source": {
+            "id": "26413",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/26413"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Mitogen-activated protein kinase 1",
+          "source": {
+            "id": "P63085",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P63085"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 643,
+          "text": "Erk2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Fos",
+          "source": {
+            "id": "14281",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/14281"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Proto-oncogene c-Fos",
+          "source": {
+            "id": "P01101",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01101"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 661,
+          "text": "c-fos"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SH2B2",
+          "source": {
+            "id": "10603",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10603"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "SH2B adapter protein 2",
+          "source": {
+            "id": "P01101",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01101"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 760,
+          "text": "APS"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SH2B2",
+          "source": {
+            "id": "10603",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10603"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "SH2B adapter protein 2",
+          "source": {
+            "id": "P01101",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01101"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1005,
+          "text": "APS"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SH2B2",
+          "source": {
+            "id": "10603",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10603"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "SH2B adapter protein 2",
+          "source": {
+            "id": "P01101",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01101"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1080,
+          "text": "APS"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SH2B2",
+          "source": {
+            "id": "10603",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10603"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "SH2B adapter protein 2",
+          "source": {
+            "id": "P01101",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01101"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1217,
+          "text": "APS"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CBL",
+          "source": {
+            "id": "867",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/867"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "E3 ubiquitin-protein ligase CBL",
+          "source": {
+            "id": "P01101",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01101"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1230,
+          "text": "c-Cbl"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CBL",
+          "source": {
+            "id": "867",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/867"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "E3 ubiquitin-protein ligase CBL",
+          "source": {
+            "id": "P01101",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01101"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1328,
+          "text": "c-Cbl"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SH2B2",
+          "source": {
+            "id": "10603",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10603"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "SH2B adapter protein 2",
+          "source": {
+            "id": "P01101",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01101"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1349,
+          "text": "APS"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SH2B2",
+          "source": {
+            "id": "10603",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10603"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "SH2B adapter protein 2",
+          "source": {
+            "id": "P01101",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01101"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1383,
+          "text": "APS"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "FOS",
+          "source": {
+            "id": "2353",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2353"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Proto-oncogene c-Fos",
+          "source": {
+            "id": "P01100",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01100"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1427,
+          "text": "c-fos"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CBL",
+          "source": {
+            "id": "867",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/867"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "E3 ubiquitin-protein ligase CBL",
+          "source": {
+            "id": "P01100",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01100"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1454,
+          "text": "c-Cbl"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SH2B2",
+          "source": {
+            "id": "10603",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10603"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "SH2B adapter protein 2",
+          "source": {
+            "id": "P01100",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01100"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1505,
+          "text": "APS"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [],
+  "sources": [
+    {
+      "id": "9989826",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/9989826"
+    }
+  ]
+}

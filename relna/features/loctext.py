@@ -12,7 +12,7 @@ class ProteinWordFeatureGenerator(EdgeFeatureGenerator):
     speech for each token in the path.
 
     :param feature_set: the feature set for the dataset
-    :type feature_set: nala.structures.data.FeatureDictionary
+    :type feature_set: nalaf.structures.data.FeatureDictionary
     :param graphs: the graph representation for each sentence in the dataset
     :type graphs: dictionary
     :param training_mode: indicates whether the mode is training or testing
@@ -87,7 +87,7 @@ class LocationWordFeatureGenerator(EdgeFeatureGenerator):
     contains an edge. These location words include ['location', 'localize'].
 
     :param feature_set: the feature set for the dataset
-    :type feature_set: nala.structures.data.FeatureDictionary
+    :type feature_set: nalaf.structures.data.FeatureDictionary
     :param training_mode: indicates whether the mode is training or testing
     :type training_mode: bool
     """
@@ -130,7 +130,7 @@ class FoundInFeatureGenerator(EdgeFeatureGenerator):
     two entities.
 
     :param feature_set: the feature set for the dataset
-    :type feature_set: nala.structures.data.FeatureDictionary
+    :type feature_set: nalaf.structures.data.FeatureDictionary
     :param training_mode: indicates whether the mode is training or testing
     :type training_mode: bool
     """

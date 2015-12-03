@@ -6,7 +6,7 @@ class FeatureSelection:
     Base class for feature selection given the entire feature set
 
     :param feature_set: the feature set for the dataset
-    :type feature_set: nala.structures.data.FeatureDictionary
+    :type feature_set: nalaf.structures.data.FeatureDictionary
     """
     def __init__(self, dataset, feature_set):
         self.feature_set = feature_set

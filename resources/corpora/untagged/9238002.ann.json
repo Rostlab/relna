@@ -1,0 +1,364 @@
+{
+  "anncomplete": false,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NCOA1",
+          "source": {
+            "id": "8648",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8648"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Nuclear receptor coactivator 1",
+          "source": {
+            "id": "Q15788",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q15788"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 75,
+          "text": "SRC-1"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NCOA2",
+          "source": {
+            "id": "10499",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10499"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Nuclear receptor coactivator 2",
+          "source": {
+            "id": "Q15596",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q15596"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 85,
+          "text": "TIF2"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NCOA3",
+          "source": {
+            "id": "8202",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8202"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Nuclear receptor coactivator 3",
+          "source": {
+            "id": "Q9Y6Q9",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9Y6Q9"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 518,
+          "text": "receptor-associated coactivator 3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NCOA1",
+          "source": {
+            "id": "8648",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8648"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Nuclear receptor coactivator 1",
+          "source": {
+            "id": "Q9Y6Q9",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9Y6Q9"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1014,
+          "text": "steroid receptor coactivator 1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NCOA1",
+          "source": {
+            "id": "8648",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8648"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Nuclear receptor coactivator 1",
+          "source": {
+            "id": "Q9Y6Q9",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9Y6Q9"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1046,
+          "text": "SRC-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NCOA2",
+          "source": {
+            "id": "10499",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10499"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Nuclear receptor coactivator 2",
+          "source": {
+            "id": "Q9Y6Q9",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9Y6Q9"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1057,
+          "text": "transcriptional intermediate factor 2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NCOA2",
+          "source": {
+            "id": "10499",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10499"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:ashish"
+            ]
+          },
+          "recName": "Nuclear receptor coactivator 2",
+          "source": {
+            "id": "Q9Y6Q9",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9Y6Q9"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1096,
+          "text": "TIF2"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [],
+  "sources": [
+    {
+      "id": "9238002",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/9238002"
+    }
+  ]
+}
