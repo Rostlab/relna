@@ -29,7 +29,8 @@ setup(
         'beautifulsoup4',
         'requests',
         'spacy',
-        'progress'],
+        'progress',
+        'bllipparser'],
     #    'matplotlib' # TODO Figure out if we need this, since we might not want this huge dependency
     #],
     include_package_data=True,
