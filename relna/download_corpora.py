@@ -8,11 +8,11 @@ Usage: ::
 """
 if __name__ == '__main__':
     import nltk
-	import spacy
+    from spacy.en import download
 
     CORPORA = ['stopwords']
 
     for corpus in CORPORA:
         nltk.download(corpus)
-		
-	spacy.en.download()
+
+    download.main(force=True)
