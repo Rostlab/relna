@@ -1,0 +1,526 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TXN",
+          "source": {
+            "id": "7295",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7295"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Thioredoxin",
+          "source": {
+            "id": "P10599",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P10599"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 53,
+          "text": "thioredoxin"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TXN",
+          "source": {
+            "id": "7295",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7295"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Thioredoxin",
+          "source": {
+            "id": "P10599",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P10599"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 75,
+          "text": "thioredoxin"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "DECR1",
+          "source": {
+            "id": "1666",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1666"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "2,4-dienoyl-CoA reductase, mitochondrial",
+          "source": {
+            "id": "Q16698",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q16698"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 132,
+          "text": "NADPH"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TXN",
+          "source": {
+            "id": "7295",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7295"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Thioredoxin",
+          "source": {
+            "id": "Q16698",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q16698"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 141,
+          "text": "thioredoxin"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "pre-added",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TXN",
+          "source": {
+            "id": "7295",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7295"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Thioredoxin",
+          "source": {
+            "id": "P10599",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P10599"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 225,
+          "text": "thioredoxin"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TP53",
+          "source": {
+            "id": "7157",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7157"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cellular tumor antigen p53",
+          "source": {
+            "id": "P04637",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04637"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 306,
+          "text": "p53"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TXN",
+          "source": {
+            "id": "7295",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7295"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Thioredoxin",
+          "source": {
+            "id": "P10599",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P10599"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 405,
+          "text": "thioredoxin"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESR1",
+          "source": {
+            "id": "2099",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2099"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "Q92731",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92731"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 605,
+          "text": "estrogen receptors alpha and beta"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESR1",
+          "source": {
+            "id": "2099",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2099"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "Q92731",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92731"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 723,
+          "text": "estrogen receptor alpha and beta"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TXN",
+          "source": {
+            "id": "7295",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7295"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Thioredoxin",
+          "source": {
+            "id": "P10599",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P10599"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1031,
+          "text": "thioredoxin"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [],
+  "sources": [
+    {
+      "id": "15199063",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/15199063"
+    },
+    {
+      "id": "15199063",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/15199063"
+    }
+  ]
+}

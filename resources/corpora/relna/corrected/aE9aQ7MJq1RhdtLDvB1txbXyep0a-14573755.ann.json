@@ -1,0 +1,759 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NR1I3",
+          "source": {
+            "id": "9970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Nuclear receptor subfamily 1 group I member 3",
+          "source": {
+            "id": "Q14994",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q14994"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 49,
+          "text": "CAR"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NR1I3",
+          "source": {
+            "id": "9970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Nuclear receptor subfamily 1 group I member 3",
+          "source": {
+            "id": "Q14994",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q14994"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 42,
+          "text": "CAR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NR1I3",
+          "source": {
+            "id": "9970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Nuclear receptor subfamily 1 group I member 3",
+          "source": {
+            "id": "Q14994",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q14994"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 209,
+          "text": "CAR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NR1I3",
+          "source": {
+            "id": "9970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Nuclear receptor subfamily 1 group I member 3",
+          "source": {
+            "id": "Q14994",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q14994"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 362,
+          "text": "CAR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Dnajc7",
+          "source": {
+            "id": "56354",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/56354"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "DnaJ homolog subfamily C member 7",
+          "source": {
+            "id": "Q9QYI3",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9QYI3"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 547,
+          "text": "CAR retention protein"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "pre-added",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Dnajc7",
+          "source": {
+            "id": "56354",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/56354"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "DnaJ homolog subfamily C member 7",
+          "source": {
+            "id": "Q9QYI3",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9QYI3"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 570,
+          "text": "CCRP"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Dnajc7",
+          "source": {
+            "id": "56354",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/56354"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "DnaJ homolog subfamily C member 7",
+          "source": {
+            "id": "Q9QYI3",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9QYI3"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 667,
+          "text": "CCRP"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NR1I3",
+          "source": {
+            "id": "9970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Nuclear receptor subfamily 1 group I member 3",
+          "source": {
+            "id": "Q14994",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q14994"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 725,
+          "text": "CAR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NR1I3",
+          "source": {
+            "id": "9970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Nuclear receptor subfamily 1 group I member 3",
+          "source": {
+            "id": "Q14994",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q14994"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 773,
+          "text": "CAR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Dnajc7",
+          "source": {
+            "id": "56354",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/56354"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "DnaJ homolog subfamily C member 7",
+          "source": {
+            "id": "Q9QYI3",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9QYI3"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 777,
+          "text": "CCRP"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Nr1i3",
+          "source": {
+            "id": "12355",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/12355"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Nuclear receptor subfamily 1 group I member 3",
+          "source": {
+            "id": "O35627",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O35627"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 887,
+          "text": "CAR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Dnajc7",
+          "source": {
+            "id": "56354",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/56354"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "DnaJ homolog subfamily C member 7",
+          "source": {
+            "id": "Q9QYI3",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9QYI3"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 895,
+          "text": "CCRP"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "pre-added",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Dnajc7",
+          "source": {
+            "id": "56354",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/56354"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "DnaJ homolog subfamily C member 7",
+          "source": {
+            "id": "Q9QYI3",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9QYI3"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1000,
+          "text": "CCRP"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NR1I3",
+          "source": {
+            "id": "9970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Nuclear receptor subfamily 1 group I member 3",
+          "source": {
+            "id": "Q9QYI3",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9QYI3"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1031,
+          "text": "CAR"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|667,671",
+        "s2p1|725,728"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|777,781",
+        "s2p1|773,776"
+      ],
+      "type": "linked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "14573755",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/14573755"
+    },
+    {
+      "id": "14573755",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/14573755"
+    }
+  ]
+}

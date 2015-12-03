@@ -1,0 +1,1059 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AHR",
+          "source": {
+            "id": "196",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/196"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Aryl hydrocarbon receptor",
+          "source": {
+            "id": "P35869",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P35869"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 75,
+          "text": "aryl hydrocarbon receptor"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AHR",
+          "source": {
+            "id": "196",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/196"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Aryl hydrocarbon receptor",
+          "source": {
+            "id": "P35869",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P35869"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 44,
+          "text": "aryl hydrocarbon receptor"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AHR",
+          "source": {
+            "id": "196",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/196"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Aryl hydrocarbon receptor",
+          "source": {
+            "id": "P35869",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P35869"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 71,
+          "text": "AhR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AHR",
+          "source": {
+            "id": "196",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/196"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Aryl hydrocarbon receptor",
+          "source": {
+            "id": "P35869",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P35869"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 96,
+          "text": "AhR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AHR",
+          "source": {
+            "id": "196",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/196"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Aryl hydrocarbon receptor",
+          "source": {
+            "id": "P35869",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P35869"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 281,
+          "text": "AhR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NCOA7",
+          "source": {
+            "id": "135112",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/135112"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Nuclear receptor coactivator 7",
+          "source": {
+            "id": "Q8NI08",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q8NI08"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 369,
+          "text": "ERAP 140"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NCOR2",
+          "source": {
+            "id": "9612",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9612"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Nuclear receptor corepressor 2",
+          "source": {
+            "id": "Q9Y618",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9Y618"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 463,
+          "text": "SMRT"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ARNT",
+          "source": {
+            "id": "405",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/405"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Aryl hydrocarbon receptor nuclear translocator",
+          "source": {
+            "id": "P27540",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P27540"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 535,
+          "text": "AhR, AhR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ARNT",
+          "source": {
+            "id": "405",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/405"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Aryl hydrocarbon receptor nuclear translocator",
+          "source": {
+            "id": "P27540",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P27540"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 540,
+          "text": "AhR nuclear translocator"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ARNT",
+          "source": {
+            "id": "405",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/405"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Aryl hydrocarbon receptor nuclear translocator",
+          "source": {
+            "id": "P27540",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P27540"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 566,
+          "text": "Arnt"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ARNT",
+          "source": {
+            "id": "405",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/405"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Aryl hydrocarbon receptor nuclear translocator",
+          "source": {
+            "id": "P27540",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P27540"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 577,
+          "text": "AhR/Arnt"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NCOA7",
+          "source": {
+            "id": "135112",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/135112"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Nuclear receptor coactivator 7",
+          "source": {
+            "id": "P27540",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P27540"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 630,
+          "text": "ERAP 140"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NCOR2",
+          "source": {
+            "id": "9612",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9612"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Nuclear receptor corepressor 2",
+          "source": {
+            "id": "P27540",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P27540"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 647,
+          "text": "SMRT"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ARNT",
+          "source": {
+            "id": "405",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/405"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Aryl hydrocarbon receptor nuclear translocator",
+          "source": {
+            "id": "P27540",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P27540"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 687,
+          "text": "AhR/Arnt"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NCOA7",
+          "source": {
+            "id": "135112",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/135112"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Nuclear receptor coactivator 7",
+          "source": {
+            "id": "P27540",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P27540"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 757,
+          "text": "ERAP-140"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NCOR2",
+          "source": {
+            "id": "9612",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9612"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Nuclear receptor corepressor 2",
+          "source": {
+            "id": "P27540",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P27540"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 783,
+          "text": "SMRT"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AHR",
+          "source": {
+            "id": "196",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/196"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Aryl hydrocarbon receptor",
+          "source": {
+            "id": "P27540",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P27540"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 913,
+          "text": "AhR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ARNT",
+          "source": {
+            "id": "405",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/405"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Aryl hydrocarbon receptor nuclear translocator",
+          "source": {
+            "id": "P27540",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P27540"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1094,
+          "text": "AhR/Arnt"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NCOA7",
+          "source": {
+            "id": "135112",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/135112"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Nuclear receptor coactivator 7",
+          "source": {
+            "id": "P27540",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P27540"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1108,
+          "text": "ERAP 140"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NCOR2",
+          "source": {
+            "id": "9612",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9612"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Nuclear receptor corepressor 2",
+          "source": {
+            "id": "P27540",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P27540"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1121,
+          "text": "SMRT"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|1108,1116",
+        "s2p1|1094,1102"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|1121,1125",
+        "s2p1|1094,1102"
+      ],
+      "type": "linked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "10395741",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/10395741"
+    },
+    {
+      "id": "10395741",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/10395741"
+    }
+  ]
+}

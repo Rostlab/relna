@@ -1,0 +1,1111 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ALYREF",
+          "source": {
+            "id": "10189",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10189"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "THO complex subunit 4",
+          "source": {
+            "id": "Q86V81",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q86V81"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 0,
+          "text": "ALY"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "LEF1",
+          "source": {
+            "id": "51176",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/51176"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Lymphoid enhancer-binding factor 1",
+          "source": {
+            "id": "Q9UJU2",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9UJU2"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 40,
+          "text": "LEF-1"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RUNX1",
+          "source": {
+            "id": "861",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/861"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Runt-related transcription factor 1",
+          "source": {
+            "id": "Q01196",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q01196"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 50,
+          "text": "AML-1"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "T-cell receptor alpha constant",
+          "source": {
+            "id": "28755",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/28755"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 73,
+          "text": "TCRalpha"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "LEF1",
+          "source": {
+            "id": "51176",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/51176"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Lymphoid enhancer-binding factor 1",
+          "source": {
+            "id": "",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 0,
+          "text": "LEF-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "T-cell receptor alpha constant",
+          "source": {
+            "id": "28755",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/28755"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 98,
+          "text": "TCR alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "LEF1",
+          "source": {
+            "id": "51176",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/51176"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Lymphoid enhancer-binding factor 1",
+          "source": {
+            "id": "",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 227,
+          "text": "LEF-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ALYREF",
+          "source": {
+            "id": "10189",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10189"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "THO complex subunit 4",
+          "source": {
+            "id": "",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 540,
+          "text": "ALY"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "LEF1",
+          "source": {
+            "id": "51176",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/51176"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Lymphoid enhancer-binding factor 1",
+          "source": {
+            "id": "",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 553,
+          "text": "LEF-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ALYREF",
+          "source": {
+            "id": "10189",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10189"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "THO complex subunit 4",
+          "source": {
+            "id": "",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 580,
+          "text": "ALY"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "LEF1",
+          "source": {
+            "id": "51176",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/51176"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Lymphoid enhancer-binding factor 1",
+          "source": {
+            "id": "",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 689,
+          "text": "LEF-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RUNX1",
+          "source": {
+            "id": "861",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/861"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Runt-related transcription factor 1",
+          "source": {
+            "id": "",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 699,
+          "text": "AML-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RUNX1",
+          "source": {
+            "id": "861",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/861"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Runt-related transcription factor 1",
+          "source": {
+            "id": "",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 706,
+          "text": "CBF alpha2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RUNX1",
+          "source": {
+            "id": "861",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/861"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Runt-related transcription factor 1",
+          "source": {
+            "id": "",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 718,
+          "text": "PEBP2 alpha(B)"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ALYREF",
+          "source": {
+            "id": "10189",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10189"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "THO complex subunit 4",
+          "source": {
+            "id": "",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 817,
+          "text": "ALY"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "LEF1",
+          "source": {
+            "id": "51176",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/51176"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Lymphoid enhancer-binding factor 1",
+          "source": {
+            "id": "",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 854,
+          "text": "LEF-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ALYREF",
+          "source": {
+            "id": "10189",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10189"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "THO complex subunit 4",
+          "source": {
+            "id": "",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 896,
+          "text": "ALY"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ALYREF",
+          "source": {
+            "id": "10189",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10189"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "THO complex subunit 4",
+          "source": {
+            "id": "",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1038,
+          "text": "ALY"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "LEF1",
+          "source": {
+            "id": "51176",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/51176"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Lymphoid enhancer-binding factor 1",
+          "source": {
+            "id": "",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1145,
+          "text": "LEF-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ALYREF",
+          "source": {
+            "id": "10189",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10189"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "THO complex subunit 4",
+          "source": {
+            "id": "",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1152,
+          "text": "ALY"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ALYREF",
+          "source": {
+            "id": "10189",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10189"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "THO complex subunit 4",
+          "source": {
+            "id": "",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1325,
+          "text": "ALY"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s1h1|0,3",
+        "s1h1|40,45"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s1h1|0,3",
+        "s1h1|50,55"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|0,5",
+        "s2p1|98,107"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|540,543",
+        "s2p1|553,558"
+      ],
+      "type": "linked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "9119228",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/9119228"
+    },
+    {
+      "id": "9119228",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/9119228"
+    }
+  ]
+}

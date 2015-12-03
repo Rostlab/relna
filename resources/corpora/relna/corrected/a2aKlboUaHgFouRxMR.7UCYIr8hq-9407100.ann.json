@@ -1,0 +1,943 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ZAP70",
+          "source": {
+            "id": "7535",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7535"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Tyrosine-protein kinase ZAP-70",
+          "source": {
+            "id": "P43403",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43403"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 133,
+          "text": "ZAP-70"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CBL",
+          "source": {
+            "id": "867",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/867"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "E3 ubiquitin-protein ligase CBL",
+          "source": {
+            "id": "P22681",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P22681"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 4,
+          "text": "Cbl"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CBL",
+          "source": {
+            "id": "867",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/867"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "E3 ubiquitin-protein ligase CBL",
+          "source": {
+            "id": "P22681",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P22681"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 185,
+          "text": "Cbl"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CBL",
+          "source": {
+            "id": "867",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/867"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "E3 ubiquitin-protein ligase CBL",
+          "source": {
+            "id": "P22681",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P22681"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 376,
+          "text": "Cbl"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CBL",
+          "source": {
+            "id": "867",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/867"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "E3 ubiquitin-protein ligase CBL",
+          "source": {
+            "id": "P22681",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P22681"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 381,
+          "text": "Cbl-N"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SHC1",
+          "source": {
+            "id": "6464",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/6464"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "SHC-transforming protein 1",
+          "source": {
+            "id": "P29353",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P29353"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 647,
+          "text": "Shc"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "IRS1",
+          "source": {
+            "id": "3667",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3667"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Insulin receptor substrate 1",
+          "source": {
+            "id": "Q9Y4H2",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9Y4H2"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 655,
+          "text": "IRS-1/2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ZAP70",
+          "source": {
+            "id": "7535",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7535"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Tyrosine-protein kinase ZAP-70",
+          "source": {
+            "id": "Q9Y4H2",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9Y4H2"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 782,
+          "text": "ZAP-70"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ZAP70",
+          "source": {
+            "id": "7535",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7535"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Tyrosine-protein kinase ZAP-70",
+          "source": {
+            "id": "Q9Y4H2",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9Y4H2"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 835,
+          "text": "ZAP-70"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CBL",
+          "source": {
+            "id": "867",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/867"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "E3 ubiquitin-protein ligase CBL",
+          "source": {
+            "id": "Q9Y4H2",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9Y4H2"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 845,
+          "text": "Cbl-N"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ZAP70",
+          "source": {
+            "id": "7535",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7535"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Tyrosine-protein kinase ZAP-70",
+          "source": {
+            "id": "Q9Y4H2",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9Y4H2"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 854,
+          "text": "ZAP-70"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CBL",
+          "source": {
+            "id": "867",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/867"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "E3 ubiquitin-protein ligase CBL",
+          "source": {
+            "id": "Q9Y4H2",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9Y4H2"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 892,
+          "text": "Cbl-N"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ZAP70",
+          "source": {
+            "id": "7535",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7535"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Tyrosine-protein kinase ZAP-70",
+          "source": {
+            "id": "Q9Y4H2",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9Y4H2"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1061,
+          "text": "ZAP-70"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CBL",
+          "source": {
+            "id": "867",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/867"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "E3 ubiquitin-protein ligase CBL",
+          "source": {
+            "id": "Q9Y4H2",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9Y4H2"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1111,
+          "text": "Cbl-N"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CBL",
+          "source": {
+            "id": "867",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/867"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "E3 ubiquitin-protein ligase CBL",
+          "source": {
+            "id": "Q9Y4H2",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9Y4H2"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1132,
+          "text": "Cbl"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CBL",
+          "source": {
+            "id": "867",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/867"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "E3 ubiquitin-protein ligase CBL",
+          "source": {
+            "id": "Q9Y4H2",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9Y4H2"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1214,
+          "text": "Cbl"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ZAP70",
+          "source": {
+            "id": "7535",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7535"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Tyrosine-protein kinase ZAP-70",
+          "source": {
+            "id": "Q9Y4H2",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9Y4H2"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1248,
+          "text": "ZAP-70"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CBL",
+          "source": {
+            "id": "867",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/867"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "E3 ubiquitin-protein ligase CBL",
+          "source": {
+            "id": "Q9Y4H2",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9Y4H2"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1363,
+          "text": "Cbl"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|835,841",
+        "s2p1|845,850"
+      ],
+      "type": "linked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "9407100",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/9407100"
+    },
+    {
+      "id": "9407100",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/9407100"
+    }
+  ]
+}

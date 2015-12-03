@@ -1,0 +1,753 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ATF6",
+          "source": {
+            "id": "22926",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/22926"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cyclic AMP-dependent transcription factor ATF-6 alpha",
+          "source": {
+            "id": "P18850",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P18850"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 111,
+          "text": "ATF6alpha"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "XBP1 {ECO:0000312|HGNC:HGNC:12801}",
+          "source": {
+            "id": "7494",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7494"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "X-box-binding protein 1 {ECO:0000303|PubMed:2321018, ECO:0000312|HGNC:HGNC:12801}",
+          "source": {
+            "id": "P17861",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P17861"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 125,
+          "text": "XBP1"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 63,
+          "text": "IRE1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "EIF2AK3",
+          "source": {
+            "id": "9451",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9451"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Eukaryotic translation initiation factor 2-alpha kinase 3",
+          "source": {
+            "id": "Q9NZJ5",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9NZJ5"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 69,
+          "text": "PERK"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Atf6",
+          "source": {
+            "id": "226641",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/226641"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cyclic AMP-dependent transcription factor ATF-6 alpha",
+          "source": {
+            "id": "F6VAN0",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/F6VAN0"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 294,
+          "text": "ATF6alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Atf6b {ECO:0000313|Ensembl:ENSMUSP00000015605",
+          "source": {
+            "id": "12915",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/12915"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 309,
+          "text": "ATF6beta"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Atf6",
+          "source": {
+            "id": "226641",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/226641"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cyclic AMP-dependent transcription factor ATF-6 alpha",
+          "source": {
+            "id": "A0A0A0MQ69",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/A0A0A0MQ69"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 489,
+          "text": "ATF6alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Atf6b {ECO:0000313|Ensembl:ENSMUSP00000015605",
+          "source": {
+            "id": "12915",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/12915"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 502,
+          "text": "ATF6beta"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Atf6",
+          "source": {
+            "id": "226641",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/226641"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cyclic AMP-dependent transcription factor ATF-6 alpha",
+          "source": {
+            "id": "A0A0A0MQ69",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/A0A0A0MQ69"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 525,
+          "text": "ATF6alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Atf6",
+          "source": {
+            "id": "226641",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/226641"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cyclic AMP-dependent transcription factor ATF-6 alpha",
+          "source": {
+            "id": "A0A0A0MQ69",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/A0A0A0MQ69"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 613,
+          "text": "ATF6alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Xbp1 {ECO:0000250|UniProtKB:P17861, ECO:0000312|MGI:MGI:98970}",
+          "source": {
+            "id": "22433",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/22433"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "X-box-binding protein 1 {ECO:0000250|UniProtKB:P17861, ECO:0000312|MGI:MGI:98970}",
+          "source": {
+            "id": "O35426",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O35426"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 644,
+          "text": "XBP1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 708,
+          "text": "ATF6alpha(-/-) MEFs"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ATF6B",
+          "source": {
+            "id": "1388",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1388"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cyclic AMP-dependent transcription factor ATF-6 beta",
+          "source": {
+            "id": "Q99941",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q99941"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 788,
+          "text": "ATF6beta(-/-) MEFs"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ATF6B",
+          "source": {
+            "id": "1388",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1388"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cyclic AMP-dependent transcription factor ATF-6 beta",
+          "source": {
+            "id": "Q99941",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q99941"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 821,
+          "text": "ATF6beta"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ATF6",
+          "source": {
+            "id": "22926",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/22926"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cyclic AMP-dependent transcription factor ATF-6 alpha",
+          "source": {
+            "id": "Q99941",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q99941"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 861,
+          "text": "ATF6alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ATF6",
+          "source": {
+            "id": "22926",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/22926"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cyclic AMP-dependent transcription factor ATF-6 alpha",
+          "source": {
+            "id": "Q99941",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q99941"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 903,
+          "text": "ATF6alpha"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {},
+      "offsets": [
+        {
+          "start": 1048,
+          "text": "IRE1"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [],
+  "sources": [
+    {
+      "id": "17765680",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/17765680"
+    },
+    {
+      "id": "17765680",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/17765680"
+    }
+  ]
+}

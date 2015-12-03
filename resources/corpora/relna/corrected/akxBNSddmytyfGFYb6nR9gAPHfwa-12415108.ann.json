@@ -1,0 +1,659 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PELP1",
+          "source": {
+            "id": "27043",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/27043"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Proline-, glutamic acid- and leucine-rich protein 1",
+          "source": {
+            "id": "Q8IZL8",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q8IZL8"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 427,
+          "text": "modulator of nongenomic activity of estrogen receptor"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PELP1",
+          "source": {
+            "id": "27043",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/27043"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Proline-, glutamic acid- and leucine-rich protein 1",
+          "source": {
+            "id": "Q8IZL8",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q8IZL8"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 482,
+          "text": "MNAR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PELP1",
+          "source": {
+            "id": "27043",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/27043"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Proline-, glutamic acid- and leucine-rich protein 1",
+          "source": {
+            "id": "Q8IZL8",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q8IZL8"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 507,
+          "text": "MNAR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GPER1",
+          "source": {
+            "id": "2852",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2852"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "G-protein coupled estrogen receptor 1",
+          "source": {
+            "id": "P01135",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01135"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 522,
+          "text": "estrogen-receptor"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GPER1",
+          "source": {
+            "id": "2852",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2852"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "G-protein coupled estrogen receptor 1",
+          "source": {
+            "id": "P01135",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01135"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 541,
+          "text": "ER"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MAPK3",
+          "source": {
+            "id": "5595",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5595"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Mitogen-activated protein kinase 3",
+          "source": {
+            "id": "P27361",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P27361"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 682,
+          "text": "Erk1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MAPK1",
+          "source": {
+            "id": "5594",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5594"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Mitogen-activated protein kinase 1",
+          "source": {
+            "id": "P28482",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P28482"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 691,
+          "text": "Erk2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PELP1",
+          "source": {
+            "id": "27043",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/27043"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Proline-, glutamic acid- and leucine-rich protein 1",
+          "source": {
+            "id": "P28482",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P28482"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 723,
+          "text": "MNAR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "pre-added",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GPER1",
+          "source": {
+            "id": "2852",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2852"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "G-protein coupled estrogen receptor 1",
+          "source": {
+            "id": "P01135",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01135"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 796,
+          "text": "ER"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "pre-added",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GPER1",
+          "source": {
+            "id": "2852",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2852"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "G-protein coupled estrogen receptor 1",
+          "source": {
+            "id": "P01135",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01135"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 839,
+          "text": "ER"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PELP1",
+          "source": {
+            "id": "27043",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/27043"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Proline-, glutamic acid- and leucine-rich protein 1",
+          "source": {
+            "id": "P28482",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P28482"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 891,
+          "text": "MNAR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "pre-added",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GPER1",
+          "source": {
+            "id": "2852",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2852"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "G-protein coupled estrogen receptor 1",
+          "source": {
+            "id": "P01135",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01135"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 998,
+          "text": "ER"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|507,511",
+        "s2p1|522,539"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|507,511",
+        "s2p1|541,543"
+      ],
+      "type": "linked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "12415108",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/12415108"
+    },
+    {
+      "id": "12415108",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/12415108"
+    }
+  ]
+}

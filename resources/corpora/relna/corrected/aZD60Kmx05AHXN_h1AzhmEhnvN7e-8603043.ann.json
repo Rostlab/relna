@@ -1,0 +1,675 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NR1I3",
+          "source": {
+            "id": "9970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Nuclear receptor subfamily 1 group I member 3",
+          "source": {
+            "id": "Q14994",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q14994"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 465,
+          "text": "MB67"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PSMC4",
+          "source": {
+            "id": "5704",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5704"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "26S protease regulatory subunit 6B",
+          "source": {
+            "id": "P43686",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43686"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 533,
+          "text": "MIP224"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PSMC4",
+          "source": {
+            "id": "5704",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5704"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "26S protease regulatory subunit 6B",
+          "source": {
+            "id": "P43686",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43686"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 541,
+          "text": "MB67 interacting protein"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PSMC4",
+          "source": {
+            "id": "5704",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5704"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "26S protease regulatory subunit 6B",
+          "source": {
+            "id": "P43686",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43686"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 680,
+          "text": "TBP7"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PSMC4",
+          "source": {
+            "id": "5704",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5704"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "26S protease regulatory subunit 6B",
+          "source": {
+            "id": "P43686",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43686"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 686,
+          "text": "MIP224"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PSMC4",
+          "source": {
+            "id": "5704",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5704"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "26S protease regulatory subunit 6B",
+          "source": {
+            "id": "P43686",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43686"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 693,
+          "text": "TBP7"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PSMC4",
+          "source": {
+            "id": "5704",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5704"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "26S protease regulatory subunit 6B",
+          "source": {
+            "id": "P43686",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43686"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 892,
+          "text": "MIP224"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NR1I3",
+          "source": {
+            "id": "9970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Nuclear receptor subfamily 1 group I member 3",
+          "source": {
+            "id": "Q14994",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q14994"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 927,
+          "text": "MB67"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PSMC4",
+          "source": {
+            "id": "5704",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5704"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "26S protease regulatory subunit 6B",
+          "source": {
+            "id": "P43686",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43686"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1091,
+          "text": "MIP224"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NR1I3",
+          "source": {
+            "id": "9970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Nuclear receptor subfamily 1 group I member 3",
+          "source": {
+            "id": "Q14994",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q14994"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1126,
+          "text": "MB67"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PSMC4",
+          "source": {
+            "id": "5704",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5704"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "26S protease regulatory subunit 6B",
+          "source": {
+            "id": "P43686",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43686"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1132,
+          "text": "MIP224"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MSS1",
+          "source": {
+            "id": "855037",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/855037"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "tRNA modification GTPase MSS1, mitochondrial",
+          "source": {
+            "id": "P32559",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P32559"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1198,
+          "text": "MSS1"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|533,539",
+        "s2p1|465,469"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|892,898",
+        "s2p1|927,931"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|1126,1130",
+        "s2p1|1091,1097"
+      ],
+      "type": "linked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "8603043",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/8603043"
+    },
+    {
+      "id": "8603043",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/8603043"
+    }
+  ]
+}

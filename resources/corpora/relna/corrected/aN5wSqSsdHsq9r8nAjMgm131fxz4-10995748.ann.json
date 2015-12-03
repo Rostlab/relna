@@ -1,0 +1,876 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SMAD3",
+          "source": {
+            "id": "4088",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4088"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Mothers against decapentaplegic homolog 3",
+          "source": {
+            "id": "P84022",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P84022"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 91,
+          "text": "Smad3"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "JUN",
+          "source": {
+            "id": "3725",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3725"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor AP-1",
+          "source": {
+            "id": "P05412",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P05412"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 97,
+          "text": "c-Jun"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SMAD3",
+          "source": {
+            "id": "4088",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4088"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Mothers against decapentaplegic homolog 3",
+          "source": {
+            "id": "P84022",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P84022"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 424,
+          "text": "Smad3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SMAD4",
+          "source": {
+            "id": "4089",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4089"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Mothers against decapentaplegic homolog 4",
+          "source": {
+            "id": "Q13485",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q13485"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 434,
+          "text": "Smad4"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "JUN",
+          "source": {
+            "id": "3725",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3725"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor AP-1",
+          "source": {
+            "id": "P05412",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P05412"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 456,
+          "text": "c-Jun"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "FOS",
+          "source": {
+            "id": "2353",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2353"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Proto-oncogene c-Fos",
+          "source": {
+            "id": "P01100",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01100"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 462,
+          "text": "c-Fos"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "JUN",
+          "source": {
+            "id": "3725",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3725"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor AP-1",
+          "source": {
+            "id": "P05412",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P05412"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 676,
+          "text": "c-Jun"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SMAD3",
+          "source": {
+            "id": "4088",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4088"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Mothers against decapentaplegic homolog 3",
+          "source": {
+            "id": "P01100",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01100"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 686,
+          "text": "Smad3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "JUN",
+          "source": {
+            "id": "3725",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3725"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor AP-1",
+          "source": {
+            "id": "P05412",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P05412"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 784,
+          "text": "c-Jun"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SMAD3",
+          "source": {
+            "id": "4088",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4088"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Mothers against decapentaplegic homolog 3",
+          "source": {
+            "id": "P01100",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01100"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 790,
+          "text": "Smad3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "JUN",
+          "source": {
+            "id": "3725",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3725"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor AP-1",
+          "source": {
+            "id": "P05412",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P05412"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 868,
+          "text": "c-Jun"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "JUN",
+          "source": {
+            "id": "3725",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3725"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor AP-1",
+          "source": {
+            "id": "P05412",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P05412"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 957,
+          "text": "c-Jun"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SMAD3",
+          "source": {
+            "id": "4088",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4088"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Mothers against decapentaplegic homolog 3",
+          "source": {
+            "id": "P01100",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01100"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1032,
+          "text": "Smad3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SMAD3",
+          "source": {
+            "id": "4088",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4088"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Mothers against decapentaplegic homolog 3",
+          "source": {
+            "id": "P01100",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01100"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1059,
+          "text": "Smad3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SMAD3",
+          "source": {
+            "id": "4088",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4088"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Mothers against decapentaplegic homolog 3",
+          "source": {
+            "id": "P01100",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01100"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1117,
+          "text": "Smad3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "JUN",
+          "source": {
+            "id": "3725",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3725"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor AP-1",
+          "source": {
+            "id": "P05412",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P05412"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1267,
+          "text": "c-Jun"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "SMAD3",
+          "source": {
+            "id": "4088",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4088"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Mothers against decapentaplegic homolog 3",
+          "source": {
+            "id": "P01100",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01100"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1321,
+          "text": "Smad3"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [],
+  "sources": [
+    {
+      "id": "10995748",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/10995748"
+    },
+    {
+      "id": "10995748",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/10995748"
+    }
+  ]
+}

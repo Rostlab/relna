@@ -1,0 +1,576 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MMP3",
+          "source": {
+            "id": "4314",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4314"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Stromelysin-1",
+          "source": {
+            "id": "P08254",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P08254"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 87,
+          "text": "stromelysin-1"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MMP3",
+          "source": {
+            "id": "4314",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4314"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Stromelysin-1",
+          "source": {
+            "id": "P08254",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P08254"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 70,
+          "text": "stromelysin-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MMP3",
+          "source": {
+            "id": "4314",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4314"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Stromelysin-1",
+          "source": {
+            "id": "P08254",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P08254"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 177,
+          "text": "stromelysin-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MMP3",
+          "source": {
+            "id": "4314",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4314"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Stromelysin-1",
+          "source": {
+            "id": "P08254",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P08254"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 293,
+          "text": "stromelysin-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ETV4",
+          "source": {
+            "id": "2118",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2118"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "ETS translocation variant 4",
+          "source": {
+            "id": "P43268",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43268"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 365,
+          "text": "polyomavirus enhancer A-binding protein-3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ETV4",
+          "source": {
+            "id": "2118",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2118"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "ETS translocation variant 4",
+          "source": {
+            "id": "P43268",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43268"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 408,
+          "text": "PEA3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ETV4",
+          "source": {
+            "id": "2118",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2118"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "ETS translocation variant 4",
+          "source": {
+            "id": "P43268",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43268"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 604,
+          "text": "PEA3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RAF1",
+          "source": {
+            "id": "5894",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5894"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "RAF proto-oncogene serine/threonine-protein kinase",
+          "source": {
+            "id": "P04049",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04049"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 724,
+          "text": "Raf-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ETV4",
+          "source": {
+            "id": "2118",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2118"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "ETS translocation variant 4",
+          "source": {
+            "id": "P04049",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04049"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 782,
+          "text": "PEA3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ETV4",
+          "source": {
+            "id": "2118",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2118"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "ETS translocation variant 4",
+          "source": {
+            "id": "P04049",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04049"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1201,
+          "text": "PEA3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "JUN",
+          "source": {
+            "id": "3725",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3725"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor AP-1",
+          "source": {
+            "id": "P05412",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P05412"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1411,
+          "text": "c-Jun"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [],
+  "sources": [
+    {
+      "id": "8663478",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/8663478"
+    },
+    {
+      "id": "8663478",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/8663478"
+    }
+  ]
+}

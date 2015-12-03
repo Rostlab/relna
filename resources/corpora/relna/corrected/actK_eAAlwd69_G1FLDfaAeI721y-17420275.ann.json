@@ -1,0 +1,1425 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GATA1",
+          "source": {
+            "id": "2623",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2623"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Erythroid transcription factor",
+          "source": {
+            "id": "P15976",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P15976"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 0,
+          "text": "GATA-1"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GFI1B",
+          "source": {
+            "id": "8328",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8328"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Zinc finger protein Gfi-1b",
+          "source": {
+            "id": "Q5VTD9",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q5VTD9"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 11,
+          "text": "Gfi-1B"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BCL2L1",
+          "source": {
+            "id": "598",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/598"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Bcl-2-like protein 1",
+          "source": {
+            "id": "Q07817",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q07817"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 40,
+          "text": "Bcl-xL"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BCL2L1",
+          "source": {
+            "id": "598",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/598"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Bcl-2-like protein 1",
+          "source": {
+            "id": "Q07817",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q07817"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 17,
+          "text": "Bcl-x(L)"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BCL2L1",
+          "source": {
+            "id": "598",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/598"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Bcl-2-like protein 1",
+          "source": {
+            "id": "Q07817",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q07817"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 143,
+          "text": "Bcl-x(L)"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GATA1",
+          "source": {
+            "id": "2623",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2623"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Erythroid transcription factor",
+          "source": {
+            "id": "Q07817",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q07817"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 267,
+          "text": "GATA-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GFI1B",
+          "source": {
+            "id": "8328",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8328"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Zinc finger protein Gfi-1b",
+          "source": {
+            "id": "Q07817",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q07817"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 345,
+          "text": "Gfi-1B"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BCL2L1",
+          "source": {
+            "id": "598",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/598"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Bcl-2-like protein 1",
+          "source": {
+            "id": "Q07817",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q07817"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 387,
+          "text": "Bcl-x(L)"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GATA1",
+          "source": {
+            "id": "2623",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2623"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Erythroid transcription factor",
+          "source": {
+            "id": "Q07817",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q07817"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 514,
+          "text": "GATA-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GFI1B",
+          "source": {
+            "id": "8328",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8328"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Zinc finger protein Gfi-1b",
+          "source": {
+            "id": "Q07817",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q07817"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 595,
+          "text": "Gfi-1B"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GFI1B",
+          "source": {
+            "id": "8328",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8328"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Zinc finger protein Gfi-1b",
+          "source": {
+            "id": "Q07817",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q07817"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 694,
+          "text": "Gfi-1B"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GATA1",
+          "source": {
+            "id": "2623",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2623"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Erythroid transcription factor",
+          "source": {
+            "id": "Q07817",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q07817"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 711,
+          "text": "GATA-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BCL2L1",
+          "source": {
+            "id": "598",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/598"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Bcl-2-like protein 1",
+          "source": {
+            "id": "Q07817",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q07817"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 726,
+          "text": "Bcl-x(L)"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GATA1",
+          "source": {
+            "id": "2623",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2623"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Erythroid transcription factor",
+          "source": {
+            "id": "Q07817",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q07817"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 778,
+          "text": "GATA-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GFI1B",
+          "source": {
+            "id": "8328",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8328"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Zinc finger protein Gfi-1b",
+          "source": {
+            "id": "Q07817",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q07817"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 866,
+          "text": "Gfi-1B"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GATA1",
+          "source": {
+            "id": "2623",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2623"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Erythroid transcription factor",
+          "source": {
+            "id": "Q07817",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q07817"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 967,
+          "text": "GATA-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BCL2L1",
+          "source": {
+            "id": "598",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/598"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Bcl-2-like protein 1",
+          "source": {
+            "id": "Q07817",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q07817"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 987,
+          "text": "Bcl-x(L)"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GFI1B",
+          "source": {
+            "id": "8328",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8328"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Zinc finger protein Gfi-1b",
+          "source": {
+            "id": "Q07817",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q07817"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1045,
+          "text": "Gfi-1B"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BCL2L1",
+          "source": {
+            "id": "598",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/598"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Bcl-2-like protein 1",
+          "source": {
+            "id": "Q07817",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q07817"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1111,
+          "text": "Bcl-x(L)"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GFI1B",
+          "source": {
+            "id": "8328",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8328"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Zinc finger protein Gfi-1b",
+          "source": {
+            "id": "Q07817",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q07817"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1245,
+          "text": "Gfi-1B"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GFI1B",
+          "source": {
+            "id": "8328",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8328"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Zinc finger protein Gfi-1b",
+          "source": {
+            "id": "Q07817",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q07817"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1273,
+          "text": "Gfi-1B"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GATA1",
+          "source": {
+            "id": "2623",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2623"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Erythroid transcription factor",
+          "source": {
+            "id": "Q07817",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q07817"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1301,
+          "text": "GATA-1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "BCL2L1",
+          "source": {
+            "id": "598",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/598"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Bcl-2-like protein 1",
+          "source": {
+            "id": "Q07817",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q07817"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1319,
+          "text": "Bcl-x(L)"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GFI1B",
+          "source": {
+            "id": "8328",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8328"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Zinc finger protein Gfi-1b",
+          "source": {
+            "id": "Q07817",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q07817"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1343,
+          "text": "Gfi-1B"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GFI1B",
+          "source": {
+            "id": "8328",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8328"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Zinc finger protein Gfi-1b",
+          "source": {
+            "id": "Q07817",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q07817"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1447,
+          "text": "Gfi-1B"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GFI1B",
+          "source": {
+            "id": "8328",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8328"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Zinc finger protein Gfi-1b",
+          "source": {
+            "id": "Q07817",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q07817"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1540,
+          "text": "Gfi-1B"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GATA1",
+          "source": {
+            "id": "2623",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2623"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Erythroid transcription factor",
+          "source": {
+            "id": "Q07817",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q07817"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1550,
+          "text": "GATA-1"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s1h1|11,17",
+        "s1h1|0,6"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|267,273",
+        "s2p1|345,351"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|967,973",
+        "s2p1|987,995"
+      ],
+      "type": "linked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "17420275",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/17420275"
+    },
+    {
+      "id": "17420275",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/17420275"
+    }
+  ]
+}

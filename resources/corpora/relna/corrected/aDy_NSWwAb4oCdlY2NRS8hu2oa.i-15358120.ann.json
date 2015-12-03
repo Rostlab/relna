@@ -1,0 +1,1025 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CCND3",
+          "source": {
+            "id": "896",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/896"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "G1/S-specific cyclin-D3",
+          "source": {
+            "id": "P30281",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P30281"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 0,
+          "text": "Cyclin D3"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ATF5",
+          "source": {
+            "id": "22809",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/22809"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cyclic AMP-dependent transcription factor ATF-5",
+          "source": {
+            "id": "Q9Y2D1",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9Y2D1"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 25,
+          "text": "human activating transcription factor 5"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CCND3",
+          "source": {
+            "id": "896",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/896"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "G1/S-specific cyclin-D3",
+          "source": {
+            "id": "Q9Y2D1",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9Y2D1"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 4,
+          "text": "Cyclin D3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ATF5",
+          "source": {
+            "id": "22809",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/22809"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cyclic AMP-dependent transcription factor ATF-5",
+          "source": {
+            "id": "Q9Y2D1",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9Y2D1"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 259,
+          "text": "human activating transcription factor 5"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ATF5",
+          "source": {
+            "id": "22809",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/22809"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cyclic AMP-dependent transcription factor ATF-5",
+          "source": {
+            "id": "Q9Y2D1",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9Y2D1"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 300,
+          "text": "hATF5"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CCND3",
+          "source": {
+            "id": "896",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/896"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "G1/S-specific cyclin-D3",
+          "source": {
+            "id": "Q9Y2D1",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9Y2D1"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 339,
+          "text": "Cyclin D3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CCND1",
+          "source": {
+            "id": "595",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/595"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "G1/S-specific cyclin-D1",
+          "source": {
+            "id": "P24385",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P24385"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 472,
+          "text": "Cyclin D1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ATF5",
+          "source": {
+            "id": "22809",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/22809"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cyclic AMP-dependent transcription factor ATF-5",
+          "source": {
+            "id": "P24385",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P24385"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 486,
+          "text": "hATF5"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CCND2",
+          "source": {
+            "id": "894",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/894"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "G1/S-specific cyclin-D2",
+          "source": {
+            "id": "P30279",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P30279"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 516,
+          "text": "Cyclin D2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ATF5",
+          "source": {
+            "id": "22809",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/22809"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cyclic AMP-dependent transcription factor ATF-5",
+          "source": {
+            "id": "P30279",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P30279"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 530,
+          "text": "hATF5"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CCND3",
+          "source": {
+            "id": "896",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/896"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "G1/S-specific cyclin-D3",
+          "source": {
+            "id": "P30279",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P30279"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 591,
+          "text": "Cyclin D3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ATF5",
+          "source": {
+            "id": "22809",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/22809"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cyclic AMP-dependent transcription factor ATF-5",
+          "source": {
+            "id": "P30279",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P30279"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 623,
+          "text": "hATF5"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CCND3",
+          "source": {
+            "id": "896",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/896"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "G1/S-specific cyclin-D3",
+          "source": {
+            "id": "P30279",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P30279"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 652,
+          "text": "Cyclin D3"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ATF5",
+          "source": {
+            "id": "22809",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/22809"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cyclic AMP-dependent transcription factor ATF-5",
+          "source": {
+            "id": "P30279",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P30279"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 679,
+          "text": "hATF5"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CDK4",
+          "source": {
+            "id": "1019",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1019"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cyclin-dependent kinase 4",
+          "source": {
+            "id": "P11802",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P11802"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 731,
+          "text": "Cdk4"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CCND1",
+          "source": {
+            "id": "595",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/595"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "G1/S-specific cyclin-D1",
+          "source": {
+            "id": "P11802",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P11802"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 749,
+          "text": "Cyclin D1"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CCND2",
+          "source": {
+            "id": "894",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/894"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "G1/S-specific cyclin-D2",
+          "source": {
+            "id": "P11802",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P11802"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 763,
+          "text": "Cyclin D2"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ATF5",
+          "source": {
+            "id": "22809",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/22809"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cyclic AMP-dependent transcription factor ATF-5",
+          "source": {
+            "id": "P11802",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P11802"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 790,
+          "text": "hATF5"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CCND3",
+          "source": {
+            "id": "896",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/896"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "G1/S-specific cyclin-D3",
+          "source": {
+            "id": "P11802",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P11802"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 882,
+          "text": "Cyclin D3"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s1h1|0,9",
+        "s1h1|25,64"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|259,298",
+        "s2p1|339,348"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|300,305",
+        "s2p1|339,348"
+      ],
+      "type": "linked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "15358120",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/15358120"
+    },
+    {
+      "id": "15358120",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/15358120"
+    }
+  ]
+}

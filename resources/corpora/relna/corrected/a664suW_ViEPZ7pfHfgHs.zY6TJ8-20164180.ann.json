@@ -1,0 +1,476 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "UFL1 {ECO:0000312|HGNC:HGNC:23039}",
+          "source": {
+            "id": "23376",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/23376"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "E3 UFM1-protein ligase 1 {ECO:0000305}",
+          "source": {
+            "id": "O94874",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O94874"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 30,
+          "text": "NLBP"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CDK5RAP3 {ECO:0000312|HGNC:HGNC:18673}",
+          "source": {
+            "id": "80279",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/80279"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "CDK5 regulatory subunit-associated protein 3 {ECO:0000312}",
+          "source": {
+            "id": "Q96JB5",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q96JB5"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 81,
+          "text": "LZAP"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CDK5RAP3 {ECO:0000312|HGNC:HGNC:18673}",
+          "source": {
+            "id": "80279",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/80279"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "CDK5 regulatory subunit-associated protein 3 {ECO:0000312}",
+          "source": {
+            "id": "Q96JB5",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q96JB5"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 195,
+          "text": "LZAP"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CDK5RAP3 {ECO:0000312|HGNC:HGNC:18673}",
+          "source": {
+            "id": "80279",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/80279"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "CDK5 regulatory subunit-associated protein 3 {ECO:0000312}",
+          "source": {
+            "id": "Q96JB5",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q96JB5"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 391,
+          "text": "LZAP"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "UFL1 {ECO:0000312|HGNC:HGNC:23039}",
+          "source": {
+            "id": "23376",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/23376"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "E3 UFM1-protein ligase 1 {ECO:0000305}",
+          "source": {
+            "id": "Q96JB5",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q96JB5"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 452,
+          "text": "NLBP"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "UFL1 {ECO:0000312|HGNC:HGNC:23039}",
+          "source": {
+            "id": "23376",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/23376"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "E3 UFM1-protein ligase 1 {ECO:0000305}",
+          "source": {
+            "id": "Q96JB5",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q96JB5"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 564,
+          "text": "NLBP"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "UFL1 {ECO:0000312|HGNC:HGNC:23039}",
+          "source": {
+            "id": "23376",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/23376"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "E3 UFM1-protein ligase 1 {ECO:0000305}",
+          "source": {
+            "id": "Q96JB5",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q96JB5"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 623,
+          "text": "NLBP"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "UFL1 {ECO:0000312|HGNC:HGNC:23039}",
+          "source": {
+            "id": "23376",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/23376"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "E3 UFM1-protein ligase 1 {ECO:0000305}",
+          "source": {
+            "id": "Q96JB5",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q96JB5"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1003,
+          "text": "NLBP"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CDK5RAP3 {ECO:0000312|HGNC:HGNC:18673}",
+          "source": {
+            "id": "80279",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/80279"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "CDK5 regulatory subunit-associated protein 3 {ECO:0000312}",
+          "source": {
+            "id": "Q96JB5",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q96JB5"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 1135,
+          "text": "LZAP"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [],
+  "sources": [
+    {
+      "id": "20164180",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/20164180"
+    },
+    {
+      "id": "20164180",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/20164180"
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "anncomplete": true,
+  "annotatable": {
+    "parts": [
+      "s1h1",
+      "s2h1",
+      "s2p1"
+    ]
+  },
+  "entities": [
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NCOA3",
+          "source": {
+            "id": "8202",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8202"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Nuclear receptor coactivator 3",
+          "source": {
+            "id": "Q9Y6Q9",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9Y6Q9"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 29,
+          "text": "ACTR"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CREBBP",
+          "source": {
+            "id": "1387",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1387"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "CREB-binding protein",
+          "source": {
+            "id": "Q92793",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92793"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 128,
+          "text": "CBP"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NCOA3",
+          "source": {
+            "id": "8202",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8202"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Nuclear receptor coactivator 3",
+          "source": {
+            "id": "Q92793",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92793"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 55,
+          "text": "ACTR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NCOA3",
+          "source": {
+            "id": "8202",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8202"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Nuclear receptor coactivator 3",
+          "source": {
+            "id": "Q92793",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92793"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 179,
+          "text": "ACTR"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CREBBP",
+          "source": {
+            "id": "1387",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1387"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "CREB-binding protein",
+          "source": {
+            "id": "Q92793",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92793"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 225,
+          "text": "CBP"
+        }
+      ],
+      "part": "s2p1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "ml:GNormPlus"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NCOA3",
+          "source": {
+            "id": "8202",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8202"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Nuclear receptor coactivator 3",
+          "source": {
+            "id": "Q92793",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92793"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 371,
+          "text": "ACTR"
+        }
+      ],
+      "part": "s2p1"
+    }
+  ],
+  "metas": {},
+  "relations": [
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s1h1|29,33",
+        "s1h1|128,131"
+      ],
+      "type": "linked"
+    },
+    {
+      "classId": "r_4",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "directed": false,
+      "entities": [
+        "s2p1|179,183",
+        "s2p1|225,228"
+      ],
+      "type": "linked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "9267036",
+      "name": "MEDLINE",
+      "url": "http://ncbi.nlm.nih.gov/pubmed/9267036"
+    },
+    {
+      "id": "9267036",
+      "name": "PMID",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/9267036"
+    }
+  ]
+}
