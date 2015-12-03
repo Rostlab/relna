@@ -1,7 +1,7 @@
 from itertools import chain
 import sys
 import os
-from nala.utils import MUT_CLASS_ID, PRO_CLASS_ID
+from nalaf.utils import MUT_CLASS_ID, PRO_CLASS_ID
 
 
 class RelnaConsoleWriter:
@@ -18,7 +18,7 @@ class RelnaConsoleWriter:
 
     def write(self, dataset):
         """
-        :type dataset: nala.structures.data.Dataset()
+        :type dataset: nalaf.structures.data.Dataset()
         """
         for doc_id, doc in dataset.documents.items():
             print('DOCUMENT: {}'.format(doc_id))

@@ -1,7 +1,7 @@
 import requests
 
 from itertools import chain
-from nala.utils.cache import Cacheable
+from nalaf.utils.cache import Cacheable
 
 class Swissprot(Cacheable):
     """
