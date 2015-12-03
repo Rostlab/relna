@@ -24,7 +24,7 @@ setup(
     license='MIT',
     packages=find_packages(exclude=['tests']),
     install_requires=[
-        'nala',
+        'nalaf',
         'nltk',
         'beautifulsoup4',
         'requests',
