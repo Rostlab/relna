@@ -261,25 +261,6 @@
     {
       "classId": "e_1",
       "confidence": {
-        "prob": 1,
-        "state": "",
-        "who": [
-          "user:GNormPlus"
-        ]
-      },
-      "fields": {},
-      "normalizations": {},
-      "offsets": [
-        {
-          "start": 69,
-          "text": "IL-6"
-        }
-      ],
-      "part": "s2p1"
-    },
-    {
-      "classId": "e_1",
-      "confidence": {
         "prob": 1.0,
         "state": "",
         "who": [
@@ -578,25 +559,6 @@
       "part": "s2p1"
     },
     {
-      "classId": "e_1",
-      "confidence": {
-        "prob": 1,
-        "state": "",
-        "who": [
-          "user:GNormPlus"
-        ]
-      },
-      "fields": {},
-      "normalizations": {},
-      "offsets": [
-        {
-          "start": 375,
-          "text": "IL-6"
-        }
-      ],
-      "part": "s2p1"
-    },
-    {
       "classId": "e_2",
       "confidence": {
         "prob": 1.0,
@@ -799,25 +761,6 @@
     {
       "classId": "e_1",
       "confidence": {
-        "prob": 1,
-        "state": "",
-        "who": [
-          "user:GNormPlus"
-        ]
-      },
-      "fields": {},
-      "normalizations": {},
-      "offsets": [
-        {
-          "start": 730,
-          "text": "IL-6"
-        }
-      ],
-      "part": "s2p1"
-    },
-    {
-      "classId": "e_1",
-      "confidence": {
         "prob": 1.0,
         "state": "",
         "who": [
@@ -911,25 +854,6 @@
         {
           "start": 913,
           "text": "CDK9"
-        }
-      ],
-      "part": "s2p1"
-    },
-    {
-      "classId": "e_1",
-      "confidence": {
-        "prob": 1,
-        "state": "",
-        "who": [
-          "user:GNormPlus"
-        ]
-      },
-      "fields": {},
-      "normalizations": {},
-      "offsets": [
-        {
-          "start": 996,
-          "text": "IL-6"
         }
       ],
       "part": "s2p1"
@@ -1085,44 +1009,6 @@
       "part": "s2p1"
     },
     {
-      "classId": "e_1",
-      "confidence": {
-        "prob": 1,
-        "state": "",
-        "who": [
-          "user:GNormPlus"
-        ]
-      },
-      "fields": {},
-      "normalizations": {},
-      "offsets": [
-        {
-          "start": 1342,
-          "text": "IL-6"
-        }
-      ],
-      "part": "s2p1"
-    },
-    {
-      "classId": "e_1",
-      "confidence": {
-        "prob": 1,
-        "state": "",
-        "who": [
-          "user:GNormPlus"
-        ]
-      },
-      "fields": {},
-      "normalizations": {},
-      "offsets": [
-        {
-          "start": 1401,
-          "text": "IL-6"
-        }
-      ],
-      "part": "s2p1"
-    },
-    {
       "classId": "e_2",
       "confidence": {
         "prob": 1.0,
@@ -1268,25 +1154,6 @@
         {
           "start": 1474,
           "text": "CDK9"
-        }
-      ],
-      "part": "s2p1"
-    },
-    {
-      "classId": "e_1",
-      "confidence": {
-        "prob": 1,
-        "state": "",
-        "who": [
-          "user:GNormPlus"
-        ]
-      },
-      "fields": {},
-      "normalizations": {},
-      "offsets": [
-        {
-          "start": 1598,
-          "text": "IL-6"
         }
       ],
       "part": "s2p1"

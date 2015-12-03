@@ -8,20 +8,31 @@ process = 'process'
 
 tagged_files = os.listdir(tagged_dir)
 need_processing = []
+count = 0
+cannot_process = ['9315679', '15994929', '12039952', '12039962', '18178962', '17587566', '17085477', '17765680', '11113208', '15940264', '16582008', '14981089']
 for file_name in tagged_files:
     with open(os.path.join(tagged_dir, file_name)) as f:
         tagged = json.load(f)
     pub_id = tagged['sources'][0]['id']
+
     with open(os.path.join(untagged_dir, file_name)) as g:
-        untagged = json.load(g)
+        try:
+            untagged = json.load(g)
+        except ValueError:
+            print (file_name)
+            raise ValueError('Something Wrong')
         try:
             for entity in untagged['entities']:
                 if entity['normalizations'] == {}:
-                    print (pub_id, entity['start'][0]['text'], entity['start'[]])
-                    need_processing.append(pub_id)
+                    if pub_id not in cannot_process:
+                        count += 1
+                        print (pub_id, entity['offsets'][0]['text'], entity['offsets'][0]['start'])
+                        need_processing.append(pub_id)
+            assert len(tagged)==len(untagged)
         except AssertionError:
-            pass
-print set(need_processing), len(set(need_processing))
+            print (pub_id)
+print (set(need_processing), len(set(need_processing)))
+print (count)
     #     for i in range(len(tagged['entities'])):
     #         entity1 = tagged['entities'][i]
     #         offset = entity1['offsets'][0]['start']

@@ -27,7 +27,7 @@
               "ml:GNormPlus"
             ]
           },
-          "recName": "N4bp2 {ECO:0000313|Ensembl:ENSMUSP00000109367",
+          "recName": "N4bp2",
           "source": {
             "id": "333789",
             "name": "gene",
@@ -49,11 +49,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Bcl3",
+          "source": {
+            "id": "12051",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/12051"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "B-cell lymphoma 3 protein homolog",
+          "source": {
+            "id": "Q9Z2F6",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9Z2F6"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 20,
@@ -168,11 +199,27 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "N4bp2",
+          "source": {
+            "id": "333789",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/333789"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 540,
@@ -187,11 +234,27 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "N4bp2",
+          "source": {
+            "id": "333789",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/333789"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 563,
@@ -206,11 +269,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Bcl3",
+          "source": {
+            "id": "12051",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/12051"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "B-cell lymphoma 3 protein homolog",
+          "source": {
+            "id": "Q9Z2F6",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9Z2F6"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 616,
@@ -225,11 +319,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Bcl3",
+          "source": {
+            "id": "12051",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/12051"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "B-cell lymphoma 3 protein homolog",
+          "source": {
+            "id": "Q9Z2F6",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9Z2F6"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 636,

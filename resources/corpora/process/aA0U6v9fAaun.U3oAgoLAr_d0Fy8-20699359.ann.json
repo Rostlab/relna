@@ -394,9 +394,9 @@
           },
           "recName": "Hypoxia-inducible factor 1-alpha",
           "source": {
-            "id": "P27540",
+            "id": "Q16665",
             "name": "protein",
-            "url": "http://www.uniprot.org/uniprot/P27540"
+            "url": "http://www.uniprot.org/uniprot/Q16665"
           }
         }
       },
@@ -414,11 +414,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CSNK1D",
+          "source": {
+            "id": "1453",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1453"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Casein kinase I isoform delta",
+          "source": {
+            "id": "P48730",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P48730"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 623,
@@ -463,9 +494,9 @@
           },
           "recName": "Hypoxia-inducible factor 1-alpha",
           "source": {
-            "id": "P48730",
+            "id": "Q16665",
             "name": "protein",
-            "url": "http://www.uniprot.org/uniprot/P48730"
+            "url": "http://www.uniprot.org/uniprot/Q16665"
           }
         }
       },
@@ -513,9 +544,9 @@
           },
           "recName": "Hypoxia-inducible factor 1-alpha",
           "source": {
-            "id": "P48730",
+            "id": "Q16665",
             "name": "protein",
-            "url": "http://www.uniprot.org/uniprot/P48730"
+            "url": "http://www.uniprot.org/uniprot/Q16665"
           }
         }
       },
@@ -563,9 +594,9 @@
           },
           "recName": "Hypoxia-inducible factor 1-alpha",
           "source": {
-            "id": "P48730",
+            "id": "Q16665",
             "name": "protein",
-            "url": "http://www.uniprot.org/uniprot/P48730"
+            "url": "http://www.uniprot.org/uniprot/Q16665"
           }
         }
       },
@@ -663,9 +694,9 @@
           },
           "recName": "Hypoxia-inducible factor 1-alpha",
           "source": {
-            "id": "P48730",
+            "id": "Q16665",
             "name": "protein",
-            "url": "http://www.uniprot.org/uniprot/P48730"
+            "url": "http://www.uniprot.org/uniprot/Q16665"
           }
         }
       },
@@ -763,9 +794,9 @@
           },
           "recName": "Hypoxia-inducible factor 1-alpha",
           "source": {
-            "id": "P48730",
+            "id": "Q16665",
             "name": "protein",
-            "url": "http://www.uniprot.org/uniprot/P48730"
+            "url": "http://www.uniprot.org/uniprot/Q16665"
           }
         }
       },
@@ -813,9 +844,9 @@
           },
           "recName": "Hypoxia-inducible factor 1-alpha",
           "source": {
-            "id": "P48730",
+            "id": "Q16665",
             "name": "protein",
-            "url": "http://www.uniprot.org/uniprot/P48730"
+            "url": "http://www.uniprot.org/uniprot/Q16665"
           }
         }
       },

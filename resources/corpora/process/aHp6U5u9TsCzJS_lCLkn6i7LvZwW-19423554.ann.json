@@ -249,11 +249,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESR1",
+          "source": {
+            "id": "2099",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2099"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "P51679",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P51679"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 440,

@@ -14,11 +14,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RANBP9",
+          "source": {
+            "id": "10048",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10048"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Ran-binding protein 9",
+          "source": {
+            "id": "Q96S59",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q96S59"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 0,
@@ -33,11 +64,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AR",
+          "source": {
+            "id": "367",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/367"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Androgen receptor",
+          "source": {
+            "id": "P10275",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P10275"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 88,
@@ -52,11 +114,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NR3C1",
+          "source": {
+            "id": "2908",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2908"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Glucocorticoid receptor",
+          "source": {
+            "id": "P04150",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04150"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 110,
@@ -71,11 +164,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AR",
+          "source": {
+            "id": "367",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/367"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Androgen receptor",
+          "source": {
+            "id": "P10275",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P10275"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 4,
@@ -94,7 +218,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AR",
+          "source": {
+            "id": "367",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/367"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Androgen receptor",
+          "source": {
+            "id": "P10275",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P10275"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 23,
@@ -113,7 +268,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AR",
+          "source": {
+            "id": "367",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/367"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Androgen receptor",
+          "source": {
+            "id": "P10275",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P10275"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 175,
@@ -132,7 +318,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AR",
+          "source": {
+            "id": "367",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/367"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Androgen receptor",
+          "source": {
+            "id": "P10275",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P10275"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 660,
@@ -151,7 +368,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AR",
+          "source": {
+            "id": "367",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/367"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Androgen receptor",
+          "source": {
+            "id": "P10275",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P10275"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 691,
@@ -170,7 +418,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AR",
+          "source": {
+            "id": "367",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/367"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Androgen receptor",
+          "source": {
+            "id": "P10275",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P10275"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 736,
@@ -185,11 +464,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RANBP9",
+          "source": {
+            "id": "10048",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10048"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Ran-binding protein 9",
+          "source": {
+            "id": "Q96S59",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q96S59"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 841,
@@ -208,7 +518,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AR",
+          "source": {
+            "id": "367",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/367"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Androgen receptor",
+          "source": {
+            "id": "P10275",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P10275"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 863,
@@ -223,11 +564,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RANBP9",
+          "source": {
+            "id": "10048",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10048"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Ran-binding protein 9",
+          "source": {
+            "id": "Q96S59",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q96S59"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 1052,
@@ -246,7 +618,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "AR",
+          "source": {
+            "id": "367",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/367"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Androgen receptor",
+          "source": {
+            "id": "P10275",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P10275"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 1110,
@@ -261,11 +664,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NR3C1",
+          "source": {
+            "id": "2908",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2908"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Glucocorticoid receptor",
+          "source": {
+            "id": "P04150",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P04150"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 1153,
@@ -280,11 +714,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RANBP9",
+          "source": {
+            "id": "10048",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10048"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Ran-binding protein 9",
+          "source": {
+            "id": "Q96S59",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q96S59"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 1209,
@@ -299,11 +764,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GPER1",
+          "source": {
+            "id": "2852",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2852"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "G-protein coupled estrogen receptor 1",
+          "source": {
+            "id": "P01135",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01135"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 1243,
@@ -318,11 +814,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "RANBP9",
+          "source": {
+            "id": "10048",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/10048"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Ran-binding protein 9",
+          "source": {
+            "id": "Q96S59",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q96S59"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 1318,

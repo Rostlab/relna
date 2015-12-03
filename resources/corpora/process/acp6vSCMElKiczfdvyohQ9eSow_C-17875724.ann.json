@@ -164,11 +164,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PRKCE",
+          "source": {
+            "id": "5581",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5581"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Protein kinase C epsilon type",
+          "source": {
+            "id": "Q02156",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q02156"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 487,

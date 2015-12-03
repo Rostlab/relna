@@ -168,7 +168,23 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "T-cell receptor alpha constant",
+          "source": {
+            "id": "28755",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/28755"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 73,
@@ -237,7 +253,23 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "T-cell receptor alpha constant",
+          "source": {
+            "id": "28755",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/28755"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 98,

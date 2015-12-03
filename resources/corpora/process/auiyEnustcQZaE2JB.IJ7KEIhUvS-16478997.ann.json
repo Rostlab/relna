@@ -11,25 +11,6 @@
     {
       "classId": "e_2",
       "confidence": {
-        "prob": 1,
-        "state": "",
-        "who": [
-          "user:GNormPlus"
-        ]
-      },
-      "fields": {},
-      "normalizations": {},
-      "offsets": [
-        {
-          "start": 0,
-          "text": "Sp1"
-        }
-      ],
-      "part": "s1h1"
-    },
-    {
-      "classId": "e_2",
-      "confidence": {
         "prob": 1.0,
         "state": "",
         "who": [
@@ -133,30 +114,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
-      "offsets": [
-        {
-          "start": 26,
-          "text": "Sp1"
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "JUN",
+          "source": {
+            "id": "3725",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3725"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor AP-1",
+          "source": {
+            "id": "P05412",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P05412"
+          }
         }
-      ],
-      "part": "s2p1"
-    },
-    {
-      "classId": "e_2",
-      "confidence": {
-        "prob": 1,
-        "state": "",
-        "who": [
-          "user:GNormPlus"
-        ]
       },
-      "fields": {},
-      "normalizations": {},
       "offsets": [
         {
           "start": 39,
@@ -218,25 +211,6 @@
     {
       "classId": "e_2",
       "confidence": {
-        "prob": 1,
-        "state": "",
-        "who": [
-          "user:GNormPlus"
-        ]
-      },
-      "fields": {},
-      "normalizations": {},
-      "offsets": [
-        {
-          "start": 151,
-          "text": "Sp1"
-        }
-      ],
-      "part": "s2p1"
-    },
-    {
-      "classId": "e_2",
-      "confidence": {
         "prob": 1.0,
         "state": "",
         "who": [
@@ -290,30 +264,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
-      "offsets": [
-        {
-          "start": 183,
-          "text": "Sp1"
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "JUN",
+          "source": {
+            "id": "3725",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3725"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor AP-1",
+          "source": {
+            "id": "P05412",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P05412"
+          }
         }
-      ],
-      "part": "s2p1"
-    },
-    {
-      "classId": "e_2",
-      "confidence": {
-        "prob": 1,
-        "state": "",
-        "who": [
-          "user:GNormPlus"
-        ]
       },
-      "fields": {},
-      "normalizations": {},
       "offsets": [
         {
           "start": 187,
@@ -425,25 +411,6 @@
     {
       "classId": "e_2",
       "confidence": {
-        "prob": 1,
-        "state": "",
-        "who": [
-          "user:GNormPlus"
-        ]
-      },
-      "fields": {},
-      "normalizations": {},
-      "offsets": [
-        {
-          "start": 444,
-          "text": "Sp1"
-        }
-      ],
-      "part": "s2p1"
-    },
-    {
-      "classId": "e_2",
-      "confidence": {
         "prob": 1.0,
         "state": "",
         "who": [
@@ -537,25 +504,6 @@
         {
           "start": 592,
           "text": "12(S)-lipoxygenase"
-        }
-      ],
-      "part": "s2p1"
-    },
-    {
-      "classId": "e_2",
-      "confidence": {
-        "prob": 1,
-        "state": "",
-        "who": [
-          "user:GNormPlus"
-        ]
-      },
-      "fields": {},
-      "normalizations": {},
-      "offsets": [
-        {
-          "start": 637,
-          "text": "Sp1"
         }
       ],
       "part": "s2p1"
@@ -663,25 +611,6 @@
     {
       "classId": "e_2",
       "confidence": {
-        "prob": 1,
-        "state": "",
-        "who": [
-          "user:GNormPlus"
-        ]
-      },
-      "fields": {},
-      "normalizations": {},
-      "offsets": [
-        {
-          "start": 819,
-          "text": "Sp1"
-        }
-      ],
-      "part": "s2p1"
-    },
-    {
-      "classId": "e_2",
-      "confidence": {
         "prob": 1.0,
         "state": "",
         "who": [
@@ -735,34 +664,46 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "JUN",
+          "source": {
+            "id": "3725",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3725"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor AP-1",
+          "source": {
+            "id": "P05412",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P05412"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 852,
           "text": "c-Jun"
-        }
-      ],
-      "part": "s2p1"
-    },
-    {
-      "classId": "e_2",
-      "confidence": {
-        "prob": 1,
-        "state": "",
-        "who": [
-          "user:GNormPlus"
-        ]
-      },
-      "fields": {},
-      "normalizations": {},
-      "offsets": [
-        {
-          "start": 909,
-          "text": "Sp1"
         }
       ],
       "part": "s2p1"
@@ -813,25 +754,6 @@
         {
           "start": 933,
           "text": "p300"
-        }
-      ],
-      "part": "s2p1"
-    },
-    {
-      "classId": "e_2",
-      "confidence": {
-        "prob": 1,
-        "state": "",
-        "who": [
-          "user:GNormPlus"
-        ]
-      },
-      "fields": {},
-      "normalizations": {},
-      "offsets": [
-        {
-          "start": 1019,
-          "text": "Sp1"
         }
       ],
       "part": "s2p1"

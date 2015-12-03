@@ -177,7 +177,7 @@
               "ml:GNormPlus"
             ]
           },
-          "recName": "Park7 {ECO:0000312|MGI:MGI:2135637}",
+          "recName": "Park7",
           "source": {
             "id": "57320",
             "name": "gene",
@@ -192,7 +192,7 @@
               "user:Ashish"
             ]
           },
-          "recName": "Protein deglycase DJ-1 {ECO:0000250|UniProtKB:Q99497}",
+          "recName": "Protein deglycase DJ-1",
           "source": {
             "id": "Q99LX0",
             "name": "protein",
@@ -227,7 +227,7 @@
               "ml:GNormPlus"
             ]
           },
-          "recName": "Park7 {ECO:0000312|MGI:MGI:2135637}",
+          "recName": "Park7",
           "source": {
             "id": "57320",
             "name": "gene",
@@ -242,7 +242,7 @@
               "user:Ashish"
             ]
           },
-          "recName": "Protein deglycase DJ-1 {ECO:0000250|UniProtKB:Q99497}",
+          "recName": "Protein deglycase DJ-1",
           "source": {
             "id": "Q99LX0",
             "name": "protein",
@@ -327,7 +327,7 @@
               "ml:GNormPlus"
             ]
           },
-          "recName": "Park7 {ECO:0000312|MGI:MGI:2135637}",
+          "recName": "Park7",
           "source": {
             "id": "57320",
             "name": "gene",
@@ -342,7 +342,7 @@
               "user:Ashish"
             ]
           },
-          "recName": "Protein deglycase DJ-1 {ECO:0000250|UniProtKB:Q99497}",
+          "recName": "Protein deglycase DJ-1",
           "source": {
             "id": "Q99LX0",
             "name": "protein",
@@ -418,7 +418,88 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Ar",
+          "source": {
+            "id": "11835",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/11835"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Androgen receptor",
+          "source": {
+            "id": "Q99LX0",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q99LX0"
+          }
+        }
+      },
+      "offsets": [
+        {
+          "start": 231,
+          "text": "androgen receptor"
+        }
+      ],
+      "part": "s2p1"
+    },
+	{
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1,
+        "state": "",
+        "who": [
+          "user:Ashish"
+        ]
+      },
+      "fields": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Ar",
+          "source": {
+            "id": "11835",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/11835"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Androgen receptor",
+          "source": {
+            "id": "Q99LX0",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q99LX0"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 250,
@@ -483,11 +564,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Park7",
+          "source": {
+            "id": "57320",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/57320"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Protein deglycase DJ-1",
+          "source": {
+            "id": "Q99LX0",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q99LX0"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 351,
@@ -502,11 +614,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Efcab6",
+          "source": {
+            "id": "77627",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/77627"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "EF-hand calcium-binding domain-containing protein 6",
+          "source": {
+            "id": "Q6P1E8",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q6P1E8"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 389,
@@ -521,11 +664,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Efcab6",
+          "source": {
+            "id": "77627",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/77627"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "EF-hand calcium-binding domain-containing protein 6",
+          "source": {
+            "id": "Q6P1E8",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q6P1E8"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 411,
@@ -653,7 +827,7 @@
               "ml:GNormPlus"
             ]
           },
-          "recName": "Park7 {ECO:0000312|MGI:MGI:2135637}",
+          "recName": "Park7",
           "source": {
             "id": "57320",
             "name": "gene",
@@ -668,7 +842,7 @@
               "user:Ashish"
             ]
           },
-          "recName": "Protein deglycase DJ-1 {ECO:0000250|UniProtKB:Q99497}",
+          "recName": "Protein deglycase DJ-1",
           "source": {
             "id": "Q8C5D8",
             "name": "protein",
@@ -744,7 +918,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Ar",
+          "source": {
+            "id": "11835",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/11835"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Androgen receptor",
+          "source": {
+            "id": "Q99LX0",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q99LX0"
+          }
+        }
+	  },
       "offsets": [
         {
           "start": 665,
@@ -753,7 +958,7 @@
       ],
       "part": "s2p1"
     },
-    {
+	{
       "classId": "e_1",
       "confidence": {
         "prob": 1.0,
@@ -772,7 +977,7 @@
               "ml:GNormPlus"
             ]
           },
-          "recName": "Park7 {ECO:0000312|MGI:MGI:2135637}",
+          "recName": "Park7",
           "source": {
             "id": "57320",
             "name": "gene",
@@ -787,7 +992,7 @@
               "user:Ashish"
             ]
           },
-          "recName": "Protein deglycase DJ-1 {ECO:0000250|UniProtKB:Q99497}",
+          "recName": "Protein deglycase DJ-1",
           "source": {
             "id": "Q8C5D8",
             "name": "protein",
@@ -813,7 +1018,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Ar",
+          "source": {
+            "id": "11835",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/11835"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Androgen receptor",
+          "source": {
+            "id": "Q99LX0",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q99LX0"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 738,
@@ -841,7 +1077,7 @@
               "ml:GNormPlus"
             ]
           },
-          "recName": "Park7 {ECO:0000312|MGI:MGI:2135637}",
+          "recName": "Park7",
           "source": {
             "id": "57320",
             "name": "gene",
@@ -856,7 +1092,7 @@
               "user:Ashish"
             ]
           },
-          "recName": "Protein deglycase DJ-1 {ECO:0000250|UniProtKB:Q99497}",
+          "recName": "Protein deglycase DJ-1",
           "source": {
             "id": "Q8C5D8",
             "name": "protein",
@@ -932,7 +1168,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Ar",
+          "source": {
+            "id": "11835",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/11835"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Androgen receptor",
+          "source": {
+            "id": "Q99LX0",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q99LX0"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 872,
@@ -960,7 +1227,7 @@
               "ml:GNormPlus"
             ]
           },
-          "recName": "Park7 {ECO:0000312|MGI:MGI:2135637}",
+          "recName": "Park7",
           "source": {
             "id": "57320",
             "name": "gene",
@@ -975,7 +1242,7 @@
               "user:Ashish"
             ]
           },
-          "recName": "Protein deglycase DJ-1 {ECO:0000250|UniProtKB:Q99497}",
+          "recName": "Protein deglycase DJ-1",
           "source": {
             "id": "Q8C5D8",
             "name": "protein",
@@ -1001,7 +1268,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Ar",
+          "source": {
+            "id": "11835",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/11835"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Androgen receptor",
+          "source": {
+            "id": "Q99LX0",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q99LX0"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 920,
@@ -1120,11 +1418,42 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Ar",
+          "source": {
+            "id": "11835",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/11835"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Androgen receptor",
+          "source": {
+            "id": "Q99LX0",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q99LX0"
+          }
+        }
+      },
       "offsets": [
         {
-          "start": 991,
-          "text": "AR"
+          "start": 231,
+          "text": "androgen receptor"
         }
       ],
       "part": "s2p1"
@@ -1248,7 +1577,7 @@
               "ml:GNormPlus"
             ]
           },
-          "recName": "Park7 {ECO:0000312|MGI:MGI:2135637}",
+          "recName": "Park7",
           "source": {
             "id": "57320",
             "name": "gene",
@@ -1263,7 +1592,7 @@
               "user:Ashish"
             ]
           },
-          "recName": "Protein deglycase DJ-1 {ECO:0000250|UniProtKB:Q99497}",
+          "recName": "Protein deglycase DJ-1",
           "source": {
             "id": "Q60520",
             "name": "protein",
@@ -1289,7 +1618,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Ar",
+          "source": {
+            "id": "11835",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/11835"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Androgen receptor",
+          "source": {
+            "id": "Q99LX0",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q99LX0"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 1233,
@@ -1317,7 +1677,7 @@
               "ml:GNormPlus"
             ]
           },
-          "recName": "Park7 {ECO:0000312|MGI:MGI:2135637}",
+          "recName": "Park7",
           "source": {
             "id": "57320",
             "name": "gene",
@@ -1332,7 +1692,7 @@
               "user:Ashish"
             ]
           },
-          "recName": "Protein deglycase DJ-1 {ECO:0000250|UniProtKB:Q99497}",
+          "recName": "Protein deglycase DJ-1",
           "source": {
             "id": "Q60520",
             "name": "protein",

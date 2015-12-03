@@ -18,7 +18,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CDKN1A",
+          "source": {
+            "id": "1026",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1026"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cyclin-dependent kinase inhibitor 1",
+          "source": {
+            "id": "P38936",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P38936"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 45,
@@ -87,7 +118,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CDKN1A",
+          "source": {
+            "id": "1026",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1026"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cyclin-dependent kinase inhibitor 1",
+          "source": {
+            "id": "P38936",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P38936"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 0,
@@ -156,7 +218,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CDKN1A",
+          "source": {
+            "id": "1026",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1026"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cyclin-dependent kinase inhibitor 1",
+          "source": {
+            "id": "P38936",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P38936"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 145,
@@ -221,11 +314,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "IL2",
+          "source": {
+            "id": "3558",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3558"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Interleukin-2",
+          "source": {
+            "id": "P20568",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P60568"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 230,
@@ -290,11 +414,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "JUN",
+          "source": {
+            "id": "3725",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3725"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor AP-1",
+          "source": {
+            "id": "P05412",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P05412"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 453,
@@ -313,7 +468,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CDKN1A",
+          "source": {
+            "id": "1026",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1026"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cyclin-dependent kinase inhibitor 1",
+          "source": {
+            "id": "P38936",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P38936"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 535,
@@ -428,11 +614,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "JUN",
+          "source": {
+            "id": "3725",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3725"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor AP-1",
+          "source": {
+            "id": "P05412",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P05412"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 596,
@@ -447,11 +664,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "JUN",
+          "source": {
+            "id": "3725",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3725"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor AP-1",
+          "source": {
+            "id": "P05412",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P05412"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 716,
@@ -470,7 +718,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CDKN1A",
+          "source": {
+            "id": "1026",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1026"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cyclin-dependent kinase inhibitor 1",
+          "source": {
+            "id": "P38936",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P38936"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 852,
@@ -589,7 +868,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CDKN1A",
+          "source": {
+            "id": "1026",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1026"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cyclin-dependent kinase inhibitor 1",
+          "source": {
+            "id": "P38936",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P38936"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 919,
@@ -654,11 +964,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "JUN",
+          "source": {
+            "id": "3725",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3725"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor AP-1",
+          "source": {
+            "id": "P05412",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P05412"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 929,
@@ -727,7 +1068,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CDKN1A",
+          "source": {
+            "id": "1026",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1026"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cyclin-dependent kinase inhibitor 1",
+          "source": {
+            "id": "P38936",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P38936"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 1110,
@@ -792,11 +1164,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "JUN",
+          "source": {
+            "id": "3725",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3725"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor AP-1",
+          "source": {
+            "id": "P05412",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P05412"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 1125,
@@ -865,7 +1268,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CDKN1A",
+          "source": {
+            "id": "1026",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1026"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cyclin-dependent kinase inhibitor 1",
+          "source": {
+            "id": "P38936",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P38936"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 1170,
@@ -934,7 +1368,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "CDKN1A",
+          "source": {
+            "id": "1026",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/1026"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Cyclin-dependent kinase inhibitor 1",
+          "source": {
+            "id": "P38936",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P38936"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 1271,

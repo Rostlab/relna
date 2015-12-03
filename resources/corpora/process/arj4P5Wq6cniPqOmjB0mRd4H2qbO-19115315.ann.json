@@ -18,7 +18,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "KCTD1",
+          "source": {
+            "id": "284252",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/284252"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "BTB/POZ domain-containing protein KCTD1",
+          "source": {
+            "id": "Q719H9",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q719H9"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 19,
@@ -83,11 +114,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TFAP2A",
+          "source": {
+            "id": "7020",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7020"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor AP-2-alpha",
+          "source": {
+            "id": "Q719H9",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q719H9"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 141,
@@ -156,7 +218,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "KCTD1",
+          "source": {
+            "id": "284252",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/284252"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "BTB/POZ domain-containing protein KCTD1",
+          "source": {
+            "id": "Q719H9",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q719H9"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 334,
@@ -175,7 +268,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "KCTD1",
+          "source": {
+            "id": "284252",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/284252"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "BTB/POZ domain-containing protein KCTD1",
+          "source": {
+            "id": "Q719H9",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q719H9"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 368,
@@ -244,7 +368,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "KCTD1",
+          "source": {
+            "id": "284252",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/284252"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "BTB/POZ domain-containing protein KCTD1",
+          "source": {
+            "id": "Q719H9",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q719H9"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 750,
@@ -313,7 +468,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "KCTD1",
+          "source": {
+            "id": "284252",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/284252"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "BTB/POZ domain-containing protein KCTD1",
+          "source": {
+            "id": "Q719H9",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q719H9"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 847,
@@ -332,7 +518,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "KCTD1",
+          "source": {
+            "id": "284252",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/284252"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "BTB/POZ domain-containing protein KCTD1",
+          "source": {
+            "id": "Q719H9",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q719H9"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 877,
@@ -601,7 +818,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "KCTD1",
+          "source": {
+            "id": "284252",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/284252"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "BTB/POZ domain-containing protein KCTD1",
+          "source": {
+            "id": "Q719H9",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q719H9"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 1091,
@@ -670,7 +918,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "KCTD1",
+          "source": {
+            "id": "284252",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/284252"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "BTB/POZ domain-containing protein KCTD1",
+          "source": {
+            "id": "Q719H9",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q719H9"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 1176,
@@ -689,7 +968,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "KCTD1",
+          "source": {
+            "id": "284252",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/284252"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "BTB/POZ domain-containing protein KCTD1",
+          "source": {
+            "id": "Q719H9",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q719H9"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 1344,

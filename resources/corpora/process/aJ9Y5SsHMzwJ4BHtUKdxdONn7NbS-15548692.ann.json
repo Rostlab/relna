@@ -68,7 +68,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+		"n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TFAP2C",
+          "source": {
+            "id": "7022",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7022"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor AP-2 gamma",
+          "source": {
+            "id": "Q92754",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92754"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 87,
@@ -587,7 +618,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+		"n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "TFAP2C",
+          "source": {
+            "id": "7022",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/7022"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor AP-2 gamma",
+          "source": {
+            "id": "Q92754",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92754"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 655,

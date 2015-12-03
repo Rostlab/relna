@@ -918,7 +918,23 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "IGHJ1",
+          "source": {
+            "id": "28483",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/28483"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 395,

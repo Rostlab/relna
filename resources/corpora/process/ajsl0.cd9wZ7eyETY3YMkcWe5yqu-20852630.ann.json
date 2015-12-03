@@ -464,11 +464,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MAPK1",
+          "source": {
+            "id": "5594",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5594"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Mitogen-activated protein kinase 1",
+          "source": {
+            "id": "P28482",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P28482"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 593,
@@ -533,11 +564,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MAPK1",
+          "source": {
+            "id": "5594",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5594"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Mitogen-activated protein kinase 1",
+          "source": {
+            "id": "P28482",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P28482"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 663,

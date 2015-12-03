@@ -14,11 +14,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "DNTTIP2",
+          "source": {
+            "id": "30836",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/30836"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Deoxynucleotidyltransferase terminal-interacting protein 2",
+          "source": {
+            "id": "Q5QJE6",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q5QJE6"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 0,
@@ -33,11 +64,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESR1",
+          "source": {
+            "id": "2099",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2099"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 14,
@@ -102,11 +164,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESR1",
+          "source": {
+            "id": "2099",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2099"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 37,
@@ -125,7 +218,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ESR1",
+          "source": {
+            "id": "2099",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2099"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Estrogen receptor",
+          "source": {
+            "id": "P03372",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03372"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 56,
@@ -140,11 +264,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "DNTTIP2",
+          "source": {
+            "id": "30836",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/30836"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Deoxynucleotidyltransferase terminal-interacting protein 2",
+          "source": {
+            "id": "Q5QJE6",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q5QJE6"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 126,
@@ -159,11 +314,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "DNTTIP2",
+          "source": {
+            "id": "30836",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/30836"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Deoxynucleotidyltransferase terminal-interacting protein 2",
+          "source": {
+            "id": "Q5QJE6",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q5QJE6"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 151,
@@ -178,11 +364,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "DNTTIP2",
+          "source": {
+            "id": "30836",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/30836"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Deoxynucleotidyltransferase terminal-interacting protein 2",
+          "source": {
+            "id": "Q5QJE6",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q5QJE6"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 237,
@@ -197,11 +414,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "DNTTIP2",
+          "source": {
+            "id": "30836",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/30836"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Deoxynucleotidyltransferase terminal-interacting protein 2",
+          "source": {
+            "id": "Q5QJE6",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q5QJE6"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 331,
@@ -266,11 +514,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "DNTTIP2",
+          "source": {
+            "id": "30836",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/30836"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Deoxynucleotidyltransferase terminal-interacting protein 2",
+          "source": {
+            "id": "Q5QJE6",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q5QJE6"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 449,
@@ -435,11 +714,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "DNTTIP2",
+          "source": {
+            "id": "30836",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/30836"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Deoxynucleotidyltransferase terminal-interacting protein 2",
+          "source": {
+            "id": "Q5QJE6",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q5QJE6"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 501,
@@ -554,11 +864,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "DNTTIP2",
+          "source": {
+            "id": "30836",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/30836"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Deoxynucleotidyltransferase terminal-interacting protein 2",
+          "source": {
+            "id": "Q5QJE6",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q5QJE6"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 619,
@@ -573,11 +914,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "DNTTIP2",
+          "source": {
+            "id": "30836",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/30836"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Deoxynucleotidyltransferase terminal-interacting protein 2",
+          "source": {
+            "id": "Q5QJE6",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q5QJE6"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 640,
@@ -642,11 +1014,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "DNTTIP2",
+          "source": {
+            "id": "30836",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/30836"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Deoxynucleotidyltransferase terminal-interacting protein 2",
+          "source": {
+            "id": "Q5QJE6",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q5QJE6"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 723,
@@ -661,11 +1064,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "DNTTIP2",
+          "source": {
+            "id": "30836",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/30836"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Deoxynucleotidyltransferase terminal-interacting protein 2",
+          "source": {
+            "id": "Q5QJE6",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q5QJE6"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 797,
@@ -730,11 +1164,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "DNTTIP2",
+          "source": {
+            "id": "30836",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/30836"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Deoxynucleotidyltransferase terminal-interacting protein 2",
+          "source": {
+            "id": "Q5QJE6",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q5QJE6"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 921,

@@ -214,11 +214,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ARID2",
+          "source": {
+            "id": "196528",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/196528"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "AT-rich interactive domain-containing protein 2",
+          "source": {
+            "id": "Q68CP9",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q68CP9"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 453,
@@ -233,11 +264,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "JARID2",
+          "source": {
+            "id": "3720",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/3720"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Protein Jumonji",
+          "source": {
+            "id": "Q92833",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q92833"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 465,

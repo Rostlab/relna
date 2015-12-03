@@ -259,25 +259,6 @@
       "part": "s2p1"
     },
     {
-      "classId": "e_1",
-      "confidence": {
-        "prob": 1,
-        "state": "",
-        "who": [
-          "user:GNormPlus"
-        ]
-      },
-      "fields": {},
-      "normalizations": {},
-      "offsets": [
-        {
-          "start": 313,
-          "text": "Btk"
-        }
-      ],
-      "part": "s2p1"
-    },
-    {
       "classId": "e_2",
       "confidence": {
         "prob": 1.0,
@@ -378,25 +359,6 @@
       "part": "s2p1"
     },
     {
-      "classId": "e_1",
-      "confidence": {
-        "prob": 1,
-        "state": "",
-        "who": [
-          "user:GNormPlus"
-        ]
-      },
-      "fields": {},
-      "normalizations": {},
-      "offsets": [
-        {
-          "start": 488,
-          "text": "Btk"
-        }
-      ],
-      "part": "s2p1"
-    },
-    {
       "classId": "e_2",
       "confidence": {
         "prob": 1.0,
@@ -442,25 +404,6 @@
         {
           "start": 616,
           "text": "TFII-I"
-        }
-      ],
-      "part": "s2p1"
-    },
-    {
-      "classId": "e_1",
-      "confidence": {
-        "prob": 1,
-        "state": "",
-        "who": [
-          "user:GNormPlus"
-        ]
-      },
-      "fields": {},
-      "normalizations": {},
-      "offsets": [
-        {
-          "start": 657,
-          "text": "Btk"
         }
       ],
       "part": "s2p1"
@@ -761,25 +704,6 @@
         {
           "start": 1068,
           "text": "Bright"
-        }
-      ],
-      "part": "s2p1"
-    },
-    {
-      "classId": "e_1",
-      "confidence": {
-        "prob": 1,
-        "state": "",
-        "who": [
-          "user:GNormPlus"
-        ]
-      },
-      "fields": {},
-      "normalizations": {},
-      "offsets": [
-        {
-          "start": 1212,
-          "text": "Btk"
         }
       ],
       "part": "s2p1"

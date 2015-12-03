@@ -211,25 +211,6 @@
     {
       "classId": "e_2",
       "confidence": {
-        "prob": 1,
-        "state": "",
-        "who": [
-          "user:GNormPlus"
-        ]
-      },
-      "fields": {},
-      "normalizations": {},
-      "offsets": [
-        {
-          "start": 170,
-          "text": "estrogen receptor"
-        }
-      ],
-      "part": "s2p1"
-    },
-    {
-      "classId": "e_2",
-      "confidence": {
         "prob": 1.0,
         "state": "",
         "who": [
@@ -273,25 +254,6 @@
         {
           "start": 281,
           "text": "AhR"
-        }
-      ],
-      "part": "s2p1"
-    },
-    {
-      "classId": "e_2",
-      "confidence": {
-        "prob": 1,
-        "state": "",
-        "who": [
-          "user:GNormPlus"
-        ]
-      },
-      "fields": {},
-      "normalizations": {},
-      "offsets": [
-        {
-          "start": 326,
-          "text": "estrogen receptor"
         }
       ],
       "part": "s2p1"
@@ -402,11 +364,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ARNT",
+          "source": {
+            "id": "405",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/405"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Aryl hydrocarbon receptor nuclear translocator",
+          "source": {
+            "id": "P27540",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P27540"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 535,
@@ -521,11 +514,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ARNT",
+          "source": {
+            "id": "405",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/405"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Aryl hydrocarbon receptor nuclear translocator",
+          "source": {
+            "id": "P27540",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P27540"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 577,
@@ -640,11 +664,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ARNT",
+          "source": {
+            "id": "405",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/405"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Aryl hydrocarbon receptor nuclear translocator",
+          "source": {
+            "id": "P27540",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P27540"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 687,
@@ -809,11 +864,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ARNT",
+          "source": {
+            "id": "405",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/405"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Aryl hydrocarbon receptor nuclear translocator",
+          "source": {
+            "id": "P27540",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P27540"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 1094,

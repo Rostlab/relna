@@ -14,11 +14,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NR1I3",
+          "source": {
+            "id": "9970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Nuclear receptor subfamily 1 group I member 3",
+          "source": {
+            "id": "Q14994",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q14994"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 465,
@@ -33,11 +64,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PSMC4",
+          "source": {
+            "id": "5704",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5704"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "26S protease regulatory subunit 6B",
+          "source": {
+            "id": "P43686",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43686"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 533,
@@ -52,11 +114,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PSMC4",
+          "source": {
+            "id": "5704",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5704"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "26S protease regulatory subunit 6B",
+          "source": {
+            "id": "P43686",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43686"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 541,
@@ -121,11 +214,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PSMC4",
+          "source": {
+            "id": "5704",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5704"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "26S protease regulatory subunit 6B",
+          "source": {
+            "id": "P43686",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43686"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 686,
@@ -140,11 +264,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PSMC4",
+          "source": {
+            "id": "5704",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5704"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "26S protease regulatory subunit 6B",
+          "source": {
+            "id": "P43686",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43686"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 693,
@@ -163,7 +318,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PSMC4",
+          "source": {
+            "id": "5704",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5704"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "26S protease regulatory subunit 6B",
+          "source": {
+            "id": "P43686",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43686"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 892,
@@ -182,7 +368,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NR1I3",
+          "source": {
+            "id": "9970",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9970"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Nuclear receptor subfamily 1 group I member 3",
+          "source": {
+            "id": "Q14994",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q14994"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 927,
@@ -301,7 +518,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "PSMC4",
+          "source": {
+            "id": "5704",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/5704"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "26S protease regulatory subunit 6B",
+          "source": {
+            "id": "P43686",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P43686"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 1132,

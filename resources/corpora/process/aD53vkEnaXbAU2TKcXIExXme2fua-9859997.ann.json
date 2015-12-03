@@ -368,7 +368,23 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GTF2F2P1",
+          "source": {
+            "id": "2664",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2664"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 506,

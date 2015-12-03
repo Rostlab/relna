@@ -9,25 +9,6 @@
   },
   "entities": [
     {
-      "classId": "e_2",
-      "confidence": {
-        "prob": 1,
-        "state": "",
-        "who": [
-          "user:GNormPlus"
-        ]
-      },
-      "fields": {},
-      "normalizations": {},
-      "offsets": [
-        {
-          "start": 79,
-          "text": "MEF"
-        }
-      ],
-      "part": "s1h1"
-    },
-    {
       "classId": "e_1",
       "confidence": {
         "prob": 1.0,
@@ -83,26 +64,7 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
-        ]
-      },
-      "fields": {},
-      "normalizations": {},
-      "offsets": [
-        {
-          "start": 445,
-          "text": "MEF"
-        }
-      ],
-      "part": "s2p1"
-    },
-    {
-      "classId": "e_2",
-      "confidence": {
-        "prob": 1,
-        "state": "",
-        "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
@@ -111,44 +73,6 @@
         {
           "start": 454,
           "text": "myeloid ELF-1-like factor"
-        }
-      ],
-      "part": "s2p1"
-    },
-    {
-      "classId": "e_2",
-      "confidence": {
-        "prob": 1,
-        "state": "",
-        "who": [
-          "user:GNormPlus"
-        ]
-      },
-      "fields": {},
-      "normalizations": {},
-      "offsets": [
-        {
-          "start": 625,
-          "text": "MEF"
-        }
-      ],
-      "part": "s2p1"
-    },
-    {
-      "classId": "e_2",
-      "confidence": {
-        "prob": 1,
-        "state": "",
-        "who": [
-          "user:GNormPlus"
-        ]
-      },
-      "fields": {},
-      "normalizations": {},
-      "offsets": [
-        {
-          "start": 744,
-          "text": "MEF"
         }
       ],
       "part": "s2p1"
@@ -199,82 +123,6 @@
         {
           "start": 786,
           "text": "ETO"
-        }
-      ],
-      "part": "s2p1"
-    },
-    {
-      "classId": "e_2",
-      "confidence": {
-        "prob": 1,
-        "state": "",
-        "who": [
-          "user:GNormPlus"
-        ]
-      },
-      "fields": {},
-      "normalizations": {},
-      "offsets": [
-        {
-          "start": 1065,
-          "text": "MEF"
-        }
-      ],
-      "part": "s2p1"
-    },
-    {
-      "classId": "e_2",
-      "confidence": {
-        "prob": 1,
-        "state": "",
-        "who": [
-          "user:GNormPlus"
-        ]
-      },
-      "fields": {},
-      "normalizations": {},
-      "offsets": [
-        {
-          "start": 1116,
-          "text": "MEF"
-        }
-      ],
-      "part": "s2p1"
-    },
-    {
-      "classId": "e_2",
-      "confidence": {
-        "prob": 1,
-        "state": "",
-        "who": [
-          "user:GNormPlus"
-        ]
-      },
-      "fields": {},
-      "normalizations": {},
-      "offsets": [
-        {
-          "start": 1243,
-          "text": "MEF"
-        }
-      ],
-      "part": "s2p1"
-    },
-    {
-      "classId": "e_2",
-      "confidence": {
-        "prob": 1,
-        "state": "",
-        "who": [
-          "user:GNormPlus"
-        ]
-      },
-      "fields": {},
-      "normalizations": {},
-      "offsets": [
-        {
-          "start": 1266,
-          "text": "MEF"
         }
       ],
       "part": "s2p1"
@@ -382,25 +230,6 @@
     {
       "classId": "e_2",
       "confidence": {
-        "prob": 1,
-        "state": "",
-        "who": [
-          "user:GNormPlus"
-        ]
-      },
-      "fields": {},
-      "normalizations": {},
-      "offsets": [
-        {
-          "start": 1404,
-          "text": "MEF"
-        }
-      ],
-      "part": "s2p1"
-    },
-    {
-      "classId": "e_2",
-      "confidence": {
         "prob": 1.0,
         "state": "",
         "who": [
@@ -444,25 +273,6 @@
         {
           "start": 1430,
           "text": "ETO"
-        }
-      ],
-      "part": "s2p1"
-    },
-    {
-      "classId": "e_2",
-      "confidence": {
-        "prob": 1,
-        "state": "",
-        "who": [
-          "user:GNormPlus"
-        ]
-      },
-      "fields": {},
-      "normalizations": {},
-      "offsets": [
-        {
-          "start": 1535,
-          "text": "MEF"
         }
       ],
       "part": "s2p1"

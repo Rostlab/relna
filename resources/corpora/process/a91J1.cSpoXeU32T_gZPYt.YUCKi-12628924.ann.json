@@ -9,25 +9,6 @@
   },
   "entities": [
     {
-      "classId": "e_2",
-      "confidence": {
-        "prob": 1,
-        "state": "",
-        "who": [
-          "user:GNormPlus"
-        ]
-      },
-      "fields": {},
-      "normalizations": {},
-      "offsets": [
-        {
-          "start": 34,
-          "text": "NF-kappaB p65 subunit by mitogen- and stress-activated protein kinase-1"
-        }
-      ],
-      "part": "s1h1"
-    },
-    {
       "classId": "e_1",
       "confidence": {
         "prob": 1.0,

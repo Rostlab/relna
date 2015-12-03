@@ -261,25 +261,6 @@
     {
       "classId": "e_1",
       "confidence": {
-        "prob": 1,
-        "state": "",
-        "who": [
-          "user:GNormPlus"
-        ]
-      },
-      "fields": {},
-      "normalizations": {},
-      "offsets": [
-        {
-          "start": 374,
-          "text": "platelet derived growth factor (PDGF), insulin-like growth factor (IGF), and granulocyte-macrophage colony stimulating factor"
-        }
-      ],
-      "part": "s2p1"
-    },
-    {
-      "classId": "e_1",
-      "confidence": {
         "prob": 1.0,
         "state": "",
         "who": [
@@ -533,11 +514,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MYC",
+          "source": {
+            "id": "4609",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4609"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Myc proto-oncogene protein",
+          "source": {
+            "id": "P01106",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P01106"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 671,

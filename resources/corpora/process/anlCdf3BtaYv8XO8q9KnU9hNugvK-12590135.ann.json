@@ -418,7 +418,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ETV6",
+          "source": {
+            "id": "2120",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2120"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Transcription factor ETV6",
+          "source": {
+            "id": "P41212",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P41212"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 964,
@@ -437,7 +468,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "NCOR1",
+          "source": {
+            "id": "9611",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/9611"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Nuclear receptor corepressor 1",
+          "source": {
+            "id": "O75376",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/O75376"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 972,

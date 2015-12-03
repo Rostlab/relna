@@ -218,7 +218,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Dnajc7",
+          "source": {
+            "id": "56354",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/56354"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "DnaJ homolog subfamily C member 7",
+          "source": {
+            "id": "Q9QYI3",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9QYI3"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 547,
@@ -237,7 +268,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Dnajc7",
+          "source": {
+            "id": "56354",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/56354"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "DnaJ homolog subfamily C member 7",
+          "source": {
+            "id": "Q9QYI3",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9QYI3"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 570,
@@ -256,7 +318,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Dnajc7",
+          "source": {
+            "id": "56354",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/56354"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "DnaJ homolog subfamily C member 7",
+          "source": {
+            "id": "Q9QYI3",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9QYI3"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 667,
@@ -375,7 +468,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Dnajc7",
+          "source": {
+            "id": "56354",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/56354"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "DnaJ homolog subfamily C member 7",
+          "source": {
+            "id": "Q9QYI3",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9QYI3"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 777,
@@ -494,7 +618,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "Dnajc7",
+          "source": {
+            "id": "56354",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/56354"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "DnaJ homolog subfamily C member 7",
+          "source": {
+            "id": "Q9QYI3",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q9QYI3"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 1000,

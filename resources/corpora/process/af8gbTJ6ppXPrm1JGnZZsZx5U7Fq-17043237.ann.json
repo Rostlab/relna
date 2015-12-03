@@ -518,7 +518,38 @@
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "ARHGEF7",
+          "source": {
+            "id": "8874",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/8874"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Rho guanine nucleotide exchange factor 7",
+          "source": {
+            "id": "Q14155",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/Q14155"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 681,

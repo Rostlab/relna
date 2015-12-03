@@ -1064,11 +1064,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GSK3B",
+          "source": {
+            "id": "2932",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2932"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Glycogen synthase kinase-3 beta",
+          "source": {
+            "id": "P49841",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P49841"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 931,
@@ -1183,11 +1214,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "GSK3B",
+          "source": {
+            "id": "2932",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/2932"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Glycogen synthase kinase-3 beta",
+          "source": {
+            "id": "P49841",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P49841"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 1108,

@@ -14,11 +14,42 @@
         "prob": 1,
         "state": "",
         "who": [
-          "user:GNormPlus"
+          "ml:GNormPlus"
         ]
       },
       "fields": {},
-      "normalizations": {},
+      "normalizations": {
+        "n_6": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "ml:GNormPlus"
+            ]
+          },
+          "recName": "MMP1",
+          "source": {
+            "id": "4312",
+            "name": "gene",
+            "url": "http://www.ncbi.nlm.nih.gov/gene/4312"
+          }
+        },
+        "n_7": {
+          "confidence": {
+            "prob": 1.0,
+            "state": "",
+            "who": [
+              "user:Ashish"
+            ]
+          },
+          "recName": "Interstitial collagenase",
+          "source": {
+            "id": "P03956",
+            "name": "protein",
+            "url": "http://www.uniprot.org/uniprot/P03956"
+          }
+        }
+      },
       "offsets": [
         {
           "start": 30,
@@ -278,25 +309,6 @@
       "part": "s2p1"
     },
     {
-      "classId": "e_2",
-      "confidence": {
-        "prob": 1,
-        "state": "",
-        "who": [
-          "user:GNormPlus"
-        ]
-      },
-      "fields": {},
-      "normalizations": {},
-      "offsets": [
-        {
-          "start": 303,
-          "text": "Jun"
-        }
-      ],
-      "part": "s2p1"
-    },
-    {
       "classId": "e_1",
       "confidence": {
         "prob": 1.0,
@@ -342,25 +354,6 @@
         {
           "start": 314,
           "text": "matrix metalloproteinase-1"
-        }
-      ],
-      "part": "s2p1"
-    },
-    {
-      "classId": "e_2",
-      "confidence": {
-        "prob": 1,
-        "state": "",
-        "who": [
-          "user:GNormPlus"
-        ]
-      },
-      "fields": {},
-      "normalizations": {},
-      "offsets": [
-        {
-          "start": 387,
-          "text": "Jun"
         }
       ],
       "part": "s2p1"
@@ -468,25 +461,6 @@
     {
       "classId": "e_2",
       "confidence": {
-        "prob": 1,
-        "state": "",
-        "who": [
-          "user:GNormPlus"
-        ]
-      },
-      "fields": {},
-      "normalizations": {},
-      "offsets": [
-        {
-          "start": 482,
-          "text": "Jun"
-        }
-      ],
-      "part": "s2p1"
-    },
-    {
-      "classId": "e_2",
-      "confidence": {
         "prob": 1.0,
         "state": "",
         "who": [
@@ -530,25 +504,6 @@
         {
           "start": 575,
           "text": "Fos"
-        }
-      ],
-      "part": "s2p1"
-    },
-    {
-      "classId": "e_2",
-      "confidence": {
-        "prob": 1,
-        "state": "",
-        "who": [
-          "user:GNormPlus"
-        ]
-      },
-      "fields": {},
-      "normalizations": {},
-      "offsets": [
-        {
-          "start": 595,
-          "text": "Jun"
         }
       ],
       "part": "s2p1"
