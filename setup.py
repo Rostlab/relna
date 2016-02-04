@@ -8,7 +8,7 @@ def readme():
 
 setup(
     name='relna',
-    version='0.1.0',
+    version='0.1.1',
     description='Relation Extraction Pipeline for Transcription Factor and Gene or Gene Product relations',
     long_description=readme(),
     classifiers=[
@@ -25,12 +25,12 @@ setup(
     packages=find_packages(exclude=['tests']),
     install_requires=[
         'nalaf',
-        'nltk',
-        'beautifulsoup4',
-        'requests',
         'spacy',
         'progress'
-        ],
+    ],
+    dependency_links=[
+        'https://github.com/Rostlab/nalaf/tree/develop#egg=nalaf'
+    ],
     include_package_data=True,
     zip_safe=False,
     test_suite='nose.collector',
