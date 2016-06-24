@@ -1,8 +1,5 @@
-import abc
-import re
 from nalaf.learning.taggers import RelationExtractor
 from nalaf.utils.ncbi_utils import GNormPlus
-from nalaf.utils.uniprot_utils import Uniprot
 from relna.utils.swissprot_utils import Swissprot
 from relna.utils.go_utils import GOTerms
 from nalaf.structures.data import Entity, Relation
