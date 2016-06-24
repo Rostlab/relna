@@ -6,7 +6,7 @@ from nalaf.utils.uniprot_utils import Uniprot
 from relna.utils.swissprot_utils import Swissprot
 from relna.utils.go_utils import GOTerms
 from nalaf.structures.data import Entity, Relation
-from nalaf.utils import MUT_CLASS_ID, PRO_CLASS_ID, PRO_REL_MUT_CLASS_ID, ENTREZ_GENE_ID, UNIPROT_ID
+from relna.utils import MUT_CLASS_ID, PRO_CLASS_ID, ENTREZ_GENE_ID, UNIPROT_ID
 from nalaf.learning.taggers import Tagger
 
 

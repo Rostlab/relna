@@ -1,7 +1,7 @@
 from itertools import chain
 import sys
 import os
-from nalaf.utils import MUT_CLASS_ID, PRO_CLASS_ID
+from relna.utils import MUT_CLASS_ID, PRO_CLASS_ID
 
 
 class RelnaConsoleWriter:

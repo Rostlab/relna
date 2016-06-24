@@ -4,7 +4,7 @@ import pickle
 
 import pkg_resources
 
-from nalaf.utils import PRO_CLASS_ID, MUT_CLASS_ID, PRO_REL_MUT_CLASS_ID
+from relna.utils import PRO_CLASS_ID, MUT_CLASS_ID, PRO_REL_MUT_CLASS_ID
 from nalaf.utils.readers import TextFilesReader, PMIDReader
 from nalaf.utils.readers import StringReader
 from nalaf.utils.writers import TagTogFormat, PubTatorFormat
