@@ -24,7 +24,11 @@ class TranscriptionFactorTagger(Tagger):
         """
         with GNormPlus() as gnorm:
             for docid, doc in dataset.documents.items():
-                if 'Conclusion' in doc.get_text():  # todo check whether this is enough for finding out if full document or not
+
+                # So far this was enough for finding out if full document or not; not entirely reliable
+                is_fulltext = 'Conclusion' in doc.get_text()
+
+                if is_fulltext:
                     genes = gnorm.get_genes_for_text(doc, docid, postproc=True)
                 else:
                     genes, _, _ = gnorm.get_genes_for_pmid(docid, postproc=True)
