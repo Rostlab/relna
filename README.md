@@ -80,4 +80,4 @@ Run:
 ## Not-So-Important:
 * Implement corereference resolution (might increase performance slightly)
 * Check performance on PUBMED data with Tree Kernels (since the precision is really high, we might potentially come across new relationships, even though the recall is low.)
-* SpaCy plans to implement its own constituent parser, replace BLLIP with SpaCy for speed and efficiency (no linking to external C/C++ libraries)
+* SpaCy [plans to](https://github.com/spacy-io/spaCy/issues/59) implement its own constituent parser, replace BLLIP with SpaCy for speed and efficiency (no linking to external C/C++ libraries)
