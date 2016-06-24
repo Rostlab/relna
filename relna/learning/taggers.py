@@ -27,7 +27,7 @@ class TranscriptionFactorTagger(Tagger):
                 if 'Conclusion' in doc.get_text():  # todo check whether this is enough for finding out if full document or not
                     genes = gnorm.get_genes_for_text(doc, docid, postproc=True)
                 else:
-                    genes = gnorm.get_genes_for_pmid(docid, postproc=True)
+                    genes, _, _ = gnorm.get_genes_for_pmid(docid, postproc=True)
 
                 # genes
                 # if uniprot normalisation as well then:
