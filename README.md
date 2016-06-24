@@ -23,8 +23,8 @@ The pipeline used by _relna_ is as follows:
 ##  Requirements
 
 * Python 3
-* [SWIG](http://www.swig.org)
-* [PCRE](http://www.pcre.org)
+* [SWIG](http://www.swig.org) (>= 3.0.7, sanity check after installation: `swig -version`)
+* [PCRE](http://www.pcre.org) (not PCRE2, but 8.x series, >=8.37; sanity check after installation: `pcre-config --version`)
 * [BLLIP Parser](https://github.com/BLLIP/bllip-parser)
 * [SVMLight](http://svmlight.joachims.org)
     * The easiest way to install it is to download compiled binaries from the [official website.](http://disi.unitn.it/moschitti/TK1.2-software/download.html)
@@ -33,31 +33,6 @@ The pipeline used by _relna_ is as follows:
       * Place the binaries `svm_classify` and `svm_learn` in your `$PATH`
 
 ## Install Code
-
-* Installation of PCRE:
-    * Download and unzip PCRE
-      `wget ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/pcre-8.37.tar.gz` or
-      `curl --remote-name ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/pcre-8.37.tar.gz`
-      `tar -xzvf pcre-8.37.tar.gz`
-      `cd pcre-8.37`
-    * Install PCRE
-      ```
-      ./configure
-      make
-      make install
-      ```
-    * Perform a quick sanity check by running `pcre-config --version`
-
-* Installation of _SWIG_:
-    * On Ubuntu this can be done easily by `apt-get install swig`
-    * On Mac OSX, download SWIG from `http://prdownloads.sourceforge.net/swig/swig-3.0.7.tar.gz`
-      * Unzip the folder using `tar -xzvf swig-3.0.7.tar.gzz` and navigate into the folder by `cd swig-3.0.7`
-        ```
-        ./configure
-        make
-        make install
-        ```
-      * Perform a sanity check by running `swig -version`
 
 * Installation of _nalaf_
 
