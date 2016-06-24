@@ -26,10 +26,10 @@ The pipeline used by _relna_ is as follows:
 * [SWIG](http://www.swig.org) (>= 3.0.7, sanity check after installation: `swig -version`)
 * [PCRE](http://www.pcre.org) (not PCRE2, but 8.x series, >=8.37; sanity check after installation: `pcre-config --version`)
 * [BLLIP Parser](https://github.com/BLLIP/bllip-parser)
-* [SVMLight](http://svmlight.joachims.org)
+* [SVMLight-TK-1.2](http://disi.unitn.it/moschitti/TK1.2-software/Tree-Kernel.htm)
     * The easiest way to install it is to download compiled binaries from the [official website.](http://disi.unitn.it/moschitti/TK1.2-software/download.html)
       * You will have to fill up a form to get this, and make the build using the given Makefile.
-      * If you are **ABSOLUTELY SURE** that you do not need to use Tree Kernels, you can also get precompiled binaries from the original page: [see](http://svmlight.joachims.org)
+      * If you are **ABSOLUTELY SURE** that you do not need to use Tree Kernels (TK), you can also get precompiled binaries from the original page: [SVMLight](http://svmlight.joachims.org)
       * Place the binaries `svm_classify` and `svm_learn` in your `$PATH`
 
 ## Install Code
