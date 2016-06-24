@@ -35,7 +35,7 @@ The pipeline used by _relna_ is as follows:
 ## Install Code
 
 * Installation of PCRE:
-    * Download and unzip PCRE 
+    * Download and unzip PCRE
       `wget ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/pcre-8.37.tar.gz` or
       `curl --remote-name ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/pcre-8.37.tar.gz`
       `tar -xzvf pcre-8.37.tar.gz`
@@ -62,10 +62,10 @@ The pipeline used by _relna_ is as follows:
 * Installation of _nalaf_
 
 ```
-git clone -b ashish https://github.com/carstenuhlig/thesis-alex-carsten.git #nalaf will soon be open sourced
-cd thesis-alex-carsten
+git clone https://github.com/Rostlab/nalaf
+cd nalaf
 python3 setup.py install
-python3 -m nala.download_corpora
+python3 -m nalaf.download_corpora
 ```
 
 * Installation of _BLLIP Parser_ (needed to be compiled now locally since their PyPi module doesn't run on Python 3 - follow issue [here](https://github.com/BLLIP/bllip-parser/issues/45))
@@ -106,4 +106,3 @@ Run:
 * Implement corereference resolution (might increase performance slightly)
 * Check performance on PUBMED data with Tree Kernels (since the precision is really high, we might potentially come across new relationships, even though the recall is low.)
 * SpaCy plans to implement its own constituent parser, replace BLLIP with SpaCy for speed and efficiency (no linking to external C/C++ libraries)
-    
