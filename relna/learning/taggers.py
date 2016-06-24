@@ -54,7 +54,7 @@ class TranscriptionFactorTagger(Tagger):
                     for gene in genes:
                         if gene[2] in part.text and last_index <= gene[0] < part_index:
                             start = gene[0] - last_index
-                            # todo discussion which confidence value for gnormplus because there is no value supplied
+                            # confidence value is arbitrary for gnormplus because there is no value supplied
                             ann = Entity(class_id=PRO_CLASS_ID, offset=start, text=gene[2], confidence=0.5)
                             try:
                                 uniprotids = genes_mapping[gene[3]]
