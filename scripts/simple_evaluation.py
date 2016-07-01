@@ -10,7 +10,7 @@ from spacy.en import English
 from relna.learning.taggers import TranscriptionFactorTagger
 from relna.learning.taggers import RelnaRelationExtractor
 
-relna = True
+relna = False
 use_tk = False
 
 if use_tk:
