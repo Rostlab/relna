@@ -36,7 +36,7 @@ else:
 def read_dataset():
     dataset = HTMLReader(dataset_folder_html).read()
     AnnJsonAnnotationReader(
-            dataset_folder_html,
+            dataset_folder_annjson,
             read_relations=True,
             read_only_class_id=None,
             delete_incomplete_docs=False).annotate(dataset)
