@@ -2,7 +2,6 @@ from nalaf.utils.readers import HTMLReader
 from nalaf.utils.annotation_readers import AnnJsonAnnotationReader
 from nalaf.learning.taggers import StubSameSentenceRelationExtractor
 from nalaf.learning.evaluators import DocumentLevelRelationEvaluator
-from relna.utils import PRO_CLASS_ID, MUT_CLASS_ID, PRO_REL_MUT_CLASS_ID
 from relna.structures.relation_pipelines import RelationExtractionPipeline
 from relna.learning.svmlight import SVMLightTreeKernels
 from relna.preprocessing.parsers import SpacyParser, BllipParser
@@ -12,6 +11,7 @@ from relna.learning.taggers import RelnaRelationExtractor
 
 relna = False
 use_tk = False
+validation_set = True
 
 if use_tk:
     svm_folder = '/usr/local/manual/svm-light-TK-1.2.1/'
@@ -52,7 +52,10 @@ evaluator = DocumentLevelRelationEvaluator(rel_type=rel_type, match_case=False)
 k = 5
 
 for fold in range(k):
-    training, validation, test = dataset.cv_kfold_split(k, fold)
+    training, validation, test = dataset.cv_kfold_split(k, fold, validation_set=validation_set)
+    if not validation_set:
+        validation = test
+
     tagger.tag(validation)
 
     r = evaluator.evaluate(validation)
@@ -68,8 +71,9 @@ pipeline = RelationExtractionPipeline('e_1', 'e_2', rel_type, parser=parser)
 
 for fold in range(k):
 
-    training, validation, test = dataset.cv_kfold_split(k, fold, validation_set=False)
-    validation = test
+    training, validation, test = dataset.cv_kfold_split(k, fold, validation_set=validation_set)
+    if not validation_set:
+        validation = test
 
     pipeline.execute(training, train=True)
     feature_set = pipeline.feature_set
