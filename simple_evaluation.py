@@ -6,8 +6,8 @@ from relna.structures.relation_pipelines import RelationExtractionPipeline
 from relna.learning.svmlight import SVMLightTreeKernels
 from relna.preprocessing.parsers import SpacyParser
 from spacy.en import English
-from relna.learning.taggers import TranscriptionFactorTagger
-from relna.learning.taggers import RelnaRelationExtractor
+# from relna.learning.taggers import TranscriptionFactorTagger
+# from relna.learning.taggers import RelnaRelationExtractor
 import argparse
 
 parser = argparse.ArgumentParser(description='Simple-evaluate relna corpus or LocText corpus')
