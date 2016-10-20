@@ -18,10 +18,10 @@ setup(
         'Topic :: Text Processing :: Linguistic'
     ],
     keywords='svm relation extraction nlp natural language ner transcription factor gene product',
-    url='https://github.com/ashishbaghudana/relna',
-    author='Ashish Baghudana',
+    url='https://github.com/Rostlab/relna',
+    author='Ashish Baghudana, Juan Miguel Cejuela',
     author_email='abaghudana@rostlab.org',
-    license='MIT',
+    #license='UNKNOWN',
     packages=find_packages(exclude=['tests']),
     install_requires=[
         'nalaf',
