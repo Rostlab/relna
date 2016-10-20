@@ -18,6 +18,7 @@ class SVMLightTreeKernels:
         """the model to read from / write to"""
         self.use_tree_kernel = use_tree_kernel
         """whether to use tree kernels or not"""
+
         if sys.platform.startswith('linux') or sys.platform.startswith('darwin'):
             self.svm_learn_call = os.path.join(self.directory, 'svm_learn')
             self.svm_classify_call = os.path.join(self.directory, 'svm_classify')
@@ -27,9 +28,9 @@ class SVMLightTreeKernels:
 
     def create_input_file(self, dataset, mode, features, undersampling=0.4, minority_class=-1, file=None):
         string = ''
-        if mode=='train':
+        if mode == 'train':
             for edge in dataset.edges():
-                if edge.target==minority_class:
+                if edge.target == minority_class:
                     prob = random()
                     if prob<undersampling:
                         string += str(edge.target)

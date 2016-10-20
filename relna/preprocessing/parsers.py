@@ -1,8 +1,6 @@
 import abc
-import re
 from nalaf.structures.data import *
 from nltk.stem.lancaster import LancasterStemmer
-from nltk import word_tokenize
 from nltk.corpus import stopwords
 from progress.bar import Bar
 from spacy.en import English
@@ -45,7 +43,10 @@ class BllipParser(Parser):
         except ImportError:
             raise ImportError('BllipParser not installed, perhaps it is not supported on OS X yet')
 
-        self.parser = RerankingParser.fetch_and_load('GENIA+PubMed', verbose=False)
+        self.parser = RerankingParser.fetch_and_load('GENIA+PubMed', verbose=True)
+        # CAUTION this can take a long while. Install manually: `python -mbllipparser.ModelFetcher -i GENIA+PubMed`
+        # CAUTION depends on PyStanfordDependencies (pip install PyStanfordDependencies)
+        # CAUTION this depends on JPype1, which depends on deprecated java 6
         """create a Reranking Parser from BllipParser"""
         self.parser.set_parser_options(nbest=nbest, overparsing=overparsing)
         """set parser options"""
@@ -138,7 +139,7 @@ class SpacyParser(Parser):
         # nalaf.preprocessing.Tokenizer before.
         old_tokenizer = self.nlp.tokenizer
         self.nlp.tokenizer = lambda string: old_tokenizer.tokens_from_list(self._tokenize(string))
-        if self.constituency_parser == True:
+        if self.constituency_parser is True:
             self.parser = BllipParser(only_parse=True)
 
     def parse(self, dataset):
@@ -173,7 +174,7 @@ class SpacyParser(Parser):
             part.set_head_tokens()
             outer_bar.next()
         outer_bar.finish()
-        if self.constituency_parser == True:
+        if self.constituency_parser is True:
             self.parser.parse(dataset)
 
     def _tokenize(self, text):

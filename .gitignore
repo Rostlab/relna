@@ -1,3 +1,6 @@
+# Default to ignore all hidden files (in particular all IDE-generated files)
+.*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
