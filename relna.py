@@ -10,10 +10,10 @@ from nalaf.utils.readers import StringReader
 from nalaf.utils.writers import TagTogFormat, PubTatorFormat
 from relna.utils.writers import RelnaConsoleWriter
 from relna.structures.relation_pipelines import RelationExtractionPipeline
-from relna.learning.svmlight import SVMLightTreeKernels
+from nalaf.learning.svmlight import SVMLightTreeKernels
 from relna.learning.taggers import TranscriptionFactorTagger
 from relna.learning.taggers import RelnaRelationExtractor
-from itertools import chain
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='A simple demo for using the relna pipeline for prediction')

@@ -2,7 +2,7 @@ from nalaf.learning.taggers import RelationExtractor
 from nalaf.utils.ncbi_utils import GNormPlus
 from relna.utils.swissprot_utils import Swissprot
 from relna.utils.go_utils import GOTerms
-from nalaf.structures.data import Entity, Relation
+from nalaf.structures.data import Entity
 from relna.utils import MUT_CLASS_ID, PRO_CLASS_ID, ENTREZ_GENE_ID, UNIPROT_ID
 from nalaf.learning.taggers import Tagger
 
