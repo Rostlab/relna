@@ -25,11 +25,11 @@ print(args)
 k = 5
 
 if args.use_tk:
-    svm_folder = '/usr/local/manual/svm-light-TK-1.2.1/'
+    svm_folder = ''  # '/usr/local/manual/svm-light-TK-1.2.1/' -- must be in your path
     nlp = English(entity=False)
     parser = SpacyParser(nlp, constituency_parser=True)
 else:
-    svm_folder = '/usr/local/manual/bin/'
+    svm_folder = ''  # '/usr/local/manual/bin/' -- must be in your path
     parser = None
 
 if args.corpus == "relna":
@@ -92,7 +92,7 @@ for fold in range(k):
     feature_set = pipeline.feature_set
 
     # Learn
-    svmlight = SVMLightTreeKernels(svm_folder, use_tree_kernel=args.use_tk)
+    svmlight = SVMLightTreeKernels(svmlight_dir_path=svm_folder, use_tree_kernel=args.use_tk)
     instancesfile = svmlight.create_input_file(training, 'train', feature_set)
     svmlight.learn(instancesfile)
 
