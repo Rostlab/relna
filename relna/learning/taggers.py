@@ -7,6 +7,19 @@ from relna.utils import MUT_CLASS_ID, PRO_CLASS_ID, ENTREZ_GENE_ID, UNIPROT_ID
 from nalaf.learning.taggers import Tagger
 
 
+class RelnaRelationExtractor(RelationExtractor):
+
+    def __init__(self, entity1_class, entity2_class, rel_type, svmlight):
+        super().__init__(entity1_class, entity2_class, rel_type)
+        self.svmlight = svmlight
+        """an instance of SVMLightTreeKernels"""
+
+    def tag(self, dataset, feature_set):
+        self.svmlight.create_input_file(dataset, 'predict', feature_set)
+        self.svmlight.tag()
+        self.svmlight.read_predictions(dataset)
+
+
 class TranscriptionFactorTagger(Tagger):
     """
     Performs tagging for transcription factors in text, using GNormPlus and
@@ -95,15 +108,3 @@ class TranscriptionFactorTagger(Tagger):
             for protein in obj:
                 return_list.add(protein)
         return return_list
-
-
-class RelnaRelationExtractor(RelationExtractor):
-    def __init__(self, entity1_class, entity2_class, rel_type, svmlight):
-        super().__init__(entity1_class, entity2_class, rel_type)
-        self.svmlight = svmlight
-        """an instance of SVMLightTreeKernels"""
-
-    def tag(self, dataset, feature_set):
-        self.svmlight.create_input_file(dataset, 'predict', feature_set)
-        self.svmlight.tag()
-        self.svmlight.read_predictions(dataset)
