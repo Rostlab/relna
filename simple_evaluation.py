@@ -75,7 +75,7 @@ print(ret)
 print("\n\n\n\n\n")
 
 
-dataset = read_dataset()
+dataset, _ = read_dataset().percentage_split(0.1)
 pipeline = RelationExtractionPipeline('e_1', 'e_2', rel_type, parser=parser)
 evaluator = DocumentLevelRelationEvaluator(rel_type=rel_type, match_case=False)
 
@@ -109,7 +109,7 @@ ret = Evaluations.merge(merged)
 print(ret)
 
 
-# Expected output, something like:
+# Expected output with full relna corpus (dataset = read_dataset()), something like:
 
 # python simple_evaluation.py --corpus relna
 # Namespace(corpus='relna', use_test_set=False, use_tk=False)
@@ -159,3 +159,57 @@ print(ret)
 # # FINAL
 # # class	tp	fp	fn	fp_ov	fn_ov	e|P	e|R	e|F	e|F_SE	o|P	o|R	o|F	o|F_SE
 # r_4	181	125	66	0	0	0.5915	0.7328	0.6546	0.0021	0.5915	0.7328	0.6546	0.0022
+
+
+
+# Expected output with 10% of relna corpus (dataset, _ = read_dataset().percentage_split(0.1)), something like:
+
+Namespace(corpus='relna', use_test_set=False, use_tk=False)
+# FOLDS
+# class	tp	fp	fn	fp_ov	fn_ov	e|P	e|R	e|F	e|F_SE	o|P	o|R	o|F	o|F_SE
+r_4	51	261	0	0	0	0.1635	1.0000	0.2810	0.0034	0.1635	1.0000	0.2810	0.0033
+# class	tp	fp	fn	fp_ov	fn_ov	e|P	e|R	e|F	e|F_SE	o|P	o|R	o|F	o|F_SE
+r_4	48	187	1	0	0	0.2043	0.9796	0.3380	0.0049	0.2043	0.9796	0.3380	0.0048
+# class	tp	fp	fn	fp_ov	fn_ov	e|P	e|R	e|F	e|F_SE	o|P	o|R	o|F	o|F_SE
+r_4	49	136	0	0	0	0.2649	1.0000	0.4188	0.0049	0.2649	1.0000	0.4188	0.0048
+# class	tp	fp	fn	fp_ov	fn_ov	e|P	e|R	e|F	e|F_SE	o|P	o|R	o|F	o|F_SE
+r_4	58	187	0	0	0	0.2367	1.0000	0.3828	0.0038	0.2367	1.0000	0.3828	0.0037
+# class	tp	fp	fn	fp_ov	fn_ov	e|P	e|R	e|F	e|F_SE	o|P	o|R	o|F	o|F_SE
+r_4	49	196	0	0	0	0.2000	1.0000	0.3333	0.0044	0.2000	1.0000	0.3333	0.0045
+
+# FINAL
+# class	tp	fp	fn	fp_ov	fn_ov	e|P	e|R	e|F	e|F_SE	o|P	o|R	o|F	o|F_SE
+r_4	255	967	1	0	0	0.2087	0.9961	0.3451	0.0018	0.2087	0.9961	0.3451	0.0018
+
+
+
+
+
+
+(relation_pipelines.py) Spacy NLP English: INIT START
+(relation_pipelines.py) Spacy NLP English: INIT END 89.9625198841095
+# FOLDS
+Processing [SpaCy] |################################| 27/27
+Processing [SpaCy] |################################| 9/9
+# class	tp	fp	fn	fp_ov	fn_ov	e|P	e|R	e|F	e|F_SE	o|P	o|R	o|F	o|F_SE
+r_4	4	1	1	0	0	0.8000	0.8000	0.8000	0.0253	0.8000	0.8000	0.8000	0.0253
+Processing [SpaCy] |################################| 27/27
+Processing [SpaCy] |################################| 6/6
+# class	tp	fp	fn	fp_ov	fn_ov	e|P	e|R	e|F	e|F_SE	o|P	o|R	o|F	o|F_SE
+r_4	3	1	0	0	0	0.7500	1.0000	0.8571	0.0271	0.7500	1.0000	0.8571	0.0271
+Processing [SpaCy] |################################| 24/24
+Processing [SpaCy] |################################| 9/9
+# class	tp	fp	fn	fp_ov	fn_ov	e|P	e|R	e|F	e|F_SE	o|P	o|R	o|F	o|F_SE
+r_4	5	10	0	0	0	0.3333	1.0000	0.5000	0.0158	0.3333	1.0000	0.5000	0.0158
+Processing [SpaCy] |################################| 24/24
+Processing [SpaCy] |################################| 9/9
+# class	tp	fp	fn	fp_ov	fn_ov	e|P	e|R	e|F	e|F_SE	o|P	o|R	o|F	o|F_SE
+r_4	3	1	0	0	0	0.7500	1.0000	0.8571	0.0271	0.7500	1.0000	0.8571	0.0271
+Processing [SpaCy] |################################| 24/24
+Processing [SpaCy] |################################| 9/9
+# class	tp	fp	fn	fp_ov	fn_ov	e|P	e|R	e|F	e|F_SE	o|P	o|R	o|F	o|F_SE
+r_4	5	2	6	0	0	0.7143	0.4545	0.5556	0.0176	0.7143	0.4545	0.5556	0.0176
+
+# FINAL
+# class	tp	fp	fn	fp_ov	fn_ov	e|P	e|R	e|F	e|F_SE	o|P	o|R	o|F	o|F_SE
+r_4	20	15	7	0	0	0.5714	0.7407	0.6452	0.0064	0.5714	0.7407	0.6452	0.0062
