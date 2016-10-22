@@ -20,7 +20,7 @@ class PathFeatureGenerator(EdgeFeatureGenerator):
         self.token_feature_generator = TokenFeatureGenerator(feature_set, training_mode)
         """an instance of TokenFeatureGenerator"""
 
-    def generate(self, dataset):
+    def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():
             head1 = edge.entity1.head_token
             head2 = edge.entity2.head_token

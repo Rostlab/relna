@@ -26,7 +26,7 @@ class ProteinWordFeatureGenerator(EdgeFeatureGenerator):
         self.training_mode = training_mode
         """whether the mode is training or testing"""
 
-    def generate(self, dataset):
+    def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():
             head1 = edge.entity1.head_token
             head2 = edge.entity2.head_token
@@ -97,7 +97,7 @@ class LocationWordFeatureGenerator(EdgeFeatureGenerator):
         self.training_mode = training_mode
         """whether the mode is training or testing"""
 
-    def generate(self, dataset):
+    def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():
             location_word = False
             if edge.entity1.class_id == 'e_1':
@@ -140,7 +140,7 @@ class FoundInFeatureGenerator(EdgeFeatureGenerator):
         self.training_mode = training_mode
         """whether the mode is training or testing"""
 
-    def generate(self, dataset):
+    def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():
             found_word = False
             in_word = False

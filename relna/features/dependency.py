@@ -17,7 +17,7 @@ class DependencyChainFeatureGenerator(EdgeFeatureGenerator):
         self.training_mode = training_mode
         """whether the mode is training or testing"""
 
-    def generate(self, dataset):
+    def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():
             sent = edge.part.get_sentence_string_array()[edge.sentence_id]
             parsed = self.nlp(sent)

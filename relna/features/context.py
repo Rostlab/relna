@@ -24,7 +24,7 @@ class LinearContextFeatureGenerator(EdgeFeatureGenerator):
         self.training_mode = training_mode
         """whether the mode is training of testing"""
 
-    def generate(self, dataset):
+    def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():
             head1 = edge.entity1.head_token
             head2 = edge.entity2.head_token
@@ -82,7 +82,7 @@ class EntityOrderFeatureGenerator(EdgeFeatureGenerator):
         self.training_mode = training_mode
         """whether the mode is training or testing"""
 
-    def generate(self, dataset):
+    def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():
             if edge.entity1.offset < edge.entity2.offset:
                 feature_name = '30_order_entity1_entity2_[0]'
@@ -112,7 +112,7 @@ class LinearDistanceFeatureGenerator(EdgeFeatureGenerator):
         self.training_mode = training_mode
         """whether the mode is training or testing"""
 
-    def generate(self, dataset):
+    def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():
             entity1_number = edge.entity1.head_token.features['id']
             entity2_number = edge.entity2.head_token.features['id']
@@ -146,7 +146,7 @@ class IntermediateTokensFeatureGenerator(EdgeFeatureGenerator):
         self.stemmer = PorterStemmer()
         """an instance of PorterStemmer"""
 
-    def generate(self, dataset):
+    def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():
             sentence = edge.part.sentences[edge.sentence_id]
             if edge.entity1.head_token.features['id'] < edge.entity2.head_token.features['id']:

@@ -17,7 +17,7 @@ class BiGramFeatureGenerator(EdgeFeatureGenerator):
         self.training_mode = training_mode
         """whether the mode is training of testing"""
 
-    def generate(self, dataset):
+    def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():
             if edge.entity1.offset < edge.entity2.offset:
                 head1 = edge.entity1.head_token
@@ -52,7 +52,7 @@ class TriGramFeatureGenerator(EdgeFeatureGenerator):
         self.training_mode = training_mode
         """whether the mode is training of testing"""
 
-    def generate(self, dataset):
+    def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():
             if edge.entity1.offset < edge.entity2.offset:
                 head1 = edge.entity1.head_token

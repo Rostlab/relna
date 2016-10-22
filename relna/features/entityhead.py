@@ -25,7 +25,7 @@ class EntityHeadTokenFeatureGenerator(EdgeFeatureGenerator):
         self.stemmer = PorterStemmer()
         """an instance of the PorterStemmer"""
 
-    def generate(self, dataset):
+    def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():
             entity1 = edge.entity1
             entity2 = edge.entity2
@@ -74,7 +74,7 @@ class EntityHeadTokenUpperCaseFeatureGenerator(EdgeFeatureGenerator):
         self.training_mode = training_mode
         """whether the mode is training or testing"""
 
-    def generate(self, dataset):
+    def generate(self, dataset, feature_set, is_training_mode):
         feature_name_1 = '11_entity1_upper_case_start_[0]'
         feature_name_2 = '11_entity2_upper_case_start_[0]'
         feature_name_3 = '12_entity1_upper_case_middle_[0]'
@@ -106,7 +106,7 @@ class EntityHeadTokenDigitsFeatureGenerator(EdgeFeatureGenerator):
         self._digits = re.compile('\d')
         """search regular expression for presence of digits"""
 
-    def generate(self, dataset):
+    def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():
             head1 = edge.entity1.head_token
             head2 = edge.entity2.head_token
@@ -145,7 +145,7 @@ class EntityHeadTokenLetterPrefixesFeatureGenerator(EdgeFeatureGenerator):
         self.training_mode = training_mode
         """whether the mode is training or testing"""
 
-    def generate(self, dataset):
+    def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():
             head1 = edge.entity1.head_token
             head2 = edge.entity2.head_token
@@ -176,7 +176,7 @@ class EntityHeadTokenPunctuationFeatureGenerator(EdgeFeatureGenerator):
         self.training_mode = training_mode
         """whether the mode is training or testing"""
 
-    def generate(self, dataset):
+    def generate(self, dataset, feature_set, is_training_mode):
         feature_name_1 = '17_entity1_has_hyphen_[0]'
         feature_name_2 = '18_entity1_has_fslash_[0]'
         feature_name_3 = '17_entity2_has_hyphen_[0]'
@@ -211,7 +211,7 @@ class EntityHeadTokenChainFeatureGenerator(EdgeFeatureGenerator):
         self.token_feature_generator = TokenFeatureGenerator(feature_set, training_mode)
         """an instance of TokenFeatureGenerator"""
 
-    def generate(self, dataset):
+    def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():
             head1 = edge.entity1.head_token
             head2 = edge.entity2.head_token

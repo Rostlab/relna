@@ -21,7 +21,7 @@ class NamedEntityCountFeatureGenerator(EdgeFeatureGenerator):
         self.feature_set = feature_set
         """the feature set for the dataset"""
 
-    def generate(self, dataset):
+    def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():
             entities = edge.part.get_entities_in_sentence(edge.sentence_id, self.entity_type)
             feature_name = '1_' + self.entity_type + '_count_['+str(len(entities))+']'
@@ -51,7 +51,7 @@ class BagOfWordsFeatureGenerator(EdgeFeatureGenerator):
         self.stop_words = stop_words
         """a list of stop words"""
 
-    def generate(self, dataset):
+    def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():
             sentence = edge.part.sentences[edge.sentence_id]
             bow_map = {}
@@ -92,7 +92,7 @@ class StemmedBagOfWordsFeatureGenerator(EdgeFeatureGenerator):
         self.stop_words = stop_words
         """a list of stop words"""
 
-    def generate(self, dataset):
+    def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():
             sentence = edge.part.sentences[edge.sentence_id]
             if self.training_mode:
@@ -114,7 +114,7 @@ class SentenceFeatureGenerator(EdgeFeatureGenerator):
         self.token_feature_generator = TokenFeatureGenerator(feature_set, training_mode)
         """an instance of TokenFeatureGenerator"""
 
-    def generate(self, dataset):
+    def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():
             sentence = edge.part.sentences[edge.sentence_id]
             text_count = {}
@@ -153,7 +153,7 @@ class WordFilterFeatureGenerator(EdgeFeatureGenerator):
         """whether the mode is training or testing"""
         self.stemmer = PorterStemmer()
 
-    def generate(self, dataset):
+    def generate(self, dataset, feature_set, is_training_mode):
         if self.stem:
             stemmed_words = [ self.stemmer.stem(word) for word in self.words ]
             for edge in dataset.edges():
