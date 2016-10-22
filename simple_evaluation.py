@@ -76,6 +76,7 @@ print("\n\n\n\n\n")
 
 
 dataset, _ = read_dataset().percentage_split(0.1)
+#dataset = read_dataset()
 feature_generators = RelnaRelationExtractor.default_feature_generators('e_1', 'e_2')
 pipeline = RelationExtractionPipeline('e_1', 'e_2', rel_type, parser=parser, feature_generators=feature_generators)
 
