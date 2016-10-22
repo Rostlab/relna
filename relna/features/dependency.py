@@ -1,5 +1,6 @@
 from nalaf.features.relations import EdgeFeatureGenerator
 
+
 class DependencyChainFeatureGenerator(EdgeFeatureGenerator):
     """
     Generate the dependency chain for each token in the sentence containing an
@@ -9,13 +10,10 @@ class DependencyChainFeatureGenerator(EdgeFeatureGenerator):
     :type nlp: spacy.en.English
     :type training_mode: bool
     """
-    def __init__(self, feature_set, nlp, training_mode=True):
-        
-        """Feature set for the dataset"""
+    def __init__(self, nlp):
         self.nlp = nlp
         """an instance of spacy.en.English"""
-        
-        
+
 
     def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():
@@ -26,16 +24,17 @@ class DependencyChainFeatureGenerator(EdgeFeatureGenerator):
             for token in sentence:
                 token_dependency = self.dependency_labels_to_root(token)
                 feature_name_1 = '22_dep_chain_len_[' + len(token_dependency) +']'
-                if self.training_mode:
-                    if feature_name_1 not in self.feature_set.keys():
-                        self.feature_set[feature_name_1] = len(self.feature_set.keys())
-                        edge.features[self.feature_set[feature_name_1]] = 0
-                    edge.features[self.feature_set[feature_name_1]] += 1
+                if is_training_mode:
+                    if feature_name_1 not in feature_set.keys():
+                        feature_set[feature_name_1] = len(feature_set.keys())
+                        edge.features[feature_set[feature_name_1]] = 0
+                    edge.features[feature_set[feature_name_1]] += 1
                 else:
-                    if feature_name_1 in self.feature_set.keys():
-                        if self.feature_set[feature_name_1] not in edge.features.keys():
-                            edge.features[self.feature_set[feature_name_1]] = 0
-                        edge.features[self.feature_set[feature_name_1]] += 1
+                    if feature_name_1 in feature_set.keys():
+                        if feature_set[feature_name_1] not in edge.features.keys():
+                            edge.features[feature_set[feature_name_1]] = 0
+                        edge.features[feature_set[feature_name_1]] += 1
+
 
     def dependency_labels_to_root(self, token):
         """Walk up the syntactic tree, collecting the arc labels."""

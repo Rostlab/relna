@@ -8,15 +8,14 @@ class FeatureSelection:
     :param feature_set: the feature set for the dataset
     :type feature_set: nalaf.structures.data.FeatureDictionary
     """
-    def __init__(self, dataset, feature_set):
-        
-        
+    def __init__(self, dataset):
         self.dataset = dataset
         """the dataset"""
 
-    def select(self, nbest=55, group=True, mode='avgIG'):
+
+    def select(self, nbest=55, group=True, mode='avgIG', feature_set):
         features = {}
-        feature_list = self.information_gain()
+        feature_list = self.information_gain(feature_set)
         counts, entropy = self.sum_across_generators(feature_list)
         if group and mode=='avgIG':
             averageIg = {}
@@ -28,10 +27,11 @@ class FeatureSelection:
                 item = sorted_avg_Ig[i]
                 nbest_avg_Ig.append(str(item[0]))
             nbest_avg_Ig = tuple(nbest_avg_Ig)
-            for key, value in self.feature_set.items():
+            for key, value in feature_set.items():
                 if key.startswith(nbest_avg_Ig):
                     features[key] = value
         return features
+
 
     def sum_across_generators(self, feature_list):
         counts = {}
@@ -47,7 +47,8 @@ class FeatureSelection:
             entropy[generator]+=1
         return counts, entropy
 
-    def information_gain(self):
+
+    def information_gain(self, feature_set):
         number_pos_instances = 0
         number_neg_instances = 0
 
@@ -63,7 +64,7 @@ class FeatureSelection:
 
         first_ent_component = -1 * (percentage_pos_instances * log2(percentage_pos_instances) + percentage_neg_instances * log2(percentage_neg_instances))
         feature_list = []
-        for key, value in self.feature_set.items():
+        for key, value in feature_set.items():
             feature_present_in_pos = 0
             feature_present_in_neg = 0
             feature_absent_in_pos = 0
