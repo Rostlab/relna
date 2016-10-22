@@ -18,13 +18,10 @@ class ProteinWordFeatureGenerator(EdgeFeatureGenerator):
     :param training_mode: indicates whether the mode is training or testing
     :type training_mode: bool
     """
-    def __init__(self, feature_set, graphs, training_mode=True):
-        self.feature_set = feature_set
-        """the feature set for the dataset"""
+    def __init__(self, graphs):
         self.graphs = graphs
         """a dictionary of graphs to avoid recomputation of path"""
-        self.training_mode = training_mode
-        """whether the mode is training or testing"""
+
 
     def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():
@@ -91,11 +88,9 @@ class LocationWordFeatureGenerator(EdgeFeatureGenerator):
     :param training_mode: indicates whether the mode is training or testing
     :type training_mode: bool
     """
-    def __init__(self, feature_set, training_mode=True):
-        self.feature_set = feature_set
-        """the feature set for the dataset"""
-        self.training_mode = training_mode
-        """whether the mode is training or testing"""
+    def __init__(self):
+        pass
+
 
     def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():
@@ -134,11 +129,9 @@ class FoundInFeatureGenerator(EdgeFeatureGenerator):
     :param training_mode: indicates whether the mode is training or testing
     :type training_mode: bool
     """
-    def __init__(self, feature_set, training_mode=True):
-        self.feature_set = feature_set
-        """the feature set for the dataset"""
-        self.training_mode = training_mode
-        """whether the mode is training or testing"""
+    def __init__(self):
+        pass
+
 
     def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():

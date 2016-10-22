@@ -10,12 +10,12 @@ class DependencyChainFeatureGenerator(EdgeFeatureGenerator):
     :type training_mode: bool
     """
     def __init__(self, feature_set, nlp, training_mode=True):
-        self.feature_set = feature_set
+        
         """Feature set for the dataset"""
         self.nlp = nlp
         """an instance of spacy.en.English"""
-        self.training_mode = training_mode
-        """whether the mode is training or testing"""
+        
+        
 
     def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():

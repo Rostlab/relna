@@ -3,22 +3,20 @@ from relna.features.relations import TokenFeatureGenerator
 from nltk.stem import PorterStemmer
 from relna.utils.graph import get_path, build_walks
 
+
 class PathFeatureGenerator(EdgeFeatureGenerator):
     """
     The length of the path from entity 1 to entity 2 and token features for the
     two tokens at the terminal of the path
     """
-    def __init__(self, feature_set, graphs, training_mode=True):
-        self.feature_set = feature_set
-        """the feature set for the dataset"""
+    def __init__(self, graphs):
         self.graphs = graphs
         """a dictionary of graphs to avoid recomputation of path"""
-        self.training_mode = training_mode
-        """whether the mode is training or testing"""
         self.stemmer = PorterStemmer()
         """an instance of PorterStemmer"""
-        self.token_feature_generator = TokenFeatureGenerator(feature_set, training_mode)
+        self.token_feature_generator = TokenFeatureGenerator()
         """an instance of TokenFeatureGenerator"""
+
 
     def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():
@@ -29,33 +27,36 @@ class PathFeatureGenerator(EdgeFeatureGenerator):
             path = get_path(head1, head2, edge.part, edge.sentence_id, self.graphs)
             if len(path)==0:
                 path = [head1, head2]
-            self.path_length_features(path, edge)
+            self.path_length_features(path, edge, feature_set, is_training_mode)
             self.token_feature_generator.token_features(path[0], 'token_term_1_', edge)
             self.token_feature_generator.token_features(path[-1], 'token_term_2_', edge)
-            self.path_dependency_features(path, edge)
+            self.path_dependency_features(path, edge, feature_set, is_training_mode)
             base_words = ['interact', 'bind', 'coactivator', 'complex', 'mediate']
             words = []
             for word in base_words:
                 words.append(self.stemmer.stem(word))
-            self.path_constituents(path, edge, words)
-            self.path_grams(2, path, edge)
-            self.path_grams(3, path, edge)
-            self.path_grams(4, path, edge)
-            self.path_edge_features(path, edge)
+            self.path_constituents(path, edge, words, feature_set, is_training_mode)
+            self.path_grams(2, path, edge, feature_set, is_training_mode)
+            self.path_grams(3, path, edge, feature_set, is_training_mode)
+            self.path_grams(4, path, edge, feature_set, is_training_mode)
+            self.path_edge_features(path, edge, feature_set, is_training_mode)
 
-    def path_length_features(self, path, edge):
+
+    def path_length_features(self, path, edge, feature_set, is_training_mode):
         feature_name_1 = '45_len_tokens_' + str(len(path)) + '_[0]'
         feature_name_2 = '46_len_[0]'
         self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_1)
         self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_2, len(path))
 
-    def path_constituents(self, path, edge, words):
+
+    def path_constituents(self, path, edge, words, feature_set, is_training_mode):
         for token in path:
             if self.stemmer.stem(token.word) in words:
                 feature_name_1 = '47_word_in_path_' + self.stemmer.stem(token.word) + '_[0]'
                 self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_1)
 
-    def path_dependency_features(self, path, edge):
+
+    def path_dependency_features(self, path, edge, feature_set, is_training_mode):
         for i in range(len(path)-1):
             token1 = path[i]
             token2 = path[i+1]
@@ -93,7 +94,8 @@ class PathFeatureGenerator(EdgeFeatureGenerator):
                     feature_name = '55_internal_dep_'+dep[1]+'_reverse_[0]'
                     self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
 
-    def build_walk_paths(self, path, edge):
+
+    def build_walk_paths(self, path, edge, feature_set, is_training_mode):
         internal_types = ''
         for token in path:
             ann_types = self.token_feature_generator.annotated_types(token, edge)
@@ -103,12 +105,13 @@ class PathFeatureGenerator(EdgeFeatureGenerator):
             feature_name = '56_token_path'+internal_types+'_[0]'
             self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
 
-    def path_grams(self, n, path, edge):
+
+    def path_grams(self, n, path, edge, feature_set, is_training_mode):
         token1 = path[0]
         token2 = path[-1]
         token1_anns = self.token_feature_generator.annotated_types(token1, edge)
         token2_anns = self.token_feature_generator.annotated_types(token2, edge)
-        self.build_walk_paths(path, edge)
+        self.build_walk_paths(path, edge, feature_set, is_training_mode)
         all_walks = build_walks(path)
 
         for i in range(len(all_walks)):
@@ -145,7 +148,8 @@ class PathFeatureGenerator(EdgeFeatureGenerator):
                 feature_name = '60_edge_directions_' + dir_grams + '_[0]'
                 self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
 
-    def path_edge_features(self, path, edge):
+
+    def path_edge_features(self, path, edge, feature_set, is_training_mode):
         head1 = edge.entity1.head_token
         head2 = edge.entity2.head_token
         dependency_list = []

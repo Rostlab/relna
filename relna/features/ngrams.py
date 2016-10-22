@@ -11,11 +11,9 @@ class BiGramFeatureGenerator(EdgeFeatureGenerator):
     :param training_mode: indicates whether the mode is training or testing
     :type training_mode: bool
     """
-    def __init__(self, feature_set, training_mode=True):
-        self.feature_set = feature_set
-        """the feature set for the dataset"""
-        self.training_mode = training_mode
-        """whether the mode is training of testing"""
+    def __init__(self):
+        pass
+
 
     def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():
@@ -35,6 +33,7 @@ class BiGramFeatureGenerator(EdgeFeatureGenerator):
                 feature_name = '93_bigram_pos_'+token1.features['dep']+'_'+token2.features['dep']+'_[0]'
                 self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
 
+
 class TriGramFeatureGenerator(EdgeFeatureGenerator):
     """
     For each edge, we consider all the intermediate tokens between the two
@@ -46,11 +45,9 @@ class TriGramFeatureGenerator(EdgeFeatureGenerator):
     :param training_mode: indicates whether the mode is training or testing
     :type training_mode: bool
     """
-    def __init__(self, feature_set, training_mode=True):
-        self.feature_set = feature_set
-        """the feature set for the dataset"""
-        self.training_mode = training_mode
-        """whether the mode is training of testing"""
+    def __init__(self):
+        pass
+
 
     def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():

@@ -9,8 +9,8 @@ class FeatureSelection:
     :type feature_set: nalaf.structures.data.FeatureDictionary
     """
     def __init__(self, dataset, feature_set):
-        self.feature_set = feature_set
-        """the feature set for the dataset"""
+        
+        
         self.dataset = dataset
         """the dataset"""
 

@@ -16,13 +16,10 @@ class LinearContextFeatureGenerator(EdgeFeatureGenerator):
     :param training_mode: indicates whether the mode is training or testing
     :type training_mode: bool
     """
-    def __init__(self, feature_set, linear_context=3, training_mode=True):
-        self.feature_set = feature_set
-        """the feature set for the dataset"""
+    def __init__(self, linear_context=3):
         self.linear_context = linear_context
         """the window size for the linear context"""
-        self.training_mode = training_mode
-        """whether the mode is training of testing"""
+
 
     def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():
@@ -33,21 +30,22 @@ class LinearContextFeatureGenerator(EdgeFeatureGenerator):
                 if head1.features['id'] < len(sentence):
                     if (head1.features['id']+i)<len(sentence):
                         self.linear_order_features('entity1_linear_'+str(i)+'_',
-                                sentence[head1.features['id']+i], edge, sentence)
+                                sentence[head1.features['id']+i], edge, sentence, feature_set, is_training_mode)
                 if head2.features['id'] < len(sentence):
                     if (head2.features['id']+i)<len(sentence):
                         self.linear_order_features('entity2_linear_'+str(i)+'_',
-                                sentence[head2.features['id']+i], edge, sentence)
+                                sentence[head2.features['id']+i], edge, sentence, feature_set, is_training_mode)
                 if head1.features['id'] >= 0:
                     if (head1.features['id']-i)>=0:
                         self.linear_order_features('entity1_linear_-'+str(i)+'_',
-                                sentence[head1.features['id']-i], edge, sentence)
+                                sentence[head1.features['id']-i], edge, sentence, feature_set, is_training_mode)
                 if head2.features['id'] >= 0:
                     if (head2.features['id']-i)>=0:
                         self.linear_order_features('entity2_linear_-'+str(i)+'_',
-                                sentence[head2.features['id']-i], edge, sentence)
+                                sentence[head2.features['id']-i], edge, sentence, feature_set, is_training_mode)
 
-    def linear_order_features(self, prefix, token, edge, sentence):
+
+    def linear_order_features(self, prefix, token, edge, sentence, feature_set, is_training_mode):
         feature_name_1 = '23_' + prefix + 'txt_' + token.word + '_[0]'
         feature_name_2 = '24_' + prefix + 'pos_' + token.features['pos'] + '_[0]'
         feature_name_3 = '25_' + prefix + 'given_[0]'
@@ -76,11 +74,9 @@ class EntityOrderFeatureGenerator(EdgeFeatureGenerator):
     :param training_mode: indicates whether the mode is training or testing
     :type training_mode: bool
     """
-    def __init__(self, feature_set, training_mode=True):
-        self.feature_set = feature_set
-        """the feature set for the dataset"""
-        self.training_mode = training_mode
-        """whether the mode is training or testing"""
+    def __init__(self):
+        pass
+
 
     def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():
@@ -104,13 +100,10 @@ class LinearDistanceFeatureGenerator(EdgeFeatureGenerator):
     :param training_mode: indicates whether the mode is training or testing
     :type training_mode: bool
     """
-    def __init__(self, feature_set, distance=5, training_mode=True):
-        self.feature_set = feature_set
-        """the feature set for the dataset"""
+    def __init__(self, distance=5):
         self.distance = distance
         """the distance parameter"""
-        self.training_mode = training_mode
-        """whether the mode is training or testing"""
+
 
     def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():
@@ -138,13 +131,10 @@ class IntermediateTokensFeatureGenerator(EdgeFeatureGenerator):
     :param training_mode: indicates whether the mode is training or testing
     :type training_mode: bool
     """
-    def __init__(self, feature_set, training_mode=True):
-        self.feature_set = feature_set
-        """the feature set for the dataset"""
-        self.training_mode = training_mode
-        """whether the mode is training or testing"""
+    def __init__(self):
         self.stemmer = PorterStemmer()
         """an instance of PorterStemmer"""
+
 
     def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():
