@@ -21,7 +21,6 @@ setup(
     url='https://github.com/Rostlab/relna',
     author='Ashish Baghudana, Juan Miguel Cejuela',
     author_email='abaghudana@rostlab.org',
-    #license='UNKNOWN',
     packages=find_packages(exclude=['tests']),
     install_requires=[
         # 'nalaf',
