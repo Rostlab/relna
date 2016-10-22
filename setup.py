@@ -29,7 +29,7 @@ setup(
         'progress'
     ],
     dependency_links=[
-        'https://github.com/Rostlab/nalaf/tree/develop#egg=nalaf'
+        'https://github.com/Rostlab/nalaf/tree/feature/Experimental#egg=nalaf'
     ],
     include_package_data=True,
     zip_safe=False,
