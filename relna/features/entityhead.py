@@ -47,19 +47,19 @@ class EntityHeadTokenFeatureGenerator(EdgeFeatureGenerator):
             feature_name_1_4 = '10_entity1_nonstem_' + entity1_non_stem + '_[0]'
             feature_name_2_4 = '10_entity2_nonstem_' + entity2_non_stem + '_[0]'
 
-            self.add_to_feature_set(edge, feature_name_1_1)
-            self.add_to_feature_set(edge, feature_name_2_1)
-            self.add_to_feature_set(edge, feature_name_1_2)
-            self.add_to_feature_set(edge, feature_name_2_2)
-            self.add_to_feature_set(edge, feature_name_1_3)
-            self.add_to_feature_set(edge, feature_name_2_3)
-            self.add_to_feature_set(edge, feature_name_1_4)
-            self.add_to_feature_set(edge, feature_name_2_4)
+            self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_1_1)
+            self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_2_1)
+            self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_1_2)
+            self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_2_2)
+            self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_1_3)
+            self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_2_3)
+            self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_1_4)
+            self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_2_4)
 
     def named_entity_count(self, prefix, entity_type, edge):
         entities = edge.part.get_entities_in_sentence(edge.sentence_id, entity_type)
         feature_name = '1_'+prefix+entity_type+'_count_['+str(len(entities))+']'
-        self.add_to_feature_set(edge, feature_name)
+        self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
 
 
 class EntityHeadTokenUpperCaseFeatureGenerator(EdgeFeatureGenerator):
@@ -84,13 +84,13 @@ class EntityHeadTokenUpperCaseFeatureGenerator(EdgeFeatureGenerator):
             head2 = edge.entity2.head_token
             if self.training_mode:
                 if head1.word[0].isupper():
-                    self.add_to_feature_set(edge, feature_name_1)
+                    self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_1)
                 if head2.word[0].isupper():
-                    self.add_to_feature_set(edge, feature_name_2)
+                    self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_2)
                 if not head1.word.isupper() and not head1.word.islower():
-                    self.add_to_feature_set(edge, feature_name_3)
+                    self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_3)
                 if not head2.word.isupper() and not head2.word.islower():
-                    self.add_to_feature_set(edge, feature_name_4)
+                    self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_4)
 
 
 class EntityHeadTokenDigitsFeatureGenerator(EdgeFeatureGenerator):
@@ -116,14 +116,14 @@ class EntityHeadTokenDigitsFeatureGenerator(EdgeFeatureGenerator):
             feature_name_4 = '14_entity2_has_hyphenated_digits_[0]'
             if self.training_mode:
                 if self.contains_digits(head1):
-                    self.add_to_feature_set(edge, feature_name_1)
+                    self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_1)
                     if self.contains_hyphenated_digits(head1):
-                        self.add_to_feature_set(edge, feature_name_3)
+                        self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_3)
 
                 if self.contains_digits(head2):
-                    self.add_to_feature_set(edge, feature_name_2)
+                    self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_2)
                     if self.contains_hyphenated_digits(head2):
-                        self.add_to_feature_set(edge, feature_name_4)
+                        self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_4)
 
     def contains_digits(self, token):
         return bool(self._digits.search(token.word))
@@ -152,17 +152,17 @@ class EntityHeadTokenLetterPrefixesFeatureGenerator(EdgeFeatureGenerator):
             for i in range(len(head1.word)):
                 if i>0:
                     feature_name_1 = '15_entity1_dt_' + head1.word[i-1:i+1].lower() + '_[0]'
-                    self.add_to_feature_set(edge, feature_name_1)
+                    self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_1)
                 if i>1:
                     feature_name_2 = '16_entity2_tt_' + head1.word[i-2:i+1].lower() + '_[0]'
-                    self.add_to_feature_set(edge, feature_name_2)
+                    self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_2)
             for i in range(len(head2.word)):
                 if i>0:
                     feature_name_1 = '15_entity2_dt_' + head2.word[i-1:i+1].lower() + '_[0]'
-                    self.add_to_feature_set(edge, feature_name_1)
+                    self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_1)
                 if i>1:
                     feature_name_2 = '16_entity2_tt_' + head2.word[i-2:i+1].lower() + '_[0]'
-                    self.add_to_feature_set(edge, feature_name_2)
+                    self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_2)
 
 
 class EntityHeadTokenPunctuationFeatureGenerator(EdgeFeatureGenerator):
@@ -185,13 +185,13 @@ class EntityHeadTokenPunctuationFeatureGenerator(EdgeFeatureGenerator):
             head1 = edge.entity1.head_token
             head2 = edge.entity2.head_token
             if head1.word.find('-')>=0:
-                self.add_to_feature_set(edge, feature_name_1)
+                self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_1)
             if head1.word.find('/')>=0:
-                self.add_to_feature_set(edge, feature_name_2)
+                self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_2)
             if head2.word.find('-')>=0:
-                self.add_to_feature_set(edge, feature_name_3)
+                self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_3)
             if head2.word.find('/')>=0:
-                self.add_to_feature_set(edge, feature_name_4)
+                self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_4)
 
 
 class EntityHeadTokenChainFeatureGenerator(EdgeFeatureGenerator):
@@ -235,16 +235,16 @@ class EntityHeadTokenChainFeatureGenerator(EdgeFeatureGenerator):
         depth_string = 'dist_'+str(depth_left)+'_'
         feature_name_1 = '19_'+prefix+'dep_'+depth_string+'from_'+token.features['dep']+'_[0]'
         feature_name_2 = '20_'+prefix+'chain_dep_dist_'+str(depth_left)+'_'+chain+'-fw_'+token.features['dep']+'_[0]'
-        self.add_to_feature_set(edge, feature_name_1)
-        self.add_to_feature_set(edge, feature_name_2)
+        self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_1)
+        self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_2)
         self.linear_order_features(prefix+depth_string, token.features['dependency_from'][0], edge, sentence)
         self.build_chains(token.features['dependency_from'][0], sentence, edge, prefix, chain+'-fw', depth_left-1)
 
         for dependency in token.features['dependency_to']:
             feature_name_1 = '21_'+prefix+'dep_dist_dist_'+str(depth_left)+'_to_'+dependency[1]+'_[0]'
             feature_name_2 = '22_'+prefix+'chain_dep_dist_'+str(depth_left)+'_'+chain+'-rv_'+dependency[1]+'_[0]'
-            self.add_to_feature_set(edge, feature_name_1)
-            self.add_to_feature_set(edge, feature_name_2)
+            self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_1)
+            self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_2)
             self.linear_order_features(prefix+'dist_'+str(depth_left)+'_', dependency[0], edge, sentence)
             self.build_chains(dependency[0], sentence, edge, prefix, chain+'-rv', depth_left-1)
 
@@ -254,16 +254,16 @@ class EntityHeadTokenChainFeatureGenerator(EdgeFeatureGenerator):
         feature_name_3 = '25_' + prefix + 'given_[0]'
         feature_name_4 = '26_' + prefix + 'txt_' + token.masked_text(edge.part) + '_[0]'
         feature_name_5 = '27_' + prefix + 'ann_type_entity_[0]'
-        self.add_to_feature_set(edge, feature_name_1)
-        self.add_to_feature_set(edge, feature_name_2)
-        self.add_to_feature_set(edge, feature_name_3)
-        self.add_to_feature_set(edge, feature_name_4)
+        self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_1)
+        self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_2)
+        self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_3)
+        self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_4)
         if token.is_entity_part(edge.part):
             entity = token.get_entity(edge.part)
             feature_name_6 = '28_' + prefix + 'ann_type_' + entity.class_id + '_[0]'
-            self.add_to_feature_set(edge, feature_name_5)
-            self.add_to_feature_set(edge, feature_name_6)
+            self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_5)
+            self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_6)
 
     def entity_combination(self, edge):
         feature_name = '29_entity1_'+edge.entity1.class_id+'_entity2_'+edge.entity2.class_id+'_[0]'
-        self.add_to_feature_set(edge, feature_name)
+        self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)

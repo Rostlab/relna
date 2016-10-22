@@ -46,14 +46,14 @@ class PathFeatureGenerator(EdgeFeatureGenerator):
     def path_length_features(self, path, edge):
         feature_name_1 = '45_len_tokens_' + str(len(path)) + '_[0]'
         feature_name_2 = '46_len_[0]'
-        self.add_to_feature_set(edge, feature_name_1)
-        self.add_to_feature_set(edge, feature_name_2, len(path))
+        self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_1)
+        self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_2, len(path))
 
     def path_constituents(self, path, edge, words):
         for token in path:
             if self.stemmer.stem(token.word) in words:
                 feature_name_1 = '47_word_in_path_' + self.stemmer.stem(token.word) + '_[0]'
-                self.add_to_feature_set(edge, feature_name_1)
+                self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_1)
 
     def path_dependency_features(self, path, edge):
         for i in range(len(path)-1):
@@ -62,12 +62,12 @@ class PathFeatureGenerator(EdgeFeatureGenerator):
             for dep in token1.features['dependency_to']:
                 if dep[0]==token2:
                     feature_name = '48_dep_'+dep[1]+'_forward_[0]'
-                    self.add_to_feature_set(edge, feature_name)
+                    self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
 
             for dep in token2.features['dependency_to']:
                 if dep[0]==token1:
                     feature_name = '49_dep_'+dep[1]+'_reverse_[0]'
-                    self.add_to_feature_set(edge, feature_name)
+                    self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
 
         for i in range(1, len(path)-1):
             token = path[i]
@@ -75,10 +75,10 @@ class PathFeatureGenerator(EdgeFeatureGenerator):
             feature_name_2 = '51_internal_masked_txt_' + token.masked_text(edge.part) + '_[0]'
             feature_name_3 = '52_internal_txt_' + token.word + '_[0]'
             feature_name_4 = '53_internal_stem_' + self.stemmer.stem(token.word) + '_[0]'
-            self.add_to_feature_set(edge, feature_name_1)
-            self.add_to_feature_set(edge, feature_name_2)
-            self.add_to_feature_set(edge, feature_name_3)
-            self.add_to_feature_set(edge, feature_name_4)
+            self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_1)
+            self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_2)
+            self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_3)
+            self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_4)
 
         for i in range(2, len(path)-1):
             token1 = path[i]
@@ -86,12 +86,12 @@ class PathFeatureGenerator(EdgeFeatureGenerator):
             for dep in token1.features['dependency_to']:
                 if dep[0]==token2:
                     feature_name = '54_internal_dep_'+dep[1]+'_forward_[0]'
-                    self.add_to_feature_set(edge, feature_name)
+                    self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
 
             for dep in token2.features['dependency_to']:
                 if dep[0]==token1:
                     feature_name = '55_internal_dep_'+dep[1]+'_reverse_[0]'
-                    self.add_to_feature_set(edge, feature_name)
+                    self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
 
     def build_walk_paths(self, path, edge):
         internal_types = ''
@@ -101,7 +101,7 @@ class PathFeatureGenerator(EdgeFeatureGenerator):
                 internal_types += '_'+ann
             internal_types += '_'
             feature_name = '56_token_path'+internal_types+'_[0]'
-            self.add_to_feature_set(edge, feature_name)
+            self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
 
     def path_grams(self, n, path, edge):
         token1 = path[0]
@@ -131,19 +131,19 @@ class PathFeatureGenerator(EdgeFeatureGenerator):
                     for k in range(n):
                         dep = current_walk[i-(n-1)+k][1]
                         feature_name = '57_dep_'+style_gram+'_'+str(k)+'_'+dep+'_[0]'
-                        self.add_to_feature_set(edge, feature_name)
+                        self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
                         edge_gram += '_' + dep
 
                     feature_name = '58_'+edge_gram+'_[0]'
-                    self.add_to_feature_set(edge, feature_name)
+                    self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
 
                     for ann1 in token1_anns:
                         for ann2 in token2_anns:
                             feature_name = '59_'+ann1+'_'+edge_gram+'_'+ann2+'_[0]'
-                            self.add_to_feature_set(edge, feature_name)
+                            self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
 
                 feature_name = '60_edge_directions_' + dir_grams + '_[0]'
-                self.add_to_feature_set(edge, feature_name)
+                self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
 
     def path_edge_features(self, path, edge):
         head1 = edge.entity1.head_token
@@ -157,17 +157,17 @@ class PathFeatureGenerator(EdgeFeatureGenerator):
 
         for dependency in dependency_list:
             feature_name = '61_dep_'+dependency[1]+'_[0]'
-            self.add_to_feature_set(edge, feature_name)
+            self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
             feature_name = '62_txt_'+dependency[0].masked_text(edge.part)+'_[0]'
-            self.add_to_feature_set(edge, feature_name)
+            self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
             feature_name = '63_pos_'+dependency[0].features['pos']+'_[0]'
-            self.add_to_feature_set(edge, feature_name)
+            self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
 
             token1 = dependency[0]
             ann_types_1 = self.token_feature_generator.annotated_types(token1, edge)
             for ann in ann_types_1:
                 feature_name = '64_ann_type_'+ann+'_[0]'
-                self.add_to_feature_set(edge, feature_name)
+                self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
 
             g_text = dependency[0].masked_text(edge.part)
             g_pos = dependency[0].features['pos']
@@ -175,33 +175,33 @@ class PathFeatureGenerator(EdgeFeatureGenerator):
 
             for dep in dependency[0].features['dependency_to']:
                 feature_name = '65_'+dep[1]+'_[0]'
-                self.add_to_feature_set(edge, feature_name)
+                self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
                 feature_name = '66_txt_'+dep[0].masked_text(edge.part)+'_[0]'
-                self.add_to_feature_set(edge, feature_name)
+                self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
                 feature_name = '67_pos_'+dep[0].features['pos']+'_[0]'
-                self.add_to_feature_set(edge, feature_name)
+                self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
 
                 token2 = dep[0]
                 ann_types_2 = self.token_feature_generator.annotated_types(token2, edge)
                 for ann in ann_types_2:
                     feature_name = '68_ann_type_'+ann+'_[0]'
-                    self.add_to_feature_set(edge, feature_name)
+                    self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
 
                 d_text = token2.masked_text(edge.part)
                 d_pos = token2.features['pos']
                 d_at = 'no_ann_type'
 
                 feature_name = '69_gov_'+g_text+'_'+d_text+'_[0]'
-                self.add_to_feature_set(edge, feature_name)
+                self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
 
                 feature_name = '70_gov_'+g_pos+'_'+d_pos+'_[0]'
-                self.add_to_feature_set(edge, feature_name)
+                self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
 
                 for ann1 in ann_types_1:
                     for ann2 in ann_types_2:
                         feature_name = '71_gov_'+ann1+'_'+ann2+'_[0]'
-                        self.add_to_feature_set(edge, feature_name)
+                        self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
 
                 for ann1 in ann_types_1:
                     feature_name = '72_triple_'+ann1+'_'+dependency[1]+'_'+d_at+'_[0]'
-                    self.add_to_feature_set(edge, feature_name)
+                    self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)

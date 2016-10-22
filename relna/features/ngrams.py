@@ -29,11 +29,11 @@ class BiGramFeatureGenerator(EdgeFeatureGenerator):
                 token1 = edge.part.sentences[edge.sentence_id][i]
                 token2 = edge.part.sentences[edge.sentence_id][i+1]
                 feature_name = '92_bigram_'+token1.word+'_'+token2.word+'_[0]'
-                self.add_to_feature_set(edge, feature_name)
+                self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
                 feature_name = '93_bigram_pos_'+token1.features['pos']+'_'+token2.features['pos']+'_[0]'
-                self.add_to_feature_set(edge, feature_name)
+                self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
                 feature_name = '93_bigram_pos_'+token1.features['dep']+'_'+token2.features['dep']+'_[0]'
-                self.add_to_feature_set(edge, feature_name)
+                self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
 
 class TriGramFeatureGenerator(EdgeFeatureGenerator):
     """
@@ -66,8 +66,8 @@ class TriGramFeatureGenerator(EdgeFeatureGenerator):
                     token2 = edge.part.sentences[edge.sentence_id][i+1]
                     token3 = edge.part.sentences[edge.sentence_id][i+2]
                     feature_name = '92_trigram_'+token1.word+'_'+token2.word+'_'+token3.word+'_[0]'
-                    self.add_to_feature_set(edge, feature_name)
+                    self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
                     feature_name = '93_trigram_pos_'+token1.features['pos']+'_'+token2.features['pos']+'_'+token3.features['pos']+'_[0]'
-                    self.add_to_feature_set(edge, feature_name)
+                    self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
                     feature_name = '93_trigram_pos_'+token1.features['dep']+'_'+token2.features['dep']+'_'+token3.features['dep']+'_[0]'
-                    self.add_to_feature_set(edge, feature_name)
+                    self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)

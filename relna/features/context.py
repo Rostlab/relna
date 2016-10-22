@@ -54,16 +54,16 @@ class LinearContextFeatureGenerator(EdgeFeatureGenerator):
         feature_name_4 = '26_' + prefix + 'txt_' + token.masked_text(edge.part) + '_[0]'
         feature_name_5 = '27_' + prefix + 'ann_type_entity_[0]'
 
-        self.add_to_feature_set(edge, feature_name_1)
-        self.add_to_feature_set(edge, feature_name_2)
+        self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_1)
+        self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_2)
         if token.is_entity_part(edge.part):
-            self.add_to_feature_set(edge, feature_name_3)
-        self.add_to_feature_set(edge, feature_name_4)
+            self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_3)
+        self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_4)
         if token.is_entity_part(edge.part):
             entity = token.get_entity(edge.part)
             feature_name_6 = '28_' + prefix + 'ann_type_' + entity.class_id + '_[0]'
-            self.add_to_feature_set(edge, feature_name_5)
-            self.add_to_feature_set(edge, feature_name_6)
+            self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_5)
+            self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_6)
 
 
 class EntityOrderFeatureGenerator(EdgeFeatureGenerator):
@@ -88,7 +88,7 @@ class EntityOrderFeatureGenerator(EdgeFeatureGenerator):
                 feature_name = '30_order_entity1_entity2_[0]'
             else:
                 feature_name = '30_order_entity2_entity1_[0]'
-            self.add_to_feature_set(edge, feature_name)
+            self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
 
 
 class LinearDistanceFeatureGenerator(EdgeFeatureGenerator):
@@ -119,12 +119,12 @@ class LinearDistanceFeatureGenerator(EdgeFeatureGenerator):
             distance = abs(entity1_number-entity2_number)
             if distance>self.distance:
                 feature_name = '31_entity_linear_distance_greater_than_[5]'
-                self.add_to_feature_set(edge, feature_name)
+                self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
             else:
                 feature_name = '31_entity_linear_distance_lesser_than_[5]'
-                self.add_to_feature_set(edge, feature_name)
+                self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
             feature_name = '32_entity_linear_distance_[0]'
-            self.add_to_feature_set(edge, feature_name, value=distance)
+            self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name, value=distance)
 
 
 class IntermediateTokensFeatureGenerator(EdgeFeatureGenerator):
@@ -155,34 +155,34 @@ class IntermediateTokensFeatureGenerator(EdgeFeatureGenerator):
                 for i in range(first+1, second):
                     token = sentence[i]
                     feature_name = '33_fwd_bow_intermediate_'+token.word+'_[0]'
-                    self.add_to_feature_set(edge, feature_name)
+                    self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
                     feature_name = '34_fwd_bow_intermediate_masked_'+token.masked_text(edge.part)+'_[0]'
-                    self.add_to_feature_set(edge, feature_name)
+                    self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
                     feature_name = '35_fwd_stem_intermediate_'+self.stemmer.stem(token.word)+'_[0]'
-                    self.add_to_feature_set(edge, feature_name)
+                    self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
                     feature_name = '36_fwd_pos_intermediate_'+token.features['pos']+'_[0]'
-                    self.add_to_feature_set(edge, feature_name)
+                    self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
             else:
                 first = edge.entity2.head_token.features['id']
                 second = edge.entity1.head_token.features['id']
                 for i in range(first+1, second):
                     token = sentence[i]
                     feature_name = '37_bkd_bow_intermediate_'+token.word+'_[0]'
-                    self.add_to_feature_set(edge, feature_name)
+                    self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
                     feature_name = '38_bkd_bow_intermediate_masked_'+token.masked_text(edge.part)+'_[0]'
-                    self.add_to_feature_set(edge, feature_name)
+                    self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
                     feature_name = '39_bkd_stem_intermediate_'+self.stemmer.stem(token.word)+'_[0]'
-                    self.add_to_feature_set(edge, feature_name)
+                    self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
                     feature_name = '40_bkd_pos_intermediate_'+token.features['pos']+'_[0]'
-                    self.add_to_feature_set(edge, feature_name)
+                    self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
 
             for i in range(first+1, second):
                 token = sentence[i]
                 feature_name = '41_bow_intermediate_'+token.word+'_[0]'
-                self.add_to_feature_set(edge, feature_name)
+                self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
                 feature_name = '42_bow_intermediate_masked_'+token.masked_text(edge.part)+'_[0]'
-                self.add_to_feature_set(edge, feature_name)
+                self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
                 feature_name = '43_stem_intermediate_'+self.stemmer.stem(token.word)+'_[0]'
-                self.add_to_feature_set(edge, feature_name)
+                self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
                 feature_name = '44_pos_intermediate_'+token.features['pos']+'_[0]'
-                self.add_to_feature_set(edge, feature_name)
+                self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)

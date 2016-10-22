@@ -38,31 +38,31 @@ class ProteinWordFeatureGenerator(EdgeFeatureGenerator):
                     token_from = token.features['dependency_from'][0]
                     if token_from == head1:
                         feature_name = '78_dependency_from_entity_to_protein_word_[0]'
-                        self.add_to_feature_set(edge, feature_name)
+                        self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
                     for dependency_to in token.features['dependency_to']:
                         token_to = dependency_to[0]
                         if token_to == head1:
                             feature_name = '79_dependency_from_protein_word_to_entity_[0]'
-                            self.add_to_feature_set(edge, feature_name)
+                            self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
                         path = get_path(token, head1, edge.part, edge.sentence_id, self.graphs)
                         if path == []:
                             path = [token, head1]
                         for tok in path:
                             feature_name = '80_PWPE_bow_masked_'+tok.masked_text(edge.part)+'_[0]'
-                            self.add_to_feature_set(edge, feature_name)
+                            self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
                             feature_name = '81_PWPE_pos_'+tok.features['pos']+'_[0]'
-                            self.add_to_feature_set(edge, feature_name)
+                            self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
                             feature_name = '82_PWPE_bow_'+tok.word+'_[0]'
-                            self.add_to_feature_set(edge, feature_name)
+                            self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
                         all_walks = build_walks(path)
                         for dep_list in all_walks:
                             dep_path = ''
                             for dep in dep_list:
                                 feature_name = '83_'+'PWPE_dep_'+dep[1]+'_[0]'
-                                self.add_to_feature_set(edge, feature_name)
+                                self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
                                 dep_path += dep[1]
                             feature_name = '84_PWPE_dep_full+'+dep_path+'_[0]'
-                            self.add_to_feature_set(edge, feature_name)
+                            self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
                         for j in range(len(all_walks)):
                             dir_grams = ''
                             for i in range(len(path)-1):
@@ -72,13 +72,13 @@ class ProteinWordFeatureGenerator(EdgeFeatureGenerator):
                                 else:
                                     dir_grams += 'R'
                             feature_name = '85_PWPE_dep_gram_'+dir_grams+'_[0]'
-                            self.add_to_feature_set(edge, feature_name)
+                            self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
             if protein_word_found:
                 feature_name = '86_protein_word_found_[0]'
-                self.add_to_feature_set(edge, feature_name)
+                self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
             else:
                 feature_name = '87_protein_not_word_found_[0]'
-                self.add_to_feature_set(edge, feature_name)
+                self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
 
 
 class LocationWordFeatureGenerator(EdgeFeatureGenerator):
@@ -114,13 +114,13 @@ class LocationWordFeatureGenerator(EdgeFeatureGenerator):
                     location_word = True
                     if head1.features['id']<token.features['id']<head2.features['id']:
                         feature_name = '88_localize_word_in_between_[0]'
-                        self.add_to_feature_set(edge, feature_name)
+                        self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
             if (location_word):
                 feature_name = '89_location_word_found_[0]'
-                self.add_to_feature_set(edge, feature_name)
+                self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
             else:
                 feature_name = '90_location_word_not_found_[0]'
-                self.add_to_feature_set(edge, feature_name)
+                self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
 
 
 class FoundInFeatureGenerator(EdgeFeatureGenerator):
@@ -157,4 +157,4 @@ class FoundInFeatureGenerator(EdgeFeatureGenerator):
                     in_word = True
             if found_word and in_word:
                 feature_name = '91_found_in_[0]'
-                self.add_to_feature_set(edge, feature_name)
+                self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)

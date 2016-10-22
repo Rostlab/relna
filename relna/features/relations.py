@@ -17,17 +17,17 @@ class TokenFeatureGenerator:
 
     def token_features(self, token, prefix, edge):
         feature_name_1 = '73_'+prefix+'txt_'+token.word+'_[0]'
-        self.add_to_feature_set(edge, feature_name_1)
+        self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_1)
         feature_name_2 = '74_'+prefix+'pos_'+token.features['pos']+'_[0]'
-        self.add_to_feature_set(edge, feature_name_2)
+        self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_2)
         feature_name_3 = '75_'+prefix+'txt_'+token.masked_text(edge.part)+'_[0]'
-        self.add_to_feature_set(edge, feature_name_3)
+        self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_3)
         feature_name_4 = '76_'+prefix+'stem_'+self.stemmer.stem(token.masked_text(edge.part))+'_[0]'
-        self.add_to_feature_set(edge, feature_name_4)
+        self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_4)
         ann_types = self.annotated_types(token, edge)
         for ann in ann_types:
             feature_name_5 = '77_'+prefix+'ann_type_'+ann+'_[0]'
-            self.add_to_feature_set(edge, feature_name_5)
+            self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_5)
 
     def annotated_types(self, token, edge):
         head1 = edge.entity1.head_token
