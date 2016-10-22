@@ -7,7 +7,7 @@ from nalaf.learning.svmlight import SVMLightTreeKernels
 from nalaf.preprocessing.parsers import SpacyParser
 from spacy.en import English
 # from relna.learning.taggers import TranscriptionFactorTagger
-# from relna.learning.taggers import RelnaRelationExtractor
+from relna.learning.taggers import RelnaRelationExtractor
 import argparse
 
 parser = argparse.ArgumentParser(description='Simple-evaluate relna corpus corpus')
@@ -89,13 +89,13 @@ for fold in range(k):
         validation = test
 
     # Learn
-    pipeline.execute(training, train=True)
+    pipeline.execute(training, train=True, feature_generators=RelnaRelationExtractor.default_feature_generators('e_1', 'e_2', pipeline.feature_set, train=True))
     svmlight = SVMLightTreeKernels(svmlight_dir_path=svm_folder, use_tree_kernel=args.use_tk)
     instancesfile = svmlight.create_input_file(training, 'train', pipeline.feature_set)
     svmlight.learn(instancesfile)
 
     # Predict & Read predictions
-    pipeline.execute(validation, train=False, feature_set=pipeline.feature_set)
+    pipeline.execute(validation, train=False, feature_generators=RelnaRelationExtractor.default_feature_generators('e_1', 'e_2', pipeline.feature_set, train=False))
     instancesfile = svmlight.create_input_file(validation, 'test', pipeline.feature_set)
     predictionsfile = svmlight.tag(instancesfile)
     svmlight.read_predictions(validation, predictionsfile)

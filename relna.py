@@ -58,7 +58,8 @@ if __name__ == "__main__":
     with open(pkg_resources.resource_filename('relna.data', 'features.pickle'), 'rb') as fp:
         feature_set = pickle.load(fp)
 
-    RelationExtractionPipeline(PRO_CLASS_ID, MUT_CLASS_ID, PRO_REL_MUT_CLASS_ID).execute(dataset, feature_set=feature_set)
+    pipeline = RelationExtractionPipeline(PRO_CLASS_ID, MUT_CLASS_ID, PRO_REL_MUT_CLASS_ID, feature_set=feature_set)
+    pipeline.execute(dataset, feature_generators=RelnaRelationExtractor.default_feature_generators(PRO_CLASS_ID, MUT_CLASS_ID, feature_set, train=False))
 
     # get the predictions
     svmlight = SVMLightTreeKernels(args.svmlight_dir, use_tree_kernel=False)

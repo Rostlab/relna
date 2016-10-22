@@ -5,9 +5,46 @@ from relna.utils.go_utils import GOTerms
 from nalaf.structures.data import Entity
 from relna.utils import MUT_CLASS_ID, PRO_CLASS_ID, ENTREZ_GENE_ID, UNIPROT_ID
 from nalaf.learning.taggers import Tagger
+from relna.features.context import *
+from relna.features.entityhead import *
+from relna.features.loctext import *
+from relna.features.path import *
+from relna.features.sentence import *
+from relna.features.ngrams import *
 
 
 class RelnaRelationExtractor(RelationExtractor):
+
+    @staticmethod
+    def default_feature_generators(class1, class2, feature_set, train, graphs=None):
+
+        GRAPHS_CLOSURE_VARIABLE = {} if graphs is None else graphs
+
+        return [
+            NamedEntityCountFeatureGenerator(class1, feature_set, training_mode=train),
+            NamedEntityCountFeatureGenerator(class2, feature_set, training_mode=train),
+            BagOfWordsFeatureGenerator(feature_set, training_mode=train),
+            StemmedBagOfWordsFeatureGenerator(feature_set, training_mode=train),
+            SentenceFeatureGenerator(feature_set, training_mode=train),
+            WordFilterFeatureGenerator(feature_set, ['interact', 'bind', 'colocalize'], training_mode=train),
+            EntityHeadTokenFeatureGenerator(feature_set, training_mode=train),
+            EntityHeadTokenUpperCaseFeatureGenerator(feature_set, training_mode=train),
+            EntityHeadTokenDigitsFeatureGenerator(feature_set, training_mode=train),
+            EntityHeadTokenLetterPrefixesFeatureGenerator(feature_set, training_mode=train),
+            EntityHeadTokenPunctuationFeatureGenerator(feature_set, training_mode=train),
+            EntityHeadTokenChainFeatureGenerator(feature_set, training_mode=train),
+            LinearContextFeatureGenerator(feature_set, training_mode=train),
+            EntityOrderFeatureGenerator(feature_set, training_mode=train),
+            LinearDistanceFeatureGenerator(feature_set, training_mode=train),
+            IntermediateTokensFeatureGenerator(feature_set, training_mode=train),
+            PathFeatureGenerator(feature_set, GRAPHS_CLOSURE_VARIABLE, training_mode=train),
+            ProteinWordFeatureGenerator(feature_set, GRAPHS_CLOSURE_VARIABLE, training_mode=train),
+            LocationWordFeatureGenerator(feature_set, training_mode=train),
+            FoundInFeatureGenerator(feature_set, training_mode=train),
+            BiGramFeatureGenerator(feature_set, training_mode=train),
+            TriGramFeatureGenerator(feature_set, training_mode=train),
+        ]
+
 
     def __init__(self, entity1_class, entity2_class, rel_type, svmlight):
         super().__init__(entity1_class, entity2_class, rel_type)
