@@ -88,17 +88,15 @@ for fold in range(k):
     if args.use_test_set:
         validation = test
 
-    pipeline.execute(training, train=True)
-    feature_set = pipeline.feature_set
-
     # Learn
+    pipeline.execute(training, train=True)
     svmlight = SVMLightTreeKernels(svmlight_dir_path=svm_folder, use_tree_kernel=args.use_tk)
-    instancesfile = svmlight.create_input_file(training, 'train', feature_set)
+    instancesfile = svmlight.create_input_file(training, 'train', pipeline.feature_set)
     svmlight.learn(instancesfile)
 
     # Predict & Read predictions
-    pipeline.execute(validation, train=False, feature_set=feature_set)
-    instancesfile = svmlight.create_input_file(validation, 'test', feature_set)
+    pipeline.execute(validation, train=False, feature_set=pipeline.feature_set)
+    instancesfile = svmlight.create_input_file(validation, 'test', pipeline.feature_set)
     predictionsfile = svmlight.tag(instancesfile)
     svmlight.read_predictions(validation, predictionsfile)
 
