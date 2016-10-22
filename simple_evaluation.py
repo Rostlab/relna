@@ -93,14 +93,14 @@ for fold in range(k):
 
     # Learn
     svmlight = SVMLightTreeKernels(svm_folder, use_tree_kernel=args.use_tk)
-    svmlight.create_input_file(training, 'train', feature_set)
-    svmlight.learn()
+    instancesfile = svmlight.create_input_file(training, 'train', feature_set)
+    svmlight.learn(instancesfile)
 
     # Predict & Read predictions
     pipeline.execute(validation, train=False, feature_set=feature_set)
-    svmlight.create_input_file(validation, 'test', feature_set)
-    svmlight.tag(mode='test')
-    svmlight.read_predictions(validation)
+    instancesfile = svmlight.create_input_file(validation, 'test', feature_set)
+    predictionsfile = svmlight.tag(instancesfile)
+    svmlight.read_predictions(validation, predictionsfile)
 
     results = evaluator.evaluate(validation)
     merged.append(results)
@@ -109,3 +109,55 @@ for fold in range(k):
 print("\n# FINAL")
 ret = Evaluations.merge(merged)
 print(ret)
+
+
+# Expected output, something like:
+
+# python simple_evaluation.py --corpus relna
+# Namespace(corpus='relna', use_test_set=False, use_tk=False)
+# # FOLDS
+# # class	tp	fp	fn	fp_ov	fn_ov	e|P	e|R	e|F	e|F_SE	o|P	o|R	o|F	o|F_SE
+# r_4	51	261	0	0	0	0.1635	1.0000	0.2810	0.0034	0.1635	1.0000	0.2810	0.0034
+# # class	tp	fp	fn	fp_ov	fn_ov	e|P	e|R	e|F	e|F_SE	o|P	o|R	o|F	o|F_SE
+# r_4	48	187	1	0	0	0.2043	0.9796	0.3380	0.0048	0.2043	0.9796	0.3380	0.0050
+# # class	tp	fp	fn	fp_ov	fn_ov	e|P	e|R	e|F	e|F_SE	o|P	o|R	o|F	o|F_SE
+# r_4	49	136	0	0	0	0.2649	1.0000	0.4188	0.0049	0.2649	1.0000	0.4188	0.0048
+# # class	tp	fp	fn	fp_ov	fn_ov	e|P	e|R	e|F	e|F_SE	o|P	o|R	o|F	o|F_SE
+# r_4	58	187	0	0	0	0.2367	1.0000	0.3828	0.0037	0.2367	1.0000	0.3828	0.0039
+# # class	tp	fp	fn	fp_ov	fn_ov	e|P	e|R	e|F	e|F_SE	o|P	o|R	o|F	o|F_SE
+# r_4	49	196	0	0	0	0.2000	1.0000	0.3333	0.0044	0.2000	1.0000	0.3333	0.0046
+#
+# # FINAL
+# # class	tp	fp	fn	fp_ov	fn_ov	e|P	e|R	e|F	e|F_SE	o|P	o|R	o|F	o|F_SE
+# r_4	255	967	1	0	0	0.2087	0.9961	0.3451	0.0018	0.2087	0.9961	0.3451	0.0017
+#
+#
+#
+#
+#
+#
+# # FOLDS
+# Processing [SpaCy] |################################| 252/252
+# Processing [SpaCy] |################################| 84/84
+# # class	tp	fp	fn	fp_ov	fn_ov	e|P	e|R	e|F	e|F_SE	o|P	o|R	o|F	o|F_SE
+# r_4	39	45	12	0	0	0.4643	0.7647	0.5778	0.0054	0.4643	0.7647	0.5778	0.0055
+# Processing [SpaCy] |################################| 252/252
+# Processing [SpaCy] |################################| 84/84
+# # class	tp	fp	fn	fp_ov	fn_ov	e|P	e|R	e|F	e|F_SE	o|P	o|R	o|F	o|F_SE
+# r_4	36	21	12	0	0	0.6316	0.7500	0.6857	0.0052	0.6316	0.7500	0.6857	0.0053
+# Processing [SpaCy] |################################| 252/252
+# Processing [SpaCy] |################################| 84/84
+# # class	tp	fp	fn	fp_ov	fn_ov	e|P	e|R	e|F	e|F_SE	o|P	o|R	o|F	o|F_SE
+# r_4	37	18	9	0	0	0.6727	0.8043	0.7327	0.0042	0.6727	0.8043	0.7327	0.0044
+# Processing [SpaCy] |################################| 252/252
+# Processing [SpaCy] |################################| 84/84
+# # class	tp	fp	fn	fp_ov	fn_ov	e|P	e|R	e|F	e|F_SE	o|P	o|R	o|F	o|F_SE
+# r_4	35	26	20	0	0	0.5738	0.6364	0.6034	0.0051	0.5738	0.6364	0.6034	0.0049
+# Processing [SpaCy] |################################| 252/252
+# Processing [SpaCy] |################################| 84/84
+# # class	tp	fp	fn	fp_ov	fn_ov	e|P	e|R	e|F	e|F_SE	o|P	o|R	o|F	o|F_SE
+# r_4	34	15	13	0	0	0.6939	0.7234	0.7083	0.0055	0.6939	0.7234	0.7083	0.0058
+#
+# # FINAL
+# # class	tp	fp	fn	fp_ov	fn_ov	e|P	e|R	e|F	e|F_SE	o|P	o|R	o|F	o|F_SE
+# r_4	181	125	66	0	0	0.5915	0.7328	0.6546	0.0021	0.5915	0.7328	0.6546	0.0022
