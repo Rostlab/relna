@@ -58,3 +58,9 @@ resources/process/*
 resources/untagged/*
 resources/consistencycheck.py
 resources/process.zip
+
+# Application-specific configuration
+config.ini
+
+# Backups
+*.backup
