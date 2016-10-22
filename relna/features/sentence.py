@@ -11,7 +11,7 @@ class NamedEntityCountFeatureGenerator(EdgeFeatureGenerator):
     :type entity_type: str
     :type mode: str
     :type feature_set: dict
-    :type training_mode: bool
+    :type is_training_mode: bool
     """
     def __init__(self, entity_type):
         self.entity_type = entity_type
@@ -24,13 +24,14 @@ class NamedEntityCountFeatureGenerator(EdgeFeatureGenerator):
             feature_name = '1_' + self.entity_type + '_count_['+str(len(entities))+']'
 
             # TODO, USE add_to_feature_set
-            if self.training_mode:
-                if feature_name not in self.feature_set:
-                    self.feature_set[feature_name] = len(self.feature_set.keys())+1
-                edge.features[self.feature_set[feature_name]] = 1
+            if is_training_mode:
+                if feature_name not in feature_set:
+                    feature_set[feature_name] = len(feature_set.keys())+1
+                edge.features[feature_set[feature_name]] = 1
             else:
-                if feature_name in self.feature_set.keys():
-                    edge.features[self.feature_set[feature_name]] = 1
+                if feature_name in feature_set.keys():
+                    edge.features[feature_set[feature_name]] = 1
+
 
 class BagOfWordsFeatureGenerator(EdgeFeatureGenerator):
     """
@@ -38,17 +39,14 @@ class BagOfWordsFeatureGenerator(EdgeFeatureGenerator):
 
     :type feature_set: nalaf.structures.data.FeatureDictionary
     :type stop_words: list[str]
-    :type training_mode: bool
+    :type is_training_mode: bool
     """
-    def __init__(self, feature_set, stop_words = None, training_mode=True):
-        self.feature_set = feature_set
-        """the feature set for the dataset"""
-        self.training_mode = training_mode
-        """whether the mode is training or testing"""
+    def __init__(self, stop_words=None):
         if stop_words is None:
             stop_words = stopwords.words('english')
         self.stop_words = stop_words
         """a list of stop words"""
+
 
     def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():
@@ -78,23 +76,21 @@ class StemmedBagOfWordsFeatureGenerator(EdgeFeatureGenerator):
     :type feature_set: nalaf.structures.data.FeatureDictionary
     :type stemmer: nltk.stem.PorterStemmer
     :type stop_words: list[str]
-    :type training_mode: bool
+    :type is_training_mode: bool
     """
 
-    def __init__(self, feature_set, stop_words=[], training_mode=True):
-        self.feature_set = feature_set
-        """the feature set for the dataset"""
-        self.training_mode = training_mode
-        """whether the mode is training or testing"""
+    def __init__(self, stop_words=[]):
         self.stemmer = PorterStemmer()
         """an instance of the PorterStemmer"""
         self.stop_words = stop_words
         """a list of stop words"""
 
+
     def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():
             sentence = edge.part.sentences[edge.sentence_id]
-            if self.training_mode:
+
+            if is_training_mode:
                 for token in sentence:
                     if self.stemmer.stem(token.word) not in self.stop_words and not token.features['is_punct']:
                         feature_name = '4_bow_stem_' + self.stemmer.stem(token.word) + '_[0]'
@@ -105,13 +101,11 @@ class SentenceFeatureGenerator(EdgeFeatureGenerator):
     """
     Generate features for each sentence containing an edge
     """
-    def __init__(self, feature_set, training_mode=True):
-        self.feature_set = feature_set
-        """the feature set for the dataset"""
-        self.training_mode = training_mode
-        """whether the mode is training or testing"""
-        self.token_feature_generator = TokenFeatureGenerator(feature_set, training_mode)
+
+    def __init__(self):
+        self.token_feature_generator = TokenFeatureGenerator()
         """an instance of TokenFeatureGenerator"""
+
 
     def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():
@@ -139,28 +133,26 @@ class WordFilterFeatureGenerator(EdgeFeatureGenerator):
     :type feature_set: nalaf.structures.data.FeatureDictionary
     :type words: list[str]
     :type stem: bool
-    :type training_mode: bool
+    :type is_training_mode: bool
     """
-    def __init__(self, feature_set, words, stem=True, training_mode=True):
-        self.feature_set = feature_set
-        """the feature set for the dataset"""
+    def __init__(self, words, stem=True):
         self.words = words
         """a list of words to check for their presence in the sentence"""
         self.stem = stem
         """whether the words in the sentence and the list should be stemmed"""
-        self.training_mode = training_mode
-        """whether the mode is training or testing"""
         self.stemmer = PorterStemmer()
+
 
     def generate(self, dataset, feature_set, is_training_mode):
         if self.stem:
-            stemmed_words = [ self.stemmer.stem(word) for word in self.words ]
+            stemmed_words = [self.stemmer.stem(word) for word in self.words]
             for edge in dataset.edges():
                 sentence = edge.part.sentences[edge.sentence_id]
                 for token in sentence:
                     if self.stemmer.stem(token.word) in stemmed_words:
                         feature_name = '6_word_filter_stem_' + self.stemmer.stem(token.word) + '_[0]'
                         self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
+
         else:
             for edge in dataset.edges():
                 sentence = edge.part.sentences[edge.sentence_id]

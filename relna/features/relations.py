@@ -1,21 +1,19 @@
+from nalaf.features.relations import EdgeFeatureGenerator
 from nltk.stem import PorterStemmer
 from math import log2
 from operator import itemgetter
 
 
-class TokenFeatureGenerator:
+class TokenFeatureGenerator(EdgeFeatureGenerator):
     """
     Token based features for each entity belonging to an edge
     """
-    def __init__(self, feature_set, training_mode=True):
-        self.feature_set = feature_set
-        """the feature set for the dataset"""
-        self.training_mode = training_mode
-        """whether the mode is training or testing"""
+    def __init__(self):
         self.stemmer = PorterStemmer()
         """an instance of the PorterStemmer()"""
 
-    def token_features(self, token, prefix, edge):
+
+    def token_features(self, token, prefix, edge, feature_set, is_training_mode):
         feature_name_1 = '73_'+prefix+'txt_'+token.word+'_[0]'
         self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_1)
         feature_name_2 = '74_'+prefix+'pos_'+token.features['pos']+'_[0]'
@@ -28,6 +26,7 @@ class TokenFeatureGenerator:
         for ann in ann_types:
             feature_name_5 = '77_'+prefix+'ann_type_'+ann+'_[0]'
             self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_5)
+
 
     def annotated_types(self, token, edge):
         head1 = edge.entity1.head_token
@@ -50,15 +49,6 @@ class TokenFeatureGenerator:
                     ann_types.append(feature_name_2)
                     return ann_types
                 return ann_types
-
-    def add_to_feature_set(self, edge, feature_name, value=1):
-        if self.training_mode:
-            if feature_name not in self.feature_set.keys():
-                self.feature_set[feature_name] = len(self.feature_set.keys()) + 1
-            edge.features[self.feature_set[feature_name]] = value
-        else:
-            if feature_name in self.feature_set.keys():
-                edge.features[self.feature_set[feature_name]] = value
 
 
 def calculateInformationGain(feature_set, dataset, output_file):
