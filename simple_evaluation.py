@@ -2,7 +2,7 @@ from nalaf.utils.readers import HTMLReader
 from nalaf.utils.annotation_readers import AnnJsonAnnotationReader
 from nalaf.learning.taggers import StubSameSentenceRelationExtractor
 from nalaf.learning.evaluators import DocumentLevelRelationEvaluator, Evaluations
-from relna.structures.relation_pipelines import RelationExtractionPipeline
+from nalaf.structures.relation_pipelines import RelationExtractionPipeline
 from nalaf.learning.svmlight import SVMLightTreeKernels
 from nalaf.preprocessing.parsers import SpacyParser
 from spacy.en import English

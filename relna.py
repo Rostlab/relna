@@ -9,7 +9,7 @@ from nalaf.utils.readers import TextFilesReader, PMIDReader
 from nalaf.utils.readers import StringReader
 from nalaf.utils.writers import TagTogFormat, PubTatorFormat
 from relna.utils.writers import RelnaConsoleWriter
-from relna.structures.relation_pipelines import RelationExtractionPipeline
+from nalaf.structures.relation_pipelines import RelationExtractionPipeline
 from nalaf.learning.svmlight import SVMLightTreeKernels
 from relna.learning.taggers import TranscriptionFactorTagger
 from relna.learning.taggers import RelnaRelationExtractor
