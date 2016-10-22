@@ -16,33 +16,33 @@ from relna.features.ngrams import *
 class RelnaRelationExtractor(RelationExtractor):
 
     @staticmethod
-    def default_feature_generators(class1, class2, feature_set, train, graphs=None):
+    def default_feature_generators(class1, class2, graphs=None):
 
         GRAPHS_CLOSURE_VARIABLE = {} if graphs is None else graphs
 
         return [
-            NamedEntityCountFeatureGenerator(class1, feature_set, training_mode=train),
-            NamedEntityCountFeatureGenerator(class2, feature_set, training_mode=train),
-            BagOfWordsFeatureGenerator(feature_set, training_mode=train),
-            StemmedBagOfWordsFeatureGenerator(feature_set, training_mode=train),
-            SentenceFeatureGenerator(feature_set, training_mode=train),
-            WordFilterFeatureGenerator(feature_set, ['interact', 'bind', 'colocalize'], training_mode=train),
-            EntityHeadTokenFeatureGenerator(feature_set, training_mode=train),
-            EntityHeadTokenUpperCaseFeatureGenerator(feature_set, training_mode=train),
-            EntityHeadTokenDigitsFeatureGenerator(feature_set, training_mode=train),
-            EntityHeadTokenLetterPrefixesFeatureGenerator(feature_set, training_mode=train),
-            EntityHeadTokenPunctuationFeatureGenerator(feature_set, training_mode=train),
-            EntityHeadTokenChainFeatureGenerator(feature_set, training_mode=train),
-            LinearContextFeatureGenerator(feature_set, training_mode=train),
-            EntityOrderFeatureGenerator(feature_set, training_mode=train),
-            LinearDistanceFeatureGenerator(feature_set, training_mode=train),
-            IntermediateTokensFeatureGenerator(feature_set, training_mode=train),
-            PathFeatureGenerator(feature_set, GRAPHS_CLOSURE_VARIABLE, training_mode=train),
-            ProteinWordFeatureGenerator(feature_set, GRAPHS_CLOSURE_VARIABLE, training_mode=train),
-            LocationWordFeatureGenerator(feature_set, training_mode=train),
-            FoundInFeatureGenerator(feature_set, training_mode=train),
-            BiGramFeatureGenerator(feature_set, training_mode=train),
-            TriGramFeatureGenerator(feature_set, training_mode=train),
+            NamedEntityCountFeatureGenerator(class1),
+            NamedEntityCountFeatureGenerator(class2),
+            BagOfWordsFeatureGenerator(),
+            StemmedBagOfWordsFeatureGenerator(),
+            SentenceFeatureGenerator(),
+            WordFilterFeatureGenerator(['interact', 'bind', 'colocalize']),
+            EntityHeadTokenFeatureGenerator(),
+            EntityHeadTokenUpperCaseFeatureGenerator(),
+            EntityHeadTokenDigitsFeatureGenerator(),
+            EntityHeadTokenLetterPrefixesFeatureGenerator(),
+            EntityHeadTokenPunctuationFeatureGenerator(),
+            EntityHeadTokenChainFeatureGenerator(),
+            LinearContextFeatureGenerator(),
+            EntityOrderFeatureGenerator(),
+            LinearDistanceFeatureGenerator(),
+            IntermediateTokensFeatureGenerator(),
+            PathFeatureGenerator(GRAPHS_CLOSURE_VARIABLE),
+            ProteinWordFeatureGenerator(GRAPHS_CLOSURE_VARIABLE),
+            LocationWordFeatureGenerator(),
+            FoundInFeatureGenerator(),
+            BiGramFeatureGenerator(),
+            TriGramFeatureGenerator(),
         ]
 
 
@@ -50,6 +50,7 @@ class RelnaRelationExtractor(RelationExtractor):
         super().__init__(entity1_class, entity2_class, rel_type)
         self.svmlight = svmlight
         """an instance of SVMLightTreeKernels"""
+
 
     def tag(self, dataset, feature_set):
         self.svmlight.create_input_file(dataset, 'predict', feature_set)

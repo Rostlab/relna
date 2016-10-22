@@ -76,7 +76,9 @@ print("\n\n\n\n\n")
 
 
 dataset, _ = read_dataset().percentage_split(0.1)
-pipeline = RelationExtractionPipeline('e_1', 'e_2', rel_type, parser=parser)
+feature_generators = RelnaRelationExtractor.default_feature_generators('e_1', 'e_2')
+pipeline = RelationExtractionPipeline('e_1', 'e_2', rel_type, parser=parser, feature_generators=feature_generators)
+
 evaluator = DocumentLevelRelationEvaluator(rel_type=rel_type, match_case=False)
 
 
@@ -89,13 +91,13 @@ for fold in range(k):
         validation = test
 
     # Learn
-    pipeline.execute(training, train=True, feature_generators=RelnaRelationExtractor.default_feature_generators('e_1', 'e_2', pipeline.feature_set, train=True))
+    pipeline.execute(training, train=True)
     svmlight = SVMLightTreeKernels(svmlight_dir_path=svm_folder, use_tree_kernel=args.use_tk)
     instancesfile = svmlight.create_input_file(training, 'train', pipeline.feature_set)
     svmlight.learn(instancesfile)
 
     # Predict & Read predictions
-    pipeline.execute(validation, train=False, feature_generators=RelnaRelationExtractor.default_feature_generators('e_1', 'e_2', pipeline.feature_set, train=False))
+    pipeline.execute(validation, train=False)
     instancesfile = svmlight.create_input_file(validation, 'test', pipeline.feature_set)
     predictionsfile = svmlight.tag(instancesfile)
     svmlight.read_predictions(validation, predictionsfile)

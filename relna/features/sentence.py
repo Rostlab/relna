@@ -13,18 +13,17 @@ class NamedEntityCountFeatureGenerator(EdgeFeatureGenerator):
     :type feature_set: dict
     :type training_mode: bool
     """
-    def __init__(self, entity_type, feature_set, training_mode=True):
+    def __init__(self, entity_type):
         self.entity_type = entity_type
         """type of entity"""
-        self.training_mode = training_mode
-        """whether the mode is training or testing"""
-        self.feature_set = feature_set
-        """the feature set for the dataset"""
+
 
     def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():
             entities = edge.part.get_entities_in_sentence(edge.sentence_id, self.entity_type)
             feature_name = '1_' + self.entity_type + '_count_['+str(len(entities))+']'
+
+            # TODO, USE add_to_feature_set
             if self.training_mode:
                 if feature_name not in self.feature_set:
                     self.feature_set[feature_name] = len(self.feature_set.keys())+1
