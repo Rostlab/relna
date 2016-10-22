@@ -1,4 +1,4 @@
-from relna.features.relations import EdgeFeatureGenerator
+from nalaf.features.relations import EdgeFeatureGenerator
 
 class BiGramFeatureGenerator(EdgeFeatureGenerator):
     """

@@ -1,33 +1,6 @@
-from nalaf.features import FeatureGenerator
 from nltk.stem import PorterStemmer
-import abc
 from math import log2
 from operator import itemgetter
-
-class EdgeFeatureGenerator(FeatureGenerator):
-    """
-    Abstract class for generating features for each edge in the dataset.
-    Subclasses that inherit this class should:
-    * Be named [Name]FeatureGenerator
-    * Implement the abstract method generate
-    * Append new items to the dictionary field "features" of each Edge in the dataset
-    """
-
-    @abc.abstractmethod
-    def generate(self, dataset):
-        """
-        :type dataset: nalaf.structures.data.Dataset
-        """
-        return
-
-    def add_to_feature_set(self, edge, feature_name, value=1):
-        if self.training_mode:
-            if feature_name not in self.feature_set.keys():
-                self.feature_set[feature_name] = len(self.feature_set.keys()) + 1
-            edge.features[self.feature_set[feature_name]] = value
-        else:
-            if feature_name in self.feature_set.keys():
-                edge.features[self.feature_set[feature_name]] = value
 
 
 class TokenFeatureGenerator:
