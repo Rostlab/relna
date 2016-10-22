@@ -14,6 +14,7 @@ class Swissprot(Cacheable):
         super().__init__()
         self.url = 'http://www.uniprot.org/uniprot/?query=database%3A%28type%3Ageneid+id%3A{}%29+AND+reviewed%3A{}&sort=score&format=list'
 
+
     def get_uniprotid_for_entrez_geneid(self, list_geneids):
         """
         Get dictionary mapping from { EntrezGeneID : [ UniprotID, ... ]

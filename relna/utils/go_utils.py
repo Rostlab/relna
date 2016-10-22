@@ -10,6 +10,7 @@ class GOTerms(Cacheable):
         super().__init__()
         self.url = 'http://www.uniprot.org/uniprot/{}.txt'
 
+
     def get_goterms_for_uniprot_id(self, list_uniprotids):
         """
         Get dictionary mapping from { UniprotID : [ GOTerms, ... ]
