@@ -24,9 +24,8 @@ setup(
     #license='UNKNOWN',
     packages=find_packages(exclude=['tests']),
     install_requires=[
-        'nalaf',
-        'spacy',
-        'progress'
+        # 'nalaf',
+        'spacy'
     ],
     dependency_links=[
         'https://github.com/Rostlab/nalaf/tree/feature/Experimental#egg=nalaf'
