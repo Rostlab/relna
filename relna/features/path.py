@@ -28,8 +28,8 @@ class PathFeatureGenerator(EdgeFeatureGenerator):
             if len(path)==0:
                 path = [head1, head2]
             self.path_length_features(path, edge, feature_set, is_training_mode)
-            self.token_feature_generator.token_features(path[0], 'token_term_1_', edge)
-            self.token_feature_generator.token_features(path[-1], 'token_term_2_', edge)
+            self.token_feature_generator.token_features(path[0], 'token_term_1_', edge, feature_set, is_training_mode)
+            self.token_feature_generator.token_features(path[-1], 'token_term_2_', edge, feature_set, is_training_mode)
             self.path_dependency_features(path, edge, feature_set, is_training_mode)
             base_words = ['interact', 'bind', 'coactivator', 'complex', 'mediate']
             words = []
@@ -129,7 +129,7 @@ class PathFeatureGenerator(EdgeFeatureGenerator):
 
                     for k in range(1, n):
                         token = edge.part.sentences[edge.sentence_id][(path[i-(n-1)+k]).features['id']-1]
-                        self.token_feature_generator.token_features(token, 'tok_'+style_gram, edge)
+                        self.token_feature_generator.token_features(token, 'tok_'+style_gram, edge, feature_set, is_training_mode)
 
                     for k in range(n):
                         dep = current_walk[i-(n-1)+k][1]

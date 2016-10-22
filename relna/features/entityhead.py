@@ -227,7 +227,7 @@ class EntityHeadTokenChainFeatureGenerator(EdgeFeatureGenerator):
         self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_1)
         self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_2)
         self.linear_order_features(prefix+depth_string, token.features['dependency_from'][0], edge, sentence, feature_set, is_training_mode)
-        self.build_chains(token.features['dependency_from'][0], sentence, edge, prefix, chain+'-fw', depth_left-1)
+        self.build_chains(token.features['dependency_from'][0], sentence, edge, prefix, chain+'-fw', depth_left-1, feature_set, is_training_mode)
 
         for dependency in token.features['dependency_to']:
             feature_name_1 = '21_'+prefix+'dep_dist_dist_'+str(depth_left)+'_to_'+dependency[1]+'_[0]'
@@ -235,7 +235,7 @@ class EntityHeadTokenChainFeatureGenerator(EdgeFeatureGenerator):
             self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_1)
             self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_2)
             self.linear_order_features(prefix+'dist_'+str(depth_left)+'_', dependency[0], edge, sentence, feature_set, is_training_mode)
-            self.build_chains(dependency[0], sentence, edge, prefix, chain+'-rv', depth_left-1)
+            self.build_chains(dependency[0], sentence, edge, prefix, chain+'-rv', depth_left-1, feature_set, is_training_mode)
 
 
     def linear_order_features(self, prefix, token, edge, sentence, feature_set, is_training_mode):
