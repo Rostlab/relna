@@ -22,6 +22,7 @@ install:
 
 script:
   - nosetests --with-coverage
+  - time python simple_evaluation.py --corpus relna
 
 after_success:
   - codecov
