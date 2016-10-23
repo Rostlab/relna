@@ -1,6 +1,7 @@
 from nalaf.features.relations import EdgeFeatureGenerator
 from nltk.stem import PorterStemmer
 
+
 class LinearContextFeatureGenerator(EdgeFeatureGenerator):
     """
     Each entity has a precalculated entity head token. If the entity has only
