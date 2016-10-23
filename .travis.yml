@@ -8,15 +8,24 @@ branches:
     - master
     - develop
 
+env:
+  global:
+    - SVM_LIGHT=$HOME/svm_light
+    - PATH=$PATH:$SVM_LIGHT
+
 cache:
   pip: true
   directories:
     - $HOME/nltk_data
+    - $SVM_LIGHT
 
 before_install:
   - pip install git+https://github.com/Rostlab/nalaf.git@feature/Experimental
   - python -m nalaf.download_corpora
   - pip install codecov
+  - (test -d $SVM_LIGHT && [ "$(ls -A $SVM_LIGHT)" ] && echo "Use cached non-empty svm_light") || (wget http://download.joachims.org/svm_light/current/svm_light.tar.gz -O /tmp/svm_light.tar.gz && mkdir -p $SVM_LIGHT && cd $SVM_LIGHT && tar -xvf /tmp/svm_light.tar.gz && make)
+  - svm_classify # Effectively test that svm_light was installed and is in the PATH. It should print version -> SVM-light V6.02 (14.08.08)
+  - cd $TRAVIS_BUILD_DIR
 
 install:
   - pip install .
