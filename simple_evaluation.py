@@ -15,6 +15,7 @@ parser = argparse.ArgumentParser(description='Simple-evaluate relna corpus corpu
 parser.add_argument('--corpus', required=True, choices=["relna"])
 parser.add_argument('--use_tk', default=False, action='store_true')
 parser.add_argument('--use_test_set', default=False, action='store_true')
+parser.add_argument('--use_full_corpus', default=False, action='store_true')
 
 args = parser.parse_args()
 
@@ -75,8 +76,11 @@ print(ret)
 print("\n\n\n\n\n")
 
 
-dataset, _ = read_dataset().percentage_split(0.1)
-#dataset = read_dataset()
+if (args.use_full_corpus):
+    dataset = read_dataset()
+else:
+    dataset, _ = read_dataset().percentage_split(0.1)
+
 feature_generators = RelnaRelationExtractor.default_feature_generators('e_1', 'e_2')
 pipeline = RelationExtractionPipeline('e_1', 'e_2', rel_type, parser=parser, feature_generators=feature_generators)
 
