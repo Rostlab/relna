@@ -34,7 +34,7 @@ else:
 
 if args.corpus == "relna":
     # Relna
-    dataset_folder_html = '/Users/jmcejuela/Work/hck/relna/resources/corpora/relna/corrected/'
+    dataset_folder_html = './resources/corpora/relna/corrected/'
     dataset_folder_annjson = dataset_folder_html
     rel_type = 'r_4'
 
