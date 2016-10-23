@@ -1,19 +1,27 @@
 language: python
+
 python:
   - "3.5"
-install:
-  - "pip install ."
-cache:
-  pip: true
-before_script:
-  - "pip install git+https://github.com/Rostlab/nalaf.git@feature/Experimental"
-  - "python -m nalaf.download_corpora"
-  - "pip install codecov"
-after_success:
-  - "codecov"
-script:
-  - "nosetests"
+
 branches:
   only:
     - master
     - develop
+
+cache:
+  pip: true
+
+before_install:
+  - pip install git+https://github.com/Rostlab/nalaf.git@feature/Experimental
+  - python -m nalaf.download_corpora
+  - pip install codecov
+
+install:
+  - pip install .
+  - python3 -m relna.download_corpora
+
+script:
+  - nosetests --with-coverage
+
+after_success:
+  - codecov
