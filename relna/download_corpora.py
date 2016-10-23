@@ -15,4 +15,4 @@ if __name__ == '__main__':
     for corpus in CORPORA:
         nltk.download(corpus)
 
-    download.main(force=True)
+    download.main(force=False)
