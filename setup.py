@@ -24,8 +24,8 @@ setup(
     packages=find_packages(exclude=['tests']),
     install_requires=[
         # 'nalaf',
-        'spacy'
-        'ujson',  # It should be included with spacy, AFAIK
+        'spacy',
+        'ujson'  # It should be included with spacy, AFAIK
     ],
     dependency_links=[
         'https://github.com/Rostlab/nalaf/tree/feature/Experimental#egg=nalaf'
