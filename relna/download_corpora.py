@@ -15,4 +15,7 @@ if __name__ == '__main__':
     for corpus in CORPORA:
         nltk.download(corpus)
 
-    download.main(force=False)
+    # See: https://github.com/explosion/spaCy/blob/master/spacy/en/download.py -- we don't need Glove, but hey, maybe in the future!
+        # glove global vectors for word representation bibtex
+        # http://nlp.stanford.edu/pubs/glove.pdf
+    download.main(data_size='parser', force=False)
