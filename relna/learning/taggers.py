@@ -10,6 +10,7 @@ from relna.features.entityhead import *
 from relna.features.loctext import *
 from relna.features.path import *
 from relna.features.sentence import *
+from nalaf.features.relations import NamedEntityCountFeatureGenerator
 from relna.features.ngrams import *
 
 
@@ -21,8 +22,8 @@ class RelnaRelationExtractor(RelationExtractor):
         GRAPHS_CLOSURE_VARIABLE = {} if graphs is None else graphs
 
         return [
-            NamedEntityCountFeatureGenerator(class1),
-            NamedEntityCountFeatureGenerator(class2),
+            NamedEntityCountFeatureGenerator(class1, prefix1=107),
+            NamedEntityCountFeatureGenerator(class2, prefix1=108),
             BagOfWordsFeatureGenerator(),
             StemmedBagOfWordsFeatureGenerator(),
             SentenceFeatureGenerator(),

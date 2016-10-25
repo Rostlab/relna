@@ -4,35 +4,6 @@ from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 
 
-class NamedEntityCountFeatureGenerator(EdgeFeatureGenerator):
-    """
-    Generates Named Entity Count for each sentence that contains an edge
-
-    :type entity_type: str
-    :type mode: str
-    :type feature_set: dict
-    :type is_training_mode: bool
-    """
-    def __init__(self, entity_type):
-        self.entity_type = entity_type
-        """type of entity"""
-
-
-    def generate(self, dataset, feature_set, is_training_mode):
-        for edge in dataset.edges():
-            entities = edge.part.get_entities_in_sentence(edge.sentence_id, self.entity_type)
-            feature_name = '1_' + self.entity_type + '_count_['+str(len(entities))+']'
-
-            # TODO, USE add_to_feature_set
-            if is_training_mode:
-                if feature_name not in feature_set:
-                    feature_set[feature_name] = len(feature_set.keys())+1
-                edge.features[feature_set[feature_name]] = 1
-            else:
-                if feature_name in feature_set.keys():
-                    edge.features[feature_set[feature_name]] = 1
-
-
 class BagOfWordsFeatureGenerator(EdgeFeatureGenerator):
     """
     Generates Bag of Words representation for each sentence that contains an edge
