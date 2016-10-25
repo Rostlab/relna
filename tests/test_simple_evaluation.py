@@ -134,8 +134,8 @@ def test_whole_with_defaults(argv=None):
     EXPECTED_F = 0.6451612903225806  # 0.6557377049180328 (the first value is produced on juanmi's local macbook and rostlab server -- travis for some reason gives sth sligthly different, maybe due to different seed, don't know)
     EXPECTED_F_SE = 0.005122878168890786
 
-    assert math.isclose(rel_evaluation.f_measure, EXPECTED_F, rel_tol=0.1)
-    assert math.isclose(rel_evaluation.f_measure_SE, EXPECTED_F_SE, rel_tol=0.1)
+    assert math.isclose(rel_evaluation.f_measure, EXPECTED_F, abs_total=0.1)
+    assert math.isclose(rel_evaluation.f_measure_SE, EXPECTED_F_SE, abs_tol=0.001)
 
 
 if __name__ == "__main__":
