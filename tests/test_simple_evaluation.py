@@ -101,7 +101,6 @@ def test_whole_with_defaults(argv=None):
 
     evaluator = DocumentLevelRelationEvaluator(rel_type=rel_type, match_case=False)
 
-
     print("# FOLDS")
     merged = []
     for fold in range(k):
