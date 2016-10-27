@@ -1,7 +1,7 @@
 from nalaf.features.relations import EdgeFeatureGenerator
 from relna.features.relations import TokenFeatureGenerator
 from nltk.stem import PorterStemmer
-from relna.utils.graph import get_path, build_walks
+from nalaf.utils.graph import get_path, build_walks
 
 
 class PathFeatureGenerator(EdgeFeatureGenerator):

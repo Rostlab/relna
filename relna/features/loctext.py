@@ -1,5 +1,5 @@
 from nalaf.features.relations import EdgeFeatureGenerator
-from relna.utils.graph import get_path, build_walks
+from nalaf.utils.graph import get_path, build_walks
 
 class ProteinWordFeatureGenerator(EdgeFeatureGenerator):
     """
