@@ -22,8 +22,8 @@ class RelnaRelationExtractor(RelationExtractor):
         GRAPHS_CLOSURE_VARIABLE = {} if graphs is None else graphs
 
         return [
-            NamedEntityCountFeatureGenerator(class1, prefix1=107),
-            NamedEntityCountFeatureGenerator(class2, prefix1=108),
+            NamedEntityCountFeatureGenerator(class1, prefix=107),
+            NamedEntityCountFeatureGenerator(class2, prefix=108),
             BagOfWordsFeatureGenerator(),
             StemmedBagOfWordsFeatureGenerator(),
             SentenceFeatureGenerator(),
