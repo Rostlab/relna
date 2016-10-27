@@ -10,7 +10,7 @@ from relna.features.entityhead import *
 from relna.features.loctext import *
 from relna.features.path import *
 from relna.features.sentence import *
-from nalaf.features.relations import NamedEntityCountFeatureGenerator
+from nalaf.features.relations.sentence import NamedEntityCountFeatureGenerator
 from relna.features.ngrams import *
 
 
