@@ -112,7 +112,7 @@ def test_whole_with_defaults(argv=None):
         # Learn
         pipeline.execute(training, train=True)
         svmlight = SVMLightTreeKernels(svmlight_dir_path=svm_folder, use_tree_kernel=args.use_tk)
-        instancesfile = svmlight.create_input_file(training, 'train', pipeline.feature_set)
+        instancesfile = svmlight.create_input_file(training, 'train', pipeline.feature_set, minority_class=1, undersampling=0.4)
         svmlight.learn(instancesfile)
 
         # Predict & Read predictions
