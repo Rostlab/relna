@@ -119,7 +119,7 @@ def test_whole_with_defaults(argv=None):
         pipeline.execute(validation, train=False)
         instancesfile = svmlight.create_input_file(validation, 'test', pipeline.feature_set)
         predictionsfile = svmlight.tag(instancesfile)
-        svmlight.read_predictions(validation, predictionsfile)
+        svmlight.read_predictions(validation, predictionsfile)  # CAUTION! previous relna svm_light had the threshold of prediction at '-0.1' -- nalaf changed it to 0 (assumed to be correct) -- This does change the performance and actually reduce it in this example
 
         results = evaluator.evaluate(validation)
         merged.append(results)
