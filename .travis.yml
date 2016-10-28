@@ -29,7 +29,7 @@ before_install:
 
 install:
   - pip install .
-  - python3 -m relna.download_corpora
+  - python -m relna.download_corpora
 
 script:
   - time py.test -v --cov=./
