@@ -27,36 +27,29 @@ The pipeline used by _relna_ is as follows:
 ##  Requirements
 
 * Python 3
-* [SWIG](http://www.swig.org) (>= 3.0.7, sanity check after installation: `swig -version`)
-* [PCRE](http://www.pcre.org) (not PCRE2, but 8.x series, >=8.37; sanity check after installation: `pcre-config --version`)
-* [BLLIP Parser](https://github.com/BLLIP/bllip-parser)
-* [SVMLight-TK-1.2](http://disi.unitn.it/moschitti/TK1.2-software/Tree-Kernel.htm)
-    * The easiest way to install it is to download compiled binaries from the [official website.](http://disi.unitn.it/moschitti/TK1.2-software/download.html)
-      * You will have to fill up a form to get this, and make the build using the given Makefile.
-      * If you are **ABSOLUTELY SURE** that you do not need to use Tree Kernels (TK), you can also get precompiled binaries from the original page: [SVMLight](http://svmlight.joachims.org)
-      * Place the binaries `svm_classify` and `svm_learn` in your `$PATH`
+* SVMLight, linear vs tree kernel:
+  * The default is to use SVMLight with linear kernels, already defined in https://github.com/Rostlab/nalaf.
+  * _If_ using SVMLight TK for tree kernels:
+    * [BLLIP Parser](https://github.com/BLLIP/bllip-parser)
+    * [SVMLight-TK-1.2](http://disi.unitn.it/moschitti/TK1.2-software/Tree-Kernel.htm)
+      * The easiest way to install it is to download compiled binaries from the [official website.](http://disi.unitn.it/moschitti/TK1.2-software/download.html)
+      * You will have to fill up a form to get this, and make the build using the given Makefile.      
+      * Place the binaries `svm_classify` and `svm_learn` in your `$PATH` (note, that as of now, **this is also needed in nalaf for SVMLight**)
 
 ## Install Code
 
 * Installation of _nalaf_
 
-```
+```shell
 git clone https://github.com/Rostlab/nalaf
 cd nalaf
 python3 setup.py install
 python3 -m nalaf.download_corpora
 ```
 
-* Installation of _BLLIP Parser_ (needed to be compiled now locally since their PyPi module doesn't run on Python 3 - follow issue [here](https://github.com/BLLIP/bllip-parser/issues/45))
-```
-git clone https://github.com/BLLIP/bllip-parser
-cd bllip-parser
-python3 setup.py install
-```
-
 * Installation of _relna_
 
-```
+```shell
 git clone https://github.com/Rostlab/relna.git
 cd relna
 python3 setup.py install
@@ -65,9 +58,12 @@ python3 -m relna.download_corpora
 
 Eventually, when the package is registered on PyPi, you can simply install _relna_ by:
 
-    pip3 install relna
+```shell
+pip3 install relna
+```
 
 # Examples
+
 Run:
 * `relna.py` for a simple example how to use _relna_ just for prediction with a pre-trained model
     * `python3 relna.py -c [PATH SVMLight BIN DIR] -p 10383460`
@@ -77,11 +73,13 @@ Run:
 # Future Work
 
 ## Important:
+
 * Implement neural networks (Theano or TensorFlow, when they release for Python 3) for training and classifying data and evaluate performance on that.
 * Implement bootstrapping for relation extraction (similar to nalaf, where it has been done for entities)
 * Implement multiple sentence models, looking at relations at a distance of one sentence and beyond
 
 ## Not-So-Important:
+
 * Implement corereference resolution (might increase performance slightly)
-* Check performance on PUBMED data with Tree Kernels (since the precision is really high, we might potentially come across new relationships, even though the recall is low.)
+* Experiment with Tree Kernels (SVMLight TK), which achieves a very high precision P>91, to extract highly-accturate relationships from entire PubMed. That, in the end, may give better task extraction results since the lower recall (R~21) is compensated by the size of the large corpus of PubMed.
 * SpaCy [plans to](https://github.com/spacy-io/spaCy/issues/59) implement its own constituent parser, replace BLLIP with SpaCy for speed and efficiency (no linking to external C/C++ libraries)
