@@ -135,8 +135,8 @@ def test_whole_with_defaults(argv=None):
         EXPECTED_F = 0.7029
         EXPECTED_F_SE = 0.0018
     else:
-        EXPECTED_F = 0.6451612903225806
-        EXPECTED_F_SE = 0.005122878168890786
+        EXPECTED_F = 0.6557377049180328
+        EXPECTED_F_SE = 0.005528557986383339
 
     assert math.isclose(rel_evaluation.f_measure, EXPECTED_F, abs_tol=EXPECTED_F_SE * 1.1)
 
