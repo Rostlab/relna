@@ -3,6 +3,7 @@ from nalaf.utils.annotation_readers import AnnJsonAnnotationReader
 from nalaf.learning.taggers import StubSameSentenceRelationExtractor
 from nalaf.learning.evaluators import DocumentLevelRelationEvaluator, Evaluations
 from nalaf.structures.relation_pipelines import RelationExtractionPipeline
+from nalaf.preprocessing.tokenizers import TmVarTokenizer, NLTK_TOKENIZER
 from nalaf.learning.svmlight import SVMLightTreeKernels
 from nalaf.preprocessing.parsers import SpacyParser
 from spacy.en import English
@@ -102,7 +103,7 @@ def test_whole_with_defaults(argv=None):
 
         def train(training_set):
             feature_generators = RelnaRelationExtractor.default_feature_generators('e_1', 'e_2')
-            pipeline = RelationExtractionPipeline('e_1', 'e_2', rel_type, parser=parser, feature_generators=feature_generators)
+            pipeline = RelationExtractionPipeline('e_1', 'e_2', rel_type, parser=parser, tokenizer=TmVarTokenizer(), feature_generators=feature_generators)
 
             pipeline.execute(training_set, train=True)
             svmlight = SVMLightTreeKernels(svmlight_dir_path=svm_folder, use_tree_kernel=args.use_tk)
