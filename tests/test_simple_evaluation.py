@@ -19,6 +19,7 @@ def parse_arguments(argv):
     parser.add_argument('--use_tk', default=False, action='store_true')
     parser.add_argument('--use_test_set', default=False, action='store_true')
     parser.add_argument('--use_full_corpus', default=False, action='store_true')
+    parser.add_argument('--minority_class', type=int, default=1, choices=[-1, 1])
     parser.add_argument('--majority_class_undersampling', type=float, default=0.4)
 
     args = parser.parse_args(argv)
@@ -103,18 +104,18 @@ def test_whole_with_defaults(argv=None):
             feature_generators = RelnaRelationExtractor.default_feature_generators('e_1', 'e_2')
             pipeline = RelationExtractionPipeline('e_1', 'e_2', rel_type, parser=parser, feature_generators=feature_generators)
 
-            # Learn
             pipeline.execute(training_set, train=True)
             svmlight = SVMLightTreeKernels(svmlight_dir_path=svm_folder, use_tree_kernel=args.use_tk)
-            instancesfile = svmlight.create_input_file(training_set, 'train', pipeline.feature_set, minority_class=1, majority_class_undersampling=args.majority_class_undersampling)
+            instancesfile = svmlight.create_input_file(training_set, 'train', pipeline.feature_set, minority_class=args.minority_class, majority_class_undersampling=args.majority_class_undersampling)
             svmlight.learn(instancesfile)
 
             def annotator(validation_set):
-                # Predict & Read predictions
                 pipeline.execute(validation_set, train=False)
-                instancesfile = svmlight.create_input_file(validation_set, 'test', pipeline.feature_set)
+                instancesfile = svmlight.create_input_file(validation_set, 'predict', pipeline.feature_set)
                 predictionsfile = svmlight.tag(instancesfile)
-                svmlight.read_predictions(validation_set, predictionsfile, threshold=-0.1)  # CAUTION! previous relna svm_light had the threshold of prediction at '-0.1' -- nalaf changed it to 0 (assumed to be correct) -- This does change the performance and actually reduce it in this example
+                # CAUTION! previous relna svm_light had the threshold of prediction at '-0.1' -- nalaf changed it to 0 (assumed to be correct) -- This does change the performance and actually reduce it in this example
+                svmlight.read_predictions(validation_set, predictionsfile, threshold=-0.1)
+                return validation_set
 
             return annotator
 
