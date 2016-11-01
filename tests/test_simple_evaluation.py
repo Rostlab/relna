@@ -54,8 +54,8 @@ def test_whole_with_defaults(argv=None):
         dataset = HTMLReader(dataset_folder_html).read()
         AnnJsonAnnotationReader(
                 dataset_folder_annjson,
-                read_relations=True,
                 read_only_class_id=None,
+                read_relations=True,
                 delete_incomplete_docs=False).annotate(dataset)
 
         return dataset
