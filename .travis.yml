@@ -32,7 +32,7 @@ install:
   - python -m relna.download_corpora
 
 script:
-  - time py.test -v --cov=./
+  - time py.test -s -v --cov=./
 
 after_success:
   - codecov
