@@ -19,6 +19,7 @@ def parse_arguments(argv):
     parser.add_argument('--use_tk', default=False, action='store_true')
     parser.add_argument('--use_test_set', default=False, action='store_true')
     parser.add_argument('--use_full_corpus', default=False, action='store_true')
+    parser.add_argument('--majority_class_undersampling', type=float, default=0.4)
 
     args = parser.parse_args(argv)
 
@@ -95,9 +96,6 @@ def test_whole_with_defaults(argv=None):
     else:
         dataset, _ = read_dataset().percentage_split(0.1)
 
-    feature_generators = RelnaRelationExtractor.default_feature_generators('e_1', 'e_2')
-    pipeline = RelationExtractionPipeline('e_1', 'e_2', rel_type, parser=parser, feature_generators=feature_generators)
-
     evaluator = DocumentLevelRelationEvaluator(rel_type=rel_type, match_case=False)
 
     print("# FOLDS")
@@ -108,10 +106,13 @@ def test_whole_with_defaults(argv=None):
         if args.use_test_set:
             validation = test
 
+        feature_generators = RelnaRelationExtractor.default_feature_generators('e_1', 'e_2')
+        pipeline = RelationExtractionPipeline('e_1', 'e_2', rel_type, parser=parser, feature_generators=feature_generators)
+
         # Learn
         pipeline.execute(training, train=True)
         svmlight = SVMLightTreeKernels(svmlight_dir_path=svm_folder, use_tree_kernel=args.use_tk)
-        instancesfile = svmlight.create_input_file(training, 'train', pipeline.feature_set, minority_class=1, majority_class_undersampling=0.4)
+        instancesfile = svmlight.create_input_file(training, 'train', pipeline.feature_set, minority_class=1, majority_class_undersampling=args.majority_class_undersampling)
         svmlight.learn(instancesfile)
 
         # Predict & Read predictions
