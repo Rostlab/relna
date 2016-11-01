@@ -59,88 +59,86 @@ def test_whole_with_defaults(argv=None):
 
         return dataset
 
-    dataset = read_dataset()
-    tagger = StubSameSentenceRelationExtractor('e_1', 'e_2', rel_type)
-    evaluator = DocumentLevelRelationEvaluator(rel_type=rel_type, match_case=False)
 
+    def test_baseline():
 
-    print("# FOLDS")
-    merged = []
-    for fold in range(k):
-        training, validation, test = dataset.cv_kfold_split(k, fold, validation_set=(not args.use_test_set))
-        if args.use_test_set:
-            validation = test
-
-        tagger.tag(validation)
-
-        r = evaluator.evaluate(validation)
-        merged.append(r)
-        print(r)
-
-    print("\n# FINAL")
-    ret = Evaluations.merge(merged)
-    print(ret)
-
-    rel_evaluation = ret(rel_type).compute(strictness="exact")
-
-    EXPECTED_F = 0.34506089309878213
-    EXPECTED_F_SE = 0.0017486985851191787
-
-    assert math.isclose(rel_evaluation.f_measure, EXPECTED_F)
-    assert math.isclose(rel_evaluation.f_measure_SE, EXPECTED_F_SE, rel_tol=0.1)
-
-    print("\n\n\n")
-
-    if (args.use_full_corpus):
         dataset = read_dataset()
-    else:
-        dataset, _ = read_dataset().percentage_split(0.1)
+        tagger = StubSameSentenceRelationExtractor('e_1', 'e_2', rel_type)
+        evaluator = DocumentLevelRelationEvaluator(rel_type=rel_type, match_case=False)
 
-    evaluator = DocumentLevelRelationEvaluator(rel_type=rel_type, match_case=False)
+        print("# FOLDS")
+        merged = []
+        for fold in range(k):
+            training, validation, test = dataset.cv_kfold_split(k, fold, validation_set=(not args.use_test_set))
+            if args.use_test_set:
+                validation = test
 
-    print("# FOLDS")
-    merged = []
-    for fold in range(k):
+            tagger.tag(validation)
 
-        training, validation, test = dataset.cv_kfold_split(k, fold, validation_set=(not args.use_test_set))
-        if args.use_test_set:
-            validation = test
+            r = evaluator.evaluate(validation)
+            merged.append(r)
+            print(r)
 
-        feature_generators = RelnaRelationExtractor.default_feature_generators('e_1', 'e_2')
-        pipeline = RelationExtractionPipeline('e_1', 'e_2', rel_type, parser=parser, feature_generators=feature_generators)
+        print("\n# FINAL")
+        ret = Evaluations.merge(merged)
+        print(ret)
 
-        # Learn
-        pipeline.execute(training, train=True)
-        svmlight = SVMLightTreeKernels(svmlight_dir_path=svm_folder, use_tree_kernel=args.use_tk)
-        instancesfile = svmlight.create_input_file(training, 'train', pipeline.feature_set, minority_class=1, majority_class_undersampling=args.majority_class_undersampling)
-        svmlight.learn(instancesfile)
+        rel_evaluation = ret(rel_type).compute(strictness="exact")
 
-        # Predict & Read predictions
-        pipeline.execute(validation, train=False)
-        instancesfile = svmlight.create_input_file(validation, 'test', pipeline.feature_set)
-        predictionsfile = svmlight.tag(instancesfile)
-        svmlight.read_predictions(validation, predictionsfile, threshold=-0.1)  # CAUTION! previous relna svm_light had the threshold of prediction at '-0.1' -- nalaf changed it to 0 (assumed to be correct) -- This does change the performance and actually reduce it in this example
+        EXPECTED_F = 0.34506089309878213
+        EXPECTED_F_SE = 0.0017486985851191787
 
-        results = evaluator.evaluate(validation)
-        merged.append(results)
-        print(results)
+        assert math.isclose(rel_evaluation.f_measure, EXPECTED_F)
+        assert math.isclose(rel_evaluation.f_measure_SE, EXPECTED_F_SE, rel_tol=0.1)
 
-    print("\n# FINAL")
-    ret = Evaluations.merge(merged)
-    print(ret)
 
-    rel_evaluation = ret(rel_type).compute(strictness="exact")
+    def test_relna():
 
-    if (args.use_full_corpus):
-        # Beware that performance depends a lot on the undersampling and svm threshold
-        EXPECTED_F = 0.7008
-        EXPECTED_F_SE = 0.0018
-    else:
-        # I even achieved this when spacy was not really parsing: 0.6557
-        EXPECTED_F = 0.6452
-        EXPECTED_F_SE = 0.0055
+        if (args.use_full_corpus):
+            dataset = read_dataset()
+        else:
+            dataset, _ = read_dataset().percentage_split(0.1)
 
-    assert math.isclose(rel_evaluation.f_measure, EXPECTED_F, abs_tol=EXPECTED_F_SE * 1.1)
+        def train(training_set):
+            feature_generators = RelnaRelationExtractor.default_feature_generators('e_1', 'e_2')
+            pipeline = RelationExtractionPipeline('e_1', 'e_2', rel_type, parser=parser, feature_generators=feature_generators)
+
+            # Learn
+            pipeline.execute(training_set, train=True)
+            svmlight = SVMLightTreeKernels(svmlight_dir_path=svm_folder, use_tree_kernel=args.use_tk)
+            instancesfile = svmlight.create_input_file(training_set, 'train', pipeline.feature_set, minority_class=1, majority_class_undersampling=args.majority_class_undersampling)
+            svmlight.learn(instancesfile)
+
+            def annotator(validation_set):
+                # Predict & Read predictions
+                pipeline.execute(validation_set, train=False)
+                instancesfile = svmlight.create_input_file(validation_set, 'test', pipeline.feature_set)
+                predictionsfile = svmlight.tag(instancesfile)
+                svmlight.read_predictions(validation_set, predictionsfile, threshold=-0.1)  # CAUTION! previous relna svm_light had the threshold of prediction at '-0.1' -- nalaf changed it to 0 (assumed to be correct) -- This does change the performance and actually reduce it in this example
+
+            return annotator
+
+        evaluator = DocumentLevelRelationEvaluator(rel_type=rel_type, match_case=False)
+
+        evaluations = Evaluations.cross_validate(train, dataset, evaluator, k, use_validation_set=not args.use_test_set)
+        print(evaluations)
+
+        rel_evaluation = evaluations(rel_type).compute(strictness="exact")
+
+
+        if (args.use_full_corpus):
+            # Beware that performance depends a lot on the undersampling and svm threshold
+            EXPECTED_F = 0.7008
+            EXPECTED_F_SE = 0.0018
+        else:
+            # I even achieved this when spacy was not really parsing: 0.6557
+            EXPECTED_F = 0.6452
+            EXPECTED_F_SE = 0.0055
+
+        assert math.isclose(rel_evaluation.f_measure, EXPECTED_F, abs_tol=EXPECTED_F_SE * 1.1)
+
+    test_baseline()
+    test_relna()
 
 
 if __name__ == "__main__":
