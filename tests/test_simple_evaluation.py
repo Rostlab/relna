@@ -119,7 +119,7 @@ def test_whole_with_defaults(argv=None):
 
             return annotator
 
-        evaluator = DocumentLevelRelationEvaluator(r_id=r_id, match_case=False)
+        evaluator = DocumentLevelRelationEvaluator(rel_type=r_id, match_case=False)
 
         evaluations = Evaluations.cross_validate(train, dataset, evaluator, args.k_num_folds, use_validation_set=not args.use_test_set)
         print(evaluations)
