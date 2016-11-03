@@ -64,7 +64,7 @@ def test_whole_with_defaults(argv=None):
 
         dataset = read_dataset()
         tagger = StubSameSentenceRelationExtractor(e_id_1, e_id_2, r_id)
-        evaluator = DocumentLevelRelationEvaluator(r_id=r_id, match_case=False)
+        evaluator = DocumentLevelRelationEvaluator(rel_type=r_id, match_case=False)
 
         print("# FOLDS")
         merged = []
