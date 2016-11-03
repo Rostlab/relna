@@ -127,14 +127,18 @@ def test_whole_with_defaults(argv=None):
         rel_evaluation = evaluations(r_id).compute(strictness="exact")
 
 
-        if (args.use_full_corpus):
+        if (args.corpus_percentage == 1.0):
             # Beware that performance depends a lot on the undersampling and svm threshold
             EXPECTED_F = 0.7008
             EXPECTED_F_SE = 0.0018
-        else:
+        elif (args.corpus_percentage == 0.1):
             # I even achieved this when spacy was not really parsing: 0.6557
             EXPECTED_F = 0.6452
             EXPECTED_F_SE = 0.0055
+        else:
+            # This is not to be tested and will fail
+            EXPECTED_F = 0.5
+            EXPECTED_F_SE = 0.00001
 
         assert math.isclose(rel_evaluation.f_measure, EXPECTED_F, abs_tol=EXPECTED_F_SE * 1.1)
 
