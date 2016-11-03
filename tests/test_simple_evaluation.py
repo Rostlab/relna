@@ -1,6 +1,6 @@
 from nalaf.utils.readers import HTMLReader
 from nalaf.utils.annotation_readers import AnnJsonAnnotationReader
-from nalaf.learning.taggers import StubSameSentenceRelationExtractor
+from nalaf.learning.taggers import StubSameSentenceRelationExtractor, StubSameDocumentPartRelationExtractor
 from nalaf.learning.evaluators import DocumentLevelRelationEvaluator, Evaluations
 from nalaf.structures.relation_pipelines import RelationExtractionPipeline
 from nalaf.preprocessing.tokenizers import TmVarTokenizer, NLTK_TOKENIZER
@@ -85,11 +85,10 @@ def test_whole_with_defaults(argv=None):
 
         rel_evaluation = ret(r_id).compute(strictness="exact")
 
-        EXPECTED_F = 0.34506089309878213
-        EXPECTED_F_SE = 0.0017486985851191787
+        EXPECTED_F = 0.5621
+        EXPECTED_F_SE = 0.0021
 
-        assert math.isclose(rel_evaluation.f_measure, EXPECTED_F)
-        assert math.isclose(rel_evaluation.f_measure_SE, EXPECTED_F_SE, rel_tol=0.1)
+        assert math.isclose(rel_evaluation.f_measure, EXPECTED_F, abs_tol=EXPECTED_F_SE * 1.1), rel_evaluation.f_measure
 
 
     def test_relna():
