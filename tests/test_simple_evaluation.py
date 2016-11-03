@@ -17,11 +17,12 @@ def parse_arguments(argv):
     parser = argparse.ArgumentParser(description='Simple-evaluate relna corpus corpus')
 
     parser.add_argument('--corpus', default="relna", choices=["relna"])
-    parser.add_argument('--use_tk', default=False, action='store_true')
-    parser.add_argument('--use_test_set', default=False, action='store_true')
-    parser.add_argument('--use_full_corpus', default=False, action='store_true')
+    parser.add_argument('--corpus_percentage', default=0.1, type=float, help='e.g. 1 == full corpus; 0.5 == 50% of corpus')
     parser.add_argument('--minority_class', type=int, default=1, choices=[-1, 1])
     parser.add_argument('--majority_class_undersampling', type=float, default=0.4)
+    parser.add_argument('--use_test_set', default=False, action='store_true')
+    parser.add_argument('--k_num_folds', type=int, default=5)
+    parser.add_argument('--use_tk', default=False, action='store_true')
 
     args = parser.parse_args(argv)
 
@@ -34,21 +35,18 @@ def test_whole_with_defaults(argv=None):
     argv = [] if argv is None else argv
     args = parse_arguments(argv)
 
-    k = 5
-
     if args.use_tk:
-        svm_folder = ''  # '/usr/local/manual/svm-light-TK-1.2.1/' -- must be in your path
         nlp = English(entity=False)
         parser = SpacyParser(nlp, constituency_parser=True)
     else:
-        svm_folder = ''  # '/usr/local/manual/bin/' -- must be in your path
         parser = None
 
     if args.corpus == "relna":
-        # Relna
         dataset_folder_html = './resources/corpora/relna/corrected/'
         dataset_folder_annjson = dataset_folder_html
-        rel_type = 'r_4'
+        e_id_1 = 'e_1'
+        e_id_2 = 'e_2'
+        r_id = 'r_4'
 
 
     def read_dataset():
@@ -65,13 +63,13 @@ def test_whole_with_defaults(argv=None):
     def test_baseline():
 
         dataset = read_dataset()
-        tagger = StubSameSentenceRelationExtractor('e_1', 'e_2', rel_type)
-        evaluator = DocumentLevelRelationEvaluator(rel_type=rel_type, match_case=False)
+        tagger = StubSameSentenceRelationExtractor(e_id_1, e_id_2, r_id)
+        evaluator = DocumentLevelRelationEvaluator(r_id=r_id, match_case=False)
 
         print("# FOLDS")
         merged = []
-        for fold in range(k):
-            training, validation, test = dataset.cv_kfold_split(k, fold, validation_set=(not args.use_test_set))
+        for fold in range(args.k_num_folds):
+            training, validation, test = dataset.cv_kfold_split(args.k_num_folds, fold, validation_set=(not args.use_test_set))
             if args.use_test_set:
                 validation = test
 
@@ -85,7 +83,7 @@ def test_whole_with_defaults(argv=None):
         ret = Evaluations.merge(merged)
         print(ret)
 
-        rel_evaluation = ret(rel_type).compute(strictness="exact")
+        rel_evaluation = ret(r_id).compute(strictness="exact")
 
         EXPECTED_F = 0.34506089309878213
         EXPECTED_F_SE = 0.0017486985851191787
@@ -96,17 +94,18 @@ def test_whole_with_defaults(argv=None):
 
     def test_relna():
 
-        if (args.use_full_corpus):
+        if (args.corpus_percentage == 1.0):
             dataset = read_dataset()
         else:
-            dataset, _ = read_dataset().percentage_split(0.1)
+            dataset, _ = read_dataset().percentage_split(args.corpus_percentage)
+
 
         def train(training_set):
-            feature_generators = RelnaRelationExtractor.default_feature_generators('e_1', 'e_2')
-            pipeline = RelationExtractionPipeline('e_1', 'e_2', rel_type, parser=parser, tokenizer=TmVarTokenizer(), feature_generators=feature_generators)
+            feature_generators = RelnaRelationExtractor.default_feature_generators(e_id_1, e_id_2)
+            pipeline = RelationExtractionPipeline(e_id_1, e_id_2, r_id, parser=parser, tokenizer=TmVarTokenizer(), feature_generators=feature_generators)
 
             pipeline.execute(training_set, train=True)
-            svmlight = SVMLightTreeKernels(svmlight_dir_path=svm_folder, use_tree_kernel=args.use_tk)
+            svmlight = SVMLightTreeKernels(use_tree_kernel=args.use_tk)
             instancesfile = svmlight.create_input_file(training_set, 'train', pipeline.feature_set, minority_class=args.minority_class, majority_class_undersampling=args.majority_class_undersampling)
             svmlight.learn(instancesfile)
 
@@ -120,12 +119,12 @@ def test_whole_with_defaults(argv=None):
 
             return annotator
 
-        evaluator = DocumentLevelRelationEvaluator(rel_type=rel_type, match_case=False)
+        evaluator = DocumentLevelRelationEvaluator(r_id=r_id, match_case=False)
 
-        evaluations = Evaluations.cross_validate(train, dataset, evaluator, k, use_validation_set=not args.use_test_set)
+        evaluations = Evaluations.cross_validate(train, dataset, evaluator, args.k_num_folds, use_validation_set=not args.use_test_set)
         print(evaluations)
 
-        rel_evaluation = evaluations(rel_type).compute(strictness="exact")
+        rel_evaluation = evaluations(r_id).compute(strictness="exact")
 
 
         if (args.use_full_corpus):
