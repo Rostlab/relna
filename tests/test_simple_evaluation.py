@@ -1,6 +1,6 @@
 from nalaf.utils.readers import HTMLReader
 from nalaf.utils.annotation_readers import AnnJsonAnnotationReader
-from nalaf.learning.taggers import StubSameSentenceRelationExtractor, StubSameDocumentPartRelationExtractor
+from nalaf.learning.taggers import StubSameSentenceRelationExtractor
 from nalaf.learning.evaluators import DocumentLevelRelationEvaluator, Evaluations
 from nalaf.structures.relation_pipelines import RelationExtractionPipeline
 from nalaf.preprocessing.tokenizers import TmVarTokenizer, NLTK_TOKENIZER
