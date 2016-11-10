@@ -110,7 +110,7 @@ def test_whole_with_defaults(argv=None):
             # See more information in: https://github.com/Rostlab/relna/issues/21
             svmlight = SVMLightTreeKernels(classification_threshold=-0.1, use_tree_kernel=args.use_tk)
             instancesfile = svmlight.create_input_file(training_set, 'train', pipeline.feature_set, minority_class=args.minority_class, majority_class_undersampling=args.majority_class_undersampling)
-            svmlight.learn(instancesfile)
+            svmlight.learn(instancesfile, c=0.5)
 
             def annotator(validation_set):
                 pipeline.execute(validation_set, train=False)
