@@ -73,7 +73,7 @@ def test_whole_with_defaults(argv=None):
             if args.use_test_set:
                 validation = test
 
-            tagger.tag(validation)
+            tagger.annotate(validation)
 
             r = evaluator.evaluate(validation)
             merged.append(r)
@@ -104,16 +104,20 @@ def test_whole_with_defaults(argv=None):
             pipeline = RelationExtractionPipeline(e_id_1, e_id_2, r_id, parser=parser, tokenizer=TmVarTokenizer(), feature_generators=feature_generators)
 
             pipeline.execute(training_set, train=True)
-            svmlight = SVMLightTreeKernels(use_tree_kernel=args.use_tk)
+
+            # CAUTION! previous relna svm_light had the threshold of prediction at '-0.1' -- nalaf changed it to 0 (assumed to be correct) -- This does change the performance and actually reduce it in this example
+            # http://svmlight.joachims.org For classification, the sign of this value determines the predicted class -- CAUTION, relna (Ashish), had it set before to exactly: '-0.1' (was this a bug or a conscious decision to move the threshold of classification?)
+            # See more information in: https://github.com/Rostlab/relna/issues/21
+            svmlight = SVMLightTreeKernels(classification_threshold=-0.1, use_tree_kernel=args.use_tk)
             instancesfile = svmlight.create_input_file(training_set, 'train', pipeline.feature_set, minority_class=args.minority_class, majority_class_undersampling=args.majority_class_undersampling)
             svmlight.learn(instancesfile)
 
             def annotator(validation_set):
                 pipeline.execute(validation_set, train=False)
                 instancesfile = svmlight.create_input_file(validation_set, 'predict', pipeline.feature_set)
-                predictionsfile = svmlight.tag(instancesfile)
-                # CAUTION! previous relna svm_light had the threshold of prediction at '-0.1' -- nalaf changed it to 0 (assumed to be correct) -- This does change the performance and actually reduce it in this example
-                svmlight.read_predictions(validation_set, predictionsfile, threshold=-0.1)
+                predictionsfile = svmlight.classify(instancesfile)
+
+                svmlight.read_predictions(validation_set, predictionsfile)
                 return validation_set
 
             return annotator
