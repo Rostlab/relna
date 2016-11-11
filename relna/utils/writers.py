@@ -38,6 +38,7 @@ class RelnaConsoleWriter:
                 total_offset += 4
             print(text)
             print()
+
         else:
             padding = len(str(len(part.text)))
             print(part.text)
@@ -49,6 +50,7 @@ class RelnaConsoleWriter:
                 elif ann.class_id == PRO_CLASS_ID:
                     print('GGP      {0: <{pad}} {1: <{pad}} {2} {3}'
                           .format(ann.offset, ann.offset+len(ann.text), ann.text, ann.normalisation_dict, pad=padding))
+
         print('RELATIONS')
         for rel in chain(part.relations, part.predicted_relations):
             print('{} ---> {}'.format(rel.text1, rel.text2))

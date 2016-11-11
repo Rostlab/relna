@@ -31,6 +31,7 @@ def parse_arguments(argv):
     return args
 
 
+# TODO decompose test_baseline and test_relna into individual outermost functions/tests
 def test_whole_with_defaults(argv=None):
     argv = [] if argv is None else argv
     args = parse_arguments(argv)
