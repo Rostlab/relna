@@ -56,7 +56,8 @@ def test_whole_with_defaults(argv=None):
                 dataset_folder_annjson,
                 read_only_class_id=None,
                 read_relations=True,
-                delete_incomplete_docs=False).annotate(dataset)
+                delete_incomplete_docs=False,
+                raise_exception_on_incosistencies=False).annotate(dataset)
 
         return dataset
 
