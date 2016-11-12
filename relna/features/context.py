@@ -26,7 +26,7 @@ class LinearContextFeatureGenerator(EdgeFeatureGenerator):
         for edge in dataset.edges():
             head1 = edge.entity1.head_token
             head2 = edge.entity2.head_token
-            sentence = edge.part.sentences[edge.sentence_id]
+            sentence = edge.part.sentences[edge.same_sentence_id]
             for i in range(1, self.linear_context+1):
                 if head1.features['id'] < len(sentence):
                     if (head1.features['id']+i)<len(sentence):
@@ -139,7 +139,7 @@ class IntermediateTokensFeatureGenerator(EdgeFeatureGenerator):
 
     def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():
-            sentence = edge.part.sentences[edge.sentence_id]
+            sentence = edge.part.sentences[edge.same_sentence_id]
             if edge.entity1.head_token.features['id'] < edge.entity2.head_token.features['id']:
                 first = edge.entity1.head_token.features['id']
                 second = edge.entity2.head_token.features['id']

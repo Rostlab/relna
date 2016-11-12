@@ -27,7 +27,7 @@ class ProteinWordFeatureGenerator(EdgeFeatureGenerator):
         for edge in dataset.edges():
             head1 = edge.entity1.head_token
             head2 = edge.entity2.head_token
-            sentence = edge.part.sentences[edge.sentence_id]
+            sentence = edge.part.sentences[edge.same_sentence_id]
             protein_word_found = False
             for token in sentence:
                 if token.is_entity_part(edge.part) and token.word.lower().find('protein') >= 0:
@@ -41,7 +41,7 @@ class ProteinWordFeatureGenerator(EdgeFeatureGenerator):
                         if token_to == head1:
                             feature_name = '79_dependency_from_protein_word_to_entity_[0]'
                             self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
-                        path = get_path(token, head1, edge.part, edge.sentence_id, self.graphs)
+                        path = get_path(token, head1, edge.part, edge.same_sentence_id, self.graphs)
                         if path == []:
                             path = [token, head1]
                         for tok in path:
@@ -101,7 +101,7 @@ class LocationWordFeatureGenerator(EdgeFeatureGenerator):
             else:
                 head1 = edge.entity2.head_token
                 head2 = edge.entity1.head_token
-            sentence = edge.part.sentences[edge.sentence_id]
+            sentence = edge.part.sentences[edge.same_sentence_id]
             for token in sentence:
                 if not token.is_entity_part(edge.part) and \
                     ('location' in token.word.lower() or \
@@ -144,9 +144,9 @@ class FoundInFeatureGenerator(EdgeFeatureGenerator):
                 head1 = edge.entity2.head_token
                 head2 = edge.entity1.head_token
             for i in range(head1.features['id']+1, head2.features['id']):
-                if edge.part.sentences[edge.sentence_id][i].word.lower() == 'found':
+                if edge.part.sentences[edge.same_sentence_id][i].word.lower() == 'found':
                     found_word = True
-                if edge.part.sentences[edge.sentence_id][i].word.lower() == 'in':
+                if edge.part.sentences[edge.same_sentence_id][i].word.lower() == 'in':
                     in_word = True
             if found_word and in_word:
                 feature_name = '91_found_in_[0]'
