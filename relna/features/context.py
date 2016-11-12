@@ -26,7 +26,7 @@ class LinearContextFeatureGenerator(EdgeFeatureGenerator):
         for edge in dataset.edges():
             head1 = edge.entity1.head_token
             head2 = edge.entity2.head_token
-            sentence = edge.part.sentences[edge.same_sentence_id]
+            sentence = edge.same_part.sentences[edge.same_sentence_id]
             for i in range(1, self.linear_context+1):
                 if head1.features['id'] < len(sentence):
                     if (head1.features['id']+i)<len(sentence):
@@ -50,16 +50,16 @@ class LinearContextFeatureGenerator(EdgeFeatureGenerator):
         feature_name_1 = '23_' + prefix + 'txt_' + token.word + '_[0]'
         feature_name_2 = '24_' + prefix + 'pos_' + token.features['pos'] + '_[0]'
         feature_name_3 = '25_' + prefix + 'given_[0]'
-        feature_name_4 = '26_' + prefix + 'txt_' + token.masked_text(edge.part) + '_[0]'
+        feature_name_4 = '26_' + prefix + 'txt_' + token.masked_text(edge.same_part) + '_[0]'
         feature_name_5 = '27_' + prefix + 'ann_type_entity_[0]'
 
         self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_1)
         self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_2)
-        if token.is_entity_part(edge.part):
+        if token.is_entity_part(edge.same_part):
             self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_3)
         self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_4)
-        if token.is_entity_part(edge.part):
-            entity = token.get_entity(edge.part)
+        if token.is_entity_part(edge.same_part):
+            entity = token.get_entity(edge.same_part)
             feature_name_6 = '28_' + prefix + 'ann_type_' + entity.class_id + '_[0]'
             self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_5)
             self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_6)
@@ -139,7 +139,7 @@ class IntermediateTokensFeatureGenerator(EdgeFeatureGenerator):
 
     def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():
-            sentence = edge.part.sentences[edge.same_sentence_id]
+            sentence = edge.same_part.sentences[edge.same_sentence_id]
             if edge.entity1.head_token.features['id'] < edge.entity2.head_token.features['id']:
                 first = edge.entity1.head_token.features['id']
                 second = edge.entity2.head_token.features['id']
@@ -147,7 +147,7 @@ class IntermediateTokensFeatureGenerator(EdgeFeatureGenerator):
                     token = sentence[i]
                     feature_name = '33_fwd_bow_intermediate_'+token.word+'_[0]'
                     self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
-                    feature_name = '34_fwd_bow_intermediate_masked_'+token.masked_text(edge.part)+'_[0]'
+                    feature_name = '34_fwd_bow_intermediate_masked_'+token.masked_text(edge.same_part)+'_[0]'
                     self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
                     feature_name = '35_fwd_stem_intermediate_'+self.stemmer.stem(token.word)+'_[0]'
                     self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
@@ -160,7 +160,7 @@ class IntermediateTokensFeatureGenerator(EdgeFeatureGenerator):
                     token = sentence[i]
                     feature_name = '37_bkd_bow_intermediate_'+token.word+'_[0]'
                     self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
-                    feature_name = '38_bkd_bow_intermediate_masked_'+token.masked_text(edge.part)+'_[0]'
+                    feature_name = '38_bkd_bow_intermediate_masked_'+token.masked_text(edge.same_part)+'_[0]'
                     self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
                     feature_name = '39_bkd_stem_intermediate_'+self.stemmer.stem(token.word)+'_[0]'
                     self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
@@ -171,7 +171,7 @@ class IntermediateTokensFeatureGenerator(EdgeFeatureGenerator):
                 token = sentence[i]
                 feature_name = '41_bow_intermediate_'+token.word+'_[0]'
                 self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
-                feature_name = '42_bow_intermediate_masked_'+token.masked_text(edge.part)+'_[0]'
+                feature_name = '42_bow_intermediate_masked_'+token.masked_text(edge.same_part)+'_[0]'
                 self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
                 feature_name = '43_stem_intermediate_'+self.stemmer.stem(token.word)+'_[0]'
                 self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)

@@ -18,9 +18,9 @@ class TokenFeatureGenerator(EdgeFeatureGenerator):
         self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_1)
         feature_name_2 = '74_'+prefix+'pos_'+token.features['pos']+'_[0]'
         self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_2)
-        feature_name_3 = '75_'+prefix+'txt_'+token.masked_text(edge.part)+'_[0]'
+        feature_name_3 = '75_'+prefix+'txt_'+token.masked_text(edge.same_part)+'_[0]'
         self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_3)
-        feature_name_4 = '76_'+prefix+'stem_'+self.stemmer.stem(token.masked_text(edge.part))+'_[0]'
+        feature_name_4 = '76_'+prefix+'stem_'+self.stemmer.stem(token.masked_text(edge.same_part))+'_[0]'
         self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_4)
         ann_types = self.annotated_types(token, edge)
         for ann in ann_types:
@@ -31,13 +31,13 @@ class TokenFeatureGenerator(EdgeFeatureGenerator):
     def annotated_types(self, token, edge):
         head1 = edge.entity1.head_token
         head2 = edge.entity2.head_token
-        if not token.is_entity_part(edge.part):
+        if not token.is_entity_part(edge.same_part):
             feature_name = 'no_ann_type'
             return [feature_name]
         else:
             ann_types = []
-            if token.is_entity_part(edge.part):
-                entity = token.get_entity(edge.part)
+            if token.is_entity_part(edge.same_part):
+                entity = token.get_entity(edge.same_part)
                 feature_name_1 = entity.class_id
                 ann_types.append(feature_name_1)
                 if entity==edge.entity1:

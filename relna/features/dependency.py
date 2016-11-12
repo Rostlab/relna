@@ -17,7 +17,7 @@ class DependencyChainFeatureGenerator(EdgeFeatureGenerator):
 
     def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():
-            sent = edge.part.get_sentence_string_array()[edge.same_sentence_id]
+            sent = edge.same_part.get_sentence_string_array()[edge.same_sentence_id]
             parsed = self.nlp(sent)
             sentence = next(sent.sents)
             dependencies = {}

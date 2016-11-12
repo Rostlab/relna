@@ -22,9 +22,9 @@ class PathFeatureGenerator(EdgeFeatureGenerator):
         for edge in dataset.edges():
             head1 = edge.entity1.head_token
             head2 = edge.entity2.head_token
-            sentence = edge.part.sentences[edge.same_sentence_id]
+            sentence = edge.same_part.sentences[edge.same_sentence_id]
             path = []
-            path = get_path(head1, head2, edge.part, edge.same_sentence_id, self.graphs)
+            path = get_path(head1, head2, edge.same_part, edge.same_sentence_id, self.graphs)
             if len(path)==0:
                 path = [head1, head2]
             self.path_length_features(path, edge, feature_set, is_training_mode)
@@ -73,7 +73,7 @@ class PathFeatureGenerator(EdgeFeatureGenerator):
         for i in range(1, len(path)-1):
             token = path[i]
             feature_name_1 = '50_internal_pos_' + token.features['pos'] + '_[0]'
-            feature_name_2 = '51_internal_masked_txt_' + token.masked_text(edge.part) + '_[0]'
+            feature_name_2 = '51_internal_masked_txt_' + token.masked_text(edge.same_part) + '_[0]'
             feature_name_3 = '52_internal_txt_' + token.word + '_[0]'
             feature_name_4 = '53_internal_stem_' + self.stemmer.stem(token.word) + '_[0]'
             self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name_1)
@@ -128,7 +128,7 @@ class PathFeatureGenerator(EdgeFeatureGenerator):
                     edge_gram = 'dep_gram_' + style_gram
 
                     for k in range(1, n):
-                        token = edge.part.sentences[edge.same_sentence_id][(path[i-(n-1)+k]).features['id']-1]
+                        token = edge.same_part.sentences[edge.same_sentence_id][(path[i-(n-1)+k]).features['id']-1]
                         self.token_feature_generator.token_features(token, 'tok_'+style_gram, edge, feature_set, is_training_mode)
 
                     for k in range(n):
@@ -162,7 +162,7 @@ class PathFeatureGenerator(EdgeFeatureGenerator):
         for dependency in dependency_list:
             feature_name = '61_dep_'+dependency[1]+'_[0]'
             self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
-            feature_name = '62_txt_'+dependency[0].masked_text(edge.part)+'_[0]'
+            feature_name = '62_txt_'+dependency[0].masked_text(edge.same_part)+'_[0]'
             self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
             feature_name = '63_pos_'+dependency[0].features['pos']+'_[0]'
             self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
@@ -173,14 +173,14 @@ class PathFeatureGenerator(EdgeFeatureGenerator):
                 feature_name = '64_ann_type_'+ann+'_[0]'
                 self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
 
-            g_text = dependency[0].masked_text(edge.part)
+            g_text = dependency[0].masked_text(edge.same_part)
             g_pos = dependency[0].features['pos']
             g_at = 'no_ann_type'
 
             for dep in dependency[0].features['dependency_to']:
                 feature_name = '65_'+dep[1]+'_[0]'
                 self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
-                feature_name = '66_txt_'+dep[0].masked_text(edge.part)+'_[0]'
+                feature_name = '66_txt_'+dep[0].masked_text(edge.same_part)+'_[0]'
                 self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
                 feature_name = '67_pos_'+dep[0].features['pos']+'_[0]'
                 self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
@@ -191,7 +191,7 @@ class PathFeatureGenerator(EdgeFeatureGenerator):
                     feature_name = '68_ann_type_'+ann+'_[0]'
                     self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
 
-                d_text = token2.masked_text(edge.part)
+                d_text = token2.masked_text(edge.same_part)
                 d_pos = token2.features['pos']
                 d_at = 'no_ann_type'
 

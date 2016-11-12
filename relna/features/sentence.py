@@ -21,13 +21,13 @@ class BagOfWordsFeatureGenerator(EdgeFeatureGenerator):
 
     def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():
-            sentence = edge.part.sentences[edge.same_sentence_id]
+            sentence = edge.same_part.sentences[edge.same_sentence_id]
             bow_map = {}
             for token in sentence:
                 if token.word not in self.stop_words and not token.features['is_punct']:
                     feature_name = '2_bow_text_' + token.word + '_[0]'
                     self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
-                    if token.is_entity_part(edge.part):
+                    if token.is_entity_part(edge.same_part):
                         bow_string = 'ne_bow_' + token.word + '_[0]'
                         if bow_string not in bow_map.keys():
                             bow_map[bow_string] = 0
@@ -59,7 +59,7 @@ class StemmedBagOfWordsFeatureGenerator(EdgeFeatureGenerator):
 
     def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():
-            sentence = edge.part.sentences[edge.same_sentence_id]
+            sentence = edge.same_part.sentences[edge.same_sentence_id]
 
             if is_training_mode:
                 for token in sentence:
@@ -80,7 +80,7 @@ class SentenceFeatureGenerator(EdgeFeatureGenerator):
 
     def generate(self, dataset, feature_set, is_training_mode):
         for edge in dataset.edges():
-            sentence = edge.part.sentences[edge.same_sentence_id]
+            sentence = edge.same_part.sentences[edge.same_sentence_id]
             text_count = {}
             for token in sentence:
                 ann_types = self.token_feature_generator.annotated_types(token, edge)
@@ -118,7 +118,7 @@ class WordFilterFeatureGenerator(EdgeFeatureGenerator):
         if self.stem:
             stemmed_words = [self.stemmer.stem(word) for word in self.words]
             for edge in dataset.edges():
-                sentence = edge.part.sentences[edge.same_sentence_id]
+                sentence = edge.same_part.sentences[edge.same_sentence_id]
                 for token in sentence:
                     if self.stemmer.stem(token.word) in stemmed_words:
                         feature_name = '6_word_filter_stem_' + self.stemmer.stem(token.word) + '_[0]'
@@ -126,7 +126,7 @@ class WordFilterFeatureGenerator(EdgeFeatureGenerator):
 
         else:
             for edge in dataset.edges():
-                sentence = edge.part.sentences[edge.same_sentence_id]
+                sentence = edge.same_part.sentences[edge.same_sentence_id]
                 for token in sentence:
                     if token.word in self.words:
                         feature_name = '6_word_filter_' + token.word + '_[0]'

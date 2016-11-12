@@ -27,10 +27,10 @@ class ProteinWordFeatureGenerator(EdgeFeatureGenerator):
         for edge in dataset.edges():
             head1 = edge.entity1.head_token
             head2 = edge.entity2.head_token
-            sentence = edge.part.sentences[edge.same_sentence_id]
+            sentence = edge.same_part.sentences[edge.same_sentence_id]
             protein_word_found = False
             for token in sentence:
-                if token.is_entity_part(edge.part) and token.word.lower().find('protein') >= 0:
+                if token.is_entity_part(edge.same_part) and token.word.lower().find('protein') >= 0:
                     protein_word_found = True
                     token_from = token.features['dependency_from'][0]
                     if token_from == head1:
@@ -41,11 +41,11 @@ class ProteinWordFeatureGenerator(EdgeFeatureGenerator):
                         if token_to == head1:
                             feature_name = '79_dependency_from_protein_word_to_entity_[0]'
                             self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
-                        path = get_path(token, head1, edge.part, edge.same_sentence_id, self.graphs)
+                        path = get_path(token, head1, edge.same_part, edge.same_sentence_id, self.graphs)
                         if path == []:
                             path = [token, head1]
                         for tok in path:
-                            feature_name = '80_PWPE_bow_masked_'+tok.masked_text(edge.part)+'_[0]'
+                            feature_name = '80_PWPE_bow_masked_'+tok.masked_text(edge.same_part)+'_[0]'
                             self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
                             feature_name = '81_PWPE_pos_'+tok.features['pos']+'_[0]'
                             self.add_to_feature_set(feature_set, is_training_mode, edge, feature_name)
@@ -101,9 +101,9 @@ class LocationWordFeatureGenerator(EdgeFeatureGenerator):
             else:
                 head1 = edge.entity2.head_token
                 head2 = edge.entity1.head_token
-            sentence = edge.part.sentences[edge.same_sentence_id]
+            sentence = edge.same_part.sentences[edge.same_sentence_id]
             for token in sentence:
-                if not token.is_entity_part(edge.part) and \
+                if not token.is_entity_part(edge.same_part) and \
                     ('location' in token.word.lower() or \
                     'localize' in token.word.lower()):
                     location_word = True
@@ -144,9 +144,9 @@ class FoundInFeatureGenerator(EdgeFeatureGenerator):
                 head1 = edge.entity2.head_token
                 head2 = edge.entity1.head_token
             for i in range(head1.features['id']+1, head2.features['id']):
-                if edge.part.sentences[edge.same_sentence_id][i].word.lower() == 'found':
+                if edge.same_part.sentences[edge.same_sentence_id][i].word.lower() == 'found':
                     found_word = True
-                if edge.part.sentences[edge.same_sentence_id][i].word.lower() == 'in':
+                if edge.same_part.sentences[edge.same_sentence_id][i].word.lower() == 'in':
                     in_word = True
             if found_word and in_word:
                 feature_name = '91_found_in_[0]'
