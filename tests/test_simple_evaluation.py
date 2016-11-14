@@ -87,7 +87,8 @@ def test_whole_with_defaults(argv=None):
 
         rel_evaluation = ret(r_id).compute(strictness="exact")
 
-        EXPECTED_F = 0.5621
+        # Computation(precision=0.389351081530782, precision_SE=0.0021024361502353277, recall=0.9790794979079498, recall_SE=0.0007302523934357751, f_measure=0.5571428571428572, f_measure_SE=0.0021357013961776057)
+        EXPECTED_F = 0.5571
         EXPECTED_F_SE = 0.0021
 
         assert math.isclose(rel_evaluation.f_measure, EXPECTED_F, abs_tol=EXPECTED_F_SE * 1.1), rel_evaluation.f_measure
@@ -124,7 +125,7 @@ def test_whole_with_defaults(argv=None):
 
             return annotator
 
-        evaluator = DocumentLevelRelationEvaluator(rel_type=r_id, match_case=False)
+        evaluator = DocumentLevelRelationEvaluator(rel_type=r_id)
 
         evaluations = Evaluations.cross_validate(train, dataset, evaluator, args.k_num_folds, use_validation_set=not args.use_test_set)
         print(evaluations)
@@ -134,12 +135,12 @@ def test_whole_with_defaults(argv=None):
 
         if (args.corpus_percentage == 1.0):
             # Beware that performance depends a lot on the undersampling and svm threshold
-            EXPECTED_F = 0.7008
-            EXPECTED_F_SE = 0.0018
+            EXPECTED_F = 0.6979
+            EXPECTED_F_SE = 0.0019
         elif (args.corpus_percentage == 0.1):
             # I even achieved this when spacy was not really parsing: 0.6557
-            EXPECTED_F = 0.6452
-            EXPECTED_F_SE = 0.0055
+            EXPECTED_F = 0.6441
+            EXPECTED_F_SE = 0.0052
         else:
             # This is not to be tested and will fail
             EXPECTED_F = 0.5
