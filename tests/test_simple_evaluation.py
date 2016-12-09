@@ -17,7 +17,7 @@ def parse_arguments(argv):
     parser = argparse.ArgumentParser(description='Simple-evaluate relna corpus corpus')
 
     parser.add_argument('--corpus', default="relna", choices=["relna"])
-    parser.add_argument('--corpus_percentage', default=0.1, type=float, help='e.g. 1 == full corpus; 0.5 == 50% of corpus')
+    parser.add_argument('--corpus_percentage', default=0.5, type=float, help='e.g. 1 == full corpus; 0.5 == 50% of corpus')
     parser.add_argument('--minority_class', type=int, default=1, choices=[-1, 1])
     parser.add_argument('--majority_class_undersampling', type=float, default=0.4)
     parser.add_argument('--use_test_set', default=False, action='store_true')
@@ -137,10 +137,9 @@ def test_whole_with_defaults(argv=None):
             # Beware that performance depends a lot on the undersampling and svm threshold
             EXPECTED_F = 0.6979
             EXPECTED_F_SE = 0.0019
-        elif (args.corpus_percentage == 0.1):
-            # I even achieved this when spacy was not really parsing: 0.6557
-            EXPECTED_F = 0.6441
-            EXPECTED_F_SE = 0.0052
+        elif (args.corpus_percentage == 0.5):
+            EXPECTED_F = 0.6094
+            EXPECTED_F_SE = 0.0029
         else:
             # This is not to be tested and will fail
             EXPECTED_F = 0.5
