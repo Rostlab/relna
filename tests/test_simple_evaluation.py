@@ -79,6 +79,10 @@ def test_relna(argv=None):
     if (args.corpus_percentage == 1.0):
         dataset = read_dataset(args)
         # Beware that performance depends a lot on the undersampling and svm threshold
+
+        # Current performance :(
+        # # class	tp	fp	fn	fp_ov	fn_ov	e|P	e|R	e|F	e|F_SE	o|P	o|R	o|F	o|F_SE
+        # r_4	175	113	64	0	0	0.6076	0.7322	0.6641	0.0021	0.6076	0.7322	0.6641	0.0020
         EXPECTED_F = 0.6979
         EXPECTED_F_SE = 0.0019
 
