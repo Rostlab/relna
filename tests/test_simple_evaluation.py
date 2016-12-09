@@ -59,6 +59,7 @@ def test_baseline(argv=None):
     dataset = read_dataset(args)
 
     # Computation(precision=0.389351081530782, precision_SE=0.0021024361502353277, recall=0.9790794979079498, recall_SE=0.0007302523934357751, f_measure=0.5571428571428572, f_measure_SE=0.0021357013961776057)
+    # Full corpus
     EXPECTED_F = 0.5571
     EXPECTED_F_SE = 0.0021
 
