@@ -12,6 +12,7 @@ from relna.learning.taggers import RelnaRelationExtractor
 import argparse
 import math
 
+
 def parse_arguments(argv):
 
     parser = argparse.ArgumentParser(description='Simple-evaluate relna corpus corpus')
@@ -26,15 +27,74 @@ def parse_arguments(argv):
 
     args = parser.parse_args(argv)
 
+    if args.corpus == "relna":
+        args.dataset_folder_html = './resources/corpora/relna/corrected/'
+        args.dataset_folder_annjson = args.dataset_folder_html
+        args.e_id_1 = 'e_1'
+        args.e_id_2 = 'e_2'
+        args.r_id = 'r_4'
+
     print(args)
 
     return args
 
 
-# TODO decompose test_baseline and test_relna into individual outermost functions/tests
-def test_whole_with_defaults(argv=None):
+def read_dataset(args):
+
+    dataset = HTMLReader(args.dataset_folder_html).read()
+    AnnJsonAnnotationReader(
+            args.dataset_folder_annjson,
+            read_only_class_id=None,
+            read_relations=True,
+            delete_incomplete_docs=False,
+            raise_exception_on_incosistencies=False).annotate(dataset)
+
+    return dataset
+
+
+def test_baseline(argv=None):
     argv = [] if argv is None else argv
     args = parse_arguments(argv)
+
+    dataset = read_dataset(args)
+
+    tagger = StubSameSentenceRelationExtractor(args.e_id_1, args.e_id_2, args.r_id)
+    evaluator = DocumentLevelRelationEvaluator(rel_type=args.r_id)
+
+    print("# FOLDS")
+    merged = []
+    for fold in range(args.k_num_folds):
+        training, validation, test = dataset.cv_kfold_split(args.k_num_folds, fold, validation_set=(not args.use_test_set))
+        if args.use_test_set:
+            validation = test
+
+        tagger.annotate(validation)
+
+        r = evaluator.evaluate(validation)
+        merged.append(r)
+        print(r)
+
+    print("\n# FINAL")
+    ret = Evaluations.merge(merged)
+    print(ret)
+
+    rel_evaluation = ret(args.r_id).compute(strictness="exact")
+
+    # Computation(precision=0.389351081530782, precision_SE=0.0021024361502353277, recall=0.9790794979079498, recall_SE=0.0007302523934357751, f_measure=0.5571428571428572, f_measure_SE=0.0021357013961776057)
+    EXPECTED_F = 0.5571
+    EXPECTED_F_SE = 0.0021
+
+    assert math.isclose(rel_evaluation.f_measure, EXPECTED_F, abs_tol=EXPECTED_F_SE * 1.1), rel_evaluation.f_measure
+
+
+def test_relna(argv=None):
+    argv = [] if argv is None else argv
+    args = parse_arguments(argv)
+
+    if (args.corpus_percentage == 1.0):
+        dataset = read_dataset(args)
+    else:
+        dataset, _ = read_dataset(args).percentage_split(args.corpus_percentage)
 
     if args.use_tk:
         nlp = English(entity=False)
@@ -42,115 +102,52 @@ def test_whole_with_defaults(argv=None):
     else:
         parser = None
 
-    if args.corpus == "relna":
-        dataset_folder_html = './resources/corpora/relna/corrected/'
-        dataset_folder_annjson = dataset_folder_html
-        e_id_1 = 'e_1'
-        e_id_2 = 'e_2'
-        r_id = 'r_4'
+    def train(training_set):
+        feature_generators = RelnaRelationExtractor.default_feature_generators(args.e_id_1, args.e_id_2)
+        pipeline = RelationExtractionPipeline(args.e_id_1, args.e_id_2, args.r_id, parser=parser, tokenizer=TmVarTokenizer(), feature_generators=feature_generators)
 
+        pipeline.execute(training_set, train=True)
 
-    def read_dataset():
-        dataset = HTMLReader(dataset_folder_html).read()
-        AnnJsonAnnotationReader(
-                dataset_folder_annjson,
-                read_only_class_id=None,
-                read_relations=True,
-                delete_incomplete_docs=False,
-                raise_exception_on_incosistencies=False).annotate(dataset)
+        # CAUTION! previous relna svm_light had the threshold of prediction at '-0.1' -- nalaf changed it to 0 (assumed to be correct) -- This does change the performance and actually reduce it in this example
+        # http://svmlight.joachims.org For classification, the sign of this value determines the predicted class -- CAUTION, relna (Ashish), had it set before to exactly: '-0.1' (was this a bug or a conscious decision to move the threshold of classification?)
+        # See more information in: https://github.com/Rostlab/relna/issues/21
+        svmlight = SVMLightTreeKernels(classification_threshold=-0.1, use_tree_kernel=args.use_tk)
+        instancesfile = svmlight.create_input_file(training_set, 'train', pipeline.feature_set, minority_class=args.minority_class, majority_class_undersampling=args.majority_class_undersampling)
+        svmlight.learn(instancesfile, c=0.5)
 
-        return dataset
+        def annotator(validation_set):
+            pipeline.execute(validation_set, train=False)
+            instancesfile = svmlight.create_input_file(validation_set, 'predict', pipeline.feature_set)
+            predictionsfile = svmlight.classify(instancesfile)
 
+            svmlight.read_predictions(validation_set, predictionsfile)
+            return validation_set
 
-    def test_baseline():
+        return annotator
 
-        dataset = read_dataset()
-        tagger = StubSameSentenceRelationExtractor(e_id_1, e_id_2, r_id)
-        evaluator = DocumentLevelRelationEvaluator(rel_type=r_id)
+    evaluator = DocumentLevelRelationEvaluator(rel_type=args.r_id)
 
-        print("# FOLDS")
-        merged = []
-        for fold in range(args.k_num_folds):
-            training, validation, test = dataset.cv_kfold_split(args.k_num_folds, fold, validation_set=(not args.use_test_set))
-            if args.use_test_set:
-                validation = test
+    evaluations = Evaluations.cross_validate(train, dataset, evaluator, args.k_num_folds, use_validation_set=not args.use_test_set)
 
-            tagger.annotate(validation)
+    rel_evaluation = evaluations(args.r_id).compute(strictness="exact")
 
-            r = evaluator.evaluate(validation)
-            merged.append(r)
-            print(r)
+    if (args.corpus_percentage == 1.0):
+        # Beware that performance depends a lot on the undersampling and svm threshold
+        EXPECTED_F = 0.6979
+        EXPECTED_F_SE = 0.0019
+    elif (args.corpus_percentage == 0.5):
+        EXPECTED_F = 0.6094
+        EXPECTED_F_SE = 0.0029
+    else:
+        # This is not to be tested and will fail
+        EXPECTED_F = 0.5
+        EXPECTED_F_SE = 0.00001
 
-        print("\n# FINAL")
-        ret = Evaluations.merge(merged)
-        print(ret)
-
-        rel_evaluation = ret(r_id).compute(strictness="exact")
-
-        # Computation(precision=0.389351081530782, precision_SE=0.0021024361502353277, recall=0.9790794979079498, recall_SE=0.0007302523934357751, f_measure=0.5571428571428572, f_measure_SE=0.0021357013961776057)
-        EXPECTED_F = 0.5571
-        EXPECTED_F_SE = 0.0021
-
-        assert math.isclose(rel_evaluation.f_measure, EXPECTED_F, abs_tol=EXPECTED_F_SE * 1.1), rel_evaluation.f_measure
-
-
-    def test_relna():
-
-        if (args.corpus_percentage == 1.0):
-            dataset = read_dataset()
-        else:
-            dataset, _ = read_dataset().percentage_split(args.corpus_percentage)
-
-
-        def train(training_set):
-            feature_generators = RelnaRelationExtractor.default_feature_generators(e_id_1, e_id_2)
-            pipeline = RelationExtractionPipeline(e_id_1, e_id_2, r_id, parser=parser, tokenizer=TmVarTokenizer(), feature_generators=feature_generators)
-
-            pipeline.execute(training_set, train=True)
-
-            # CAUTION! previous relna svm_light had the threshold of prediction at '-0.1' -- nalaf changed it to 0 (assumed to be correct) -- This does change the performance and actually reduce it in this example
-            # http://svmlight.joachims.org For classification, the sign of this value determines the predicted class -- CAUTION, relna (Ashish), had it set before to exactly: '-0.1' (was this a bug or a conscious decision to move the threshold of classification?)
-            # See more information in: https://github.com/Rostlab/relna/issues/21
-            svmlight = SVMLightTreeKernels(classification_threshold=-0.1, use_tree_kernel=args.use_tk)
-            instancesfile = svmlight.create_input_file(training_set, 'train', pipeline.feature_set, minority_class=args.minority_class, majority_class_undersampling=args.majority_class_undersampling)
-            svmlight.learn(instancesfile, c=0.5)
-
-            def annotator(validation_set):
-                pipeline.execute(validation_set, train=False)
-                instancesfile = svmlight.create_input_file(validation_set, 'predict', pipeline.feature_set)
-                predictionsfile = svmlight.classify(instancesfile)
-
-                svmlight.read_predictions(validation_set, predictionsfile)
-                return validation_set
-
-            return annotator
-
-        evaluator = DocumentLevelRelationEvaluator(rel_type=r_id)
-
-        evaluations = Evaluations.cross_validate(train, dataset, evaluator, args.k_num_folds, use_validation_set=not args.use_test_set)
-        print(evaluations)
-
-        rel_evaluation = evaluations(r_id).compute(strictness="exact")
-
-
-        if (args.corpus_percentage == 1.0):
-            # Beware that performance depends a lot on the undersampling and svm threshold
-            EXPECTED_F = 0.6979
-            EXPECTED_F_SE = 0.0019
-        elif (args.corpus_percentage == 0.5):
-            EXPECTED_F = 0.6094
-            EXPECTED_F_SE = 0.0029
-        else:
-            # This is not to be tested and will fail
-            EXPECTED_F = 0.5
-            EXPECTED_F_SE = 0.00001
-
-        assert math.isclose(rel_evaluation.f_measure, EXPECTED_F, abs_tol=EXPECTED_F_SE * 1.1)
-
-    test_baseline()
-    test_relna()
+    assert math.isclose(rel_evaluation.f_measure, EXPECTED_F, abs_tol=EXPECTED_F_SE * 1.1)
 
 
 if __name__ == "__main__":
     import sys
-    test_whole_with_defaults(sys.argv[1:])
+    real_args = sys.argv[1:]
+    test_baseline(real_args)
+    test_relna(real_args)
