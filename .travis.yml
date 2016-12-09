@@ -21,7 +21,7 @@ cache:
 
 before_install:
   - pip install --no-clean git+https://github.com/Rostlab/nalaf.git@feature/Experimental
-  - printf 'nalaf commit: ' && cd /tmp/pip-*-build && git rev-parse HEAD  # **nalaf**: log the exact commit for debugging purposes
+  - printf 'nalaf commit: ' && cd /tmp/pip-*-build && git rev-parse HEAD  # **nalaf**: log the exact commit for debugging purposes --  # if needed, we could grep out the exact build folder as in: grep -o "/[^ ]*/pip-.*-build"
   - python -m nalaf.download_corpora
   - pip install codecov pytest-cov
   - (test -d $SVM_LIGHT && [ "$(ls -A $SVM_LIGHT)" ] && echo "Use cached non-empty svm_light") || (wget http://download.joachims.org/svm_light/current/svm_light.tar.gz -O /tmp/svm_light.tar.gz && mkdir -p $SVM_LIGHT && cd $SVM_LIGHT && tar -xvf /tmp/svm_light.tar.gz && make)
