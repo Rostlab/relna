@@ -18,7 +18,7 @@ def parse_arguments(argv):
     parser = argparse.ArgumentParser(description='Simple-evaluate relna corpus corpus')
 
     parser.add_argument('--corpus', default="relna", choices=["relna"])
-    parser.add_argument('--corpus_percentage', default=0.5, type=float, help='e.g. 1 == full corpus; 0.5 == 50% of corpus')
+    parser.add_argument('--corpus_percentage', default=0.5, type=float, help='e.g. 1 == full corpus; 0.5 == 50%% of corpus')
     parser.add_argument('--minority_class', type=int, default=1, choices=[-1, 1])
     parser.add_argument('--majority_class_undersampling', type=float, default=0.4)
     parser.add_argument('--use_test_set', default=False, action='store_true')
