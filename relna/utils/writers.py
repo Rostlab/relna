@@ -49,7 +49,7 @@ class RelnaConsoleWriter:
                           .format(ann.offset, ann.offset+len(ann.text), ann.text, pad=padding))
                 elif ann.class_id == PRO_CLASS_ID:
                     print('GGP      {0: <{pad}} {1: <{pad}} {2} {3}'
-                          .format(ann.offset, ann.offset+len(ann.text), ann.text, ann.normalisation_dict, pad=padding))
+                          .format(ann.offset, ann.offset+len(ann.text), ann.text, ann.norms, pad=padding))
 
         print('RELATIONS')
         for rel in chain(part.relations, part.predicted_relations):

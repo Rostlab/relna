@@ -126,7 +126,7 @@ class TranscriptionFactorTagger(Tagger):
                                 norm_dict = {'EntrezGeneID': gene[3]}
 
                             norm_string = ''  # todo normalized_text (stemming ... ?)
-                            ann.normalisation_dict = norm_dict
+                            ann.norms = norm_dict
                             ann.normalized_text = norm_string
                             if annotated:
                                 part.annotations.append(ann)
